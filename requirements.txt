@@ -1,0 +1,5 @@
+ollama
+beautifulsoup4
+requests
+selenium
+pymupdf
