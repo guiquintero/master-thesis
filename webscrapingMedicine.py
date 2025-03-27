@@ -8,6 +8,7 @@ from urllib.parse import urljoin
 import urllib3
 import json
 import fitz  # PyMuPDF
+import re
 
 # Desativar alertas de aviso de SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -22,19 +23,11 @@ urls_visitadas = set()
 # Função para extrair conteúdo do PDF
 def extrair_conteudo_pdf(pdf_url):
     try:
-        # Baixar o PDF
         pdf_response = requests.get(pdf_url, timeout=10, headers=HEADERS, verify=False)
         pdf_response.raise_for_status()
 
-        # Abrir o PDF com PyMuPDF
         pdf_file = fitz.open(stream=pdf_response.content, filetype="pdf")
-        
-        # Extrair texto de todas as páginas do PDF
-        pdf_text = ""
-        for page_num in range(pdf_file.page_count):
-            page = pdf_file.load_page(page_num)
-            pdf_text += page.get_text()
-
+        pdf_text = "\n".join(page.get_text() for page in pdf_file)
         pdf_file.close()
         return pdf_text
     except requests.RequestException as e:
@@ -51,11 +44,9 @@ def extrair_conteudo(url, url_pai=None):
     try:
         response = requests.get(url, timeout=10, headers=HEADERS, verify=False)
         response.raise_for_status()
-        
         if "text/html" not in response.headers.get("Content-Type", ""):
             print(f"Ignorando {url}, pois não é uma página HTML.")
             return
-        
         response.encoding = "utf-8"
     except requests.RequestException as e:
         print(f"Erro ao acessar {url}: {e}")
@@ -86,20 +77,57 @@ def extrair_conteudo(url, url_pai=None):
 # Função para formatar o conteúdo HTML
 def formatar_texto(elemento):
     if elemento.name == "h1":
-        return f'"{elemento.get_text(strip=True)}"'
+        return f'{elemento.get_text(strip=True)}'
     elif elemento.name == "h2":
-        return f'- {elemento.get_text(strip=True)}'
+        return f'{elemento.get_text(strip=True)}'
     elif elemento.name == "h3":
-        return f'-- {elemento.get_text(strip=True)}'
+        return f'{elemento.get_text(strip=True)}'
     elif elemento.name == "h4":
-        return f'--- {elemento.get_text(strip=True)}'
+        return f'{elemento.get_text(strip=True)}'
     elif elemento.name == "h5":
-        return f'---- {elemento.get_text(strip=True)}'
+        return f'{elemento.get_text(strip=True)}'
     elif elemento.name == "a":
         return elemento.get_text(strip=True)
     elif elemento.name == "p":
         return elemento.get_text(strip=True)
     return None
+
+# Função para encontrar o link do PDF corretamente
+def encontrar_link_pdf(soup, url):
+    pdf_tag = soup.find("a", href=True, target="_blank")
+    if pdf_tag and pdf_tag.find("span", class_="fa-file-pdf-o"):
+        return urljoin(url, pdf_tag["href"])
+    return None
+
+# Função para formatar o conteúdo do PDF
+def formatar_conteudo_pdf(texto):
+    if not texto:
+        return []
+
+    texto_limpo = texto
+
+    # Remover cabeçalhos e rodapés
+    texto_limpo = re.sub(r"\nDireção Geral de Alimentação e Veterinária – DGAMV.*?Página \d+ de \d+ \n", "", texto_limpo, flags=re.DOTALL)
+    texto_limpo = re.sub(r"\n\d+\.\d+ \n", "--", texto_limpo)
+    texto_limpo = re.sub(r"\n\d+\.\d+  \n", "--", texto_limpo)
+
+    # Remover tudo após "FOLHETO INFORMATIVO" (case-insensitive)
+    partes_folheto = re.split(r"(FOLHETO INFORMATIVO)", texto_limpo, flags=re.IGNORECASE)
+    if len(partes_folheto) > 1:
+        texto_limpo = partes_folheto[0] # Pegar apenas a parte antes do "FOLHETO INFORMATIVO"
+
+    # Dividir o texto
+    partes = re.split(r"\n \n\d+\. \n", texto_limpo)
+
+    partes_formatadas = []
+    for parte in partes:
+        # Remover espaços em branco no início e fim da parte
+        parte_limpa = parte.strip()
+        # Remover todas as quebras de linha dentro da parte
+        parte_limpa = re.sub(r"\n", "", parte_limpa)
+        partes_formatadas.append(parte_limpa)
+
+    return partes_formatadas
 
 # Função para extrair conteúdo completo (HTML e PDF)
 def extrair_conteudo_completo(links_selecionados):
@@ -108,11 +136,9 @@ def extrair_conteudo_completo(links_selecionados):
         try:
             response = requests.get(link, timeout=10, headers=HEADERS, verify=False)
             response.raise_for_status()
-            
             if "text/html" not in response.headers.get("Content-Type", ""):
                 print(f"Ignorando {link}, pois não é uma página HTML.")
                 continue
-            
             response.encoding = "utf-8"
         except requests.RequestException as e:
             print(f"Erro ao acessar {link}: {e}")
@@ -124,6 +150,7 @@ def extrair_conteudo_completo(links_selecionados):
         
         # Extrair o conteúdo HTML
         encontrou_titulo = False
+        conteudo_str = ""
         for element in soup.body.find_all(tags_permitidas, recursive=True):
             texto_formatado = formatar_texto(element)
             if texto_formatado:
@@ -131,15 +158,21 @@ def extrair_conteudo_completo(links_selecionados):
                     if any(texto_formatado.strip('"- ') == resultado["titulo"] for resultado in resultados):
                         encontrou_titulo = True
                 if encontrou_titulo:
-                    conteudo["conteudo"].append(texto_formatado)
+                    conteudo_str += texto_formatado + " "
+        conteudo["conteudo"] = conteudo_str.strip()
+
         
-        # Extrair o link do PDF
-        pdf_tag = soup.find("a", href=True, text="PDF")  # Verifique se o texto está correto
-        if pdf_tag:
-            pdf_url = urljoin(link, pdf_tag["href"])
+        # Extrair o link do PDF corretamente
+        pdf_url = encontrar_link_pdf(soup, link)
+        if pdf_url:
             pdf_text = extrair_conteudo_pdf(pdf_url)
             if pdf_text:
-                conteudo["pdf_conteudo"] = pdf_text
+                conteudo["pdf_conteudo"] = formatar_conteudo_pdf(pdf_text)
+                print(f"PDF encontrado e extraído: {pdf_url}")
+            else:
+                print(f"Erro ao extrair conteúdo do PDF: {pdf_url}")
+        else:
+            print(f"Nenhum PDF encontrado para {link}")
         
         if encontrou_titulo:
             conteudo_extraido.append(conteudo)
