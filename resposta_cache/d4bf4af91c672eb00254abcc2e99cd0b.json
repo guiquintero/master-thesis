@@ -1,0 +1,3 @@
+{
+  "resposta": "Erro ao consultar o modelo: model requires more system memory (4.3 GiB) than is available (3.5 GiB) (status code: 500)"
+}

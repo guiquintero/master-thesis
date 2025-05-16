@@ -1,5 +1,13 @@
+json
 ollama
-beautifulsoup4
-requests
-selenium
-pymupdf
+time
+os
+hashlib
+termcolor==2.3.0
+argparse==1.4.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+selenium==4.12.0
+pymupdf==1.22.5
+urllib3==2.0.4
+tqdm==4.66.1
