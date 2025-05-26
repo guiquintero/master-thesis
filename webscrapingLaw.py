@@ -70,7 +70,6 @@ def extrair_conteudo(url, url_pai=None, profundidade=0, max_profundidade=3):
     conteudo_limpo = conteudo_completo.strip()
     if conteudo_limpo and not apenas_h2:
         dados_extraidos.append({
-            "url": url,
             "conteudo": conteudo_limpo
         })
     elif apenas_h2:

@@ -1,5 +1,5 @@
 json
-ollama
+ollama==0.0.3
 time
 os
 hashlib
