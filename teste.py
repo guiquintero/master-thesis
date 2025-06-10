@@ -240,15 +240,20 @@ class MedicineScraperConsultor:
         print(f"Conteúdo completo (HTML + PDF) salvo em {ARQUIVO_JSON} ({len(conteudo_extraido)} links processados)")
         return conteudo_extraido
 
-    def fazer_webscraping(self):
+    def fazer_webscraping(self, is_comparison=False, comparacao_termo=None):
         """Função principal para fazer o web scraping"""
         global resultados, urls_visitadas
         
         # Resetar variáveis globais
         resultados = []
         urls_visitadas = set()
+
+        termo_busca = ''
         
-        termo_busca = input("Digite o termo de busca: ")
+        if is_comparison:
+            termo_busca = comparacao_termo
+        else:    
+            termo_busca = input("Digite o termo de busca: ")
         
         # Configurar Chrome para ser mais rápido e headless
         chrome_options = Options()
@@ -283,14 +288,18 @@ class MedicineScraperConsultor:
             print("Nenhum resultado encontrado para a busca.")
             return None
         
-        print("\nResultados encontrados:")
-        for idx, item in enumerate(resultados, start=1):
-            print(f"{idx} - {item['titulo']}")
+        if is_comparison == False:
+            print("\nResultados encontrados:")
+            for idx, item in enumerate(resultados, start=1):
+                print(f"{idx} - {item['titulo']}")
 
         while True:
             try:
-                escolhas = input("\nDigite os números das opções desejadas (separados por vírgula ou 'todos' para selecionar todos): ")
-                
+                if is_comparison == False:
+                    escolhas = input("\nDigite os números das opções desejadas (separados por vírgula ou 'todos' para selecionar todos): ")
+                else:
+                    escolhas = "todos"
+
                 if escolhas.lower() == 'todos':
                     links_selecionados = [item['link'] for item in resultados]
                 else:
@@ -438,82 +447,103 @@ class MedicineScraperConsultor:
             print(colored(f"Erro ao carregar o arquivo JSON: {e}", "red"))
             return False
 
-    def fazer_consultas(self, sem_cache=False):
+    def fazer_consultas(self, sem_cache=False, is_comparison=False, comparacao_termo=None):
         """Loop principal de consultas"""
         if not self.dados:
             print(colored("Nenhum dado carregado. Execute o web scraping primeiro ou carregue um arquivo JSON.", "red"))
             return
-        
-        print(colored(f"\nMODO CONSULTA ATIVADO", "cyan"))
-        print(colored(f"Modelo: {self.modelo}", "cyan"))
-        print(colored(f"Temperatura: {self.temperatura}", "cyan"))
-        print(colored(f"Dados carregados: {len(self.dados)} entradas\n", "cyan"))
-        print(colored("Digite suas perguntas sobre os dados extraídos.", "white"))
-        print(colored("Comandos especiais: 'sair', 'menu', 'info'", "yellow"))
+        if is_comparison == False:
+            print(colored(f"\nMODO CONSULTA ATIVADO", "cyan"))
+            print(colored(f"Modelo: {self.modelo}", "cyan"))
+            print(colored(f"Temperatura: {self.temperatura}", "cyan"))
+            print(colored(f"Dados carregados: {len(self.dados)} entradas\n", "cyan"))
+            print(colored("Digite suas perguntas sobre os dados extraídos.", "white"))
+            print(colored("Comandos especiais: 'sair', 'menu', 'info'", "yellow"))
         
         while True:
-            pergunta = input(colored("\nSua pergunta: ", "cyan"))
+            if is_comparison == False:
+                pergunta = input(colored("\nSua pergunta: ", "cyan"))
+                
+                if pergunta.lower() in ['sair', 'exit', 'quit']:
+                    break
+                elif pergunta.lower() == 'menu':
+                    return  # Volta ao menu principal
+                elif pergunta.lower() == 'info':
+                    print(colored(f"\nInformações atuais:", "cyan"))
+                    print(f"Modelo: {self.modelo}")
+                    print(f"Temperatura: {self.temperatura}")
+                    print(f"Entradas carregadas: {len(self.dados)}")
+                    continue
             
-            if pergunta.lower() in ['sair', 'exit', 'quit']:
-                break
-            elif pergunta.lower() == 'menu':
-                return  # Volta ao menu principal
-            elif pergunta.lower() == 'info':
-                print(colored(f"\nInformações atuais:", "cyan"))
-                print(f"Modelo: {self.modelo}")
-                print(f"Temperatura: {self.temperatura}")
-                print(f"Entradas carregadas: {len(self.dados)}")
-                continue
-            
-            if not pergunta.strip():
-                continue
+                if not pergunta.strip():
+                    continue
             
             start_time = time.perf_counter()
             
             # Verificar cache primeiro
-            hash_consulta = self.gerar_hash(f"{pergunta}_{self.modelo}_{self.temperatura}")
-            if not sem_cache:
-                resposta_cache = self.carregar_cache(hash_consulta)
-                if resposta_cache:
-                    print(colored("\nResposta (cache):", "green"))
-                    print(resposta_cache)
-                    end_time = time.perf_counter()
-                    print(colored(f"\nTempo: {(end_time - start_time):.3f}s (cache)", "yellow"))
-                    continue
+            if is_comparison == False:
+                hash_consulta = self.gerar_hash(f"{pergunta}_{self.modelo}_{self.temperatura}")
+                if not sem_cache:
+                    resposta_cache = self.carregar_cache(hash_consulta)
+                    if resposta_cache:
+                        print(colored("\nResposta (cache):", "green"))
+                        print(resposta_cache)
+                        end_time = time.perf_counter()
+                        print(colored(f"\nTempo: {(end_time - start_time):.3f}s (cache)", "yellow"))
+                        continue
             
             # Preparar contexto relevante para a pergunta
             print(colored("Analisando dados relevantes...", "yellow"))
-            contexto_relevante = self.preparar_contexto(self.dados, pergunta)
-            
+            if is_comparison:
+                contexto_relevante = self.preparar_contexto(self.dados, comparacao_termo)
+            else:
+                contexto_relevante = self.preparar_contexto(self.dados, pergunta)
             # Limitar o contexto para não exceder limites do modelo
             contexto_json = json.dumps(contexto_relevante, ensure_ascii=False)
             print(colored(f"Contexto: {len(contexto_json)} caracteres", "yellow"))
             
             # Preparar prompt
-            prompt = f"""
+            if is_comparison:
+                prompt = f"""
                 Com base APENAS no seguinte contexto sobre medicamentos veterinários:
 
                 ```
                 {contexto_json}
                 ```
 
-                Responda à pergunta: "{pergunta}"
-
+                Preciso que você faça uma tabela comparativa entre os medicamentos encontrados e o termo de busca: "{comparacao_termo}".
                 Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
-                Cite as fontes (URLs) se disponíveis no material.
+
                 """
+            else:
+                prompt = f"""
+                    Com base APENAS no seguinte contexto sobre medicamentos veterinários:
+
+                    ```
+                    {contexto_json}
+                    ```
+
+                    Responda à pergunta: "{pergunta}"
+
+                    Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
+                    # Cite as fontes (URLs) se disponíveis no material.
+                    """
             
             # Consultar o Ollama
             print(colored("Consultando modelo...", "yellow"))
             resposta = self.consultar_ollama(prompt)
             
             # Salvar no cache
-            if not sem_cache:
-                self.salvar_cache(hash_consulta, resposta)
+            if is_comparison == False:
+                if not sem_cache:
+                    self.salvar_cache(hash_consulta, resposta)
             
             # Exibir a resposta
             print(colored("\nResposta:", "green"))
             print(resposta)
+            if is_comparison:
+                input(colored("Pressione Enter para continuar...", "yellow"))
+                break
             
             end_time = time.perf_counter()
             print(colored(f"\nTempo: {(end_time - start_time):.3f}s", "yellow"))
@@ -566,7 +596,8 @@ def mostrar_menu():
     print("2. Nova pesquisa (Web Scraping + Consultas)")
     print("3. Limpar cache")
     print("4. Consultar legislação com Ollama (dados_dgav_final.json)")
-    print("5. Sair")
+    print("5. Procurar medicamento semelhante")
+    print("6. Sair")
     print(colored("-"*60, "cyan"))
 
 def main():
@@ -577,7 +608,7 @@ def main():
         mostrar_menu()
         
         try:
-            opcao = input(colored("Escolha uma opção (1-5): ", "yellow")).strip()
+            opcao = input(colored("Escolha uma opção (1-6): ", "yellow")).strip()
             
             if opcao == "1":
                 # Fazer perguntas sobre dados existentes
@@ -617,8 +648,30 @@ def main():
                 consultor = MedicineScraperConsultor(modelo=modelo_atual, temperatura=temperatura_atual)
                 consultor.consultar_com_ollama("dados_dgav_final.json")
                 input(colored("Pressione Enter para continuar...", "yellow"))
-                
+            
             elif opcao == "5":
+                # Procurar medicamento semelhante
+                print(colored("\nProcurando medicamento semelhante...", "cyan"))
+                consultor = MedicineScraperConsultor(modelo=modelo_atual, temperatura=temperatura_atual)
+                substancia_ativa = input(colored("Digite a substância ativa do medicamento (precione \"enter\" caso não queira inserir): ", "yellow"))
+                especie_alvo = input(colored("Digite a espécie alvo do medicamento (precione \"enter\" caso não queira inserir): ", "yellow"))
+                forma_farmaceutica = input(colored("Digite a forma farmacêutica do medicamento (precione \"enter\" caso não queira inserir): ", "yellow"))
+
+                termo_busca = substancia_ativa + " " + especie_alvo + " " + forma_farmaceutica
+
+                dados_extraidos = consultor.fazer_webscraping(is_comparison=True, comparacao_termo=termo_busca)
+
+                if dados_extraidos:
+                    consultor.dados = dados_extraidos
+                    print(colored("\Iniciando comparação...", "green"))
+                    consultor.fazer_consultas(is_comparison=True, comparacao_termo=termo_busca)
+                else:
+                    print(colored("Web scraping não foi concluído.", "red"))
+                    input(colored("Pressione Enter para continuar...", "yellow"))
+
+
+                
+            elif opcao == "6":
                 # Sair
                 print(colored("Obrigado por usar o sistema! Até logo!", "green"))
                 break
