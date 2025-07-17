@@ -22,7 +22,7 @@ import concurrent.futures
 from tqdm import tqdm
 
 # Importar o classificador de query
-from query_classifier import QueryClassifier
+from query_classifier_menos import QueryClassifier
 
 # Desativar alertas de aviso de SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -32,11 +32,11 @@ HEADERS = {
 }
 
 # Configurações globais
-MODELO_OLLAMA_PADRAO = "phi3:mini"
+MODELO_OLLAMA_PADRAO = "gemma3:latest"
 PDF_CACHE_DIR = "pdf_cache_novo"
 CACHE_DIR_RESPOSTAS = "resposta_cache_novo"
 ARQUIVO_JSON_SCRAPING = "medicamento_buscado_novo.json"
-ARQUIVO_LEGISLACAO = "dados_dgav_final.json" # Assumindo que este arquivo existe no mesmo diretório
+ARQUIVO_LEGISLACAO = "dados_dgav_final.json"
 
 # Criar diretórios de cache se não existirem
 os.makedirs(PDF_CACHE_DIR, exist_ok=True)
@@ -65,9 +65,7 @@ class SistemaConsultaVet:
             print(colored(f"Arquivo de legislação '{ARQUIVO_LEGISLACAO}' não encontrado.", "yellow"))
             return None
 
-    # ========== FUNÇÕES DE WEB SCRAPING (Adaptadas de teste.py) ==========
-    # Estas funções serão movidas para cá e adaptadas para serem não interativas
-    # e para funcionarem com os parâmetros fornecidos pela classificação da query.
+    # ========== FUNÇÕES DE WEB SCRAPING  ==========
 
     def _extrair_conteudo_pdf(self, pdf_url):
         cache_filename = os.path.join(PDF_CACHE_DIR, pdf_url.split('/')[-1].replace('?', '_').replace('&', '_'))
@@ -122,8 +120,8 @@ class SistemaConsultaVet:
             return urljoin(url, pdf_tag["href"])
         return None
 
-    def _processar_link_scraping(self, link_info): # link_info é um dicionário com 'titulo' e 'link'
-        global resultados_scraping # Usando a global temporariamente, idealmente seria um atributo de instância
+    def _processar_link_scraping(self, link_info):
+        global resultados_scraping
         link = link_info['link']
         titulo_busca = link_info['titulo']
 
@@ -147,7 +145,6 @@ class SistemaConsultaVet:
         # Tenta encontrar o título exato da busca para focar a extração
         # Se não encontrar, extrai o corpo todo (pode ser melhorado)
         main_content_area = soup.body # Padrão
-        # Tenta ser mais específico se possível, ex: <article>, <main>, ou div com ID comum
         article_tag = soup.find('article')
         if article_tag:
             main_content_area = article_tag
@@ -229,12 +226,12 @@ class SistemaConsultaVet:
                     resultados_scraping.append({"titulo": titulo, "link": link_url})
         
         # Lógica de paginação (se houver)
-        # navbar = soup.find("div", class_="navbar") # Do código original
-        # if navbar:
-        #     for link_tag in navbar.find_all("a", href=True):
-        #         link_url = urljoin(url_busca, link_tag["href"])
-        #         if link_url not in urls_visitadas_scraping:
-        #             self._extrair_conteudo_pagina_resultados(link_url)
+        navbar = soup.find("div", class_="navbar") # Do código original
+        if navbar:
+            for link_tag in navbar.find_all("a", href=True):
+                link_url = urljoin(url_busca, link_tag["href"])
+                if link_url not in urls_visitadas_scraping:
+                    self._extrair_conteudo_pagina_resultados(link_url)
 
     def realizar_web_scraping(self, termo_busca):
         global resultados_scraping, urls_visitadas_scraping
@@ -256,9 +253,6 @@ class SistemaConsultaVet:
             driver = webdriver.Chrome(options=chrome_options)
             driver.get("https://medvet.dgav.pt/")
             wait = WebDriverWait(driver, 20)
-            # O site pode ter mudado, verificar o seletor do campo de busca
-            # No código original era 'input', pode ser mais específico com ID ou nome
-            # Ex: By.ID, "searchField"
             input_box = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='text'], input[type='search']")))
             input_box.send_keys(termo_busca)
             input_box.send_keys(Keys.RETURN)
@@ -268,7 +262,7 @@ class SistemaConsultaVet:
             print(colored(f"Erro durante a navegação com Selenium: {e}", "red"))
             if driver:
                 driver.quit()
-            return None # Retorna None se o Selenium falhar
+            return None
         finally:
             if driver:
                 driver.quit()
@@ -472,12 +466,8 @@ def main():
             break
         except Exception as e:
             print(colored(f"Ocorreu um erro inesperado no loop principal: {e}", "red"))
-            # Considerar logar o erro completo para depuração
 
 if __name__ == "__main__":
-    # Antes de rodar, certifique-se que o Ollama está em execução
-    # e que o arquivo de legislação (dados_dgav_final.json) está presente se necessário.
-    # Também é necessário ter o ChromeDriver instalado e no PATH ou especificar seu local.
     main()
 
 

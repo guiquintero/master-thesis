@@ -22,7 +22,7 @@ import concurrent.futures
 from tqdm import tqdm
 
 # Importar o classificador de query
-from query_classifier import QueryClassifier
+from query_classifier_mais import QueryClassifier
 
 # Desativar alertas de aviso de SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

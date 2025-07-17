@@ -43,14 +43,20 @@ class QueryClassifier:
         }}
 
         Exemplos:
-        Pergunta: "Qual a dose recomendada para patos do Maxyl 500 mg/g"
+        Pergunta: "Qual a dose recomendada para patos do Maxyl 500mg/g"
         {{"categoria": "medicamento", "entidades": {{"termo_busca": "Maxyl 500 mg/g patos", "pergunta_ollama": "Qual a dose recomendada para patos?"}}}}
+
+        Pergunta: "Informações sobre o medicamento 'Vetmedin' para cães"
+        {{"categoria": "medicamento", "entidades": {{"termo_busca": "Vetmedin cães", "pergunta_ollama": "Informações sobre o medicamento 'Vetmedin' para cães"}}}}
+
+        Pergunta: "Quais são as espécies alvo do medicamento Belaflor?"
+        {{"categoria": "medicamento", "entidades": {{"termo_busca": "Belaflor", "pergunta_ollama": "Informações sobre as espécies alvo do medicamento Belaflor"}}}}
+
+        Pergunta: "Qual a substância ativa do medicamento Synulox?"
+        {{"categoria": "medicamento", "entidades": {{"termo_busca": "Synulox", "pergunta_ollama": "Informações sobre a substância ativa do medicamento Synulox"}}}}
 
         Pergunta: "O que diz a legislação sobre a venda de antibióticos sem receita?"
         {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "O que diz a legislação sobre a venda de antibióticos sem receita?"}}}}
-
-        Pergunta: "Preciso de uma alternativa para o Maxyl 500 mg/g que seja para cães e tenha a mesma substância ativa"
-        {{"categoria": "comparacao", "entidades": {{"substancia_ativa": "Maxyl", "especie_alvo": "cães", "forma_farmaceutica": "", "pergunta_ollama": "Encontre alternativas para o Maxyl 500mg/g para cães com a mesma substância ativa."}}}}
 
         Pergunta: "Quais medicamentos para gatos com substância ativa 'Amoxicilina' e forma farmacêutica 'comprimido'?"
         {{"categoria": "comparacao", "entidades": {{"substancia_ativa": "Amoxicilina", "especie_alvo": "gatos", "forma_farmaceutica": "comprimido", "pergunta_ollama": "Quais medicamentos para gatos com substância ativa 'Amoxicilina' e forma farmacêutica 'comprimido'?"}}}}
@@ -58,8 +64,7 @@ class QueryClassifier:
         Pergunta: "Quais são os requisitos para importação de medicamentos veterinários em Portugal?"
         {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "Quais são os requisitos para importação de medicamentos veterinários em Portugal?"}}}}
 
-        Pergunta: "Informações sobre o medicamento 'Vetmedin' para cães"
-        {{"categoria": "medicamento", "entidades": {{"termo_busca": "Vetmedin cães", "pergunta_ollama": "Informações sobre o medicamento 'Vetmedin' para cães"}}}}
+        
 
         Pergunta: "{query}"
         """
