@@ -46,8 +46,8 @@ class QueryClassifier:
         Pergunta: "Qual a dose recomendada para patos do Maxyl 500mg/g"
         {{"categoria": "medicamento", "entidades": {{"termo_busca": "Maxyl 500 mg/g patos", "pergunta_ollama": "Qual a dose recomendada para patos?"}}}}
 
-        Pergunta: "Qual a dose de Belaflor 200mg/ml indicada para galinhas?"
-        {{"categoria": "medicamento", "entidades": {{"termo_busca": "Belaflor 200 mg/ml galinhas", "pergunta_ollama": "Qual a dose de Belaflor 200mg/ml indicada para galinhas?"}}}}
+        Pergunta: "Qual a dose de Belaflor indicada para galinhas?"
+        {{"categoria": "medicamento", "entidades": {{"termo_busca": "Belaflor 200 mg/ml galinhas", "pergunta_ollama": "Qual a dose de Belaflor 200 mg/ml indicada para galinhas?"}}}}
 
         Pergunta: "Informações sobre o medicamento 'Vetmedin' para cães"
         {{"categoria": "medicamento", "entidades": {{"termo_busca": "Vetmedin cães", "pergunta_ollama": "Informações sobre o medicamento 'Vetmedin' para cães"}}}}

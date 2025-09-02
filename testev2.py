@@ -22,7 +22,7 @@ import concurrent.futures
 from tqdm import tqdm
 
 # Importar o classificador de query
-from query_classifier_menos import QueryClassifier
+from query_classifier_mais import QueryClassifier
 
 # Desativar alertas de aviso de SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -69,19 +69,31 @@ class SistemaConsultaVet:
 
     def _extrair_conteudo_pdf(self, pdf_url):
         cache_filename = os.path.join(PDF_CACHE_DIR, pdf_url.split('/')[-1].replace('?', '_').replace('&', '_'))
+
+        def extrair_conteudo_limite_rotulagem(pdf_file):
+            conteudo = []
+            for page in pdf_file:
+                texto = page.get_text()
+                if 'rotulagem' in texto.lower():
+                    # Encontrou a palavra, interrompe a extração aqui
+                    break
+                conteudo.append(texto)
+            return "\n".join(conteudo)
+
         if os.path.exists(cache_filename):
             try:
                 with fitz.open(cache_filename) as pdf_file:
-                    return "\n".join(page.get_text() for page in pdf_file)
+                    return extrair_conteudo_limite_rotulagem(pdf_file)
             except Exception:
-                pass # Tentar baixar novamente se o cache estiver corrompido
+                pass  # Tentar baixar novamente se o cache estiver corrompido
+
         try:
             pdf_response = requests.get(pdf_url, timeout=20, headers=HEADERS, verify=False)
             pdf_response.raise_for_status()
             with open(cache_filename, 'wb') as f:
                 f.write(pdf_response.content)
             with fitz.open(cache_filename) as pdf_file:
-                return "\n".join(page.get_text() for page in pdf_file)
+                return extrair_conteudo_limite_rotulagem(pdf_file)
         except requests.RequestException as e:
             print(colored(f"Erro ao acessar o PDF {pdf_url}: {e}", "red"))
         except Exception as e:
@@ -329,10 +341,21 @@ class SistemaConsultaVet:
             print(colored("Resposta carregada do cache.", "magenta"))
             return resposta_cache
 
-        contexto_json = json.dumps(contexto_dados, ensure_ascii=False, indent=2)
+        if tipo_consulta == "comparacao":
+            # Filtrar o contexto para incluir apenas o conteudo_html e excluir o conteudo_pdf
+            contexto_dados_filtrado = []
+            for item in contexto_dados:
+                item_filtrado = item.copy()
+                if "conteudo_pdf" in item_filtrado:
+                    del item_filtrado["conteudo_pdf"]
+                contexto_dados_filtrado.append(item_filtrado)
+            contexto_json = json.dumps(contexto_dados_filtrado, ensure_ascii=False, indent=2)
+        else:
+            contexto_json = json.dumps(contexto_dados, ensure_ascii=False, indent=2)
+
         # Limitar o tamanho do contexto para evitar erros com Ollama
         # Este limite é arbitrário e pode precisar de ajuste
-        max_len_contexto = 30000 
+        max_len_contexto = 60000 
         if len(contexto_json) > max_len_contexto:
             print(colored(f"Contexto muito grande ({len(contexto_json)} chars), truncando para {max_len_contexto} chars.", "yellow"))
             contexto_json = contexto_json[:max_len_contexto] + "... (contexto truncado)"
@@ -358,12 +381,12 @@ class SistemaConsultaVet:
             """
         elif tipo_consulta == "comparacao":
             prompt = f"""
-            Com base APENAS no seguinte contexto sobre medicamentos veterinários (que pode incluir HTML e extratos de PDF):
+            Com base APENAS no seguinte contexto sobre medicamentos veterinários (que inclui APENAS conteúdo HTML das páginas):
             ```json
             {contexto_json}
             ```
             Analise os medicamentos no contexto e responda à seguinte solicitação de comparação: "{pergunta_ollama}"
-            Apresente a resposta de forma clara, idealmente listando os medicamentos que atendem aos critérios e suas características relevantes (como forma farmacêutica, concentração, espécies alvo).
+            Apresente a resposta de forma clara, idealmente listando todos os medicamentos que atendem aos critérios e suas características relevantes (como forma farmacêutica, concentração, espécies alvo).
             Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
             """
         else:
@@ -393,7 +416,6 @@ class SistemaConsultaVet:
             return resposta_ollama
         except Exception as e:
             return f"Erro ao consultar Ollama: {e}"
-
     def processar_pergunta_unica(self, pergunta_usuario):
         print(colored(f"\nProcessando pergunta: '{pergunta_usuario}'", "cyan"))
         classificacao = self.query_classifier.classify_and_extract(pergunta_usuario)
