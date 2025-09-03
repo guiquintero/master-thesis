@@ -1,3 +1,5 @@
+#Qual a forma de administração do medicamento Animedazon em porcos ( ou outra espécie pecuária)?
+
 import json
 import os
 import time
@@ -22,7 +24,7 @@ import concurrent.futures
 from tqdm import tqdm
 
 # Importar o classificador de query
-from query_classifier_mais import QueryClassifier
+from query_classifier import QueryClassifier
 
 # Desativar alertas de aviso de SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -52,6 +54,83 @@ class SistemaConsultaVet:
         self.temperatura_ollama = temperatura_ollama
         self.query_classifier = QueryClassifier(model=modelo_ollama)
         self.dados_legislacao = self._carregar_dados_legislacao()
+        self.mapeamento_especies = self._criar_mapeamento_especies()
+
+    def _criar_mapeamento_especies(self):
+        """Cria um dicionário de mapeamento para normalizar nomes de espécies animais"""
+        mapeamento = {}
+        
+        # Suínos
+        sinonimos_suinos = ["suíno", "suino", "suínos", "suinos", "porco", "porcos", "leitão", "leitões", "porcino"]
+        for sinonimo in sinonimos_suinos:
+            mapeamento[sinonimo.lower()] = "suínos"
+        
+        # Cães
+        sinonimos_caes = ["cão", "cao", "cães", "cachorro", "cachorros", "cadela", "cadelas", "canino", "caninos"]
+        for sinonimo in sinonimos_caes:
+            mapeamento[sinonimo.lower()] = "cães"
+        
+        # Gatos
+        sinonimos_gatos = ["gato", "gatos", "gata", "gatas", "felino", "felinos", "gatinho", "gatinhos"]
+        for sinonimo in sinonimos_gatos:
+            mapeamento[sinonimo.lower()] = "gatos"
+        
+        # Bovinos
+        sinonimos_bovinos = ["bovino", "bovinos", "vaca", "vacas", "novilho", "novilhos", "touro", "touros", 
+                            "bezerro", "bezerros", "vitela", "vitelas", "vitelo", "vitelos"]
+        for sinonimo in sinonimos_bovinos:
+            mapeamento[sinonimo.lower()] = "bovinos"
+        
+        # Ovinos
+        sinonimos_ovinos = ["ovino", "ovinos", "ovelha", "ovelhas", "carneiro", "carneiros", 
+                           "borrego", "borregos", "cordeiro", "cordeiros"]
+        for sinonimo in sinonimos_ovinos:
+            mapeamento[sinonimo.lower()] = "ovinos"
+        
+        # Caprinos
+        sinonimos_caprinos = ["caprino", "caprinos", "cabra", "cabras", "bode", "bodes"]
+        for sinonimo in sinonimos_caprinos:
+            mapeamento[sinonimo.lower()] = "caprinos"
+        
+        # Coelhos
+        sinonimos_coelhos = ["coelho", "coelhos", "coelha", "coelhas", "leporídeo", "leporídeos", 
+                            "leporideo", "leporideos"]
+        for sinonimo in sinonimos_coelhos:
+            mapeamento[sinonimo.lower()] = "coelhos"
+        
+        # Equinos
+        sinonimos_equinos = ["cavalo", "cavalos", "égua", "éguas", "egua", "eguas", "potro", "potros", 
+                            "equino", "equinos", "equideo", "equideos", "equídeo", "equídeos"]
+        for sinonimo in sinonimos_equinos:
+            mapeamento[sinonimo.lower()] = "equinos"
+        
+        return mapeamento
+
+    def _normalizar_especies_texto(self, texto):
+        """Normaliza as espécies animais no texto substituindo sinônimos pelos termos padrão"""
+        import re
+        
+        texto_normalizado = texto
+        
+        # Para cada mapeamento, substituir as palavras preservando maiúsculas/minúsculas do contexto
+        for sinonimo, padrao in self.mapeamento_especies.items():
+            # Criar padrão regex para encontrar a palavra completa (não parte de outra palavra)
+            pattern = r'\b' + re.escape(sinonimo) + r'\b'
+            
+            def substituir_preservando_caso(match):
+                palavra_encontrada = match.group()
+                # Se a palavra original estava em maiúscula, manter maiúscula
+                if palavra_encontrada.isupper():
+                    return padrao.upper()
+                elif palavra_encontrada.istitle():
+                    return padrao.capitalize()
+                else:
+                    return padrao
+            
+            # Substituir ignorando maiúsculas/minúsculas mas preservando o caso original
+            texto_normalizado = re.sub(pattern, substituir_preservando_caso, texto_normalizado, flags=re.IGNORECASE)
+        
+        return texto_normalizado
 
     def _carregar_dados_legislacao(self):
         if os.path.exists(ARQUIVO_LEGISLACAO):
@@ -417,8 +496,14 @@ class SistemaConsultaVet:
         except Exception as e:
             return f"Erro ao consultar Ollama: {e}"
     def processar_pergunta_unica(self, pergunta_usuario):
-        print(colored(f"\nProcessando pergunta: '{pergunta_usuario}'", "cyan"))
-        classificacao = self.query_classifier.classify_and_extract(pergunta_usuario)
+        # Normalizar espécies animais na pergunta antes de processar
+        pergunta_normalizada = self._normalizar_especies_texto(pergunta_usuario)
+        
+        if pergunta_normalizada != pergunta_usuario:
+            print(colored(f"Pergunta normalizada: '{pergunta_normalizada}'", "cyan"))
+        
+        print(colored(f"\nProcessando pergunta: '{pergunta_normalizada}'", "cyan"))
+        classificacao = self.query_classifier.classify_and_extract(pergunta_normalizada)
 
         if not classificacao or classificacao.get("categoria") == "erro":
             return "Não foi possível classificar sua pergunta. Tente reformulá-la."
