@@ -883,6 +883,134 @@ class SistemaConsultaVet:
         print(colored(f"Total de resultados únicos encontrados: {len(resultados_unicos)}", "green"))
         return resultados_unicos
 
+    def _detectar_consulta_dupla(self, classificacao):
+        """Detecta se a pergunta requer uma consulta dupla (medicamento específico + comparação)"""
+        entidades = classificacao.get("entidades", {})
+        substancia_ativa = entidades.get("substancia_ativa", "").strip()
+        pergunta_ollama = entidades.get("pergunta_ollama", "").lower()
+        
+        # Verificar se a substância ativa é na verdade um nome de medicamento
+        # e se a pergunta pede comparação/busca por princípio ativo
+        indicadores_dupla = [
+            "mesmo princípio ativo",
+            "mesma substância ativa", 
+            "princípio ativo do medicamento",
+            "substância ativa do medicamento",
+            "medicamentos com o princípio ativo"
+        ]
+        
+        # Se substancia_ativa parece ser um nome de medicamento (maiúscula ou formato de marca)
+        # E a pergunta contém indicadores de consulta dupla
+        if (substancia_ativa and 
+            (substancia_ativa[0].isupper() or len(substancia_ativa.split()) == 1) and
+            any(indicador in pergunta_ollama for indicador in indicadores_dupla)):
+            return True
+        
+        return False
+
+    def _realizar_consulta_dupla(self, classificacao, pergunta_normalizada):
+        """Realiza consulta dupla: primeiro busca o princípio ativo, depois faz comparação"""
+        entidades = classificacao.get("entidades", {})
+        medicamento_referencia = entidades.get("substancia_ativa", "").strip()
+        pergunta_ollama = entidades.get("pergunta_ollama", "")
+        
+        print(colored(f"Detectada consulta dupla para medicamento: {medicamento_referencia}", "cyan"))
+        
+        # FASE 1: Buscar informações do medicamento de referência
+        print(colored("FASE 1: Buscando informações do medicamento de referência...", "blue"))
+        dados_medicamento = self.realizar_web_scraping(medicamento_referencia)
+        
+        if not dados_medicamento:
+            return f"Não foi possível encontrar informações sobre o medicamento '{medicamento_referencia}' para fazer a comparação."
+        
+        # Extrair o princípio ativo usando IA
+        prompt_principio = f"""
+        Com base nas seguintes informações sobre o medicamento {medicamento_referencia}:
+        
+        ```json
+        {json.dumps(dados_medicamento, ensure_ascii=False, indent=2)}
+        ```
+        
+        Extraia APENAS o princípio ativo (substância ativa) deste medicamento. 
+        Responda apenas com o nome da substância ativa, sem explicações adicionais.
+        Se não encontrar a informação, responda "NÃO ENCONTRADO".
+        """
+        
+        try:
+            print(colored("Extraindo princípio ativo...", "yellow"))
+            response = ollama.chat(
+                model=self.modelo_ollama,
+                messages=[
+                    {
+                        'role': 'system',
+                        'content': 'Você é um especialista em medicamentos veterinários. Extraia apenas a substância ativa solicitada.'
+                    },
+                    {
+                        'role': 'user',
+                        'content': prompt_principio,
+                    }
+                ],
+                options={'temperature': 0.0}
+            )
+            principio_ativo = response['message']['content'].strip()
+            
+            if principio_ativo.upper() == "NÃO ENCONTRADO":
+                return f"Não foi possível identificar o princípio ativo do medicamento '{medicamento_referencia}'."
+            
+            print(colored(f"Princípio ativo identificado: {principio_ativo}", "green"))
+            
+        except Exception as e:
+            return f"Erro ao extrair princípio ativo: {e}"
+        
+        # FASE 2: Buscar medicamentos com o mesmo princípio ativo
+        print(colored("FASE 2: Buscando medicamentos com o mesmo princípio ativo...", "blue"))
+        
+        # Usar busca de comparação simples (sem IA) para listar todos os medicamentos
+        resultados_comparacao = self._realizar_busca_comparacao_simples(principio_ativo)
+        
+        if not resultados_comparacao:
+            return f"Não foram encontrados outros medicamentos com o princípio ativo '{principio_ativo}'."
+        
+        # Filtrar o medicamento de referência dos resultados (opcional)
+        resultados_filtrados = [
+            resultado for resultado in resultados_comparacao
+            if medicamento_referencia.lower() not in resultado.get('nome', '').lower()
+        ]
+        
+        if not resultados_filtrados:
+            return f"Apenas o medicamento '{medicamento_referencia}' foi encontrado com o princípio ativo '{principio_ativo}'. Não há outros medicamentos similares disponíveis."
+        
+        # Formatar resposta final
+        resposta = f"Medicamentos com o mesmo princípio ativo que {medicamento_referencia}:\n\n"
+        resposta += f"Princípio ativo identificado: **{principio_ativo}**\n\n"
+        resposta += f"Outros medicamentos encontrados ({len(resultados_filtrados)} encontrados):\n\n"
+        
+        for i, item in enumerate(resultados_filtrados, 1):
+            resposta += f"{i}. **{item.get('nome', 'Nome não disponível')}**\n"
+            
+            if item.get('especies'):
+                resposta += f"   - Espécies: {item['especies']}\n"
+            
+            if item.get('forma_farmaceutica'):
+                resposta += f"   - Forma farmacêutica: {item['forma_farmaceutica']}\n"
+            
+            if item.get('link'):
+                resposta += f"   - Link: {item['link']}\n"
+            
+            # Se não tiver informações específicas, mostrar informações resumidas
+            if not any([item.get('especies'), item.get('forma_farmaceutica')]):
+                info_resumida = item.get('informacoes_visiveis', '')
+                if len(info_resumida) > 100:
+                    info_resumida = info_resumida[:100] + "..."
+                resposta += f"   - Informações: {info_resumida}\n"
+            
+            resposta += "\n"
+        
+        resposta += f"\nNota: Foram encontrados {len(resultados_comparacao)} medicamentos no total com '{principio_ativo}', "
+        resposta += f"sendo {len(resultados_filtrados)} além do medicamento de referência '{medicamento_referencia}'."
+        
+        return resposta
+
     def processar_pergunta_unica(self, pergunta_usuario):
         # Normalizar espécies animais na pergunta antes de processar
         pergunta_normalizada = self._normalizar_especies_texto(pergunta_usuario)
@@ -932,7 +1060,12 @@ class SistemaConsultaVet:
             )
 
         elif categoria == "comparacao":
-            # Para comparação, o termo de busca pode ser construído a partir das entidades
+            # Verificar se é uma consulta dupla
+            if self._detectar_consulta_dupla(classificacao):
+                print(colored("Detectada consulta dupla (medicamento + comparação)", "yellow"))
+                return self._realizar_consulta_dupla(classificacao, pergunta_normalizada)
+            
+            # Fluxo normal de comparação
             substancia = entidades.get("substancia_ativa", "")
             especie = entidades.get("especie_alvo", "")
             forma = entidades.get("forma_farmaceutica", "")

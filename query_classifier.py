@@ -98,6 +98,12 @@ class QueryClassifier:
         Pergunta: "Que medicamentos existem com o mesmo princípio ativo que o medicamento Vetmedin?"
         {{"categoria": "comparacao", "entidades": {{"substancia_ativa": "Vetmedin", "especie_alvo": "", "forma_farmaceutica": "", "pergunta_ollama": "Que medicamentos existem com o mesmo princípio ativo que o medicamento Vetmedin?"}}}}
 
+        Pergunta: "Quais medicamentos têm a mesma substância ativa do Convenia?"
+        {{"categoria": "comparacao", "entidades": {{"substancia_ativa": "Convenia", "especie_alvo": "", "forma_farmaceutica": "", "pergunta_ollama": "Quais medicamentos têm a mesma substância ativa do Convenia?"}}}}
+
+        Pergunta: "Que alternativas existem ao medicamento Metacam?"
+        {{"categoria": "comparacao", "entidades": {{"substancia_ativa": "Metacam", "especie_alvo": "", "forma_farmaceutica": "", "pergunta_ollama": "Que alternativas existem ao medicamento Metacam?"}}}}
+
         Exemplos de Legislação:
         Pergunta: "O que é necessário para licenciar um centro de atendimento médico veterinário?"
         {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "O que é necessário para licenciar um centro de atendimento médico veterinário?"}}}}
