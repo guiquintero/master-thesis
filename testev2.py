@@ -52,9 +52,266 @@ class SistemaConsultaVet:
     def __init__(self, modelo_ollama=MODELO_OLLAMA_PADRAO, temperatura_ollama=0.2):
         self.modelo_ollama = modelo_ollama
         self.temperatura_ollama = temperatura_ollama
-        self.query_classifier = QueryClassifier(model=modelo_ollama)
+        self.query_classifier = QueryClassifier(modelo_ollama)
         self.dados_legislacao = self._carregar_dados_legislacao()
         self.mapeamento_especies = self._criar_mapeamento_especies()
+
+    def _gerar_hash_consulta(self, texto):
+        return hashlib.md5(texto.encode('utf-8')).hexdigest()
+
+    def _gerar_cache_key_inteligente(self, classificacao):
+        """Gera uma chave de cache baseada nas entidades extraídas"""
+        entidades = classificacao.get("entidades", {})
+        categoria = classificacao.get("categoria", "")
+        
+        # Criar uma string única baseada na categoria e entidades principais
+        if categoria == "medicamento":
+            key_parts = [
+                categoria,
+                entidades.get("termo_busca", "").lower().strip()
+            ]
+        elif categoria == "comparacao":
+            key_parts = [
+                categoria,
+                entidades.get("substancia_ativa", "").lower().strip(),
+                entidades.get("especie_alvo", "").lower().strip(),
+                entidades.get("forma_farmaceutica", "").lower().strip()
+            ]
+        elif categoria == "legislacao":
+            # Para legislação, usar palavras-chave da pergunta
+            pergunta = entidades.get("pergunta_ollama", "").lower()
+            palavras_chave = [palavra for palavra in pergunta.split() if len(palavra) > 4][:5]  # Top 5 palavras relevantes
+            key_parts = [categoria] + sorted(palavras_chave)
+        else:
+            key_parts = [categoria, entidades.get("pergunta_ollama", "").lower()]
+        
+        # Remover partes vazias e criar hash
+        key_parts = [part for part in key_parts if part]
+        cache_key = "_".join(key_parts)
+        return hashlib.md5(cache_key.encode('utf-8')).hexdigest()
+
+    def _verificar_intencao_similar(self, pergunta_atual, pergunta_cache):
+        """Usa IA para verificar se duas perguntas têm intenção similar"""
+        prompt = f"""
+        Analise se as duas perguntas abaixo têm a mesma intenção/objetivo, mesmo que sejam formuladas de forma diferente.
+        
+        Pergunta 1: "{pergunta_atual}"
+        Pergunta 2: "{pergunta_cache}"
+        
+        Responda apenas "SIM" se as perguntas têm a mesma intenção ou "NAO" se têm intenções diferentes.
+        
+        Exemplos de perguntas com mesma intenção:
+        - "Qual a dose do medicamento X?" e "Que dose devo dar do X?"
+        - "Como armazenar Y?" e "Qual a forma de armazenamento do Y?"
+        - "Para que serve Z?" e "Qual a indicação do Z?"
+        
+        Resposta:
+        """
+        
+        try:
+            response = ollama.chat(
+                model=self.modelo_ollama,
+                messages=[
+                    {
+                        'role': 'system',
+                        'content': 'Você é um analisador de intenções de perguntas. Responda apenas SIM ou NAO.'
+                    },
+                    {
+                        'role': 'user',
+                        'content': prompt,
+                    }
+                ],
+                options={'temperature': 0.0}  # Determinístico
+            )
+            resposta = response['message']['content'].strip().upper()
+            return resposta == "SIM"
+        except Exception as e:
+            print(colored(f"Erro ao verificar intenção: {e}", "red"))
+            return False
+
+    def _carregar_resposta_cache_inteligente(self, classificacao, pergunta_atual):
+        """Carrega resposta do cache inteligente verificando entidades e intenção"""
+        cache_key = self._gerar_cache_key_inteligente(classificacao)
+        arquivo_cache = os.path.join(CACHE_DIR_RESPOSTAS, f"smart_{cache_key}.json")
+        
+        if not os.path.exists(arquivo_cache):
+            return None
+        
+        try:
+            with open(arquivo_cache, 'r', encoding='utf-8') as f:
+                cache_data = json.load(f)
+            
+            # Verificar se as entidades batem
+            entidades_cache = cache_data.get('entidades', {})
+            entidades_atual = classificacao.get('entidades', {})
+            
+            # Comparar entidades principais baseado na categoria
+            categoria = classificacao.get('categoria')
+            
+            if categoria == "medicamento":
+                if (entidades_cache.get('termo_busca', '').lower().strip() != 
+                    entidades_atual.get('termo_busca', '').lower().strip()):
+                    return None
+                    
+            elif categoria == "comparacao":
+                campos_comparacao = ['substancia_ativa', 'especie_alvo', 'forma_farmaceutica']
+                for campo in campos_comparacao:
+                    if (entidades_cache.get(campo, '').lower().strip() != 
+                        entidades_atual.get(campo, '').lower().strip()):
+                        return None
+                        
+            elif categoria == "legislacao":
+                # Para legislação, verificar se as palavras-chave principais coincidem
+                pergunta_cache = entidades_cache.get('pergunta_ollama', '').lower()
+                pergunta_atual_text = entidades_atual.get('pergunta_ollama', '').lower()
+                
+                # Extrair palavras-chave importantes
+                palavras_cache = set([p for p in pergunta_cache.split() if len(p) > 4])
+                palavras_atual = set([p for p in pergunta_atual_text.split() if len(p) > 4])
+                
+                # Verificar se há sobreposição significativa (pelo menos 60%)
+                if len(palavras_cache & palavras_atual) / max(len(palavras_cache), len(palavras_atual), 1) < 0.6:
+                    return None
+            
+            # Se chegou até aqui, as entidades batem. Agora verificar intenção
+            pergunta_cache = cache_data.get('pergunta_original', '')
+            
+            print(colored("Entidades coincidem. Verificando intenção com IA...", "yellow"))
+            
+            if self._verificar_intencao_similar(pergunta_atual, pergunta_cache):
+                print(colored("Intenção similar encontrada! Usando cache inteligente.", "green"))
+                return cache_data.get('resposta')
+            else:
+                print(colored("Intenção diferente. Cache não será usado.", "yellow"))
+                return None
+                
+        except Exception as e:
+            print(colored(f"Erro ao carregar cache inteligente: {e}", "red"))
+            return None
+
+    def _salvar_resposta_cache_inteligente(self, classificacao, pergunta_original, resposta):
+        """Salva resposta no cache inteligente com entidades e intenção"""
+        cache_key = self._gerar_cache_key_inteligente(classificacao)
+        arquivo_cache = os.path.join(CACHE_DIR_RESPOSTAS, f"smart_{cache_key}.json")
+        
+        cache_data = {
+            'resposta': resposta,
+            'pergunta_original': pergunta_original,
+            'categoria': classificacao.get('categoria'),
+            'entidades': classificacao.get('entidades', {}),
+            'timestamp': time.time(),
+            'modelo_usado': self.modelo_ollama
+        }
+        
+        try:
+            with open(arquivo_cache, 'w', encoding='utf-8') as f:
+                json.dump(cache_data, f, ensure_ascii=False, indent=2)
+            print(colored("Resposta salva no cache inteligente.", "green"))
+        except Exception as e:
+            print(colored(f"Erro ao salvar cache inteligente: {e}", "red"))
+
+    def _carregar_resposta_cache(self, hash_consulta):
+        arquivo_cache = os.path.join(CACHE_DIR_RESPOSTAS, f"{hash_consulta}.json")
+        if os.path.exists(arquivo_cache):
+            try:
+                with open(arquivo_cache, 'r', encoding='utf-8') as f:
+                    cache = json.load(f)
+                    return cache.get('resposta')
+            except:
+                return None
+        return None
+
+    def _salvar_resposta_cache(self, hash_consulta, resposta):
+        arquivo_cache = os.path.join(CACHE_DIR_RESPOSTAS, f"{hash_consulta}.json")
+        with open(arquivo_cache, 'w', encoding='utf-8') as f:
+            json.dump({'resposta': resposta}, f, ensure_ascii=False, indent=2)
+
+    def _consultar_ollama_com_contexto(self, pergunta_ollama, contexto_dados, tipo_consulta="medicamento", classificacao=None, pergunta_original=None):
+        # Tentar carregar do cache inteligente primeiro
+        if classificacao and pergunta_original:
+            resposta_cache = self._carregar_resposta_cache_inteligente(classificacao, pergunta_original)
+            if resposta_cache:
+                return resposta_cache
+
+        # Se não encontrou no cache inteligente, continuar com o processamento normal
+        if tipo_consulta == "comparacao":
+            # Filtrar o contexto para incluir apenas o conteudo_html e excluir o conteudo_pdf
+            contexto_dados_filtrado = []
+            for item in contexto_dados:
+                item_filtrado = item.copy()
+                if "conteudo_pdf" in item_filtrado:
+                    del item_filtrado["conteudo_pdf"]
+                contexto_dados_filtrado.append(item_filtrado)
+            contexto_json = json.dumps(contexto_dados_filtrado, ensure_ascii=False, indent=2)
+        else:
+            contexto_json = json.dumps(contexto_dados, ensure_ascii=False, indent=2)
+
+        # Limitar o tamanho do contexto para evitar erros com Ollama
+        max_len_contexto = 60000 
+        if len(contexto_json) > max_len_contexto:
+            print(colored(f"Contexto muito grande ({len(contexto_json)} chars), truncando para {max_len_contexto} chars.", "yellow"))
+            contexto_json = contexto_json[:max_len_contexto] + "... (contexto truncado)"
+
+        if tipo_consulta == "medicamento":
+            prompt = f"""
+            Com base APENAS no seguinte contexto sobre medicamentos veterinários (que pode incluir HTML e extratos de PDF):
+            ```json
+            {contexto_json}
+            ```
+            Responda à pergunta: "{pergunta_ollama}"
+            Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
+            Cite as fontes (URLs dos medicamentos) se disponíveis e relevantes para a resposta.
+            """
+        elif tipo_consulta == "legislacao":
+            prompt = f"""
+            Com base APENAS no seguinte contexto sobre legislação veterinária portuguesa:
+            ```json
+            {contexto_json}
+            ```
+            Responda à pergunta: "{pergunta_ollama}"
+            Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
+            """
+        elif tipo_consulta == "comparacao":
+            prompt = f"""
+            Com base APENAS no seguinte contexto sobre medicamentos veterinários (que inclui APENAS conteúdo HTML das páginas):
+            ```json
+            {contexto_json}
+            ```
+            Analise os medicamentos no contexto e responda à seguinte solicitação de comparação: "{pergunta_ollama}"
+            Apresente a resposta de forma clara, idealmente listando todos os medicamentos que atendem aos critérios e suas características relevantes (como forma farmacêutica, concentração, espécies alvo).
+            Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
+            """
+        else:
+            return "Tipo de consulta desconhecido para Ollama."
+
+        try:
+            print(colored("Consultando Ollama...", "yellow"))
+            start_time = time.perf_counter()
+            response = ollama.chat(
+                model=self.modelo_ollama,
+                messages=[
+                    {
+                        'role': 'system',
+                        'content': 'Você é um assistente especializado em informações veterinárias portuguesas. Responda de forma concisa e baseada estritamente no contexto fornecido.'
+                    },
+                    {
+                        'role': 'user',
+                        'content': prompt,
+                    }
+                ],
+                options={'temperature': self.temperatura_ollama}
+            )
+            resposta_ollama = response['message']['content']
+            end_time = time.perf_counter()
+            print(colored(f"Consulta Ollama concluída em {(end_time - start_time):.2f}s", "yellow"))
+            
+            # Salvar no cache inteligente
+            if classificacao and pergunta_original:
+                self._salvar_resposta_cache_inteligente(classificacao, pergunta_original, resposta_ollama)
+            
+            return resposta_ollama
+        except Exception as e:
+            return f"Erro ao consultar Ollama: {e}"
 
     def _criar_mapeamento_especies(self):
         """Cria um dicionário de mapeamento para normalizar nomes de espécies animais"""
@@ -565,88 +822,66 @@ class SistemaConsultaVet:
         
         return resposta
 
-    def _consultar_ollama_com_contexto(self, pergunta_ollama, contexto_dados, tipo_consulta="medicamento"):
-        hash_consulta = self._gerar_hash_consulta(pergunta_ollama + json.dumps(contexto_dados))
-        resposta_cache = self._carregar_resposta_cache(hash_consulta)
-        if resposta_cache:
-            print(colored("Resposta carregada do cache.", "magenta"))
-            return resposta_cache
+    def realizar_web_scraping(self, termo_busca):
+        """Realiza o web scraping com base no termo de busca fornecido."""
+        print(colored(f"Iniciando web scraping para o termo: '{termo_busca}'", "blue"))
+        
+        # Configurar opções do Chrome para execução headless
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--disable-extensions")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument(f"user-agent={HEADERS['User-Agent']}")
 
-        if tipo_consulta == "comparacao":
-            # Filtrar o contexto para incluir apenas o conteudo_html e excluir o conteudo_pdf
-            contexto_dados_filtrado = []
-            for item in contexto_dados:
-                item_filtrado = item.copy()
-                if "conteudo_pdf" in item_filtrado:
-                    del item_filtrado["conteudo_pdf"]
-                contexto_dados_filtrado.append(item_filtrado)
-            contexto_json = json.dumps(contexto_dados_filtrado, ensure_ascii=False, indent=2)
-        else:
-            contexto_json = json.dumps(contexto_dados, ensure_ascii=False, indent=2)
-
-        # Limitar o tamanho do contexto para evitar erros com Ollama
-        # Este limite é arbitrário e pode precisar de ajuste
-        max_len_contexto = 60000 
-        if len(contexto_json) > max_len_contexto:
-            print(colored(f"Contexto muito grande ({len(contexto_json)} chars), truncando para {max_len_contexto} chars.", "yellow"))
-            contexto_json = contexto_json[:max_len_contexto] + "... (contexto truncado)"
-
-        if tipo_consulta == "medicamento":
-            prompt = f"""
-            Com base APENAS no seguinte contexto sobre medicamentos veterinários (que pode incluir HTML e extratos de PDF):
-            ```json
-            {contexto_json}
-            ```
-            Responda à pergunta: "{pergunta_ollama}"
-            Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
-            Cite as fontes (URLs dos medicamentos) se disponíveis e relevantes para a resposta.
-            """
-        elif tipo_consulta == "legislacao":
-            prompt = f"""
-            Com base APENAS no seguinte contexto sobre legislação veterinária portuguesa:
-            ```json
-            {contexto_json}
-            ```
-            Responda à pergunta: "{pergunta_ollama}"
-            Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
-            """
-        elif tipo_consulta == "comparacao":
-            prompt = f"""
-            Com base APENAS no seguinte contexto sobre medicamentos veterinários (que inclui APENAS conteúdo HTML das páginas):
-            ```json
-            {contexto_json}
-            ```
-            Analise os medicamentos no contexto e responda à seguinte solicitação de comparação: "{pergunta_ollama}"
-            Apresente a resposta de forma clara, idealmente listando todos os medicamentos que atendem aos critérios e suas características relevantes (como forma farmacêutica, concentração, espécies alvo).
-            Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
-            """
-        else:
-            return "Tipo de consulta desconhecido para Ollama."
+        driver = None
+        url_pagina_busca = ""
 
         try:
-            print(colored("Consultando Ollama...", "yellow"))
-            start_time = time.perf_counter()
-            response = ollama.chat(
-                model=self.modelo_ollama,
-                messages=[
-                    {
-                        'role': 'system',
-                        'content': 'Você é um assistente especializado em informações veterinárias portuguesas. Responda de forma concisa e baseada estritamente no contexto fornecido.'
-                    },
-                    {
-                        'role': 'user',
-                        'content': prompt,
-                    }
-                ],
-                options={'temperature': self.temperatura_ollama}
-            )
-            resposta_ollama = response['message']['content']
-            end_time = time.perf_counter()
-            print(colored(f"Consulta Ollama concluída em {(end_time - start_time):.2f}s", "yellow"))
-            self._salvar_resposta_cache(hash_consulta, resposta_ollama)
-            return resposta_ollama
+            # Abrir o navegador e acessar o site
+            driver = webdriver.Chrome(options=chrome_options)
+            driver.get("https://medvet.dgav.pt/")
+            wait = WebDriverWait(driver, 20)
+            
+            # Localizar a barra de busca e inserir o termo
+            input_box = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='text'], input[type='search']")))
+            input_box.send_keys(termo_busca)
+            input_box.send_keys(Keys.RETURN)
+            time.sleep(5)
+            
+            # Capturar a URL da página de resultados
+            url_pagina_busca = driver.current_url
         except Exception as e:
-            return f"Erro ao consultar Ollama: {e}"
+            print(colored(f"Erro durante a navegação com Selenium: {e}", "red"))
+            if driver:
+                driver.quit()
+            return None
+        finally:
+            if driver:
+                driver.quit()
+
+        if not url_pagina_busca or url_pagina_busca == "https://medvet.dgav.pt/":
+            print(colored("Não foi possível obter a URL da página de resultados da busca.", "red"))
+            return None
+
+        print(colored(f"Extraindo informações da página de resultados: {url_pagina_busca}", "blue"))
+        
+        # Inicializar o conjunto de URLs processadas para evitar loops
+        urls_processadas = set()
+        resultados = self._extrair_informacoes_pagina_busca(url_pagina_busca, urls_processadas)
+        
+        # Remover duplicatas baseadas no nome do medicamento
+        resultados_unicos = []
+        nomes_vistos = set()
+        for resultado in resultados:
+            nome = resultado.get('nome', '').strip()
+            if nome and nome not in nomes_vistos:
+                nomes_vistos.add(nome)
+                resultados_unicos.append(resultado)
+        
+        print(colored(f"Total de resultados únicos encontrados: {len(resultados_unicos)}", "green"))
+        return resultados_unicos
 
     def processar_pergunta_unica(self, pergunta_usuario):
         # Normalizar espécies animais na pergunta antes de processar
@@ -677,12 +912,24 @@ class SistemaConsultaVet:
             if not dados_raspados:
                 return f"Não foram encontrados resultados no web scraping para '{termo_busca}'."
             
-            return self._consultar_ollama_com_contexto(pergunta_para_ollama, dados_raspados, tipo_consulta="medicamento")
+            return self._consultar_ollama_com_contexto(
+                pergunta_para_ollama, 
+                dados_raspados, 
+                tipo_consulta="medicamento",
+                classificacao=classificacao,
+                pergunta_original=pergunta_normalizada
+            )
 
         elif categoria == "legislacao":
             if not self.dados_legislacao:
                 return f"Os dados de legislação não estão carregados. Verifique o arquivo {ARQUIVO_LEGISLACAO}."
-            return self._consultar_ollama_com_contexto(pergunta_para_ollama, self.dados_legislacao, tipo_consulta="legislacao")
+            return self._consultar_ollama_com_contexto(
+                pergunta_para_ollama, 
+                self.dados_legislacao, 
+                tipo_consulta="legislacao",
+                classificacao=classificacao,
+                pergunta_original=pergunta_normalizada
+            )
 
         elif categoria == "comparacao":
             # Para comparação, o termo de busca pode ser construído a partir das entidades
@@ -709,7 +956,13 @@ class SistemaConsultaVet:
                 if not dados_raspados:
                     return f"Não foram encontrados resultados no web scraping para os critérios de comparação: '{termo_busca_comparacao}'."
                 
-                return self._consultar_ollama_com_contexto(pergunta_para_ollama, dados_raspados, tipo_consulta="comparacao")
+                return self._consultar_ollama_com_contexto(
+                    pergunta_para_ollama, 
+                    dados_raspados, 
+                    tipo_consulta="comparacao",
+                    classificacao=classificacao,
+                    pergunta_original=pergunta_normalizada
+                )
 
         else:
             return f"Categoria de pergunta '{categoria}' não suportada no momento."
