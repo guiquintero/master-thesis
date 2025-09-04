@@ -1,0 +1,13 @@
+{
+  "resposta": "Os seguintes medicamentos contêm o princípio ativo Pimobendano em comprimidos:\n\n*   **Pimosure** (disponível em 1,25mg, 2,5mg, 5mg e 10mg) – comprimidos para cães.\n*   **Cardisure** – comprimidos para cães.\n*   **Vetmedin** (disponível em 1,25mg, 2,5mg, 5mg e 10mg) – comprimidos para mastigar para cães.\n*   **Cardisan** – comprimidos mastigáveis para cães.",
+  "pergunta_original": "Que medicamentos/marcas existem em comprimidos com o princípio ativo Pimobendano?",
+  "categoria": "comparacao",
+  "entidades": {
+    "substancia_ativa": "Pimobendano",
+    "especie_alvo": "",
+    "forma_farmaceutica": "comprimidos",
+    "pergunta_ollama": "Que medicamentos/marcas existem em comprimidos com o princípio ativo Pimobendano?"
+  },
+  "timestamp": 1756904675.6359136,
+  "modelo_usado": "gemma3:latest"
+}

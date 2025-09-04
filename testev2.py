@@ -485,7 +485,7 @@ class SistemaConsultaVet:
             return None
         
         soup = BeautifulSoup(response.text, "html.parser")
-        tags_permitidas = {"h1", "h2", "h3", "h4", "h5", "p", "a"}
+        tags_permitidas = {"h1", "h2", "h3", "h4", "p", "a"}
         conteudo_item = {"url": link, "titulo": titulo_busca, "conteudo_html": "", "conteudo_pdf": []}
         
         encontrou_titulo_no_html = False
@@ -669,20 +669,30 @@ class SistemaConsultaVet:
         navbar = soup.find("div", class_="navbar")
         if navbar:
             print(colored("Encontrada navbar para paginação", "blue"))
+            
+            # Primeiro, vamos extrair TODOS os links numéricos da navbar
+            links_numericos = []
             for link_tag in navbar.find_all("a", href=True):
                 link_url = urljoin(url_busca, link_tag["href"])
                 link_text = link_tag.get_text(strip=True)
                 print(colored(f"Link encontrado na navbar: {link_text} -> {link_url}", "yellow"))
                 
-                # Verificar se é link de paginação
-                if (link_url != url_busca and 
-                    link_url not in urls_processadas):
+                # Se o texto é um número, adicionar à lista de páginas numéricas
+                if link_text.isdigit():
+                    pagina_num = int(link_text)
+                    links_numericos.append((pagina_num, link_url))
+                    if link_url not in urls_processadas:
+                        links_paginacao.append(link_url)
+                        print(colored(f"Link de página numérica identificado: {link_text} -> {link_url}", "green"))
+                
+                # Verificar se é link de paginação (não numérico)
+                elif (link_url != url_busca and 
+                      link_url not in urls_processadas):
                     
-                    # Critérios mais amplos para detecção de paginação
+                    # Critérios para outros tipos de paginação
                     is_pagination = (
                         "page=" in link_url.lower() or
                         "p=" in link_url.lower() or
-                        link_text.isdigit() or
                         any(palavra in link_text.lower() for palavra in ['próxima', 'next', '>', 'seguinte', 'anterior', 'prev', '<']) or
                         "offset=" in link_url.lower() or
                         "start=" in link_url.lower()
@@ -691,6 +701,11 @@ class SistemaConsultaVet:
                     if is_pagination:
                         links_paginacao.append(link_url)
                         print(colored(f"Link de paginação identificado: {link_url}", "green"))
+            
+            # Ordenar links numéricos e adicionar informação sobre eles
+            if links_numericos:
+                links_numericos.sort(key=lambda x: x[0])  # Ordenar por número da página
+                print(colored(f"Encontradas {len(links_numericos)} páginas numéricas: {[x[0] for x in links_numericos]}", "blue"))
         
         # 2. Procurar por outras estruturas de paginação comuns
         for class_name in ["pagination", "pager", "page-nav", "nav-pages"]:
@@ -1065,37 +1080,22 @@ class SistemaConsultaVet:
                 print(colored("Detectada consulta dupla (medicamento + comparação)", "yellow"))
                 return self._realizar_consulta_dupla(classificacao, pergunta_normalizada)
             
-            # Fluxo normal de comparação
+            # TODAS as comparações agora usam web scraping simples (sem IA)
             substancia = entidades.get("substancia_ativa", "")
             especie = entidades.get("especie_alvo", "")
             forma = entidades.get("forma_farmaceutica", "")
             termo_busca_comparacao = f"{substancia} {especie} {forma}".strip()
             
             if not termo_busca_comparacao:
-                 return "Para comparação, por favor, forneça pelo menos uma substância ativa, espécie alvo ou forma farmacêutica."
+                return "Para comparação, por favor, forneça pelo menos uma substância ativa, espécie alvo ou forma farmacêutica."
 
-            # Verificar se não tem forma farmacêutica especificada
-            if not forma.strip():
-                print(colored("Forma farmacêutica não especificada. Realizando busca simples sem IA.", "blue"))
-                resultados_simples = self._realizar_busca_comparacao_simples(termo_busca_comparacao)
-                if not resultados_simples:
-                    return f"Não foram encontrados resultados na busca para: '{termo_busca_comparacao}'."
-                
-                return self._formatar_resultados_comparacao_simples(resultados_simples, pergunta_normalizada)
-            else:
-                # Realizar busca completa com IA quando há forma farmacêutica especificada
-                print(colored(f"Termo de busca para comparação (web scraping): '{termo_busca_comparacao}'", "blue"))
-                dados_raspados = self.realizar_web_scraping(termo_busca_comparacao)
-                if not dados_raspados:
-                    return f"Não foram encontrados resultados no web scraping para os critérios de comparação: '{termo_busca_comparacao}'."
-                
-                return self._consultar_ollama_com_contexto(
-                    pergunta_para_ollama, 
-                    dados_raspados, 
-                    tipo_consulta="comparacao",
-                    classificacao=classificacao,
-                    pergunta_original=pergunta_normalizada
-                )
+            # Sempre realizar busca simples sem IA para comparações
+            print(colored("Realizando busca de comparação com web scraping simples (sem IA).", "blue"))
+            resultados_simples = self._realizar_busca_comparacao_simples(termo_busca_comparacao)
+            if not resultados_simples:
+                return f"Não foram encontrados resultados na busca para: '{termo_busca_comparacao}'."
+            
+            return self._formatar_resultados_comparacao_simples(resultados_simples, pergunta_normalizada)
 
         else:
             return f"Categoria de pergunta '{categoria}' não suportada no momento."
