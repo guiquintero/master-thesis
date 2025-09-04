@@ -485,7 +485,7 @@ class SistemaConsultaVet:
             return None
         
         soup = BeautifulSoup(response.text, "html.parser")
-        tags_permitidas = {"h1", "h2", "h3", "h4", "p", "a"}
+        tags_permitidas = {"h1", "h2", "h3", "h4", "h5", "p", "a"}
         conteudo_item = {"url": link, "titulo": titulo_busca, "conteudo_html": "", "conteudo_pdf": []}
         
         encontrou_titulo_no_html = False
@@ -1080,22 +1080,37 @@ class SistemaConsultaVet:
                 print(colored("Detectada consulta dupla (medicamento + comparação)", "yellow"))
                 return self._realizar_consulta_dupla(classificacao, pergunta_normalizada)
             
-            # TODAS as comparações agora usam web scraping simples (sem IA)
+            # Fluxo normal de comparação
             substancia = entidades.get("substancia_ativa", "")
             especie = entidades.get("especie_alvo", "")
             forma = entidades.get("forma_farmaceutica", "")
             termo_busca_comparacao = f"{substancia} {especie} {forma}".strip()
             
             if not termo_busca_comparacao:
-                return "Para comparação, por favor, forneça pelo menos uma substância ativa, espécie alvo ou forma farmacêutica."
+                 return "Para comparação, por favor, forneça pelo menos uma substância ativa, espécie alvo ou forma farmacêutica."
 
-            # Sempre realizar busca simples sem IA para comparações
-            print(colored("Realizando busca de comparação com web scraping simples (sem IA).", "blue"))
-            resultados_simples = self._realizar_busca_comparacao_simples(termo_busca_comparacao)
-            if not resultados_simples:
-                return f"Não foram encontrados resultados na busca para: '{termo_busca_comparacao}'."
-            
-            return self._formatar_resultados_comparacao_simples(resultados_simples, pergunta_normalizada)
+            # Verificar se não tem forma farmacêutica especificada
+            if not forma.strip():
+                print(colored("Forma farmacêutica não especificada. Realizando busca simples sem IA.", "blue"))
+                resultados_simples = self._realizar_busca_comparacao_simples(termo_busca_comparacao)
+                if not resultados_simples:
+                    return f"Não foram encontrados resultados na busca para: '{termo_busca_comparacao}'."
+                
+                return self._formatar_resultados_comparacao_simples(resultados_simples, pergunta_normalizada)
+            else:
+                # Realizar busca completa com IA quando há forma farmacêutica especificada
+                print(colored(f"Termo de busca para comparação (web scraping): '{termo_busca_comparacao}'", "blue"))
+                dados_raspados = self.realizar_web_scraping(termo_busca_comparacao)
+                if not dados_raspados:
+                    return f"Não foram encontrados resultados no web scraping para os critérios de comparação: '{termo_busca_comparacao}'."
+                
+                return self._consultar_ollama_com_contexto(
+                    pergunta_para_ollama, 
+                    dados_raspados, 
+                    tipo_consulta="comparacao",
+                    classificacao=classificacao,
+                    pergunta_original=pergunta_normalizada
+                )
 
         else:
             return f"Categoria de pergunta '{categoria}' não suportada no momento."
