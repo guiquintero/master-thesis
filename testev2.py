@@ -357,7 +357,7 @@ class SistemaConsultaVet:
         # Caprinos
         sinonimos_caprinos = ["caprino", "caprinos", "cabra", "cabras", "bode", "bodes"]
         for sinonimo in sinonimos_caprinos:
-            mapeamento[sinonimo.lower()] = "caprinos"
+            mapeamento[sinonimo.lower()] = "caprinos" 
         
         # Coelhos
         sinonimos_coelhos = ["coelho", "coelhos", "coelha", "coelhas", "leporídeo", "leporídeos", 
@@ -1047,26 +1047,17 @@ class SistemaConsultaVet:
         
         # Indicadores de follow-up sobre espécies
         indicadores_especie = [
-            "e em", "e para", "e nas", "e nos", "e no caso de", 
-            "e quanto a", "e sobre", "e no", "e na",
+            "e em", "e para",
             "em gatos", "em cães", "em suínos", "em bovinos", "em equinos",
-            "para gatos", "para cães", "para suínos", "para bovinos",
-            "gatos?", "cães?", "suínos?", "bovinos?", "equinos?", "aves?", "galinhas?"
-        ]
-        
-        # Indicadores de outras perguntas de follow-up
-        indicadores_gerais = [
-            "e o", "e a", "e os", "e as", "qual é", "quanto tempo",
-            "como é", "qual", "quanto", "como", "quando", 
-            "e qual", "e como", "e quanto", "e quando"
+            "para gatos", "para cães", "para suínos", "para bovinos", "para equinos", "para aves", "para galinhas", "para caprinos", "para coelhos", "para ovinos", "para roedores",
+            "gatos?", "cães?", "suínos?", "bovinos?", "equinos?", "aves?", "galinhas?", "caprinos?", "coelhos?", "ovinos?", "roedores?"
         ]
         
         # Verificar se tem algum indicador de follow-up
         tem_indicador_especie = any(indicador.lower() in pergunta_atual.lower() for indicador in indicadores_especie)
-        tem_indicador_geral = any(indicador.lower() in pergunta_atual.lower() for indicador in indicadores_gerais)
         
         # Usar Ollama para verificar se é uma pergunta de follow-up
-        if pergunta_curta or tem_indicador_especie or tem_indicador_geral:
+        if pergunta_curta or tem_indicador_especie:
             try:
                 prompt = f"""
                 Determine se a pergunta atual é um acompanhamento (follow-up) da pergunta anterior sobre o mesmo medicamento.
