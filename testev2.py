@@ -892,20 +892,75 @@ class SistemaConsultaVet:
 
         print(colored(f"Extraindo informações da página de resultados: {url_pagina_busca}", "blue"))
         
-        # Inicializar o conjunto de URLs processadas para evitar loops
+        # PASSO 1: Extrair informações básicas da página de resultados
         urls_processadas = set()
-        resultados = self._extrair_informacoes_pagina_busca(url_pagina_busca, urls_processadas)
+        resultados_basicos = self._extrair_informacoes_pagina_busca(url_pagina_busca, urls_processadas)
+        
+        if not resultados_basicos:
+            print(colored("Nenhum resultado encontrado na página de busca.", "yellow"))
+            return None
+        
+        # PASSO 2: Para cada resultado, processar o link individual para extrair PDF
+        print(colored(f"Processando {len(resultados_basicos)} medicamentos para extrair PDFs...", "blue"))
+        
+        resultados_completos = []
+        
+        # Limitar o número de medicamentos processados para evitar sobrecarga
+        max_medicamentos = min(len(resultados_basicos), 10)  # Processar até 10 medicamentos
+        
+        for i, resultado_basico in enumerate(resultados_basicos[:max_medicamentos]):
+            link_medicamento = resultado_basico.get('link')
+            nome_medicamento = resultado_basico.get('nome', 'Nome não disponível')
+            
+            if not link_medicamento:
+                continue
+                
+            print(colored(f"Processando medicamento {i+1}/{max_medicamentos}: {nome_medicamento}", "cyan"))
+            
+            # Processar o link individual para extrair HTML detalhado e PDF
+            link_info = {
+                'link': link_medicamento,
+                'titulo': nome_medicamento
+            }
+            
+            resultado_completo = self._processar_link_scraping(link_info)
+            
+            if resultado_completo:
+                # Mesclar informações básicas com informações detalhadas
+                resultado_final = {
+                    **resultado_basico,  # Informações da página de resultados
+                    **resultado_completo  # HTML detalhado e PDF
+                }
+                resultados_completos.append(resultado_final)
+                
+                # Verificar se encontrou PDF
+                if resultado_completo.get('conteudo_pdf'):
+                    print(colored(f"✓ PDF extraído para {nome_medicamento}", "green"))
+                else:
+                    print(colored(f"⚠ Nenhum PDF encontrado para {nome_medicamento}", "yellow"))
+            else:
+                # Se não conseguiu processar o link, pelo menos manter as informações básicas
+                resultados_completos.append(resultado_basico)
+                print(colored(f"⚠ Erro ao processar {nome_medicamento}, mantendo informações básicas", "yellow"))
+            
+            # Pequena pausa entre requisições
+            time.sleep(1)
         
         # Remover duplicatas baseadas no nome do medicamento
         resultados_unicos = []
         nomes_vistos = set()
-        for resultado in resultados:
+        for resultado in resultados_completos:
             nome = resultado.get('nome', '').strip()
             if nome and nome not in nomes_vistos:
                 nomes_vistos.add(nome)
                 resultados_unicos.append(resultado)
         
-        print(colored(f"Total de resultados únicos encontrados: {len(resultados_unicos)}", "green"))
+        print(colored(f"Total de resultados únicos com processamento completo: {len(resultados_unicos)}", "green"))
+        
+        # Mostrar estatísticas dos PDFs
+        com_pdf = sum(1 for r in resultados_unicos if r.get('conteudo_pdf'))
+        print(colored(f"Medicamentos com PDF extraído: {com_pdf}/{len(resultados_unicos)}", "blue"))
+        
         return resultados_unicos
 
     def _detectar_consulta_dupla(self, classificacao):
@@ -1037,97 +1092,92 @@ class SistemaConsultaVet:
         return resposta
 
     def _detectar_pergunta_followup(self, pergunta_atual):
-        """Detecta se a pergunta atual é um follow-up da anterior"""
+        """Detecta se a pergunta atual é um follow-up da anterior, com critérios mais rigorosos."""
         # Se não temos contexto anterior, não é follow-up
         if not self.contexto_conversacao["ultima_pergunta"]:
             return False, None
-            
-        # Verificar se é uma pergunta muito curta (típico de follow-up)
-        pergunta_curta = len(pergunta_atual.split()) <= 5
-        
-        # Indicadores de follow-up sobre espécies
-        indicadores_especie = [
-            "e em", "e para",
-            "em gatos", "em cães", "em suínos", "em bovinos", "em equinos",
-            "para gatos", "para cães", "para suínos", "para bovinos", "para equinos", "para aves", "para galinhas", "para caprinos", "para coelhos", "para ovinos", "para roedores",
-            "gatos?", "cães?", "suínos?", "bovinos?", "equinos?", "aves?", "galinhas?", "caprinos?", "coelhos?", "ovinos?", "roedores?"
+
+        # 1. Critério de brevidade: A pergunta deve ser curta (ex: 1 a 5 palavras).
+        palavras_pergunta_atual = pergunta_atual.lower().split()
+        if not (1 <= len(palavras_pergunta_atual) <= 5):
+            return False, None
+
+        # 2. Critério de especificidade: A pergunta deve conter um indicador claro de follow-up.
+        indicadores_especie_ou_aspecto = [
+            "e em", "e para", "em gatos", "em cães", "em suínos", "em bovinos", "em equinos",
+            "para gatos", "para cães", "para suínos", "para bovinos", "para equinos", "para aves",
+            "para galinhas", "para caprinos", "para coelhos", "para ovinos", "para roedores",
+            "gatos?", "cães?", "suínos?", "bovinos?", "equinos?", "aves?", "galinhas?", "caprinos?",
+            "coelhos?", "ovinos?", "roedores?",
+            "dose?", "dosagem?", "armazenamento?", "composição?", "indicação?", "reações?", "fabricante?",
+            "validade?", "receita?", "alternativa?", "mesmo princípio?", "mesma substância?"
         ]
-        
-        # Verificar se tem algum indicador de follow-up
-        tem_indicador_especie = any(indicador.lower() in pergunta_atual.lower() for indicador in indicadores_especie)
-        
-        # Usar Ollama para verificar se é uma pergunta de follow-up
-        if pergunta_curta or tem_indicador_especie:
-            try:
-                prompt = f"""
-                Determine se a pergunta atual é um acompanhamento (follow-up) da pergunta anterior sobre o mesmo medicamento.
+
+        tem_indicador = any(indicador in pergunta_atual.lower() for indicador in indicadores_especie_ou_aspecto)
+        if not tem_indicador:
+            return False, None
+
+        # 3. Confirmação com Ollama: Usar Ollama para uma verificação final da intenção.
+        try:
+            prompt = f"""
+            Determine se a "Pergunta atual" é um acompanhamento (follow-up) da "Pergunta anterior".
+
+            Pergunta anterior: "{self.contexto_conversacao["ultima_pergunta"]}"
+            Pergunta atual: "{pergunta_atual}"
+
+            Responda "SIM" apenas se a "Pergunta atual" for uma continuação direta, curta e específica da "Pergunta anterior".
+            Caso contrário, responda "NAO".
+
+            Exemplos de "SIM":
+            - Anterior: "Qual a dose do Medicamento X para cães?" / Atual: "e para gatos?"
+            - Anterior: "Como devo armazenar o Produto Y?" / Atual: "e a dosagem?"
+
+            Exemplos de "NAO":
+            - Anterior: "Qual a dose do Medicamento X para cães?" / Atual: "Que outros medicamentos existem para cães com a mesma substância?"
+            - Anterior: "Qual a validade da receita?" / Atual: "E para gatos, qual a dose do medicamento X?"
+            """
+            
+            response = ollama.chat(
+                model=self.modelo_ollama,
+                messages=[{
+                    'role': 'system',
+                    'content': 'Você é um analisador de relação entre perguntas. Responda apenas SIM ou NAO.'
+                }, {
+                    'role': 'user',
+                    'content': prompt,
+                }],
+                options={'temperature': 0.0}
+            )
+            resposta = response['message']['content'].strip().upper()
+
+            if resposta == "SIM":
+                print(colored("Detectada pergunta de follow-up!", "cyan"))
                 
-                Pergunta anterior: "{self.contexto_conversacao["ultima_pergunta"]}"
-                Pergunta atual: "{pergunta_atual}"
-                
-                Considere que são relacionadas se:
-                1. A pergunta atual menciona apenas uma espécie animal ou um aspecto específico (dose, armazenamento, etc.)
-                2. A pergunta atual parece pressupor informações da pergunta anterior
-                3. A pergunta atual usa expressões como "e para X?", "e em Y?", "e quanto a Z?"
-                
-                Exemplos de perguntas relacionadas:
-                - Pergunta anterior: "Qual a dose do medicamento Belaflor em suínos?"
-                - Pergunta atual: "E em bovinos?"
-                
-                - Pergunta anterior: "Qual a forma de administração do medicamento Vetmedin em cães?"
-                - Pergunta atual: "E qual a dosagem?"
-                
-                Se são perguntas relacionadas, responda apenas: SIM
-                Se não são relacionadas, responda apenas: NAO
+                # Extrair a entidade alvo (ex: espécie) usando Ollama
+                entidade_prompt = f"""
+                Da pergunta de follow-up: "{pergunta_atual}"
+                Extraia APENAS a entidade principal (ex: a espécie animal, o aspecto como "dose", "armazenamento", etc.).
+                Responda apenas com a entidade, sem pontuação ou explicações.
+                Exemplos:
+                - "E em bovinos?" -> bovinos
+                - "E para gatos?" -> gatos
+                - "E quanto à dose?" -> dose
                 """
                 
-                response = ollama.chat(
+                entity_response = ollama.chat(
                     model=self.modelo_ollama,
-                    messages=[
-                        {
-                            'role': 'system',
-                            'content': 'Você é um analisador de relação entre perguntas. Responda apenas SIM ou NAO.'
-                        },
-                        {
-                            'role': 'user',
-                            'content': prompt,
-                        }
-                    ],
+                    messages=[{
+                        'role': 'user',
+                        'content': entidade_prompt,
+                    }],
                     options={'temperature': 0.0}
                 )
-                resposta = response['message']['content'].strip().upper()
                 
-                if resposta == "SIM":
-                    print(colored("Detectada pergunta de follow-up!", "cyan"))
-                    
-                    # Extrair a entidade alvo (ex: espécie) usando Ollama
-                    entidade_prompt = f"""
-                    Da pergunta de follow-up: "{pergunta_atual}"
-                    
-                    Extraia APENAS a entidade principal (espécie animal, forma farmacêutica, etc.) 
-                    que difere da pergunta original: "{self.contexto_conversacao["ultima_pergunta"]}"
-                    
-                    Responda apenas com a entidade, sem pontuação ou explicações adicionais.
-                    Exemplos:
-                    - "E em bovinos?" -> bovinos
-                    - "E para gatos?" -> gatos
-                    - "E quanto à dose?" -> dose
-                    """
-                    
-                    entity_response = ollama.chat(
-                        model=self.modelo_ollama,
-                        messages=[{
-                            'role': 'user',
-                            'content': entidade_prompt,
-                        }],
-                        options={'temperature': 0.0}
-                    )
-                    
-                    entidade_extraida = entity_response['message']['content'].strip()
-                    
-                    return True, entidade_extraida
-            except Exception as e:
-                print(colored(f"Erro ao verificar follow-up: {e}", "red"))
+                entidade_extraida = entity_response['message']['content'].strip()
+                
+                return True, entidade_extraida
+        except Exception as e:
+            print(colored(f"Erro ao verificar follow-up com Ollama: {e}", "red"))
         
         return False, None
 

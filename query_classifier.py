@@ -49,7 +49,7 @@ class QueryClassifier:
         Pergunta: "Para que espécies está indicado o medicamento Animedazon?"
         {{"categoria": "medicamento", "entidades": {{"termo_busca": "Animedazon", "pergunta_ollama": "Para que espécies está indicado o medicamento Animedazon?"}}}}
 
-        Pergunta: "Que medicamento contendo o princípio ativo amoxicilina pode ser administrado a suínos?"
+        Pergunta: "Que medicamento contendo o princípio ativo amoxicilina pode ser administrado a suínos?*****"
         {{"categoria": "medicamento", "entidades": {{"termo_busca": "amoxicilina suínos", "pergunta_ollama": "Que medicamento contendo o princípio ativo amoxicilina pode ser administrado a suínos?"}}}}
 
         Pergunta: "Qual a dose indicada do medicamento Belaflor em suínos?"
