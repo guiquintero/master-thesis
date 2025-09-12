@@ -55,6 +55,16 @@ class SistemaConsultaVet:
         self.query_classifier = QueryClassifier(modelo_ollama)
         self.dados_legislacao = self._carregar_dados_legislacao()
         self.mapeamento_especies = self._criar_mapeamento_especies()
+        
+        # Adicionar contexto de conversação
+        self.contexto_conversacao = {
+            "ultima_pergunta": None,
+            "ultima_categoria": None,
+            "ultima_entidade_medicamento": None,
+            "ultimo_termo_busca": None,
+            "ultima_resposta": None,
+            "dados_ultimo_scraping": None
+        }
 
     def _gerar_hash_consulta(self, texto):
         return hashlib.md5(texto.encode('utf-8')).hexdigest()
@@ -515,7 +525,7 @@ class SistemaConsultaVet:
         conteudo_item["conteudo_html"] = html_str.strip()
         
         pdf_url = self._encontrar_link_pdf(soup, link)
-        if pdf_url:
+        if (pdf_url):
             pdf_text = self._extrair_conteudo_pdf(pdf_url)
             if pdf_text:
                 conteudo_item["conteudo_pdf"] = self._formatar_conteudo_pdf(pdf_text)
@@ -1026,7 +1036,166 @@ class SistemaConsultaVet:
         
         return resposta
 
+    def _detectar_pergunta_followup(self, pergunta_atual):
+        """Detecta se a pergunta atual é um follow-up da anterior"""
+        # Se não temos contexto anterior, não é follow-up
+        if not self.contexto_conversacao["ultima_pergunta"]:
+            return False, None
+            
+        # Verificar se é uma pergunta muito curta (típico de follow-up)
+        pergunta_curta = len(pergunta_atual.split()) <= 5
+        
+        # Indicadores de follow-up sobre espécies
+        indicadores_especie = [
+            "e em", "e para", "e nas", "e nos", "e no caso de", 
+            "e quanto a", "e sobre", "e no", "e na",
+            "em gatos", "em cães", "em suínos", "em bovinos", "em equinos",
+            "para gatos", "para cães", "para suínos", "para bovinos",
+            "gatos?", "cães?", "suínos?", "bovinos?", "equinos?", "aves?", "galinhas?"
+        ]
+        
+        # Indicadores de outras perguntas de follow-up
+        indicadores_gerais = [
+            "e o", "e a", "e os", "e as", "qual é", "quanto tempo",
+            "como é", "qual", "quanto", "como", "quando", 
+            "e qual", "e como", "e quanto", "e quando"
+        ]
+        
+        # Verificar se tem algum indicador de follow-up
+        tem_indicador_especie = any(indicador.lower() in pergunta_atual.lower() for indicador in indicadores_especie)
+        tem_indicador_geral = any(indicador.lower() in pergunta_atual.lower() for indicador in indicadores_gerais)
+        
+        # Usar Ollama para verificar se é uma pergunta de follow-up
+        if pergunta_curta or tem_indicador_especie or tem_indicador_geral:
+            try:
+                prompt = f"""
+                Determine se a pergunta atual é um acompanhamento (follow-up) da pergunta anterior sobre o mesmo medicamento.
+                
+                Pergunta anterior: "{self.contexto_conversacao["ultima_pergunta"]}"
+                Pergunta atual: "{pergunta_atual}"
+                
+                Considere que são relacionadas se:
+                1. A pergunta atual menciona apenas uma espécie animal ou um aspecto específico (dose, armazenamento, etc.)
+                2. A pergunta atual parece pressupor informações da pergunta anterior
+                3. A pergunta atual usa expressões como "e para X?", "e em Y?", "e quanto a Z?"
+                
+                Exemplos de perguntas relacionadas:
+                - Pergunta anterior: "Qual a dose do medicamento Belaflor em suínos?"
+                - Pergunta atual: "E em bovinos?"
+                
+                - Pergunta anterior: "Qual a forma de administração do medicamento Vetmedin em cães?"
+                - Pergunta atual: "E qual a dosagem?"
+                
+                Se são perguntas relacionadas, responda apenas: SIM
+                Se não são relacionadas, responda apenas: NAO
+                """
+                
+                response = ollama.chat(
+                    model=self.modelo_ollama,
+                    messages=[
+                        {
+                            'role': 'system',
+                            'content': 'Você é um analisador de relação entre perguntas. Responda apenas SIM ou NAO.'
+                        },
+                        {
+                            'role': 'user',
+                            'content': prompt,
+                        }
+                    ],
+                    options={'temperature': 0.0}
+                )
+                resposta = response['message']['content'].strip().upper()
+                
+                if resposta == "SIM":
+                    print(colored("Detectada pergunta de follow-up!", "cyan"))
+                    
+                    # Extrair a entidade alvo (ex: espécie) usando Ollama
+                    entidade_prompt = f"""
+                    Da pergunta de follow-up: "{pergunta_atual}"
+                    
+                    Extraia APENAS a entidade principal (espécie animal, forma farmacêutica, etc.) 
+                    que difere da pergunta original: "{self.contexto_conversacao["ultima_pergunta"]}"
+                    
+                    Responda apenas com a entidade, sem pontuação ou explicações adicionais.
+                    Exemplos:
+                    - "E em bovinos?" -> bovinos
+                    - "E para gatos?" -> gatos
+                    - "E quanto à dose?" -> dose
+                    """
+                    
+                    entity_response = ollama.chat(
+                        model=self.modelo_ollama,
+                        messages=[{
+                            'role': 'user',
+                            'content': entidade_prompt,
+                        }],
+                        options={'temperature': 0.0}
+                    )
+                    
+                    entidade_extraida = entity_response['message']['content'].strip()
+                    
+                    return True, entidade_extraida
+            except Exception as e:
+                print(colored(f"Erro ao verificar follow-up: {e}", "red"))
+        
+        return False, None
+
+    def _construir_pergunta_completa(self, pergunta_followup, entidade_extraida):
+        """Constrói uma pergunta completa a partir de um follow-up"""
+        ultima_pergunta = self.contexto_conversacao["ultima_pergunta"]
+        
+        if not ultima_pergunta:
+            return pergunta_followup
+            
+        # Buscar por padrões de espécies animais na pergunta original
+        import re
+        
+        # Padrão para capturar "em X" ou "para X" onde X é uma espécie animal
+        padrao_especie = r"(?:em|para)\s+([a-záàâãéèêíïóôõöúçñ]+)"
+        match_especie = re.search(padrao_especie, ultima_pergunta, re.IGNORECASE)
+        
+        if match_especie:
+            # Substitui a espécie antiga pela nova espécie
+            especie_antiga = match_especie.group(1)
+            preposicao = match_especie.group(0).split()[0]  # "em" ou "para"
+            nova_pergunta = ultima_pergunta.replace(f"{preposicao} {especie_antiga}", f"{preposicao} {entidade_extraida}")
+            print(colored(f"Pergunta reconstruída: {nova_pergunta}", "cyan"))
+            return nova_pergunta
+        else:
+            # Se não conseguir construir com precisão, faz uma construção genérica
+            medicamento = self.contexto_conversacao["ultima_entidade_medicamento"]
+            if medicamento:
+                nova_pergunta = f"Informações sobre {medicamento} para {entidade_extraida}"
+                return nova_pergunta
+            else:
+                return pergunta_followup
+
     def processar_pergunta_unica(self, pergunta_usuario):
+        # Verificar se é uma pergunta de follow-up
+        is_followup, entidade_extraida = self._detectar_pergunta_followup(pergunta_usuario)
+        
+        if is_followup and entidade_extraida:
+            print(colored(f"Entidade extraída do follow-up: '{entidade_extraida}'", "yellow"))
+            pergunta_completa = self._construir_pergunta_completa(pergunta_usuario, entidade_extraida)
+            print(colored(f"Usando contexto anterior. Pergunta processada: '{pergunta_completa}'", "cyan"))
+            
+            # Se temos dados do último scraping, reutilizá-los
+            if self.contexto_conversacao["dados_ultimo_scraping"] and self.contexto_conversacao["ultimo_termo_busca"]:
+                # Preparar a pergunta Ollama usando a entidade extraída
+                if self.contexto_conversacao["ultima_categoria"] == "medicamento":
+                    pergunta_ollama = pergunta_completa
+                    
+                    # Usar os mesmos dados do scraping anterior, mas mudar a pergunta
+                    return self._consultar_ollama_com_contexto(
+                        pergunta_ollama,
+                        self.contexto_conversacao["dados_ultimo_scraping"],
+                        tipo_consulta="medicamento"
+                    )
+            
+            # Se chegou aqui, não foi possível usar o contexto diretamente
+            # Proceder com o processamento normal da pergunta reconstruída
+            pergunta_usuario = pergunta_completa
+        
         # Normalizar espécies animais na pergunta antes de processar
         pergunta_normalizada = self._normalizar_especies_texto(pergunta_usuario)
         
@@ -1046,74 +1215,110 @@ class SistemaConsultaVet:
         print(colored(f"Categoria identificada: {categoria}", "magenta"))
         print(colored(f"Entidades extraídas: {json.dumps(entidades, indent=2, ensure_ascii=False)}", "magenta"))
 
+        # Atualizar contexto de conversação
+        self.contexto_conversacao["ultima_pergunta"] = pergunta_normalizada
+        self.contexto_conversacao["ultima_categoria"] = categoria
+        
         if categoria == "medicamento":
             termo_busca = entidades.get("termo_busca")
             if not termo_busca:
                 return "Não foi possível identificar o termo de busca para o medicamento."
             
+            # Extrair nome do medicamento para o contexto
+            for palavra in termo_busca.split():
+                if palavra[0].isupper():  # Assume que nome de medicamento começa com maiúscula
+                    self.contexto_conversacao["ultima_entidade_medicamento"] = palavra
+                    break
+            
+            self.contexto_conversacao["ultimo_termo_busca"] = termo_busca
+            
             dados_raspados = self.realizar_web_scraping(termo_busca)
             if not dados_raspados:
                 return f"Não foram encontrados resultados no web scraping para '{termo_busca}'."
             
-            return self._consultar_ollama_com_contexto(
+            # Salvar os dados raspados no contexto
+            self.contexto_conversacao["dados_ultimo_scraping"] = dados_raspados
+            
+            resposta = self._consultar_ollama_com_contexto(
                 pergunta_para_ollama, 
                 dados_raspados, 
                 tipo_consulta="medicamento",
                 classificacao=classificacao,
                 pergunta_original=pergunta_normalizada
             )
+            
+            # Salvar a resposta no contexto
+            self.contexto_conversacao["ultima_resposta"] = resposta
+            
+            return resposta
 
         elif categoria == "legislacao":
+            # Limpar contexto de medicamento, pois estamos mudando de tópico
+            self.contexto_conversacao["ultima_entidade_medicamento"] = None
+            self.contexto_conversacao["ultimo_termo_busca"] = None
+            self.contexto_conversacao["dados_ultimo_scraping"] = None
+            
             if not self.dados_legislacao:
                 return f"Os dados de legislação não estão carregados. Verifique o arquivo {ARQUIVO_LEGISLACAO}."
-            return self._consultar_ollama_com_contexto(
+                
+            resposta = self._consultar_ollama_com_contexto(
                 pergunta_para_ollama, 
                 self.dados_legislacao, 
                 tipo_consulta="legislacao",
                 classificacao=classificacao,
                 pergunta_original=pergunta_normalizada
             )
+            
+            self.contexto_conversacao["ultima_resposta"] = resposta
+            return resposta
 
         elif categoria == "comparacao":
             # Verificar se é uma consulta dupla
             if self._detectar_consulta_dupla(classificacao):
                 print(colored("Detectada consulta dupla (medicamento + comparação)", "yellow"))
-                return self._realizar_consulta_dupla(classificacao, pergunta_normalizada)
+                
+                # Limpar contexto de medicamento, pois é uma comparação diferente
+                self.contexto_conversacao["ultima_entidade_medicamento"] = None
+                self.contexto_conversacao["ultimo_termo_busca"] = None
+                self.contexto_conversacao["dados_ultimo_scraping"] = None
+                
+                resposta = self._realizar_consulta_dupla(classificacao, pergunta_normalizada)
+                self.contexto_conversacao["ultima_resposta"] = resposta
+                return resposta
             
-            # Fluxo normal de comparação
+            # TODAS as comparações agora usam web scraping simples (sem IA)
             substancia = entidades.get("substancia_ativa", "")
             especie = entidades.get("especie_alvo", "")
             forma = entidades.get("forma_farmaceutica", "")
             termo_busca_comparacao = f"{substancia} {especie} {forma}".strip()
             
+            # Limpar contexto de medicamento, pois é uma comparação diferente
+            self.contexto_conversacao["ultima_entidade_medicamento"] = None
+            self.contexto_conversacao["ultimo_termo_busca"] = None
+            self.contexto_conversacao["dados_ultimo_scraping"] = None
+            
             if not termo_busca_comparacao:
-                 return "Para comparação, por favor, forneça pelo menos uma substância ativa, espécie alvo ou forma farmacêutica."
+                return "Para comparação, por favor, forneça pelo menos uma substância ativa, espécie alvo ou forma farmacêutica."
 
-            # Verificar se não tem forma farmacêutica especificada
-            if not forma.strip():
-                print(colored("Forma farmacêutica não especificada. Realizando busca simples sem IA.", "blue"))
-                resultados_simples = self._realizar_busca_comparacao_simples(termo_busca_comparacao)
-                if not resultados_simples:
-                    return f"Não foram encontrados resultados na busca para: '{termo_busca_comparacao}'."
-                
-                return self._formatar_resultados_comparacao_simples(resultados_simples, pergunta_normalizada)
-            else:
-                # Realizar busca completa com IA quando há forma farmacêutica especificada
-                print(colored(f"Termo de busca para comparação (web scraping): '{termo_busca_comparacao}'", "blue"))
-                dados_raspados = self.realizar_web_scraping(termo_busca_comparacao)
-                if not dados_raspados:
-                    return f"Não foram encontrados resultados no web scraping para os critérios de comparação: '{termo_busca_comparacao}'."
-                
-                return self._consultar_ollama_com_contexto(
-                    pergunta_para_ollama, 
-                    dados_raspados, 
-                    tipo_consulta="comparacao",
-                    classificacao=classificacao,
-                    pergunta_original=pergunta_normalizada
-                )
+            # Sempre realizar busca simples sem IA para comparações
+            print(colored("Realizando busca de comparação com web scraping simples (sem IA).", "blue"))
+            resultados_simples = self._realizar_busca_comparacao_simples(termo_busca_comparacao)
+            if not resultados_simples:
+                return f"Não foram encontrados resultados na busca para: '{termo_busca_comparacao}'."
+            
+            resposta = self._formatar_resultados_comparacao_simples(resultados_simples, pergunta_normalizada)
+            self.contexto_conversacao["ultima_resposta"] = resposta
+            return resposta
 
         else:
-            return f"Categoria de pergunta '{categoria}' não suportada no momento."
+            # Limpar contexto para categoria desconhecida
+            self.contexto_conversacao["ultima_entidade_medicamento"] = None
+            self.contexto_conversacao["ultimo_termo_busca"] = None
+            self.contexto_conversacao["dados_ultimo_scraping"] = None
+            
+            resposta = f"Categoria de pergunta '{categoria}' não suportada no momento."
+            self.contexto_conversacao["ultima_resposta"] = resposta
+            return resposta
 
 # Função principal para executar o sistema
 def main():

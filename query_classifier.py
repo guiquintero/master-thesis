@@ -1,3 +1,6 @@
+#Que medicamentos existem com o mesmo princípio ativo que o medicamento Mavacoxib 75.0 mg?
+#qual o medicamento alternativo para Trocoxil 75 para cães?
+
 import json
 import re
 import ollama
@@ -49,8 +52,8 @@ class QueryClassifier:
         Pergunta: "Que medicamento contendo o princípio ativo amoxicilina pode ser administrado a suínos?"
         {{"categoria": "medicamento", "entidades": {{"termo_busca": "amoxicilina suínos", "pergunta_ollama": "Que medicamento contendo o princípio ativo amoxicilina pode ser administrado a suínos?"}}}}
 
-        Pergunta: "Qual a dose indicada do medicamento Belaflor em bovinos?"
-        {{"categoria": "medicamento", "entidades": {{"termo_busca": "Belaflor bovinos", "pergunta_ollama": "Qual a dose indicada do medicamento Belaflor em bovinos?"}}}}
+        Pergunta: "Qual a dose indicada do medicamento Belaflor em suínos?"
+        {{"categoria": "medicamento", "entidades": {{"termo_busca": "Belaflor suínos", "pergunta_ollama": "Qual a dose indicada do medicamento Belaflor em suínos?"}}}}
 
         Pergunta: "Qual a forma de administração do medicamento Vetmedin em cães?"
         {{"categoria": "medicamento", "entidades": {{"termo_busca": "Vetmedin cães", "pergunta_ollama": "Qual a forma de administração do medicamento Vetmedin em cães?"}}}}
@@ -61,7 +64,7 @@ class QueryClassifier:
         Pergunta: "Como deve ser armazenado, depois de aberto o medicamento Iberzoon?"
         {{"categoria": "medicamento", "entidades": {{"termo_busca": "Iberzoon", "pergunta_ollama": "Como deve ser armazenado, depois de aberto o medicamento Iberzoon?"}}}}
 
-        Pergunta: "Que medicamentos podem ser usado em ovinos para mastite?"
+        Pergunta: "Que medicamentos podem ser usado em ovinos para mastite?*****"
         {{"categoria": "medicamento", "entidades": {{"termo_busca": "mastite ovinos", "pergunta_ollama": "Que medicamentos podem ser usado em ovinos para mastite?"}}}}
 
         Pergunta: "Quais os intervalos de segurança do medicamento Maxyl?"
