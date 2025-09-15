@@ -38,7 +38,7 @@ MODELO_OLLAMA_PADRAO = "gemma3:latest"
 PDF_CACHE_DIR = "pdf_cache_novo"
 CACHE_DIR_RESPOSTAS = "resposta_cache_novo"
 ARQUIVO_JSON_SCRAPING = "medicamento_buscado_novo.json"
-ARQUIVO_LEGISLACAO = "dados_dgav_final.json"
+
 
 # Criar diretórios de cache se não existirem
 os.makedirs(PDF_CACHE_DIR, exist_ok=True)
@@ -53,7 +53,7 @@ class SistemaConsultaVet:
         self.modelo_ollama = modelo_ollama
         self.temperatura_ollama = temperatura_ollama
         self.query_classifier = QueryClassifier(modelo_ollama)
-        self.dados_legislacao = self._carregar_dados_legislacao()
+
         self.mapeamento_especies = self._criar_mapeamento_especies()
         
         # Adicionar contexto de conversação
@@ -87,11 +87,7 @@ class SistemaConsultaVet:
                 entidades.get("especie_alvo", "").lower().strip(),
                 entidades.get("forma_farmaceutica", "").lower().strip()
             ]
-        elif categoria == "legislacao":
-            # Para legislação, usar palavras-chave da pergunta
-            pergunta = entidades.get("pergunta_ollama", "").lower()
-            palavras_chave = [palavra for palavra in pergunta.split() if len(palavra) > 4][:5]  # Top 5 palavras relevantes
-            key_parts = [categoria] + sorted(palavras_chave)
+
         else:
             key_parts = [categoria, entidades.get("pergunta_ollama", "").lower()]
         
@@ -170,18 +166,7 @@ class SistemaConsultaVet:
                         entidades_atual.get(campo, '').lower().strip()):
                         return None
                         
-            elif categoria == "legislacao":
-                # Para legislação, verificar se as palavras-chave principais coincidem
-                pergunta_cache = entidades_cache.get('pergunta_ollama', '').lower()
-                pergunta_atual_text = entidades_atual.get('pergunta_ollama', '').lower()
-                
-                # Extrair palavras-chave importantes
-                palavras_cache = set([p for p in pergunta_cache.split() if len(p) > 4])
-                palavras_atual = set([p for p in pergunta_atual_text.split() if len(p) > 4])
-                
-                # Verificar se há sobreposição significativa (pelo menos 60%)
-                if len(palavras_cache & palavras_atual) / max(len(palavras_cache), len(palavras_atual), 1) < 0.6:
-                    return None
+
             
             # Se chegou até aqui, as entidades batem. Agora verificar intenção
             pergunta_cache = cache_data.get('pergunta_original', '')
@@ -264,23 +249,23 @@ class SistemaConsultaVet:
 
         if tipo_consulta == "medicamento":
             prompt = f"""
-            Com base APENAS no seguinte contexto sobre medicamentos veterinários (que pode incluir HTML e extratos de PDF):
+            Você é um assistente especializado em informações sobre medicamentos veterinários. Sua tarefa é responder a perguntas com base estrita no contexto fornecido, que pode incluir informações de páginas HTML e PDFs.
+            
+            Contexto:
             ```json
             {contexto_json}
             ```
-            Responda à pergunta: "{pergunta_ollama}"
-            Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
-            Cite as fontes (URLs dos medicamentos) se disponíveis e relevantes para a resposta.
+            
+            Pergunta: "{pergunta_ollama}"
+            
+            Instruções:
+            1. Analise cuidadosamente o contexto para encontrar a resposta mais precisa e relevante.
+            2. Se a informação solicitada não estiver explicitamente presente no contexto, responda 'Não encontrei informações sobre isso no material disponível'.
+            3. Seja conciso e direto ao ponto.
+            4. Se aplicável e a informação estiver no contexto, cite as fontes (URLs dos medicamentos) que foram usadas para a resposta.
+            5. Evite inferências ou informações que não estejam diretamente suportadas pelo contexto.
             """
-        elif tipo_consulta == "legislacao":
-            prompt = f"""
-            Com base APENAS no seguinte contexto sobre legislação veterinária portuguesa:
-            ```json
-            {contexto_json}
-            ```
-            Responda à pergunta: "{pergunta_ollama}"
-            Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
-            """
+
         elif tipo_consulta == "comparacao":
             prompt = f"""
             Com base APENAS no seguinte contexto sobre medicamentos veterinários (que inclui APENAS conteúdo HTML das páginas):
@@ -399,37 +384,24 @@ class SistemaConsultaVet:
         
         return texto_normalizado
 
-    def _carregar_dados_legislacao(self):
-        if os.path.exists(ARQUIVO_LEGISLACAO):
-            try:
-                with open(ARQUIVO_LEGISLACAO, 'r', encoding='utf-8') as f:
-                    return json.load(f)
-            except Exception as e:
-                print(colored(f"Erro ao carregar o arquivo de legislação '{ARQUIVO_LEGISLACAO}': {e}", "red"))
-                return None
-        else:
-            print(colored(f"Arquivo de legislação '{ARQUIVO_LEGISLACAO}' não encontrado.", "yellow"))
-            return None
+
 
     # ========== FUNÇÕES DE WEB SCRAPING  ==========
 
     def _extrair_conteudo_pdf(self, pdf_url):
         cache_filename = os.path.join(PDF_CACHE_DIR, pdf_url.split('/')[-1].replace('?', '_').replace('&', '_'))
 
-        def extrair_conteudo_limite_rotulagem(pdf_file):
+        def extrair_conteudo_completo(pdf_file):
             conteudo = []
             for page in pdf_file:
-                texto = page.get_text()
-                if 'rotulagem' in texto.lower():
-                    # Encontrou a palavra, interrompe a extração aqui
-                    break
-                conteudo.append(texto)
+                conteudo.append(page.get_text())
             return "\n".join(conteudo)
+
 
         if os.path.exists(cache_filename):
             try:
                 with fitz.open(cache_filename) as pdf_file:
-                    return extrair_conteudo_limite_rotulagem(pdf_file)
+                    return extrair_conteudo_completo(pdf_file)
             except Exception:
                 pass  # Tentar baixar novamente se o cache estiver corrompido
 
@@ -439,7 +411,7 @@ class SistemaConsultaVet:
             with open(cache_filename, 'wb') as f:
                 f.write(pdf_response.content)
             with fitz.open(cache_filename) as pdf_file:
-                return extrair_conteudo_limite_rotulagem(pdf_file)
+                return extrair_conteudo_completo(pdf_file)
         except requests.RequestException as e:
             print(colored(f"Erro ao acessar o PDF {pdf_url}: {e}", "red"))
         except Exception as e:
@@ -1293,25 +1265,7 @@ class SistemaConsultaVet:
             
             return resposta
 
-        elif categoria == "legislacao":
-            # Limpar contexto de medicamento, pois estamos mudando de tópico
-            self.contexto_conversacao["ultima_entidade_medicamento"] = None
-            self.contexto_conversacao["ultimo_termo_busca"] = None
-            self.contexto_conversacao["dados_ultimo_scraping"] = None
-            
-            if not self.dados_legislacao:
-                return f"Os dados de legislação não estão carregados. Verifique o arquivo {ARQUIVO_LEGISLACAO}."
-                
-            resposta = self._consultar_ollama_com_contexto(
-                pergunta_para_ollama, 
-                self.dados_legislacao, 
-                tipo_consulta="legislacao",
-                classificacao=classificacao,
-                pergunta_original=pergunta_normalizada
-            )
-            
-            self.contexto_conversacao["ultima_resposta"] = resposta
-            return resposta
+
 
         elif categoria == "comparacao":
             # Verificar se é uma consulta dupla

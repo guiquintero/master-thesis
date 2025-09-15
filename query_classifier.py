@@ -14,7 +14,7 @@ class QueryClassifier:
         prompt = f"""
         Analise a seguinte pergunta do usuário e classifique-a em uma das categorias:
         - 'medicamento': Se a pergunta busca informações sobre um medicamento específico que pode precisar de web scraping.
-        - 'legislacao': Se a pergunta busca informações sobre legislação ou regulamentação.
+
         - 'comparacao': Se a pergunta busca comparar medicamentos ou encontrar alternativas com base em especificações.
         - 'erro': Se a pergunta não se encaixa em nenhuma das categorias acima ou não é possível classificar.
 
@@ -24,8 +24,7 @@ class QueryClassifier:
         - 'termo_busca': O nome do medicamento, substância ativa ou espécie alvo para buscar no site.
         - 'pergunta_ollama': A pergunta específica a ser feita ao Ollama sobre o conteúdo raspado.
 
-        Para 'legislacao':
-        - 'pergunta_ollama': A pergunta específica a ser feita ao Ollama sobre a legislação.
+
 
         Para 'comparacao':
         - 'substancia_ativa': A substância ativa desejada (pode ser vazia).
@@ -106,40 +105,6 @@ class QueryClassifier:
 
         Pergunta: "Que alternativas existem ao medicamento Metacam?"
         {{"categoria": "comparacao", "entidades": {{"substancia_ativa": "Metacam", "especie_alvo": "", "forma_farmaceutica": "", "pergunta_ollama": "Que alternativas existem ao medicamento Metacam?"}}}}
-
-        Exemplos de Legislação:
-        Pergunta: "O que é necessário para licenciar um centro de atendimento médico veterinário?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "O que é necessário para licenciar um centro de atendimento médico veterinário?"}}}}
-
-        Pergunta: "O que é necessário para licenciar um Posto de Venda de Medicamentos Veterinários?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "O que é necessário para licenciar um Posto de Venda de Medicamentos Veterinários?"}}}}
-
-        Pergunta: "O que é necessário para licenciar um Local de Venda de Medicamentos Veterinários Não Sujeitos a Receita Médica?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "O que é necessário para licenciar um Local de Venda de Medicamentos Veterinários Não Sujeitos a Receita Médica?"}}}}
-
-        Pergunta: "Qual o procedimento para pedir um medicamento sujeito a uma Autorização de Utilização Especial?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "Qual o procedimento para pedir um medicamento sujeito a uma Autorização de Utilização Especial?"}}}}
-
-        Pergunta: "Os centros de atendimento médico veterinário podem comercializar medicamentos sujeitos a receita médica veterinária?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "Os centros de atendimento médico veterinário podem comercializar medicamentos sujeitos a receita médica veterinária?"}}}}
-
-        Pergunta: "Os centros de atendimento médico veterinário podem comercializar medicamentos psicotrópicos e estupefacientes?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "Os centros de atendimento médico veterinário podem comercializar medicamentos psicotrópicos e estupefacientes?"}}}}
-
-        Pergunta: "Os postos de venda a retalho de medicamentos veterinários podem comercializar medicamentos psicotrópicos e estupefacientes?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "Os postos de venda a retalho de medicamentos veterinários podem comercializar medicamentos psicotrópicos e estupefacientes?"}}}}
-
-        Pergunta: "Qual a validade de uma receita médico veterinária?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "Qual a validade de uma receita médico veterinária?"}}}}
-
-        Pergunta: "É possível adquirir um medicamento sujeito a receita médica com uma receita fora de validade?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "É possível adquirir um medicamento sujeito a receita médica com uma receita fora de validade?"}}}}
-
-        Pergunta: "Para adquirir um medicamento é obrigatório a apresentação de uma receita médico-veterinária?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "Para adquirir um medicamento é obrigatório a apresentação de uma receita médico-veterinária?"}}}}
-
-        Pergunta: "É possível dispensar/vender um produto equivalente ao que consta na receita médico veterinária?"
-        {{"categoria": "legislacao", "entidades": {{"pergunta_ollama": "É possível dispensar/vender um produto equivalente ao que consta na receita médico veterinária?"}}}}
 
         Pergunta: "{query}"
         """
