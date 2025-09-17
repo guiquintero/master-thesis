@@ -66,8 +66,8 @@ class SistemaConsultaVet:
             "dados_ultimo_scraping": None
         }
 
-    def _gerar_hash_consulta(self, texto):
-        return hashlib.md5(texto.encode('utf-8')).hexdigest()
+    # def _gerar_hash_consulta(self, texto):
+    #     return hashlib.md5(texto.encode('utf-8')).hexdigest()
 
     def _gerar_cache_key_inteligente(self, classificacao):
         """Gera uma chave de cache baseada nas entidades extraídas"""
