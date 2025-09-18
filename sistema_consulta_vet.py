@@ -6,6 +6,7 @@ import time
 import hashlib
 from termcolor import colored
 import ollama
+import asyncio
 
 # Importações do código original (serão adaptadas e integradas)
 from selenium import webdriver
@@ -38,6 +39,11 @@ MODELO_OLLAMA_PADRAO = "gemma3:latest"
 PDF_CACHE_DIR = "pdf_cache_novo"
 CACHE_DIR_RESPOSTAS = "resposta_cache_novo"
 ARQUIVO_JSON_SCRAPING = "medicamento_buscado_novo.json"
+
+MAX_CONCURRENT_REQUESTS = 5
+MAX_PDF_PAGES = 10  # Limitar páginas de PDF processadas
+CACHE_TTL = 86400   # 24 horas
+CONTEXT_SIZE_LIMIT = 30000  # Limite de caracteres para contexto
 
 
 # Criar diretórios de cache se não existirem
@@ -95,48 +101,77 @@ class SistemaConsultaVet:
         key_parts = [part for part in key_parts if part]
         cache_key = "_".join(key_parts)
         return hashlib.md5(cache_key.encode('utf-8')).hexdigest()
-
-    def _verificar_intencao_similar(self, pergunta_atual, pergunta_cache):
-        """Usa IA para verificar se duas perguntas têm intenção similar"""
-        prompt = f"""
-        Analise se as duas perguntas abaixo têm a mesma intenção/objetivo, mesmo que sejam formuladas de forma diferente.
-        
-        Pergunta 1: "{pergunta_atual}"
-        Pergunta 2: "{pergunta_cache}"
-        
-        Responda apenas "SIM" se as perguntas têm a mesma intenção ou "NAO" se têm intenções diferentes.
-        
-        Exemplos de perguntas com mesma intenção:
-        - "Qual a dose do medicamento X?" e "Que dose devo dar do X?"
-        - "Como armazenar Y?" e "Qual a forma de armazenamento do Y?"
-        - "Para que serve Z?" e "Qual a indicação do Z?"
-        
-        Resposta:
+    
+    
+    def _verificar_intencao_rapida(self, pergunta1, pergunta2):
         """
+        Verificação rápida de intenção sem usar Ollama
+        """
+        # Casos óbvios onde as perguntas são muito similares
+        p1 = pergunta1.lower().strip()
+        p2 = pergunta2.lower().strip()
         
-        try:
-            response = ollama.chat(
-                model=self.modelo_ollama,
-                messages=[
-                    {
-                        'role': 'system',
-                        'content': 'Você é um analisador de intenções de perguntas. Responda apenas SIM ou NAO.'
-                    },
-                    {
-                        'role': 'user',
-                        'content': prompt,
-                    }
-                ],
-                options={'temperature': 0.0}  # Determinístico
-            )
-            resposta = response['message']['content'].strip().upper()
-            return resposta == "SIM"
-        except Exception as e:
-            print(colored(f"Erro ao verificar intenção: {e}", "red"))
-            return False
+        # Se forem exatamente iguais
+        if p1 == p2:
+            return True
+        
+        # Se uma é substring da outra
+        if p1 in p2 or p2 in p1:
+            return True
+        
+        # Verificar palavras-chave em comum
+        palavras1 = set(p1.split())
+        palavras2 = set(p2.split())
+        palavras_comuns = palavras1.intersection(palavras2)
+        
+        # Se tiverem pelo menos 60% de palavras em comum
+        if (len(palavras_comuns) / max(len(palavras1), len(palavras2))) > 0.6:
+            return True
+        
+        # Para casos não óbvios, usar verificação com Ollama (mais lenta)
+        return self._verificar_intencao_similar(pergunta1, pergunta2)
+
+    # def _verificar_intencao_similar(self, pergunta_atual, pergunta_cache):
+    #     """Usa IA para verificar se duas perguntas têm intenção similar"""
+    #     prompt = f"""
+    #     Analise se as duas perguntas abaixo têm a mesma intenção/objetivo, mesmo que sejam formuladas de forma diferente.
+        
+    #     Pergunta 1: "{pergunta_atual}"
+    #     Pergunta 2: "{pergunta_cache}"
+        
+    #     Responda apenas "SIM" se as perguntas têm a mesma intenção ou "NAO" se têm intenções diferentes.
+        
+    #     Exemplos de perguntas com mesma intenção:
+    #     - "Qual a dose do medicamento X?" e "Que dose devo dar do X?"
+    #     - "Como armazenar Y?" e "Qual a forma de armazenamento do Y?"
+    #     - "Para que serve Z?" e "Qual a indicação do Z?"
+        
+    #     Resposta:
+    #     """
+        
+    #     try:
+    #         response = ollama.chat(
+    #             model=self.modelo_ollama,
+    #             messages=[
+    #                 {
+    #                     'role': 'system',
+    #                     'content': 'Você é um analisador de intenções de perguntas. Responda apenas SIM ou NAO.'
+    #                 },
+    #                 {
+    #                     'role': 'user',
+    #                     'content': prompt,
+    #                 }
+    #             ],
+    #             options={'temperature': 0.0}  # Determinístico
+    #         )
+    #         resposta = response['message']['content'].strip().upper()
+    #         return resposta == "SIM"
+    #     except Exception as e:
+    #         print(colored(f"Erro ao verificar intenção: {e}", "red"))
+    #         return False
 
     def _carregar_resposta_cache_inteligente(self, classificacao, pergunta_atual):
-        """Carrega resposta do cache inteligente verificando entidades e intenção"""
+        """Versão otimizada do cache inteligente"""
         cache_key = self._gerar_cache_key_inteligente(classificacao)
         arquivo_cache = os.path.join(CACHE_DIR_RESPOSTAS, f"smart_{cache_key}.json")
         
@@ -144,45 +179,33 @@ class SistemaConsultaVet:
             return None
         
         try:
+            # Verificar se o cache é recente (menos de 24 horas)
+            cache_age = time.time() - os.path.getmtime(arquivo_cache)
+            if cache_age > 86400:  # 24 horas
+                return None
+                
             with open(arquivo_cache, 'r', encoding='utf-8') as f:
                 cache_data = json.load(f)
             
-            # Verificar se as entidades batem
+            # Verificação rápida de entidades (sem IA para maior velocidade)
             entidades_cache = cache_data.get('entidades', {})
             entidades_atual = classificacao.get('entidades', {})
             
-            # Comparar entidades principais baseado na categoria
             categoria = classificacao.get('categoria')
-            
             if categoria == "medicamento":
-                if (entidades_cache.get('termo_busca', '').lower().strip() != 
-                    entidades_atual.get('termo_busca', '').lower().strip()):
+                if (entidades_cache.get('termo_busca', '').lower() != 
+                    entidades_atual.get('termo_busca', '').lower()):
                     return None
                     
-            elif categoria == "comparacao":
-                campos_comparacao = ['substancia_ativa', 'especie_alvo', 'forma_farmaceutica']
-                for campo in campos_comparacao:
-                    if (entidades_cache.get(campo, '').lower().strip() != 
-                        entidades_atual.get(campo, '').lower().strip()):
-                        return None
-                        
-
-            
-            # Se chegou até aqui, as entidades batem. Agora verificar intenção
+            # Verificação de intenção simplificada para casos óbvios
             pergunta_cache = cache_data.get('pergunta_original', '')
-            
-            print(colored("Entidades coincidem. Verificando intenção com IA...", "yellow"))
-            
-            if self._verificar_intencao_similar(pergunta_atual, pergunta_cache):
-                print(colored("Intenção similar encontrada! Usando cache inteligente.", "green"))
+            if self._verificar_intencao_rapida(pergunta_atual, pergunta_cache):
                 return cache_data.get('resposta')
-            else:
-                print(colored("Intenção diferente. Cache não será usado.", "yellow"))
-                return None
                 
-        except Exception as e:
-            print(colored(f"Erro ao carregar cache inteligente: {e}", "red"))
+        except Exception:
             return None
+        
+        return None
 
     def _salvar_resposta_cache_inteligente(self, classificacao, pergunta_original, resposta):
         """Salva resposta no cache inteligente com entidades e intenção"""
@@ -221,67 +244,28 @@ class SistemaConsultaVet:
         with open(arquivo_cache, 'w', encoding='utf-8') as f:
             json.dump({'resposta': resposta}, f, ensure_ascii=False, indent=2)
 
-    def _consultar_ollama_com_contexto(self, pergunta_ollama, contexto_dados, tipo_consulta="medicamento", classificacao=None, pergunta_original=None):
-        # Tentar carregar do cache inteligente primeiro
+    def _consultar_ollama_otimizado(self, pergunta_ollama, contexto_dados, tipo_consulta="medicamento", classificacao=None, pergunta_original=None):
+        """
+        Versão otimizada da consulta Ollama com compressão de contexto e cache inteligente
+        """
+        # 1. Verificar cache inteligente primeiro
         if classificacao and pergunta_original:
             resposta_cache = self._carregar_resposta_cache_inteligente(classificacao, pergunta_original)
             if resposta_cache:
+                print(colored("✓ Resposta encontrada no cache inteligente", "green"))
                 return resposta_cache
 
-        # Se não encontrou no cache inteligente, continuar com o processamento normal
-        if tipo_consulta == "comparacao":
-            # Filtrar o contexto para incluir apenas o conteudo_html e excluir o conteudo_pdf
-            contexto_dados_filtrado = []
-            for item in contexto_dados:
-                item_filtrado = item.copy()
-                if "conteudo_pdf" in item_filtrado:
-                    del item_filtrado["conteudo_pdf"]
-                contexto_dados_filtrado.append(item_filtrado)
-            contexto_json = json.dumps(contexto_dados_filtrado, ensure_ascii=False, indent=2)
-        else:
-            contexto_json = json.dumps(contexto_dados, ensure_ascii=False, indent=2)
-
-        # Limitar o tamanho do contexto para evitar erros com Ollama
-        max_len_contexto = 60000 
-        if len(contexto_json) > max_len_contexto:
-            print(colored(f"Contexto muito grande ({len(contexto_json)} chars), truncando para {max_len_contexto} chars.", "yellow"))
-            contexto_json = contexto_json[:max_len_contexto] + "... (contexto truncado)"
-
-        if tipo_consulta == "medicamento":
-            prompt = f"""
-            Você é um assistente especializado em informações sobre medicamentos veterinários. Sua tarefa é responder a perguntas com base estrita no contexto fornecido, que pode incluir informações de páginas HTML e PDFs.
-            
-            Contexto:
-            ```json
-            {contexto_json}
-            ```
-            
-            Pergunta: "{pergunta_ollama}"
-            
-            Instruções:
-            1. Analise cuidadosamente o contexto para encontrar a resposta mais precisa e relevante.
-            2. Se a informação solicitada não estiver explicitamente presente no contexto, responda 'Não encontrei informações sobre isso no material disponível'.
-            3. Seja conciso e direto ao ponto.
-            4. Se aplicável e a informação estiver no contexto, cite as fontes (URLs dos medicamentos) que foram usadas para a resposta.
-            5. Evite inferências ou informações que não estejam diretamente suportadas pelo contexto.
-            """
-
-        elif tipo_consulta == "comparacao":
-            prompt = f"""
-            Com base APENAS no seguinte contexto sobre medicamentos veterinários (que inclui APENAS conteúdo HTML das páginas):
-            ```json
-            {contexto_json}
-            ```
-            Analise os medicamentos no contexto e responda à seguinte solicitação de comparação: "{pergunta_ollama}"
-            Apresente a resposta de forma clara, idealmente listando todos os medicamentos que atendem aos critérios e suas características relevantes (como forma farmacêutica, concentração, espécies alvo).
-            Se a informação não estiver no contexto fornecido, responda 'Não encontrei informações sobre isso no material disponível'.
-            """
-        else:
-            return "Tipo de consulta desconhecido para Ollama."
-
+        # 2. Comprimir contexto se for muito grande
+        contexto_otimizado = self._comprimir_contexto_ollama(contexto_dados, tipo_consulta, pergunta_ollama)
+        
+        # 3. Gerar prompt otimizado
+        prompt = self._gerar_prompt_otimizado(pergunta_ollama, contexto_otimizado, tipo_consulta)
+        
+        # 4. Fazer consulta com timeout
         try:
-            print(colored("Consultando Ollama...", "yellow"))
+            print(colored("Consultando Ollama (versão otimizada)...", "yellow"))
             start_time = time.perf_counter()
+            
             response = ollama.chat(
                 model=self.modelo_ollama,
                 messages=[
@@ -294,19 +278,155 @@ class SistemaConsultaVet:
                         'content': prompt,
                     }
                 ],
-                options={'temperature': self.temperatura_ollama}
+                options={
+                    'temperature': self.temperatura_ollama,
+                    'num_predict': 500,  # Limitar tamanho da resposta
+                    'timeout': 120  # Timeout de 2 minutos
+                }
             )
+            
             resposta_ollama = response['message']['content']
             end_time = time.perf_counter()
+            
             print(colored(f"Consulta Ollama concluída em {(end_time - start_time):.2f}s", "yellow"))
             
-            # Salvar no cache inteligente
+            # 5. Salvar no cache inteligente
             if classificacao and pergunta_original:
                 self._salvar_resposta_cache_inteligente(classificacao, pergunta_original, resposta_ollama)
             
             return resposta_ollama
+            
         except Exception as e:
-            return f"Erro ao consultar Ollama: {e}"
+            error_msg = f"Erro ao consultar Ollama: {e}"
+            print(colored(error_msg, "red"))
+            return error_msg
+
+    def _comprimir_contexto_ollama(self, contexto_dados, tipo_consulta, pergunta_ollama):
+        """
+        Comprime o contexto mantendo apenas informações relevantes para a pergunta
+        """
+        if not contexto_dados:
+            return []
+        
+        # Se o contexto já é pequeno, não comprimir
+        contexto_str = json.dumps(contexto_dados, ensure_ascii=False)
+        if len(contexto_str) <= 20000:
+            return contexto_dados
+        
+        print(colored(f"Comprimindo contexto ({len(contexto_str)} chars -> ~20000 chars)", "yellow"))
+        
+        contexto_comprimido = []
+        
+        if tipo_consulta == "medicamento":
+            # Para consultas de medicamento, priorizar informações do medicamento principal
+            palavras_chave = pergunta_ollama.lower().split()
+            
+            for item in contexto_dados:
+                item_comprimido = {
+                    'nome': item.get('nome'),
+                    'url': item.get('url')
+                }
+                
+                # Manter HTML relevante (limitado)
+                if item.get('conteudo_html'):
+                    html = item['conteudo_html']
+                    # Manter apenas partes que contêm palavras-chave
+                    linhas_relevantes = []
+                    for linha in html.split('\n'):
+                        if any(palavra in linha.lower() for palavra in palavras_chave):
+                            linhas_relevantes.append(linha)
+                    
+                    if linhas_relevantes:
+                        item_comprimido['conteudo_html'] = '\n'.join(linhas_relevantes[:10])  # Limitar a 10 linhas
+                    else:
+                        # Se não encontrar palavras-chave, manter um resumo
+                        item_comprimido['conteudo_html'] = html[:500] + "..." if len(html) > 500 else html
+                
+                # Manter apenas as primeiras 3 seções do PDF
+                if item.get('conteudo_pdf'):
+                    item_comprimido['conteudo_pdf'] = item['conteudo_pdf'][:3]
+                
+                contexto_comprimido.append(item_comprimido)
+        
+        elif tipo_consulta == "comparacao":
+            # Para comparações, manter apenas informações de listagem
+            for item in contexto_dados:
+                item_comprimido = {
+                    'nome': item.get('nome'),
+                    'url': item.get('url'),
+                    'informacoes_visiveis': item.get('informacoes_visiveis', '')[:300] + "..."
+                }
+                contexto_comprimido.append(item_comprimido)
+        
+        else:
+            # Estratégia genérica de compressão
+            for item in contexto_dados[:3]:  # Limitar a 3 itens
+                item_comprimido = {}
+                for key, value in item.items():
+                    if isinstance(value, str) and len(value) > 500:
+                        item_comprimido[key] = value[:500] + "..."
+                    elif isinstance(value, list) and len(value) > 3:
+                        item_comprimido[key] = value[:3]
+                    else:
+                        item_comprimido[key] = value
+                contexto_comprimido.append(item_comprimido)
+        
+        return contexto_comprimido
+    
+    def _gerar_prompt_otimizado(self, pergunta_ollama, contexto_otimizado, tipo_consulta):
+        """
+        Gera prompt otimizado baseado no tipo de consulta
+        """
+        contexto_json = json.dumps(contexto_otimizado, ensure_ascii=False, indent=2)
+        
+        if tipo_consulta == "medicamento":
+            return f"""
+            ANALISE ESTRITA DO CONTEXTO - MEDICAMENTO VETERINÁRIO
+
+            CONTEXTO DISPONÍVEL (extraído de fontes oficiais):
+            ```json
+            {contexto_json}
+            ```
+
+            PERGUNTA ESPECÍFICA: "{pergunta_ollama}"
+
+            INSTRUÇÕES RÍGIDAS:
+            1. Responda APENAS com base nas informações presentes no contexto acima
+            2. Seja extremamente conciso e direto ao ponto
+            3. Se a informação não estiver no contexto, responda: "Não encontrei informações sobre isso no material disponível"
+            4. Cite a URL de origem quando aplicável
+            5. Não faça inferências ou suposições não baseadas no contexto
+
+            RESPOSTA:
+            """
+        
+        elif tipo_consulta == "comparacao":
+            return f"""
+            ANÁLISE COMPARATIVA - MEDICAMENTOS VETERINÁRIOS
+
+            LISTA DE MEDICAMENTOS DISPONÍVEIS:
+            ```json
+            {contexto_json}
+            ```
+
+            SOLICITAÇÃO DE COMPARAÇÃO: "{pergunta_ollama}"
+
+            INSTRUÇÕES:
+            1. Liste apenas os medicamentos presentes no contexto acima
+            2. Compare as características relevantes (espécie, forma farmacêutica, etc.)
+            3. Seja objetivo e organize a resposta em tópicos
+            4. Se não houver medicamentos no contexto, informe: "Nenhum medicamento encontrado para os critérios solicitados"
+
+            RESPOSTA COMPARATIVA:
+            """
+        
+        else:
+            return f"""
+            Com base no seguinte contexto:
+            {contexto_json}
+            
+            Responda à pergunta: "{pergunta_ollama}"
+            """
 
     def _criar_mapeamento_especies(self):
         """Cria um dicionário de mapeamento para normalizar nomes de espécies animais"""
@@ -388,37 +508,39 @@ class SistemaConsultaVet:
 
     # ========== FUNÇÕES DE WEB SCRAPING  ==========
 
-    def _extrair_conteudo_pdf(self, pdf_url):
-        cache_filename = os.path.join(PDF_CACHE_DIR, pdf_url.split('/')[-1].replace('?', '_').replace('&', '_'))
-
-        def extrair_conteudo_completo(pdf_file):
-            conteudo = []
-            for page in pdf_file:
-                conteudo.append(page.get_text())
-            return "\n".join(conteudo)
-
-
-        if os.path.exists(cache_filename):
+    def _extrair_conteudo_pdf_otimizado(self, pdf_url):
+        cache_filename = os.path.join(PDF_CACHE_DIR, hashlib.md5(pdf_url.encode()).hexdigest() + ".pdf")
+        
+        # Verificar se já temos o conteúdo extraído em cache
+        text_cache = cache_filename.replace(".pdf", ".txt")
+        if os.path.exists(text_cache):
             try:
-                with fitz.open(cache_filename) as pdf_file:
-                    return extrair_conteudo_completo(pdf_file)
-            except Exception:
-                pass  # Tentar baixar novamente se o cache estiver corrompido
-
+                with open(text_cache, 'r', encoding='utf-8') as f:
+                    return f.read()
+            except:
+                pass
+        
+        # Se não, processar o PDF
+        if not os.path.exists(cache_filename):
+            try:
+                pdf_response = requests.get(pdf_url, timeout=15, headers=HEADERS, verify=False)
+                pdf_response.raise_for_status()
+                with open(cache_filename, 'wb') as f:
+                    f.write(pdf_response.content)
+            except:
+                return None
+        
         try:
-            pdf_response = requests.get(pdf_url, timeout=20, headers=HEADERS, verify=False)
-            pdf_response.raise_for_status()
-            with open(cache_filename, 'wb') as f:
-                f.write(pdf_response.content)
             with fitz.open(cache_filename) as pdf_file:
-                return extrair_conteudo_completo(pdf_file)
-        except requests.RequestException as e:
-            print(colored(f"Erro ao acessar o PDF {pdf_url}: {e}", "red"))
-        except Exception as e:
-            print(colored(f"Erro ao processar o PDF {pdf_url}: {e}", "red"))
-            if os.path.exists(cache_filename):
-                os.remove(cache_filename)
-        return None
+                texto = "\n".join([page.get_text() for page in pdf_file])
+                
+                # Salvar texto extraído em cache
+                with open(text_cache, 'w', encoding='utf-8') as f:
+                    f.write(texto)
+                
+                return texto
+        except:
+            return None
 
     def _formatar_conteudo_pdf(self, texto):
         if not texto:
@@ -450,66 +572,126 @@ class SistemaConsultaVet:
             return urljoin(url, pdf_tag["href"])
         return None
 
-    def _processar_link_scraping(self, link_info):
-        global resultados_scraping
-        link = link_info['link']
-        titulo_busca = link_info['titulo']
+    async def _processar_links_async(self, links_info):
+        """Processa múltiplos links de forma assíncrona"""
+        connector = TCPConnector(limit=5, ssl=False)  # 5 conexões simultâneas
+        async with ClientSession(connector=connector, headers=HEADERS) as session:
+            tasks = []
+            for link_info in links_info:
+                task = self._processar_link_async(session, link_info)
+                tasks.append(task)
+            
+            # Processar todos os links simultaneamente
+            resultados = await asyncio.gather(*tasks, return_exceptions=True)
+            
+            # Filtrar resultados válidos
+            resultados_validos = []
+            for resultado in resultados:
+                if resultado and not isinstance(resultado, Exception):
+                    resultados_validos.append(resultado)
+            
+            return resultados_validos
 
+    async def _processar_link_async(self, session, link_info):
+        """Processa um link individual de forma assíncrona"""
         try:
-            response = requests.get(link, timeout=20, headers=HEADERS, verify=False)
-            response.raise_for_status()
-            if "text/html" not in response.headers.get("Content-Type", ""):
-                print(colored(f"Ignorando {link}, não é HTML.", "yellow"))
-                return None
-            response.encoding = "utf-8"
-        except requests.RequestException as e:
-            print(colored(f"Erro ao acessar {link}: {e}", "red"))
-            return None
-        
-        soup = BeautifulSoup(response.text, "html.parser")
-        tags_permitidas = {"h1", "h2", "h3", "h4", "h5", "p", "a"}
-        conteudo_item = {"url": link, "titulo": titulo_busca, "conteudo_html": "", "conteudo_pdf": []}
-        
-        encontrou_titulo_no_html = False
-        html_str = ""
-        # Tenta encontrar o título exato da busca para focar a extração
-        # Se não encontrar, extrai o corpo todo (pode ser melhorado)
-        main_content_area = soup.body # Padrão
-        article_tag = soup.find('article')
-        if article_tag:
-            main_content_area = article_tag
-        else:
-            main_tag = soup.find('main')
-            if main_tag:
-                main_content_area = main_tag
+            async with session.get(link_info['link'], timeout=ClientTimeout(total=20)) as response:
+                if response.status != 200:
+                    print(colored(f"Erro HTTP {response.status} em {link_info['link']}", "red"))
+                    return None
+                
+                html = await response.text()
+                soup = BeautifulSoup(html, "html.parser")
+                
+                # Extrair conteúdo HTML (igual ao método original)
+                conteudo_item = {
+                    "url": link_info['link'],
+                    "titulo": link_info['titulo'],
+                    "conteudo_html": "",
+                    "conteudo_pdf": []
+                }
+                
+                tags_permitidas = {"h1", "h2", "h3", "h4", "h5", "p", "a"}
+                encontrou_titulo_no_html = False
+                html_str = ""
+                
+                main_content_area = soup.body
+                article_tag = soup.find('article')
+                if article_tag:
+                    main_content_area = article_tag
+                else:
+                    main_tag = soup.find('main')
+                    if main_tag:
+                        main_content_area = main_tag
 
-        if main_content_area:
-            for element in main_content_area.find_all(tags_permitidas, recursive=True):
-                texto_formatado = self._formatar_texto_html(element)
-                if texto_formatado:
-                    if element.name in {"h1", "h2", "h3", "h4", "h5"}:
-                        html_str += f"\n## {texto_formatado}\n"
-                        if not encontrou_titulo_no_html and titulo_busca.lower() in texto_formatado.lower():
-                            encontrou_titulo_no_html = True
+                if main_content_area:
+                    for element in main_content_area.find_all(tags_permitidas, recursive=True):
+                        texto_formatado = self._formatar_texto_html(element)
+                        if texto_formatado:
+                            if element.name in {"h1", "h2", "h3", "h4", "h5"}:
+                                html_str += f"\n## {texto_formatado}\n"
+                                if not encontrou_titulo_no_html and link_info['titulo'].lower() in texto_formatado.lower():
+                                    encontrou_titulo_no_html = True
+                            else:
+                                html_str += texto_formatado + " "
+                
+                conteudo_item["conteudo_html"] = html_str.strip()
+                
+                # Extrair PDF de forma assíncrona
+                pdf_url = self._encontrar_link_pdf(soup, link_info['link'])
+                if pdf_url:
+                    pdf_text = await self._extrair_conteudo_pdf_async(pdf_url)
+                    if pdf_text:
+                        conteudo_item["conteudo_pdf"] = self._formatar_conteudo_pdf(pdf_text)
+                        print(colored(f"✓ PDF extraído de: {pdf_url}", "green"))
                     else:
-                        html_str += texto_formatado + " "
+                        print(colored(f"⚠ Erro ao extrair PDF de: {pdf_url}", "yellow"))
+                
+                # Mesclar com dados básicos
+                resultado_final = {**link_info['dados_basicos'], **conteudo_item}
+                return resultado_final
+                
+        except Exception as e:
+            print(colored(f"Erro ao processar {link_info['link']}: {e}", "red"))
+            # Retornar pelo menos os dados básicos
+            return link_info['dados_basicos']
+
+    async def _extrair_conteudo_pdf_async(self, pdf_url):
+        """Versão assíncrona da extração de PDF"""
+        cache_filename = os.path.join(PDF_CACHE_DIR, hashlib.md5(pdf_url.encode()).hexdigest() + ".pdf")
+        text_cache = cache_filename.replace(".pdf", ".txt")
         
-        conteudo_item["conteudo_html"] = html_str.strip()
+        # Verificar cache de texto primeiro
+        if os.path.exists(text_cache):
+            try:
+                with open(text_cache, 'r', encoding='utf-8') as f:
+                    return f.read()
+            except:
+                pass
         
-        pdf_url = self._encontrar_link_pdf(soup, link)
-        if (pdf_url):
-            pdf_text = self._extrair_conteudo_pdf(pdf_url)
-            if pdf_text:
-                conteudo_item["conteudo_pdf"] = self._formatar_conteudo_pdf(pdf_text)
-                print(colored(f"PDF extraído de: {pdf_url}", "blue"))
-            else:
-                print(colored(f"Erro ao extrair PDF de: {pdf_url}", "yellow"))
+        # Baixar PDF se necessário
+        if not os.path.exists(cache_filename):
+            try:
+                async with aiohttp.ClientSession(headers=HEADERS) as session:
+                    async with session.get(pdf_url, ssl=False) as response:
+                        if response.status == 200:
+                            pdf_content = await response.read()
+                            with open(cache_filename, 'wb') as f:
+                                f.write(pdf_content)
+            except:
+                return None
         
-        # Consideramos o item válido se tivermos HTML ou PDF
-        if conteudo_item["conteudo_html"] or conteudo_item["conteudo_pdf"]:
-            return conteudo_item
-        else:
-            print(colored(f"Nenhum conteúdo relevante (HTML ou PDF) extraído de {link}", "yellow"))
+        # Processar PDF (esta parte ainda é síncrona, mas rápida)
+        try:
+            with fitz.open(cache_filename) as pdf_file:
+                texto = "\n".join([page.get_text() for page in pdf_file])
+                
+                # Salvar em cache de texto
+                with open(text_cache, 'w', encoding='utf-8') as f:
+                    f.write(texto)
+                
+                return texto
+        except:
             return None
 
     def _extrair_conteudo_pagina_resultados(self, url_busca):
@@ -819,7 +1001,7 @@ class SistemaConsultaVet:
         
         return resposta
 
-    def realizar_web_scraping(self, termo_busca):
+    async def realizar_web_scraping(self, termo_busca):
         """Realiza o web scraping com base no termo de busca fornecido."""
         print(colored(f"Iniciando web scraping para o termo: '{termo_busca}'", "blue"))
         
@@ -872,61 +1054,39 @@ class SistemaConsultaVet:
             print(colored("Nenhum resultado encontrado na página de busca.", "yellow"))
             return None
         
-        # PASSO 2: Para cada resultado, processar o link individual para extrair PDF
+        # PASSO 2: Processar links individualmente de forma ASSÍNCRONA
         print(colored(f"Processando {len(resultados_basicos)} medicamentos para extrair PDFs...", "blue"))
         
-        resultados_completos = []
-        
         # Limitar o número de medicamentos processados para evitar sobrecarga
-        max_medicamentos = min(len(resultados_basicos), 10)  # Processar até 10 medicamentos
+        max_medicamentos = min(len(resultados_basicos), 10)
         
-        for i, resultado_basico in enumerate(resultados_basicos[:max_medicamentos]):
+        # Preparar lista de links para processamento assíncrono
+        links_para_processar = []
+        for resultado_basico in resultados_basicos[:max_medicamentos]:
             link_medicamento = resultado_basico.get('link')
             nome_medicamento = resultado_basico.get('nome', 'Nome não disponível')
             
-            if not link_medicamento:
-                continue
-                
-            print(colored(f"Processando medicamento {i+1}/{max_medicamentos}: {nome_medicamento}", "cyan"))
-            
-            # Processar o link individual para extrair HTML detalhado e PDF
-            link_info = {
-                'link': link_medicamento,
-                'titulo': nome_medicamento
-            }
-            
-            resultado_completo = self._processar_link_scraping(link_info)
-            
-            if resultado_completo:
-                # Mesclar informações básicas com informações detalhadas
-                resultado_final = {
-                    **resultado_basico,  # Informações da página de resultados
-                    **resultado_completo  # HTML detalhado e PDF
-                }
-                resultados_completos.append(resultado_final)
-                
-                # Verificar se encontrou PDF
-                if resultado_completo.get('conteudo_pdf'):
-                    print(colored(f"✓ PDF extraído para {nome_medicamento}", "green"))
-                else:
-                    print(colored(f"⚠ Nenhum PDF encontrado para {nome_medicamento}", "yellow"))
-            else:
-                # Se não conseguiu processar o link, pelo menos manter as informações básicas
-                resultados_completos.append(resultado_basico)
-                print(colored(f"⚠ Erro ao processar {nome_medicamento}, mantendo informações básicas", "yellow"))
-            
-            # Pequena pausa entre requisições
-            time.sleep(1)
+            if link_medicamento:
+                links_para_processar.append({
+                    'link': link_medicamento,
+                    'titulo': nome_medicamento,
+                    'dados_basicos': resultado_basico  # Manter dados básicos para mesclar depois
+                })
+                print(colored(f"Adicionado para processamento assíncrono: {nome_medicamento}", "cyan"))
+
+        # Processar todos os links simultaneamente
+        resultados_completos = await self._processar_links_async(links_para_processar)
         
         # Remover duplicatas baseadas no nome do medicamento
         resultados_unicos = []
         nomes_vistos = set()
+        
         for resultado in resultados_completos:
             nome = resultado.get('nome', '').strip()
             if nome and nome not in nomes_vistos:
                 nomes_vistos.add(nome)
                 resultados_unicos.append(resultado)
-        
+
         print(colored(f"Total de resultados únicos com processamento completo: {len(resultados_unicos)}", "green"))
         
         # Mostrar estatísticas dos PDFs
@@ -1199,7 +1359,7 @@ class SistemaConsultaVet:
                     pergunta_ollama = pergunta_completa
                     
                     # Usar os mesmos dados do scraping anterior, mas mudar a pergunta
-                    return self._consultar_ollama_com_contexto(
+                    return self._consultar_ollama_otimizado(
                         pergunta_ollama,
                         self.contexto_conversacao["dados_ultimo_scraping"],
                         tipo_consulta="medicamento"
@@ -1245,14 +1405,20 @@ class SistemaConsultaVet:
             
             self.contexto_conversacao["ultimo_termo_busca"] = termo_busca
             
-            dados_raspados = self.realizar_web_scraping(termo_busca)
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            try:
+                dados_raspados = loop.run_until_complete(self.realizar_web_scraping(termo_busca))
+            finally:
+                loop.close()
+
             if not dados_raspados:
                 return f"Não foram encontrados resultados no web scraping para '{termo_busca}'."
             
             # Salvar os dados raspados no contexto
             self.contexto_conversacao["dados_ultimo_scraping"] = dados_raspados
             
-            resposta = self._consultar_ollama_com_contexto(
+            resposta = self._consultar_ollama_otimizado(
                 pergunta_para_ollama, 
                 dados_raspados, 
                 tipo_consulta="medicamento",
@@ -1314,6 +1480,19 @@ class SistemaConsultaVet:
             resposta = f"Categoria de pergunta '{categoria}' não suportada no momento."
             self.contexto_conversacao["ultima_resposta"] = resposta
             return resposta
+        
+    def _limpar_contexto_antigo(self):
+        """Limpa dados antigos do contexto para economizar memória"""
+        current_time = time.time()
+        
+        # Manter apenas os últimos 5 contextos
+        if len(self.contexto_conversacao.get('historico', [])) > 5:
+            self.contexto_conversacao['historico'] = self.contexto_conversacao['historico'][-5:]
+        
+        # Limpar dados pesados após 10 minutos
+        if (self.contexto_conversacao.get('dados_ultimo_scraping') and 
+            current_time - self.contexto_conversacao.get('ultimo_scraping_time', 0) > 600):
+            self.contexto_conversacao['dados_ultimo_scraping'] = None
 
 # Função principal para executar o sistema
 def main():

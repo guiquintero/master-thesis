@@ -122,6 +122,8 @@ class QueryClassifier:
                 }
             )
             content = response['message']['content']
+
+            
             # Tentar extrair o JSON do texto da resposta
             json_match = re.search(r'```json\n(.*?)```', content, re.DOTALL)
             if json_match:
@@ -136,22 +138,6 @@ class QueryClassifier:
 
 if __name__ == "__main__":
     classifier = QueryClassifier()
-    
-    # Testes com os novos exemplos
-    # queries = [
-    #     "Para que espécies está indicado o medicamento Animedazon?",
-    #     "Que medicamento contendo o princípio ativo amoxicilina pode ser administrado a suínos?",
-    #     "Qual a dose indicada do medicamento Belaflor em bovinos?",
-    #     "Que medicamentos/marcas existem com o princípio ativo enrofloxacina indicado para bovinos?",
-    #     "O que é necessário para licenciar um centro de atendimento médico veterinário?",
-    #     "Qual a validade de uma receita médico veterinária?",
-    #     "Que medicamentos existem com o mesmo princípio ativo que o medicamento Vetmedin?",
-    #     "Como deve ser armazenado o medicamento Synulox?"
-    # ]
 
-    # for q in queries:
-    #     print(f"\nPergunta: {q}")
-    #     result = classifier.classify_and_extract(q)
-    #     print(f"Resultado: {json.dumps(result, indent=2, ensure_ascii=False)}")
 
 
