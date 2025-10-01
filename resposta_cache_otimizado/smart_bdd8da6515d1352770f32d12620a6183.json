@@ -1,0 +1,14 @@
+{
+  "resposta": "Suíno: Carne e vísceras: 2 dias.",
+  "pergunta_original": "Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos ( ou outra espécie pecuária)?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Dexinjet 2 mg/ml",
+    "pergunta_ollama": "Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos (ou outra espécie pecuária)?",
+    "substancia_ativa": "Dexinjet 2 mg/ml",
+    "especie_alvo": "Suínos",
+    "forma_farmaceutica": "2 mg/ml"
+  },
+  "timestamp": 1758704399.708562,
+  "modelo_usado": "gemma3:latest"
+}

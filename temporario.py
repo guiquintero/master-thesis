@@ -805,22 +805,26 @@ class SistemaConsultaVetOtimizado:
 
     # Métodos de detecção e processamento de perguntas (mantidos)
     def _detectar_consulta_dupla(self, classificacao):
+        """Detecta se a pergunta requer consulta dupla"""
         entidades = classificacao.get("entidades", {})
         substancia_ativa = entidades.get("substancia_ativa", "").strip()
         pergunta_ollama = entidades.get("pergunta_ollama", "").lower()
         
+        # Indicadores mais específicos
         indicadores_dupla = [
             "mesmo princípio ativo", "mesma substância ativa", 
             "princípio ativo do medicamento", "substância ativa do medicamento",
-            "medicamentos com o princípio ativo"
+            "medicamentos com o princípio ativo", "qual o princípio ativo"
         ]
         
-        if (substancia_ativa and 
-            (substancia_ativa[0].isupper() or len(substancia_ativa.split()) == 1) and
-            any(indicador in pergunta_ollama for indicador in indicadores_dupla)):
-            return True
-        
-        return False
+        # Verificar se substancia_ativa parece ser um nome de medicamento
+        is_nome_medicamento = (
+            substancia_ativa and 
+            (substancia_ativa[0].isupper() or any(c.isupper() for c in substancia_ativa)) and
+            any(indicador in pergunta_ollama for indicador in indicadores_dupla)
+        )
+    
+        return is_nome_medicamento
 
     def _detectar_pergunta_followup(self, pergunta_atual):
         if not self.contexto_conversacao["ultima_pergunta"]:
@@ -1105,8 +1109,12 @@ class SistemaConsultaVetOtimizado:
         print(colored(f"\nProcessando: '{pergunta_normalizada}'", "cyan"))
         classificacao = self.query_classifier.classify_and_extract(pergunta_normalizada)
 
+        classificacao = self._corrigir_categoria_se_necesario(classificacao, pergunta_normalizada)
+
         if not classificacao or classificacao.get("categoria") == "erro":
             return "Não foi possível classificar sua pergunta."
+        
+        classificacao = self._corrigir_categoria_se_necesario(classificacao, pergunta_normalizada)
 
         categoria = classificacao.get("categoria")
         entidades = classificacao.get("entidades", {})
@@ -1121,7 +1129,10 @@ class SistemaConsultaVetOtimizado:
         if categoria == "medicamento":
             termo_busca = entidades.get("termo_busca")
             if not termo_busca:
-                return "Não foi possível identificar o termo de busca."
+                termo_busca = entidades.get("termo_busca")
+                if not termo_busca:
+                    termo_busca = entidades.get("substancia_ativa") or self._extrair_medicamento_query(pergunta_normalizada)
+                    print(colored(f"⚠️  Termo de busca não encontrado, usando fallback: '{termo_busca}'", "yellow"))
             
             for palavra in termo_busca.split():
                 if palavra[0].isupper():
@@ -1195,6 +1206,26 @@ class SistemaConsultaVetOtimizado:
     def limpar_contexto_manual(self):
         """Limpa o contexto manualmente"""
         self._reiniciar_contexto()
+    
+    def _corrigir_categoria_se_necesario(self, classificacao, pergunta):
+        """Corrige automaticamente categorias erradas"""
+        if not classificacao or classificacao.get("categoria") == "erro":
+            return classificacao
+            
+        pergunta_lower = pergunta.lower()
+        categoria_atual = classificacao.get("categoria")
+        
+        # REGRA 1: "mesmo princípio ativo" SEMPRE é comparação
+        if "mesmo princípio ativo" in pergunta_lower and categoria_atual != "comparacao":
+            print(colored("⚠️  Corrigindo categoria: 'mesmo princípio ativo' deve ser comparação", "yellow"))
+            classificacao["categoria"] = "comparacao"
+            
+        # REGRA 2: "alternativ" SEMPRE é comparação  
+        if "alternativ" in pergunta_lower and categoria_atual != "comparacao":
+            print(colored("⚠️  Corrigindo categoria: 'alternativa' deve ser comparação", "yellow"))
+            classificacao["categoria"] = "comparacao"
+            
+        return classificacao
 
 # Função principal
 def main():
@@ -1229,6 +1260,7 @@ def main():
             loop.run_until_complete(sistema.session.close())
         finally:
             loop.close()
+    
 
 if __name__ == "__main__":
     main()

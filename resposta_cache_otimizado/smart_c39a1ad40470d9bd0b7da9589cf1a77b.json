@@ -1,0 +1,14 @@
+{
+  "resposta": "Bovinos (vacas reprodutoras).\n",
+  "pergunta_original": "Em que espécies pode ser usado o medicamento Terramicina 500 mg?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Terramicina 500 mg",
+    "pergunta_ollama": "Quais espécies podem utilizar o medicamento Terramicina 500 mg?",
+    "substancia_ativa": "Terramicina",
+    "especie_alvo": "",
+    "forma_farmaceutica": "500 mg"
+  },
+  "timestamp": 1758702556.8956456,
+  "modelo_usado": "gemma3:latest"
+}

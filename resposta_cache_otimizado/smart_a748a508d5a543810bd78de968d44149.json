@@ -1,0 +1,14 @@
+{
+  "resposta": "Não encontrei informações sobre a dose recomendada de Dexinjet 2 mg/ml para suínos no material disponível.",
+  "pergunta_original": "Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Dexinjet 2 mg/ml suínos",
+    "pergunta_ollama": "Dose recomendada de Dexinjet 2 mg/ml para suínos",
+    "substancia_ativa": "Dexinjet",
+    "especie_alvo": "Suínos",
+    "forma_farmaceutica": "2 mg/ml"
+  },
+  "timestamp": 1758222628.1506965,
+  "modelo_usado": "gemma3:latest"
+}

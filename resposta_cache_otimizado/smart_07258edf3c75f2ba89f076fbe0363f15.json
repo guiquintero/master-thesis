@@ -1,0 +1,14 @@
+{
+  "resposta": "Para gatos: Para contenção e sedação. Em associação com cetamina para anestesia geral antes de procedimentos cirúrgicos. Em associação com butorfanol para sedação e analgesia.\n",
+  "pergunta_original": "Qual a dose que deve ser administrada do medicamento Domtor em gatos?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Domtor gatos",
+    "pergunta_ollama": "Dose de Domtor para gatos",
+    "substancia_ativa": "Domtor",
+    "especie_alvo": "Gatos",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1758223277.273174,
+  "modelo_usado": "gemma3:latest"
+}

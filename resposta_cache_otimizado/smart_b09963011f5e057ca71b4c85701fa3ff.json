@@ -1,0 +1,14 @@
+{
+  "resposta": "Bovinos, Equinos, Suínos.\n",
+  "pergunta_original": "Para que espécies está indicado o medicamento Animeloxan?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Animeloxan",
+    "pergunta_ollama": "Quais são as espécies alvo do medicamento Animeloxan?",
+    "substancia_ativa": "Animeloxan",
+    "especie_alvo": "",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1758707780.6968944,
+  "modelo_usado": "gemma3:latest"
+}

@@ -1,0 +1,14 @@
+{
+  "resposta": "Para suínos: A dose diária recomendada é de 100.000 UI de sulfato de colistina por kg de peso corporal.\n",
+  "pergunta_original": "Qual a forma de administração do medicamento Hidrocol em suínos?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Hidrocol suínos",
+    "pergunta_ollama": "Forma de administração do medicamento Hidrocol em suínos",
+    "substancia_ativa": "Hidrocol",
+    "especie_alvo": "Suínos",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1758707329.8009114,
+  "modelo_usado": "gemma3:latest"
+}
