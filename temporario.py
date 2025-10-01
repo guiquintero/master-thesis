@@ -23,6 +23,7 @@ import urllib3
 import fitz  # PyMuPDF
 import re
 from tqdm import tqdm
+import sys
 
 # Importar o classificador de query
 from query_classifier import QueryClassifier
@@ -49,6 +50,15 @@ CONTEXT_SIZE_LIMIT = 30000  # Limite de caracteres para contexto
 # Criar diretórios de cache se não existirem
 os.makedirs(PDF_CACHE_DIR, exist_ok=True)
 os.makedirs(CACHE_DIR_RESPOSTAS, exist_ok=True)
+
+
+
+# CORREÇÃO CRÍTICA: Força flush automático em todos os prints
+_original_print = print
+def print(*args, **kwargs):
+    _original_print(*args, **kwargs)
+    if 'file' not in kwargs or kwargs['file'] == sys.stdout:
+        sys.stdout.flush()
 
 class CacheManager:
     def __init__(self, cache_dir):
@@ -453,11 +463,25 @@ class SistemaConsultaVetOtimizado:
 
     def _reiniciar_contexto(self):
         print(colored("🔄 Reiniciando contexto", "yellow"))
+        
+        historico_recente = self.contexto_conversacao.get('historico_conversacao', [])[-3:]
+        
+        # IMPORTANTE: Inicializar TODAS as chaves
         contexto_limpo = {
-            'historico_conversacao': self.contexto_conversacao.get('historico_conversacao', [])[-3:],
-            'ultima_interacao_time': time.time()
+            'ultima_pergunta': None,
+            'ultima_categoria': None,
+            'ultima_entidade_medicamento': None,
+            'ultimo_termo_busca': None,
+            'ultima_resposta': None,
+            'dados_ultimo_scraping': None,
+            'ultimo_scraping_time': 0,
+            'ultima_interacao_time': time.time(),
+            'historico_conversacao': historico_recente,
+            'metadados_scraping': None
         }
+        
         self.contexto_conversacao = contexto_limpo
+        print(colored("✅ Contexto reiniciado", "green"))
 
     # Métodos de mapeamento de espécies (mantidos do original)
     def _criar_mapeamento_especies(self):
@@ -827,7 +851,7 @@ class SistemaConsultaVetOtimizado:
         return is_nome_medicamento
 
     def _detectar_pergunta_followup(self, pergunta_atual):
-        if not self.contexto_conversacao["ultima_pergunta"]:
+        if not self.contexto_conversacao.get("ultima_pergunta"):
             return False, None
 
         palavras_pergunta_atual = pergunta_atual.lower().split()
@@ -848,7 +872,7 @@ class SistemaConsultaVetOtimizado:
         try:
             prompt = f"""
             Determine se é follow-up da pergunta anterior.
-            Anterior: "{self.contexto_conversacao["ultima_pergunta"]}"
+            Anterior: "{self.contexto_conversacao.get("ultima_pergunta")}"
             Atual: "{pergunta_atual}"
             Responda apenas SIM ou NAO.
             """
@@ -883,7 +907,7 @@ class SistemaConsultaVetOtimizado:
         return False, None
 
     def _construir_pergunta_completa(self, pergunta_followup, entidade_extraida):
-        ultima_pergunta = self.contexto_conversacao["ultima_pergunta"]
+        ultima_pergunta = self.contexto_conversacao.get("ultima_pergunta")
         
         if not ultima_pergunta:
             return pergunta_followup
@@ -898,7 +922,7 @@ class SistemaConsultaVetOtimizado:
             nova_pergunta = ultima_pergunta.replace(f"{preposicao} {especie_antiga}", f"{preposicao} {entidade_extraida}")
             return nova_pergunta
         else:
-            medicamento = self.contexto_conversacao["ultima_entidade_medicamento"]
+            medicamento = self.contexto_conversacao.get("ultima_entidade_medicamento")
             if medicamento:
                 return f"Informações sobre {medicamento} para {entidade_extraida}"
             else:

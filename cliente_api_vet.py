@@ -1,4 +1,4 @@
-# cliente_api_vet.py - Interface Web
+# cliente_api_vet.py - CORRIGIDO
 from flask import Flask, render_template_string, request, jsonify, Response
 from flask_cors import CORS
 import requests
@@ -13,37 +13,44 @@ class ClienteAPIVeterinaria:
         self.base_url = base_url
     
     def consulta_stream_proxy(self, pergunta):
-        """Proxy para o endpoint de streaming da API principal"""
+        """Proxy MELHORADO para o endpoint de streaming da API principal"""
         url = f"{self.base_url}/api/consulta/stream"
         payload = {"pergunta": pergunta}
         
         def generate():
             try:
-                # Configurar timeout maior para a requisição
+                # Configurar timeout maior e stream
                 response = requests.post(
                     url, 
                     json=payload, 
                     stream=True,
-                    timeout=(10, 300)  # 10s para conectar, 300s para dados
+                    timeout=(10, 600),  # 10s para conectar, 600s (10 min) para dados
+                    headers={'Accept': 'text/event-stream'}
                 )
                 
                 if response.status_code == 200:
+                    # Processar linha por linha do stream
                     for line in response.iter_lines(decode_unicode=True):
                         if line:
+                            # SSE envia linhas no formato "data: {json}"
                             if line.startswith('data: '):
-                                yield line + '\n'
-                            # Garantir que logs vazios também sejam enviados
-                            elif line.strip():
-                                yield f"data: {json.dumps({'type': 'debug', 'message': f'Raw: {line}'})}\n\n"
+                                # Remover o prefixo "data: " e enviar
+                                yield line + '\n\n'
+                            else:
+                                # Se não tiver o prefixo, adicionar
+                                yield f"data: {line}\n\n"
                 else:
-                    yield f"data: {json.dumps({'type': 'error', 'message': f'Erro na API: {response.status_code}'})}\n\n"
+                    yield f"data: {json.dumps({'type': 'error', 'message': f'Erro na API: Status {response.status_code}'})}\n\n"
                     yield f"data: {json.dumps({'type': 'end'})}\n\n"
                     
             except requests.exceptions.Timeout:
-                yield f"data: {json.dumps({'type': 'error', 'message': 'Timeout na conexão com API principal'})}\n\n"
+                yield f"data: {json.dumps({'type': 'error', 'message': 'Timeout na conexão com API principal (10 minutos)'})}\n\n"
+                yield f"data: {json.dumps({'type': 'end'})}\n\n"
+            except requests.exceptions.ConnectionError as e:
+                yield f"data: {json.dumps({'type': 'error', 'message': f'Erro de conexão: {str(e)}'})}\n\n"
                 yield f"data: {json.dumps({'type': 'end'})}\n\n"
             except Exception as e:
-                yield f"data: {json.dumps({'type': 'error', 'message': f'Erro de conexão: {str(e)}'})}\n\n"
+                yield f"data: {json.dumps({'type': 'error', 'message': f'Erro inesperado: {str(e)}'})}\n\n"
                 yield f"data: {json.dumps({'type': 'end'})}\n\n"
         
         return Response(
@@ -52,7 +59,8 @@ class ClienteAPIVeterinaria:
             headers={
                 'Cache-Control': 'no-cache',
                 'Connection': 'keep-alive',
-                'X-Accel-Buffering': 'no'
+                'X-Accel-Buffering': 'no',
+                'Content-Type': 'text/event-stream'
             }
         )
     
@@ -60,7 +68,7 @@ class ClienteAPIVeterinaria:
         """Limpa o contexto via API"""
         url = f"{self.base_url}/api/limpar_contexto"
         try:
-            response = requests.post(url)
+            response = requests.post(url, timeout=10)
             return response.json() if response.status_code == 200 else None
         except:
             return None
@@ -69,7 +77,7 @@ class ClienteAPIVeterinaria:
         """Verifica status da API"""
         url = f"{self.base_url}/api/status"
         try:
-            response = requests.get(url)
+            response = requests.get(url, timeout=5)
             return response.json() if response.status_code == 200 else None
         except:
             return None
@@ -158,6 +166,8 @@ HTML_TEMPLATE = """
             font-size: 14px;
             color: #00ff00;
             background: #000;
+            white-space: pre-wrap;
+            word-wrap: break-word;
         }
         
         .message {
@@ -179,6 +189,7 @@ HTML_TEMPLATE = """
             padding: 0.75rem 1rem;
             border-radius: 20px;
             word-wrap: break-word;
+            white-space: pre-wrap;
         }
         
         .message.user .message-bubble {
@@ -304,7 +315,8 @@ HTML_TEMPLATE = """
                 <span>💬 Chat</span>
                 <div>
                     <span id="api-status" class="status offline">🔴 Verificando...</span>
-                    <button class="clear-btn" onclick="limparContexto()">🧹 Limpar</button>
+                    <button class="clear-btn" onclick="limparContexto()" title="Limpar apenas mensagens visíveis">🧹 Limpar Chat</button>
+                    <button class="clear-btn" style="background: #ff6b6b;" onclick="limparContextoCompleto()" title="Limpar contexto completo da API">🗑️ Reset Total</button>
                 </div>
             </div>
             
@@ -413,19 +425,19 @@ HTML_TEMPLATE = """
                 currentEventSource.close();
             }
             
-            // Fazer streaming com configuração melhorada
+            // Fazer streaming com EventSource
             const eventSource = new EventSource('/stream?pergunta=' + encodeURIComponent(pergunta));
             currentEventSource = eventSource;
             let respostaFinal = '';
             let lastActivity = Date.now();
             let logCount = 0;
             
-            // Timeout manual (4 minutos para dar margem)
+            // Timeout manual (10 minutos)
             const timeoutId = setTimeout(() => {
-                adicionarLogTerminal('⏰ Timeout - Processo demorou mais de 4 minutos', '#ffaa00');
+                adicionarLogTerminal('⏰ Timeout - Processo demorou mais de 10 minutos', '#ffaa00');
                 eventSource.close();
-                finalizarProcessamento(loadingMsg, input, '⏰ A consulta demorou mais que o esperado. A API pode estar sobrecarregada.');
-            }, 240000); // 4 minutos
+                finalizarProcessamento(loadingMsg, input, '⏰ A consulta demorou mais que o esperado.');
+            }, 600000); // 10 minutos
             
             eventSource.onopen = function() {
                 adicionarLogTerminal('🔗 Conexão estabelecida com sucesso', '#00ff00');
@@ -442,34 +454,33 @@ HTML_TEMPLATE = """
                     } else if (data.type === 'log') {
                         logCount++;
                         adicionarLogTerminal(`[${logCount}] ${data.message}`, '#00ff00');
+                    } else if (data.type === 'heartbeat') {
+                        adicionarLogTerminal('💓 ' + data.message, '#888888');
                     } else if (data.type === 'response') {
                         respostaFinal = data.message;
                         adicionarLogTerminal('📄 Resposta recebida (' + respostaFinal.length + ' caracteres)', '#00ffff');
-                    } else if (data.type === 'debug') {
-                        adicionarLogTerminal('🐛 ' + data.message, '#888888');
                     } else if (data.type === 'error') {
                         clearTimeout(timeoutId);
                         adicionarLogTerminal('❌ Erro: ' + data.message, '#ff0000');
-                        finalizarProcessamento(loadingMsg, input, '❌ Erro no processamento: ' + data.message);
+                        finalizarProcessamento(loadingMsg, input, '❌ Erro: ' + data.message);
                         eventSource.close();
                     } else if (data.type === 'timeout') {
                         clearTimeout(timeoutId);
                         adicionarLogTerminal('⏰ ' + data.message, '#ffaa00');
-                        finalizarProcessamento(loadingMsg, input, '⏰ Timeout na API principal. Tente novamente.');
+                        finalizarProcessamento(loadingMsg, input, '⏰ Timeout na API principal.');
                         eventSource.close();
                     } else if (data.type === 'end') {
                         clearTimeout(timeoutId);
-                        // Remover loading e adicionar resposta final
                         loadingMsg.remove();
+                        
                         if (respostaFinal) {
                             adicionarMensagem('bot', respostaFinal);
-                            adicionarLogTerminal(`✅ Processamento concluído (${logCount} logs processados)`, '#00ff00');
+                            adicionarLogTerminal(`✅ Processamento concluído (${logCount} logs)`, '#00ff00');
                         } else {
-                            adicionarMensagem('bot', '❌ Não foi possível obter resposta da API');
-                            adicionarLogTerminal('❌ Resposta vazia recebida', '#ff0000');
+                            adicionarMensagem('bot', '❌ Não foi possível obter resposta');
+                            adicionarLogTerminal('❌ Resposta vazia', '#ff0000');
                         }
                         
-                        // Reabilitar input
                         input.disabled = false;
                         document.getElementById('send-button').disabled = false;
                         input.focus();
@@ -488,36 +499,23 @@ HTML_TEMPLATE = """
                 console.error('EventSource error:', error);
                 
                 const timeSinceLastActivity = Date.now() - lastActivity;
-                adicionarLogTerminal(`❌ Erro de conexão (${Math.floor(timeSinceLastActivity/1000)}s desde última atividade)`, '#ff0000');
+                adicionarLogTerminal(`❌ Erro de conexão (${Math.floor(timeSinceLastActivity/1000)}s)`, '#ff0000');
                 
-                if (timeSinceLastActivity > 180000) { // Mais de 3 minutos sem atividade
-                    finalizarProcessamento(loadingMsg, input, '⏰ Conexão perdida - processo muito longo');
-                } else if (logCount === 0) {
-                    finalizarProcessamento(loadingMsg, input, '❌ Erro de conexão inicial. Verifique se a API está funcionando.');
+                if (logCount === 0) {
+                    finalizarProcessamento(loadingMsg, input, '❌ Erro de conexão inicial. Verifique a API.');
                 } else {
-                    finalizarProcessamento(loadingMsg, input, '❌ Conexão perdida durante o processamento.');
+                    finalizarProcessamento(loadingMsg, input, '❌ Conexão perdida durante processamento.');
                 }
                 
                 currentEventSource = null;
                 eventSource.close();
             };
-            
-            // Monitorar atividade da conexão
-            const activityCheck = setInterval(() => {
-                if (!isProcessing) {
-                    clearInterval(activityCheck);
-                    return;
-                }
-                
-                const timeSinceLastActivity = Date.now() - lastActivity;
-                if (timeSinceLastActivity > 45000) { // 45 segundos sem atividade
-                    adicionarLogTerminal(`⏳ Aguardando resposta... (${Math.floor(timeSinceLastActivity/1000)}s, ${logCount} logs recebidos)`, '#ffaa00');
-                }
-            }, 45000);
         }
         
         function finalizarProcessamento(loadingMsg, input, mensagemErro) {
-            loadingMsg.innerHTML = '<div style="color: #dc3545;">' + mensagemErro + '</div>';
+            if (loadingMsg && loadingMsg.parentNode) {
+                loadingMsg.innerHTML = '<div style="color: #dc3545;">' + mensagemErro + '</div>';
+            }
             input.disabled = false;
             document.getElementById('send-button').disabled = false;
             input.focus();
@@ -562,14 +560,48 @@ HTML_TEMPLATE = """
                 document.getElementById('send-button').disabled = false;
             }
             
+            // Limpar apenas as mensagens visuais do chat
+            const chatMessages = document.getElementById('chat-messages');
+            chatMessages.innerHTML = `
+                <div class="message bot">
+                    <div class="message-bubble">
+                        Chat limpo. O contexto da conversa foi mantido para continuidade.
+                    </div>
+                    <div class="message-time">${new Date().toLocaleTimeString()}</div>
+                </div>
+            `;
+            
+            adicionarLogTerminal('🧹 Mensagens do chat limpas (contexto mantido)', '#ffff00');
+        }
+        
+        function limparContextoCompleto() {
+            // Esta função limpa o contexto real da API (use com cuidado)
+            if (currentEventSource) {
+                currentEventSource.close();
+                currentEventSource = null;
+                isProcessing = false;
+                document.getElementById('message-input').disabled = false;
+                document.getElementById('send-button').disabled = false;
+            }
+            
             fetch('/api/limpar_contexto', {method: 'POST'})
                 .then(response => response.json())
                 .then(data => {
                     if (data && data.success) {
-                        adicionarLogTerminal('🧹 Contexto limpo com sucesso', '#ffff00');
-                        adicionarMensagem('bot', 'Contexto da conversa foi limpo. Você pode fazer uma nova pergunta.');
+                        adicionarLogTerminal('🗑️ Contexto da API limpo completamente', '#ffaa00');
+                        
+                        // Limpar chat também
+                        const chatMessages = document.getElementById('chat-messages');
+                        chatMessages.innerHTML = `
+                            <div class="message bot">
+                                <div class="message-bubble">
+                                    Contexto da conversa foi totalmente limpo. Nova sessão iniciada.
+                                </div>
+                                <div class="message-time">${new Date().toLocaleTimeString()}</div>
+                            </div>
+                        `;
                     } else {
-                        adicionarLogTerminal('❌ Erro ao limpar contexto', '#ff0000');
+                        adicionarLogTerminal('❌ Erro ao limpar contexto da API', '#ff0000');
                     }
                 })
                 .catch(error => {
@@ -617,4 +649,4 @@ if __name__ == "__main__":
     print("🚀 Iniciando Cliente Web...")
     print("📍 Acesse: http://localhost:3030")
     print("⚠️  Certifique-se que a API principal está rodando em localhost:5000")
-    app.run(debug=True, port=3030, threaded=True)
+    app.run(debug=False, port=3030, threaded=True)  # debug=False para produção
