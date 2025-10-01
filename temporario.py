@@ -104,6 +104,50 @@ class CacheManager:
         }
         self._save_metadata()
 
+def formatar_links_resposta(resposta, dados_scraping):
+    """
+    Substitui URLs longas por referências numeradas elegantes
+    Exemplo: https://medvet.dgav.pt/... → [Fonte 1]
+    """
+    import re
+    
+    if not dados_scraping:
+        return resposta
+    
+    # Criar mapeamento de URLs
+    urls_encontradas = {}
+    contador = 1
+    
+    # Extrair todas as URLs da resposta
+    padrao_url = r'https?://[^\s<>"\'\)]+(?:/[^\s<>"\'\)]*)?'
+    urls_na_resposta = re.findall(padrao_url, resposta)
+    
+    # Mapear cada URL única para um número
+    for url in urls_na_resposta:
+        if url not in urls_encontradas:
+            urls_encontradas[url] = contador
+            contador += 1
+    
+    # Substituir URLs por [Fonte N]
+    resposta_formatada = resposta
+    for url, numero in urls_encontradas.items():
+        resposta_formatada = resposta_formatada.replace(url, f"[Fonte {numero}]")
+    
+    # Adicionar lista de fontes no final
+    if urls_encontradas:
+        resposta_formatada += "\n\n📚 **Fontes:**\n"
+        for url, numero in sorted(urls_encontradas.items(), key=lambda x: x[1]):
+            # Tentar encontrar o nome do medicamento correspondente
+            nome_medicamento = "Informação"
+            for item in dados_scraping:
+                if item.get('url') == url:
+                    nome_medicamento = item.get('nome', 'Informação')
+                    break
+            
+            resposta_formatada += f"{numero}. {nome_medicamento}: {url}\n"
+    
+    return resposta_formatada
+
 class SistemaConsultaVetOtimizado:
     def __init__(self, modelo_ollama=MODELO_OLLAMA_PADRAO, temperatura_ollama=0.2):
         self.modelo_ollama = modelo_ollama
@@ -251,7 +295,7 @@ class SistemaConsultaVetOtimizado:
             resposta_cache = self._carregar_resposta_cache_inteligente(classificacao, pergunta_original)
             if resposta_cache:
                 print(colored("✓ Resposta do cache inteligente", "green"))
-                return resposta_cache
+                return formatar_links_resposta(resposta_cache, contexto_dados)
 
         contexto_otimizado = self._comprimir_contexto_ollama(contexto_dados, tipo_consulta, pergunta_ollama)
         prompt = self._gerar_prompt_otimizado(pergunta_ollama, contexto_otimizado, tipo_consulta)
@@ -286,7 +330,9 @@ class SistemaConsultaVetOtimizado:
             
             if classificacao and pergunta_original:
                 self._salvar_resposta_cache_inteligente(classificacao, pergunta_original, resposta_ollama)
-            
+
+            resposta_ollama = formatar_links_resposta(resposta_ollama, contexto_dados)
+
             return resposta_ollama
             
         except Exception as e:

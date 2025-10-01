@@ -85,7 +85,7 @@ class ClienteAPIVeterinaria:
 # Instância do cliente
 cliente = ClienteAPIVeterinaria()
 
-HTML_TEMPLATE = """
+HTML_TEMPLATE = r"""
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -300,6 +300,55 @@ HTML_TEMPLATE = """
         
         .clear-btn:hover {
             background: #c82333;
+        }
+        
+        /* Estilos para links e fontes */
+        .fonte-badge {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin: 0 2px;
+            cursor: help;
+            transition: all 0.2s;
+        }
+        
+        .fonte-badge:hover {
+            background: #0056b3;
+            transform: scale(1.05);
+        }
+        
+        .link-externo {
+            color: #007bff;
+            text-decoration: none;
+            padding: 2px 6px;
+            border-radius: 4px;
+            background: #e7f3ff;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin: 2px;
+        }
+        
+        .link-externo:hover {
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .message-bubble a {
+            word-break: break-all;
+        }
+        
+        .message-bubble strong {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .message.bot .message-bubble strong {
+            color: #1a1a1a;
         }
     </style>
 </head>
@@ -523,13 +572,52 @@ HTML_TEMPLATE = """
             currentEventSource = null;
         }
         
+        function formatarConteudoComLinks(conteudo) {
+            try {
+                // Converter [Fonte N] em badges clicáveis
+                conteudo = conteudo.replace(/\[Fonte (\d+)\]/g, 
+                    '<span class="fonte-badge" data-fonte="$1">📖 Fonte $1</span>');
+                
+                // Converter URLs em links clicáveis (REGEX SIMPLIFICADA)
+                conteudo = conteudo.replace(/(https?:\/\/[^\s]+)/g, function(url) {
+                    let nomeCurto = url.split('/').pop() || 'Link';
+                    if (nomeCurto.length > 30) {
+                        nomeCurto = nomeCurto.substring(0, 30) + '...';
+                    }
+                    return '<a href="' + url + '" target="_blank" class="link-externo" title="' + url + '">🔗 ' + nomeCurto + '</a>';
+                });
+                
+                // Converter **texto** em negrito
+                conteudo = conteudo.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+                
+                // Converter quebras de linha em <br>
+                conteudo = conteudo.replace(/\n/g, '<br>');
+                
+                return conteudo;
+            } catch (e) {
+                console.error('Erro ao formatar conteúdo:', e);
+                return conteudo;
+            }
+        }
+        
         function adicionarMensagem(tipo, conteudo) {
             const messagesDiv = document.getElementById('chat-messages');
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${tipo}`;
             
+            // Formatar conteúdo com links elegantes apenas para mensagens do bot
+            let conteudoFormatado = conteudo;
+            if (tipo === 'bot') {
+                try {
+                    conteudoFormatado = formatarConteudoComLinks(conteudo);
+                } catch (e) {
+                    console.error('Erro ao formatar links:', e);
+                    conteudoFormatado = conteudo;
+                }
+            }
+            
             messageDiv.innerHTML = `
-                <div class="message-bubble">${conteudo}</div>
+                <div class="message-bubble">${conteudoFormatado}</div>
                 <div class="message-time">${new Date().toLocaleTimeString()}</div>
             `;
             
