@@ -1,0 +1,548 @@
+{
+  "timestamp": "2025-10-22T13:12:38.701198",
+  "tempo_total": 3100.140252351761,
+  "total_testes": 27,
+  "sucessos": 27,
+  "resultados": [
+    {
+      "numero": 1,
+      "pergunta": "Para que espécies está indicado o medicamento Simparica?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Simparica",
+        "pergunta_ollama": "Para que espécies está indicado o medicamento Simparica",
+        "substancia_ativa": "Simparica",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Embora não haja informação específica sobre as espécies para as quais o Simparica está indicado, o documento indica que é utilizado para cães e gatos.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:21:25.298166",
+      "tempo": 42.48365831375122
+    },
+    {
+      "numero": 2,
+      "pergunta": "Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Senvelgo 15 mg/ml gatos",
+        "pergunta_ollama": "Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?",
+        "substancia_ativa": "Senvelgo",
+        "especie_alvo": "Gatos",
+        "forma_farmaceutica": "15 mg/ml"
+      },
+      "resposta": "A dose recomendada do medicamento Senvelgo 15 mg/ml em gatos é de 1 mg/kg de peso corporal administrado uma vez ao dia. Embora não haja informação específica sobre a dose em 5 mg/kg, o documento indica que a dose padrão é de 1 mg/kg.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:22:36.562506",
+      "tempo": 104.7064733505249
+    },
+    {
+      "numero": 3,
+      "pergunta": "Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Pathozone 250 mg bovinos",
+        "pergunta_ollama": "Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?",
+        "substancia_ativa": "Pathozone 250 mg",
+        "especie_alvo": "Bovinos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "O medicamento Pathozone 250 mg em bovinos deve ser administrado via intramamária. O documento especifica que o conteúdo da seringa (10 ml de suspensão) deve ser introduzido diretamente no quarto infetado através do canal do teto, após ordenhar a fundo. É crucial limpar e desinfetar o canal do teto antes da administração e, após a administração, deve-se massagear o úbere para garantir uma melhor distribuição do medicamento.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:24:53.686526",
+      "tempo": 111.58650088310242
+    },
+    {
+      "numero": 4,
+      "pergunta": "Como deve ser armazenado, depois de aberto o medicamento Flevox?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Flevox",
+        "pergunta_ollama": "Como armazenar o medicamento Flevox após aberto?",
+        "substancia_ativa": "Flevox",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Embora não haja informação específica sobre o armazenamento após aberto do medicamento Flevox, o documento indica que o prazo de validade do medicamento veterinário como embalado para venda é de 3 anos e que a validade refere-se ao último dia do mês.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:27:16.344236",
+      "tempo": 106.27595353126526
+    },
+    {
+      "numero": 5,
+      "pergunta": "Quais os intervalos de segurança do medicamento Felpreva?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Felpreva",
+        "pergunta_ollama": "Quais os intervalos de segurança do medicamento Felpreva?",
+        "substancia_ativa": "Felpreva",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Embora não haja informação específica sobre \"intervalos de segurança\" no sentido de tempo entre doses ou após a administração, o documento fornece informações sobre os intervalos de tempo em que o medicamento Felpreva é eficaz contra diferentes parasitas:\n\n*   **Pulgas:** Início da eficácia contra novas infestações ocorre até 8 horas e durante 2 meses após a administração, com efeito imediato (12 horas) contra pulgas que se alimentam do animal.\n*   **Carraças:** A eliminação de carraças Ixodes ricinus ocorre em 24 horas (para a eliminação inicial) e em 48 horas durante as 13 semanas seguintes.\n*   **Carraças:** A eliminação de carraças Ixodes ricinus que causem nova infestação ocorre em 48 horas durante as 13 semanas seguintes.\n*   **Nemátodos:** O emodepside é eficaz contra todos os estádios dos nemátodos, com ação imediata.\n*   **Parasitas intestinais:** O praziquantel é eficaz contra Dipylidium caninum e Taenia taeniaeformis.\n\n**Observação:** O documento enfatiza que a eficácia do medicamento depende da fixação dos parasitas no hospedeiro e da sua exposição ao medicamento. Portanto, a duração da proteção é baseada no tempo que os parasitas permanecem fixados e expostos ao medicamento, e não em intervalos de tempo fixos entre as doses.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:29:33.580849",
+      "tempo": 121.67679262161255
+    },
+    {
+      "numero": 6,
+      "pergunta": "O medicamentos Maxy é usado para que?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Maxy",
+        "pergunta_ollama": "O medicamento Maxy é usado para que?",
+        "substancia_ativa": "Maxy",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "O medicamento Maxy é usado para tratar infeções bacterianas em frangos de carne e patos. Embora não haja informação específica sobre a dosagem, o documento indica que o uso é baseado em testes de sensibilidade e deve ser sempre realizado em conformidade com a avaliação benefício/risco realizada pelo médico veterinário responsável. O documento também indica que o Maxy não é eficaz contra microrganismos produtores de beta-lactamase.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:32:05.891467",
+      "tempo": 108.01125478744507
+    },
+    {
+      "numero": 7,
+      "pergunta": "Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para porcos?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "altrenogest porcos",
+        "pergunta_ollama": "Que medicamentos contendo o princípio ativo altrenogest são utilizados em porcos?",
+        "substancia_ativa": "altrenogest",
+        "especie_alvo": "Porcos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": null,
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:34:25.856896",
+      "tempo": 31.28269624710083
+    },
+    {
+      "numero": 8,
+      "pergunta": "Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Terramicina 55 mg/g?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "Terramicina 55 mg/g",
+        "pergunta_ollama": "Que medicamentos possuem o mesmo princípio ativo que a Terramicina 55 mg/g?",
+        "substancia_ativa": "Terramicina",
+        "especie_alvo": "",
+        "forma_farmaceutica": "55 mg/g"
+      },
+      "resposta": null,
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:35:29.695066",
+      "tempo": 31.823726654052734
+    },
+    {
+      "numero": 9,
+      "pergunta": "Para que espécies está indicado o medicamento Animeloxan?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Animeloxan",
+        "pergunta_ollama": "Para que espécies está indicado o medicamento Animeloxan",
+        "substancia_ativa": "Animeloxan",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "O medicamento Animeloxan está indicado para bovinos, suínos e éguas.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:36:32.634554",
+      "tempo": 104.30167436599731
+    },
+    {
+      "numero": 10,
+      "pergunta": "Que medicamentos contendo o princípio ativo Meloxicam pode ser administrado a suínos?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "Meloxicam suínos",
+        "pergunta_ollama": "Que medicamentos contendo o princípio ativo Meloxicam podem ser administrados a suínos?",
+        "substancia_ativa": "Meloxicam",
+        "especie_alvo": "Suínos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": null,
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:38:48.994757",
+      "tempo": 31.471796989440918
+    },
+    {
+      "numero": 11,
+      "pergunta": "Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Dexinjet 2 mg/ml",
+        "pergunta_ollama": "Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos",
+        "substancia_ativa": "Dexinjet 2 mg/ml",
+        "especie_alvo": "Suínos",
+        "forma_farmaceutica": "2 mg/ml"
+      },
+      "resposta": "Embora não haja informação específica sobre a dose do Dexinjet 2 mg/ml em suínos, o documento indica que para o tratamento da cetose primária em bovinos (acetonemia) recomenda-se administrar doses de 0,02 a 0,04 mg dexametasona / kg de peso corporal correspondentes a 5-10 ml por vaca, administradas por injeção intramuscular, dependendo do tamanho da vaca e da duração dos sinais clínicos.  Não há informação disponível sobre a dose específica para suínos.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:39:53.170163",
+      "tempo": 111.50488424301147
+    },
+    {
+      "numero": 12,
+      "pergunta": "Qual a forma de administração do medicamento Hidrocol em suínos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Hidrocol suínos",
+        "pergunta_ollama": "Qual a forma de administração do medicamento Hidrocol em suínos?",
+        "substancia_ativa": "Hidrocol",
+        "especie_alvo": "Suínos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "De acordo com o documento, a forma de administração do medicamento Hidrocol em suínos é:\n\n*   **Carne e vísceras: 1 dia.**\n*   **Administração com bomba doseadora:** O tratamento é distribuído ao longo de um período de 24 horas, durante 3-5 dias consecutivos. É utilizada uma bomba doseadora para adicionar uma solução de stock numa concentração pré-determinada, à água de bebida.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:42:16.157800",
+      "tempo": 109.25304293632507
+    },
+    {
+      "numero": 13,
+      "pergunta": "E perus?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "medicamento",
+        "pergunta_ollama": "E perus?",
+        "substancia_ativa": "medicamento",
+        "especie_alvo": "Peru",
+        "forma_farmaceutica": ""
+      },
+      "resposta": null,
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:44:34.818029",
+      "tempo": 28.557641744613647
+    },
+    {
+      "numero": 14,
+      "pergunta": "Qual a dose que deve ser administrada do medicamento Domtor em gatos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Domtor gatos",
+        "pergunta_ollama": "Qual a dose do medicamento Domtor para gatos?",
+        "substancia_ativa": "Domtor",
+        "especie_alvo": "Gatos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "⚠️ A dose que deve ser administrada do medicamento Domtor em gatos é:\n\n*   **10-20 µg/kg** para Sedação ligeira\n*   **30-80 µg/kg** para Sedação moderada a profunda e analgesia\n*   **0,1-0,2 ml/10 kg** para Pré-anestesia\n\nEmbora não haja informação específica sobre a via de administração (intramuscular, subcutânea), o documento indica que a dose é calculada em função da espécie e do modo de administração.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:45:34.403943",
+      "tempo": 183.14821028709412
+    },
+    {
+      "numero": 15,
+      "pergunta": "Como deve ser armazenado o medicamento Acuimix?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Acuimix",
+        "pergunta_ollama": "Como armazenar o medicamento Acuimix?",
+        "substancia_ativa": "Acuimix",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Para armazenar o medicamento Acuimix, o documento indica o seguinte:\n\n*   **Conservar a temperaturas abaixo dos 25 º C.**\n*   **Após abertura do acondicionamento primário: 6 meses.**\n*   **Validade do medicamento veterinário tal como embalado para venda: 2 anos.**\n*   **Validade após abertura do acondicionamento primário: 6 meses.**\n*   **Validade quando incorporado no alimento: 6 meses.**\n\nEmbora não haja informação específica sobre a embalagem, o documento indica que a validade do produto é de 2 anos quando embalado e 6 meses após a abertura do acondicionamento primário.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:49:08.016928",
+      "tempo": 111.54601812362671
+    },
+    {
+      "numero": 16,
+      "pergunta": "Como deve ser armazenado, depois de aberto o medicamento Calcibel?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Calcibel",
+        "pergunta_ollama": "Como armazenar o medicamento Calcibel após aberto?",
+        "substancia_ativa": "Calcibel",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Embora não haja informação específica sobre o armazenamento após a abertura do medicamento Calcibel, o documento indica que:\n\n*   O prazo de validade do medicamento tal como embalado para venda é de 3 anos.\n*   Após a primeira abertura do acondicionamento primário, o medicamento deve ser administrado imediatamente.\n*   O prazo de validade indicado no rótulo após “Exp.” corresponde ao último dia do mês indicado.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:51:29.801869",
+      "tempo": 106.87254977226257
+    },
+    {
+      "numero": 17,
+      "pergunta": "Quais os intervalos de segurança do medicamento Maxy?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Maxy",
+        "pergunta_ollama": "Quais os intervalos de segurança do medicamento Maxy?",
+        "substancia_ativa": "Maxy",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Com base no documento fornecido, os intervalos de segurança do medicamento Maxy são os seguintes:\n\n*   **Frangos de carne:** 1 dia\n*   **Patos:** 9 dias\n*   **Perus:** 5 dias\n*   **Aves poedeiras:** Não autorizado para administração em aves poedeiras cujos ovos se destinem ao consumo humano ou 3 semanas antes do início da postura.\n\n**Observação:** Não há informação específica sobre intervalos de segurança para outros produtos de origem animal (leite, ovos, etc.). O documento apenas especifica os intervalos de segurança para frangos, patos e perus.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:53:46.969843",
+      "tempo": 109.50727105140686
+    },
+    {
+      "numero": 18,
+      "pergunta": "Para que é usado o medicamentos Apilife?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Apilife",
+        "pergunta_ollama": "Para que é usado o medicamento Apilife?",
+        "substancia_ativa": "Apilife",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "O medicamento Apilife Var é utilizado para tratar a dermatite de contacto e irritação da pele e dos olhos observada com o timol em abelhas. Ele é aplicado em colmeias para prevenir e tratar problemas de pele.\n\nAs principais informações sobre o uso do Apilife Var, conforme o documento, são:\n\n*   **Posologia:** 1 tira a cada 7 dias para cada colmeia, com um tratamento completo de 4 tiras por colmeia.\n*   **Via de Administração:** Retirar uma tira e posicioná-la num dos quatro cantos sobre o ninho, longe da criação. Também pode ser cortada em 3-4 pedaços e colocada nos cantos da colmeia.\n*   **Precauções:** Evitar o contacto direto com a pele e os olhos. Utilizar equipamento de proteção individual (luvas). Lavar as mãos e o material em contacto com a tira com água e sabão.\n*   **Temperatura Ideal:** A eficácia é melhor entre 20-25°C.\n*   **Monitorização:** A queda do ácaro deve ser monitorizada regularmente, e um tratamento adicional pode ser necessário se a queda média for superior a um ácaro por dia.\n*   **Sobredosagem:** Se a quantidade de tiras for superior à correta, pode-se criar distúrbios nas abelhas. Remover as tiras em excesso se encontrar abelhas e larvas mortas.\n\nEmbora não haja informação específica sobre a duração do tratamento, o documento indica que o tratamento deve ser repetido 4 vezes consecutivas.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:56:06.768800",
+      "tempo": 109.80461525917053
+    },
+    {
+      "numero": 19,
+      "pergunta": "Qual é a composição do medicamento Genestran?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Genestran",
+        "pergunta_ollama": "Qual é a composição do medicamento Genestran?",
+        "substancia_ativa": "Genestran",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Cada ml contém:\n\n*   **Substância ativa:** R(+)-cloprostenol (como R(+)-cloprostenol sódico) – 75 microgramas\n*   **Excipientes:** Clorocresol (como conservante) – 1,0 mg\n\nEmbora não haja informação específica sobre a quantidade de clorocresol, o documento indica que ele é usado como conservante.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T12:58:26.911020",
+      "tempo": 110.9419162273407
+    },
+    {
+      "numero": 20,
+      "pergunta": "Em que espécies pode ser usado o medicamento Terramicina 500 mg?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Terramicina 500 mg",
+        "pergunta_ollama": "Em que espécies pode ser usado o medicamento Terramicina 500 mg?",
+        "substancia_ativa": "Terramicina",
+        "especie_alvo": "",
+        "forma_farmaceutica": "500 mg"
+      },
+      "resposta": "O medicamento Terramicina 500 mg pode ser usado em vacas. Embora não haja informação específica sobre outras espécies, o documento indica que é destinado ao uso em vacas.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T13:00:50.751567",
+      "tempo": 93.62917637825012
+    },
+    {
+      "numero": 21,
+      "pergunta": "Que reações adversas pode apresentar o medicamento Suispirin?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Suispirin",
+        "pergunta_ollama": "Quais as reações adversas do medicamento Suispirin?",
+        "substancia_ativa": "Suispirin",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "As reações adversas que o medicamento Suispirin pode apresentar são:\n\n*   **Irritação gastrointestinal:** Especialmente em animais com doença gastrointestinal pré-existente, podendo manifestar-se como fezes pretas devido à perda de sangue no trato gastrointestinal.\n*   **Inibição da coagulação sanguínea:** Ocorre ocasionalmente e, se presente, é reversível em aproximadamente 7 dias.\n*   **Aumento do potencial nefrotóxico:** Em combinação com antibióticos aminoglicosídeos.\n*   **Aumento da ocorrência intensificada de efeitos colaterais no trato gastrointestinal:** Em combinação com outros AINE (anti-inflamatórios não esteróides) e glucocorticóides.\n*   **Acidificação urinária:** Causada pelo ácido ascórbico, metionina ou cloreto de amónio, levando à diminuição da excreção renal do ácido salicílico e aumento do risco de reações tóxicas.\n\nEmbora não haja informação específica sobre a frequência ou gravidade dessas reações, o documento indica que a irritação gastrointestinal é uma reação comum.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T13:02:56.294976",
+      "tempo": 111.18927335739136
+    },
+    {
+      "numero": 22,
+      "pergunta": "O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Colombovac PMV/POX",
+        "pergunta_ollama": "O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?",
+        "substancia_ativa": "Colombovac PMV/POX",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Sim, o medicamento Colombovac PMV/POX é sujeito a receita médica veterinária. O documento afirma explicitamente: \"Medicamento veterinário sujeito a receita médica veterinária.\"\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T13:05:20.066187",
+      "tempo": 110.66026258468628
+    },
+    {
+      "numero": 23,
+      "pergunta": "Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "Butorfanol gatos",
+        "pergunta_ollama": "Que medicamentos com princípio ativo butorfanol indicado para gatos",
+        "substancia_ativa": "Butorfanol",
+        "especie_alvo": "Gatos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": null,
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T13:07:43.640397",
+      "tempo": 32.06273126602173
+    },
+    {
+      "numero": 24,
+      "pergunta": "Que medicamentos/marcas existem com o princípio ativo doramectina?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "doramectina",
+        "pergunta_ollama": "Que medicamentos contendo o princípio ativo doramectina?",
+        "substancia_ativa": "doramectina",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": null,
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T13:08:48.176635",
+      "tempo": 31.883456707000732
+    },
+    {
+      "numero": 25,
+      "pergunta": "Que medicamentos/marcas existem em comprimidos com o princípio ativo ácido tolfenâmico?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "ácido tolfenâmico comprimidos",
+        "pergunta_ollama": "Que medicamentos contendo o princípio ativo ácido tolfenâmico estão disponíveis em comprimidos?",
+        "substancia_ativa": "ácido tolfenâmico",
+        "especie_alvo": "",
+        "forma_farmaceutica": "comprimidos"
+      },
+      "resposta": null,
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T13:09:53.718907",
+      "tempo": 33.229787826538086
+    },
+    {
+      "numero": 26,
+      "pergunta": "Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Animeloxan?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "Animeloxan",
+        "pergunta_ollama": "Que medicamentos possuem o mesmo princípio ativo que o Animeloxan?",
+        "substancia_ativa": "Animeloxan",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": null,
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T13:10:59.990603",
+      "tempo": 32.071295499801636
+    },
+    {
+      "numero": 27,
+      "pergunta": "Qual o medicamento alternativo para Trocoxil 75 para cães?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Alternativo",
+        "pergunta_ollama": "Qual o medicamento alternativo para Trocoxil 75 para cães?",
+        "substancia_ativa": "Alternativo",
+        "especie_alvo": "Cães",
+        "forma_farmaceutica": ""
+      },
+      "resposta": null,
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-10-22T13:12:05.777506",
+      "tempo": 32.92342472076416
+    }
+  ]
+}

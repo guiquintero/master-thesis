@@ -1,0 +1,329 @@
+================================================================================
+RELATÓRIO DE TESTES - Sistema de Consulta Veterinária
+================================================================================
+
+Data: 2025-10-21 18:22:05
+Total de testes: 27
+Tempo total: 2084.35s
+
+
+================================================================================
+TESTE #1
+================================================================================
+Pergunta: Para que espécies está indicado o medicamento Simparica?
+Status: ✅ SUCESSO
+Tempo: 44.36s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, o medicamento Simparica 120 mg comprimidos mastigáveis para cães está indicado para cães com peso superior a 40-60 kg.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #2
+================================================================================
+Pergunta: Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?
+Status: ✅ SUCESSO
+Tempo: 41.46s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, a dose indicada do medicamento Senvelgo 15 mg/ml em gatos é 15 mg/ml.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #3
+================================================================================
+Pergunta: Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?
+Status: ✅ SUCESSO
+Tempo: 41.49s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, a forma de administração do medicamento Pathozone 250 mg em bovinos é **intramamaria**.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #4
+================================================================================
+Pergunta: Como deve ser armazenado, depois de aberto o medicamento Flevox?
+Status: ✅ SUCESSO
+Tempo: 49.29s
+
+Resposta:
+--------------------------------------------------------------------------------
+Com base no documento fornecido, as informações relevantes sobre o armazenamento do medicamento Flevox 50 mg solução para unção punctiforme para gatos são:
+
+*   **Armazenamento após aberto:** O documento indica que "este medicamento veterinário não necessita de condições especiais de conservação".
+*   **Data de validade:** A data de validade refere-se ao último dia do mês indicado na embalagem externa.
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #5
+================================================================================
+Pergunta: Quais os intervalos de segurança do medicamento Felpreva?
+Status: ✅ SUCESSO
+Tempo: 44.41s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, os intervalos de segurança do medicamento Felpreva são de 1,0 – 2,5 kg.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #6
+================================================================================
+Pergunta: O medicamentos Maxy é usado para que?
+Status: ✅ SUCESSO
+Tempo: 44.77s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, o medicamento Maxyl (500 mg/g pó para administração na água de bebida) é usado para frangos de carne, perus, patos e suínos. Especificamente, o intervalo de segurança para carne é de 1 dia.
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #7
+================================================================================
+Pergunta: Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para porcos?
+Status: ❌ FALHA
+Tempo: 31.65s
+
+Erro: 'SistemaConsultaVetOtimizado' object has no attribute '_detectar_consulta_dupla_melhorada'
+
+================================================================================
+TESTE #8
+================================================================================
+Pergunta: Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Terramicina 55 mg/g?
+Status: ❌ FALHA
+Tempo: 31.96s
+
+Erro: 'SistemaConsultaVetOtimizado' object has no attribute '_detectar_consulta_dupla_melhorada'
+
+================================================================================
+TESTE #9
+================================================================================
+Pergunta: Para que espécies está indicado o medicamento Animeloxan?
+Status: ✅ SUCESSO
+Tempo: 43.45s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, o medicamento Animeloxan 20 mg/ml, solução injetável, está indicado para bovinos, suínos e equinos.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #10
+================================================================================
+Pergunta: Que medicamento contendo o princípio ativo Meloxicam pode ser administrado a suínos?
+Status: ✅ SUCESSO
+Tempo: 58.17s
+
+Resposta:
+--------------------------------------------------------------------------------
+A informação solicitada não está presente no documento fornecido. O documento descreve o medicamento Animeloxan 20 mg/ml, solução injetável, e seus intervalos de segurança para diferentes espécies (bovinos, suínos e equinos), mas não indica se ele contém o princípio ativo Meloxicam ou se é adequado para suínos.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #11
+================================================================================
+Pergunta: Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos?
+Status: ✅ SUCESSO
+Tempo: 46.11s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, a dose indicada do medicamento Dexinjet 2 mg/ml em suínos é 2 mg/ml.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #12
+================================================================================
+Pergunta: Qual a forma de administração do medicamento Hidrocol em suínos?
+Status: ✅ SUCESSO
+Tempo: 43.92s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, a forma de administração do medicamento Hidrocol em suínos é na água de bebida / leite.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #13
+================================================================================
+Pergunta: E perus?
+Status: ✅ SUCESSO
+Tempo: 42.39s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, a forma de administração do medicamento Hidrocol em Perus é na água de bebida / leite.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #14
+================================================================================
+Pergunta: Qual a dose que deve ser administrada do medicamento Domtor em gatos?
+Status: ✅ SUCESSO
+Tempo: 46.89s
+
+Resposta:
+--------------------------------------------------------------------------------
+A informação fornecida não especifica a dose do medicamento Domtor para gatos. O documento apenas indica que o Domtor 1 mg/ml é um medicamento veterinário sujeito a receita médica-veterinária e disponível para consulta na base de dados da União Europeia.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #15
+================================================================================
+Pergunta: Como deve ser armazenado o medicamento Acuimix?
+Status: ✅ SUCESSO
+Tempo: 98.36s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, o medicamento Acuimix deve ser armazenado a temperaturas abaixo dos 25 ºC.
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #16
+================================================================================
+Pergunta: Como deve ser armazenado, depois de aberto o medicamento Calcibel?
+Status: ✅ SUCESSO
+Tempo: 42.81s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, não há informações sobre como armazenar o medicamento Calcibel após aberto.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #17
+================================================================================
+Pergunta: Quais os intervalos de segurança do medicamento Maxy?
+Status: ✅ SUCESSO
+Tempo: 42.49s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo a tabela, o intervalo de segurança do medicamento Maxyl para carne é de 1 dia.
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #18
+================================================================================
+Pergunta: Para que é usado o medicamentos Apilife?
+Status: ✅ SUCESSO
+Tempo: 107.16s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, o Apilife é usado para tratar a varroose (uma doença causada por ácaros) nas abelhas (Apis mellifera). O medicamento é aplicado retirando uma tira e posicionando-a num dos quatro cantos sobre o ninho, longe da criação colocada no centro da colmeia, deixando-a atuar por 7 dias. O tratamento deve ser repetido 4 vezes consecutivas.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #19
+================================================================================
+Pergunta: Qual é a composição do medicamento Genestran?
+Status: ✅ SUCESSO
+Tempo: 47.51s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento, a composição do medicamento Genestran é: 75 microgramas/ml.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #20
+================================================================================
+Pergunta: Em que espécies pode ser usado o medicamento Terramicina 500 mg?
+Status: ✅ SUCESSO
+Tempo: 44.17s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo a tabela "Em que espécies pode ser usado o medicamento Terramicina 500 mg?", o medicamento pode ser usado em aves.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #21
+================================================================================
+Pergunta: Que reações adversas pode apresentar o medicamento Suispirin?
+Status: ✅ SUCESSO
+Tempo: 46.17s
+
+Resposta:
+--------------------------------------------------------------------------------
+O documento fornecido não contém informações sobre as reações adversas do medicamento Suispirin. Ele apenas descreve as precauções de conservação e o acondicionamento do produto.
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #22
+================================================================================
+Pergunta: O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?
+Status: ✅ SUCESSO
+Tempo: 43.59s
+
+Resposta:
+--------------------------------------------------------------------------------
+Segundo o documento fornecido, o medicamento Colombovac PMV/POX é sujeito a receita médica veterinária.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #23
+================================================================================
+Pergunta: Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?
+Status: ❌ FALHA
+Tempo: 30.54s
+
+Erro: 'SistemaConsultaVetOtimizado' object has no attribute '_detectar_consulta_dupla_melhorada'
+
+================================================================================
+TESTE #24
+================================================================================
+Pergunta: Que medicamentos/marcas existem com o princípio ativo doramectina?
+Status: ❌ FALHA
+Tempo: 30.34s
+
+Erro: 'SistemaConsultaVetOtimizado' object has no attribute '_detectar_consulta_dupla_melhorada'
+
+================================================================================
+TESTE #25
+================================================================================
+Pergunta: Que medicamentos/marcas existem em comprimidos com o princípio ativo ácido tolfenâmico?
+Status: ❌ FALHA
+Tempo: 31.47s
+
+Erro: 'SistemaConsultaVetOtimizado' object has no attribute '_detectar_consulta_dupla_melhorada'
+
+================================================================================
+TESTE #26
+================================================================================
+Pergunta: Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Animeloxan?
+Status: ❌ FALHA
+Tempo: 30.64s
+
+Erro: 'SistemaConsultaVetOtimizado' object has no attribute '_detectar_consulta_dupla_melhorada'
+
+================================================================================
+TESTE #27
+================================================================================
+Pergunta: Qual o medicamento alternativo para Trocoxil 75 para cães?
+Status: ❌ FALHA
+Tempo: 31.42s
+
+Erro: 'SistemaConsultaVetOtimizado' object has no attribute '_detectar_consulta_dupla_melhorada'

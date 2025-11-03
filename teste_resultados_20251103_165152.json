@@ -1,0 +1,488 @@
+{
+  "timestamp": "2025-11-03T16:51:52.739121",
+  "tempo_total": 0,
+  "total_testes": 24,
+  "sucessos": 24,
+  "resultados": [
+    {
+      "numero": 1,
+      "pergunta": "Para que espécies está indicado o medicamento Simparica?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Simparica",
+        "pergunta_ollama": "Para que espécies está indicado o medicamento Simparica",
+        "substancia_ativa": "Simparica",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "O medicamento Simparica está indicado para as seguintes espécies:\n\n*   **Cães** (Ctenocephalides felis e Ctenocephalides canis)\n*   **Ácaros** (Demodex canis, Otodectes cynotis e Sarcoptes scabiei)",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:46:14.005583",
+      "tempo": 14.837114334106445
+    },
+    {
+      "numero": 2,
+      "pergunta": "Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Senvelgo 15 mg/ml gatos",
+        "pergunta_ollama": "Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?",
+        "substancia_ativa": "Senvelgo",
+        "especie_alvo": "Gatos",
+        "forma_farmaceutica": "15 mg/ml"
+      },
+      "resposta": " பெற்றது!\n\n\"A dose para gatos é 1 mg/kg.\"",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:46:32.041613",
+      "tempo": 11.089842319488525
+    },
+    {
+      "numero": 3,
+      "pergunta": "Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Pathozone 250 mg bovinos",
+        "pergunta_ollama": "Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?",
+        "substancia_ativa": "Pathozone 250 mg",
+        "especie_alvo": "Bovinos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": " Durchschnittlich 2-3 Minuten.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:46:46.286510",
+      "tempo": 10.761346578598022
+    },
+    {
+      "numero": 4,
+      "pergunta": "Como deve ser armazenado, depois de aberto o medicamento Flevox?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Flevox",
+        "pergunta_ollama": "Como armazenar o medicamento Flevox após aberto?",
+        "substancia_ativa": "Flevox",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "側面描述了如何解读和使用提供的文档，特别是关于药物 Flevox 的信息。以下是根据文档内容总结的关键点：\n\n**1. 结构化信息解读：**\n\n*   **表格的重要性：** 文档中包含多个表格，这些表格是关键信息来源。\n*   **表格结构：** 每一张表格都有明确的标题（列名）和数据行。\n*   **逐行解读：**  必须逐行读取表格，并根据标题将数据与正确的列匹配。\n*   **精确引用：**  在回答问题时，必须精确引用表格中的数据，例如：“Segundo a tabela, o prazo de validade é EXP {month/year}”。\n\n**2. Flevox 药物信息：**\n\n*   **药物名称：** Flevox 50 mg Solução para unção punctiforme para gatos.\n*   **活性成分：** Fipronil (50 mg).\n*   **剂型：** Solução para unção punctiforme (点滴注射溶液).\n*   **目标物种：** 貓 (Gatos).\n*   **储存：**  文档没有明确说明如何储存开封后的药物，需要进一步查找相关信息。\n\n**3. 关键提示：**\n\n*   **不要猜测：**  始终从文档中提取信息，不要进行猜测或假设。\n*   **精确引用：**  在回答问题时，必须精确引用表格中的数据。\n*   **理解结构：**  理解表格的结构，以便正确地提取信息。\n\n**总结：**\n\n这份文档提供了一个关于 Flevox 药物的详细信息，但关于储存方法的信息缺失。通过仔细阅读和理解文档的结构，可以准确地提取所需的信息。\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:46:59.897649",
+      "tempo": 15.934125661849976
+    },
+    {
+      "numero": 5,
+      "pergunta": "Quais os intervalos de segurança do medicamento Felpreva?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Felpreva",
+        "pergunta_ollama": "Quais os intervalos de segurança do medicamento Felpreva?",
+        "substancia_ativa": "Felpreva",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "മിതി\nDe acordo com as informações fornecidas, não há intervalos de segurança especificamente listados para o medicamento Felpreva. O folheto informa que o medicamento é eficaz contra pulgas e carraças por até 2 meses após a administração, e contra nemátodos por um período mais curto. No entanto, não há uma declaração explícita sobre intervalos de segurança após a administração.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:47:18.704882",
+      "tempo": 11.929570198059082
+    },
+    {
+      "numero": 6,
+      "pergunta": "O medicamentos Maxy é usado para que?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Maxy",
+        "pergunta_ollama": "O medicamento Maxy é usado para que?",
+        "substancia_ativa": "Maxy",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": " Cynthis Maxy é usado para tratar bactérias em frangos, patos, perus e suínos.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:47:33.436086",
+      "tempo": 11.122518539428711
+    },
+    {
+      "numero": 7,
+      "pergunta": "Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para porcos?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "Altrenogest porcos",
+        "pergunta_ollama": "Que medicamentos contendo o princípio ativo altrenogest são utilizados em porcos?",
+        "substancia_ativa": "Altrenogest",
+        "especie_alvo": "Porcos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Resultados para: 'Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para suínos?'\n\nTotal: 3\n\n1. **Suifertil 4 mg/ml solução oral para suínos**\n   - Espécies: Suifertil 4 mg/ml solução oral para suínos Substância Ativa: Altrenogest 4.0 mg | Espécie(s): Suínos (porcas adultas nulíparas)\n   - Link: https://medvet.dgav.pt/products/975-01-16rfvpt-suifertil-4-mg-ml-solucao-oral-para-suinos-11409\n\n2. **Virbagest 4 mg/ml solução oral para suínos**\n   - Espécies: Virbagest 4 mg/ml solução oral para suínos Substância Ativa: Altrenogest 4.0 mg | Espécie(s): Porcas nulípara\n   - Link: https://medvet.dgav.pt/products/177-01-09rfvpt-virbagest-4-mg-ml-solucao-oral-para-suinos-8242\n\n3. **Altresyn 4 mg/ml solução oral para suínos**\n   - Espécies: Altresyn 4 mg/ml solução oral para suínos Substância Ativa: Altrenogest 4.0 mg/ml | Espécie(s): Suínos (marrãs sexualmente maduras), Suínos (porcas e primíparas)\n   - Link: https://medvet.dgav.pt/products/117-01-08rfvpt-altresyn-4-mg-ml-solucao-oral-para-suinos-3769\n\n\nNota: Informações extraídas da página de busca.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:47:47.592558",
+      "tempo": 8.276131391525269
+    },
+    {
+      "numero": 8,
+      "pergunta": "Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Terramicina 55 mg/g?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "Terramicina 55 mg/g",
+        "pergunta_ollama": "Que medicamentos possuem o mesmo princípio ativo que Terramicina 55 mg/g?",
+        "substancia_ativa": "Terramicina",
+        "especie_alvo": "",
+        "forma_farmaceutica": "55 mg/g"
+      },
+      "resposta": "❌ Não foram encontrados outros medicamentos com 'උටුලියක් නොමැතිනම්, \"නොමැති බව\" ලෙස පිළිතුරු දෙන්න.\nCloridrato de oxitetraciclina'.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:47:58.993467",
+      "tempo": 13.907750606536865
+    },
+    {
+      "numero": 9,
+      "pergunta": "Para que espécies está indicado o medicamento Animeloxan?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Animeloxan",
+        "pergunta_ollama": "Para que espécies está indicado o medicamento Animeloxan",
+        "substancia_ativa": "Animeloxan",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": " الجدول وفقًا للمعلومات المقدمة، فإن الدواء Animeloxan مخصص للحيوانات التالية:\n\n*   الأبقار\n*   الخنازير\n*   الخيول",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:48:15.799744",
+      "tempo": 11.080751419067383
+    },
+    {
+      "numero": 10,
+      "pergunta": "Que medicamentos contendo o princípio ativo Meloxicam pode ser administrado a suínos?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "Meloxicam suínos",
+        "pergunta_ollama": "Que medicamentos contendo o princípio ativo Meloxicam podem ser administrados a suínos",
+        "substancia_ativa": "Meloxicam",
+        "especie_alvo": "Suínos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Resultados para: 'Que medicamentos contendo o princípio ativo Meloxicam pode ser administrado a suínos?'\n\nTotal: 23\n\n1. **Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos**\n   - Espécies: Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/1300-01-19rfvpt-animeloxan-20-mg-ml-solucao-injetavel-para-bovinos-suinos-e-equinos-3611\n\n2. **Contacera 20 mg/ml solução injetável para bovinos, suínos e equinos**\n   - Espécies: Contacera 20 mg/ml solução injetável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/657-04-13-cfvpt-contacera-20-mg-ml-solucao-injetavel-para-bovinos-suinos-e-equinos-1797\n\n3. **Loxicom 20 mg/ml solução injectável para bovinos, suínos e equinos**\n   - Espécies: Loxicom 20 mg/ml solução injectável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/168-12-12cfvpt-loxicom-20-mg-ml-solucao-injectavel-para-bovinos-suinos-e-equinos-10963\n\n4. **Meloxidolor 5 mg/ml solução injetável para cães, gatos, bovinos e suínos**\n   - Espécies: Meloxidolor 5 mg/ml solução injetável para cães, gatos, bovinos e suínos Substância Ativa: Meloxicam 5.0 mg | Espécie(s): Bovinos, Suínos, Gatos          , Cães\n   - Link: https://medvet.dgav.pt/products/1073-09-17cfvpt-meloxidolor-5-mg-ml-solucao-injetavel-para-caes-gatos-bovinos-e-suinos-11022\n\n5. **Meloxidolor 20 mg/ml solução injetável para bovinos, suínos e equinos - 100ml**\n   - Espécies: Meloxidolor 20 mg/ml solução injetável para bovinos, suínos e equinos - 100ml Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/1073-05-17cfvpt-meloxidolor-20-mg-ml-solucao-injetavel-para-bovinos-suinos-e-equinos-100ml-11019\n\n6. **Pyrocam 15 mg/ml suspensão oral para suínos.**\n   - Espécies: Pyrocam 15 mg/ml suspensão oral para suínos. Substância Ativa: Meloxicam 15.0 mg | Espécie(s): Suínos\n   - Link: https://medvet.dgav.pt/products/1600-01-23dfvpt-pyrocam-15-mg-ml-suspensao-oral-para-suinos-11959\n\n7. **Pyrocam 20 mg/ml solução injetável para bovinos, suínos e cavalos**\n   - Espécies: Pyrocam 20 mg/ml solução injetável para bovinos, suínos e cavalos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Suínos, Equinos\n   - Link: https://medvet.dgav.pt/products/1645-01-24dfvpt-pyrocam-20-mg-ml-solucao-injetavel-para-bovinos-suinos-e-cavalos-12060\n\n8. **Emdocam 20 mg/ml solução injectável para bovinos, suínos e equinos**\n   - Espécies: Emdocam 20 mg/ml solução injectável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/387-01-03-11cfvpt-emdocam-20-mg-ml-solucao-injectavel-para-bovinos-suinos-e-equinos-1845\n\n9. **Melovem 30 mg/ml solução injectável para bovinos e suínos**\n   - Espécies: Melovem 30 mg/ml solução injectável para bovinos e suínos Substância Ativa: Meloxicam 30.0 mg | Espécie(s): Bovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/212-07-15cfvpt-melovem-30-mg-ml-solucao-injectavel-para-bovinos-e-suinos-11015\n\n10. **Melovem 30 mg/ml solução injectável para bovinos e suínos (1 frasco 100ml)**\n   - Espécies: Melovem 30 mg/ml solução injectável para bovinos e suínos (1 frasco 100ml) Substância Ativa: Meloxicam 30.0 mg | Espécie(s): Bovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/212-06-15cfvpt-melovem-30-mg-ml-solucao-injectavel-para-bovinos-e-suinos-1-frasco-100ml-11014\n\n11. **Melovem 5 mg/ml solução injectável para bovinos e suínos**\n   - Espécies: Melovem 5 mg/ml solução injectável para bovinos e suínos Substância Ativa: Meloxicam 5.0 mg | Espécie(s): Bovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/212-01-09cfvpt-melovem-5-mg-ml-solucao-injectavel-para-bovinos-e-suinos-11017\n\n12. **Inflacam 5 mg/ml solução injectável para bovinos e suínos**\n   - Espécies: Inflacam 5 mg/ml solução injectável para bovinos e suínos Substância Ativa: Meloxicam 5.0 mg | Espécie(s): Bovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/400-20-12cfvpt-inflacam-5-mg-ml-solucao-injectavel-para-bovinos-e-suinos-10321\n\n13. **Rheumocam 20 mg/ml solução injectável para bovinos, suínos e equinos**\n   - Espécies: Rheumocam 20 mg/ml solução injectável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/056-13-12cfvpt-rheumocam-20-mg-ml-solucao-injectavel-para-bovinos-suinos-e-equinos-1985\n\n14. **Rheumocam 5 mg/ml solução injectável para bovinos e suínos**\n   - Espécies: Rheumocam 5 mg/ml solução injectável para bovinos e suínos Substância Ativa: Meloxicam 5.0 mg | Espécie(s): Suínos, Bovinos (vitelos e bovinos jovens)\n   - Link: https://medvet.dgav.pt/products/056-19-12cfvpt-rheumocam-5-mg-ml-solucao-injectavel-para-bovinos-e-suinos-1991\n\n15. **Inflacam 20 mg/ml solução injectável para bovinos, suínos e equinos**\n   - Espécies: Inflacam 20 mg/ml solução injectável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/400-08-11cfvpt-inflacam-20-mg-ml-solucao-injectavel-para-bovinos-suinos-e-equinos-10318\n\n16. **Meloxidyl 20 mg/ml solução injectável para bovinos, suínos e equinos**\n   - Espécies: Meloxidyl 20 mg/ml solução injectável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/008-05-07-10cfvpt-meloxidyl-20-mg-ml-solucao-injectavel-para-bovinos-suinos-e-equinos-11029\n\n17. **Metacam 20 mg/ml suspensão injetável bovinos, suínos e equinos**\n   - Espécies: Metacam 20 mg/ml suspensão injetável bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/059-06-08cvfpt-metacam-20-mg-ml-suspensao-injetavel-bovinos-suinos-e-equinos-11060\n\n18. **Metacam 5mg bovinos e suínos**\n   - Espécies: Metacam 5mg bovinos e suínos Substância Ativa: Meloxicam 5.0 mg | Espécie(s): Bovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/51224-metacam-5mg-bovinos-e-suinos-11071\n\n19. **Metacam 5 mg/ml sol. injectável bovinos e suínos**\n   - Espécies: Metacam 5 mg/ml sol. injectável bovinos e suínos Substância Ativa: Meloxicam 5.0 mg | Espécie(s): Bovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/059-01-08cvfpt-metacam-5-mg-ml-sol-injectavel-bovinos-e-suinos-11064\n\n20. **Metacam 15 mg/ml suspensão oral para suínos**\n   - Espécies: Metacam 15 mg/ml suspensão oral para suínos Substância Ativa: Meloxicam 15.0 mg | Espécie(s): Suínos\n   - Link: https://medvet.dgav.pt/products/013-06-10cfvpt-metacam-15-mg-ml-suspensao-oral-para-suinos-11053\n\n21. **Recocam 20 mg/ml solução injectável para bovinos, suínos e equinos**\n   - Espécies: Recocam 20 mg/ml solução injectável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/eu-2-11-133-001-003-recocam-20-mg-ml-solucao-injectavel-para-bovinos-suinos-e-equinos-11356\n\n22. **Metaxx 5 mg/ml solução injetável para bovinos, suínos, cães e gatos.**\n   - Espécies: Metaxx 5 mg/ml solução injetável para bovinos, suínos, cães e gatos. Substância Ativa: Meloxicam 5.0 mg | Espécie(s): Bovinos, Suínos, Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/1546-01-22-dfvpt-metaxx-5-mg-ml-solucao-injetavel-para-bovinos-suinos-caes-e-gatos-11848\n\n23. **Metaxx 20 mg/ml solução injetável para bovinos, suínos e equinos**\n   - Espécies: Metaxx 20 mg/ml solução injetável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/1636-01-24dfvpt-metaxx-20-mg-ml-solucao-injetavel-para-bovinos-suinos-e-equinos-12096\n\n\nNota: Informações extraídas da página de busca.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:48:29.956414",
+      "tempo": 15.290018081665039
+    },
+    {
+      "numero": 11,
+      "pergunta": "Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Dexinjet 2 mg/ml",
+        "pergunta_ollama": "Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos",
+        "substancia_ativa": "Dexinjet 2 mg/ml",
+        "especie_alvo": "Suínos",
+        "forma_farmaceutica": "2 mg/ml"
+      },
+      "resposta": "<unused973>टेला, Dexinjet 2 mg/ml en suínos:\n\nSegún la tabla, la dosis indicada para Dexinjet 2 mg/ml en suínos es 0,02 a 0,04 mg dexametasona / kg de peso corporal, correspondientes a 5-10 ml por vaca, administrados por inyección intramuscular.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:48:48.478338",
+      "tempo": 12.442544221878052
+    },
+    {
+      "numero": 12,
+      "pergunta": "Qual a forma de administração do medicamento Hidrocol em suínos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Hidrocol suínos",
+        "pergunta_ollama": "Qual a forma de administração do medicamento Hidrocol em suínos?",
+        "substancia_ativa": "Hidrocol",
+        "especie_alvo": "Suínos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "账目：Hidro콜의 돼지에서의 투여 방식은 무엇입니까?\n\n답변: 표에 따르면 돼지에서 Hidro콜의 투여 방식은 100,000 UI/kg 체중의 수퇘이, 송아지 및 비틀이의 경우이고 75,000 UI/kg 체중의 경우 가금류입니다.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:49:03.909658",
+      "tempo": 11.848669052124023
+    },
+    {
+      "numero": 13,
+      "pergunta": "E perus?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "medicamento",
+        "pergunta_ollama": "E perus?",
+        "substancia_ativa": "medicamento",
+        "especie_alvo": "Peru",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "alurado.\n\nDe acordo com o documento, a forma de administração do Hidrocol em Perus é:\n\n**Carne e vísceras: 1 dia. Ovos: zero dias.**\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:49:18.312676",
+      "tempo": 1.822913646697998
+    },
+    {
+      "numero": 14,
+      "pergunta": "Qual a dose que deve ser administrada do medicamento Domtor em gatos?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Domtor gatos",
+        "pergunta_ollama": "Qual a dose do medicamento Domtor para gatos?",
+        "substancia_ativa": "Domtor",
+        "especie_alvo": "Gatos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "<unused2570>响应：A dose para gatos é 1 mg/kg.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:49:23.001777",
+      "tempo": 10.638010501861572
+    },
+    {
+      "numero": 15,
+      "pergunta": "Como deve ser armazenado o medicamento Acuimix?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Acuimix",
+        "pergunta_ollama": "Como armazenar o medicamento Acuimix?",
+        "substancia_ativa": "Acuimix",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": " WEBSITE:\nO medicamento Acuimix deve ser armazenado em temperaturas abaixo de 25°C.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:49:36.488410",
+      "tempo": 10.711644649505615
+    },
+    {
+      "numero": 16,
+      "pergunta": "Como deve ser armazenado, depois de aberto o medicamento Calcibel?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Calcibel",
+        "pergunta_ollama": "Como armazenar o medicamento Calcibel após aberto?",
+        "substancia_ativa": "Calcibel",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "匮乏的答案，但这是对您问题的最佳答案，考虑到您提供的上下文：\n\nApós aberto, o medicamento Calcibel deve ser administrado imediatamente. O prazo de validade após a primeira abertura do acondicionamento primário é de \"administrar imediatamente\".\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:49:50.017861",
+      "tempo": 10.937402725219727
+    },
+    {
+      "numero": 17,
+      "pergunta": "Quais os intervalos de segurança do medicamento Maxy?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Maxy",
+        "pergunta_ollama": "Quais os intervalos de segurança do medicamento Maxy?",
+        "substancia_ativa": "Maxy",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "<unused2570>响应：\nA informação sobre os intervalos de segurança do medicamento Maxy não está presente no documento fornecido. O documento detalha as instruções de uso, precauções e informações sobre o medicamento, mas não especifica intervalos de segurança.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:50:03.774144",
+      "tempo": 10.542894124984741
+    },
+    {
+      "numero": 18,
+      "pergunta": "Para que é usado o medicamentos Apilife?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Apilife",
+        "pergunta_ollama": "Para que é usado o medicamento Apilife?",
+        "substancia_ativa": "Apilife",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": " детства.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:50:17.153113",
+      "tempo": 10.704490423202515
+    },
+    {
+      "numero": 19,
+      "pergunta": "Qual é a composição do medicamento Genestran?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Genestran",
+        "pergunta_ollama": "Qual é a composição do medicamento Genestran?",
+        "substancia_ativa": "Genestran",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "De acordo com a tabela, a composição do medicamento Genestran é:\n\n*   Substância ativa: cloprostenol\n*   Excipientes:  uma quantidade de excipientes que resulta em uma solução límpida e inodora.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:50:30.693119",
+      "tempo": 10.944711446762085
+    },
+    {
+      "numero": 20,
+      "pergunta": "Em que espécies pode ser usado o medicamento Terramicina 500 mg?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Terramicina 500 mg",
+        "pergunta_ollama": "Em que espécies pode ser usado o medicamento Terramicina 500 mg?",
+        "substancia_ativa": "Terramicina",
+        "especie_alvo": "",
+        "forma_farmaceutica": "500 mg"
+      },
+      "resposta": "O medicamento Terramicina 500 mg comprimidos intrauterinos pode ser usado em **vacas**.\n\nDe acordo com a tabela de dosagem, para o tratamento de metrite em vacas, a dose é de 1,5 – 2 g de oxitetraciclina/vaca/dia (equivalente a 3 - 4 comprimidos) durante 4 a 5 dias.\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:50:44.706892",
+      "tempo": 11.788508415222168
+    },
+    {
+      "numero": 21,
+      "pergunta": "Que reações adversas pode apresentar o medicamento Suispirin?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Suispirin",
+        "pergunta_ollama": "Que reações adversas pode apresentar o medicamento Suispirin?",
+        "substancia_ativa": "Suispirin",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "CreateWindow a table with the following columns: Species, Dose (mg/kg), Adverse Reactions. Populate the table with the information extracted from the provided text.\n\nHere's the table populated with the information from the text:\n\n| Species | Dose (mg/kg) | Adverse Reactions |\n|---|---|---|\n| Suínos | 90 | Sem efeitos adversos significativos durante até seis dias. |\n| Suínos | 90 | Pode inibir substâncias fortemente ligantes, como penicilinas e sulfonamidas, potencializando seu efeito. |\n| Suínos | 90 | Pode levar à formação de quelatos com tetraciclinas. |\n| Suínos | 90 | A acidificação urinária causada pelo ácido ascórbico, metionina ou cloreto de amónio leva à diminuição da excreção renal do ácido salicílico, com aumento do risco de reações tóxicas. |\n| Suínos | 90 | A alcalinização da urina com bicarbonato de sódio pode levar à excreção acelerada de ácido acetilsalicílico. |\n| Suínos | 90 | A combinação com outros AINE leva ao aumento da ocorrência intensificada de efeitos colaterais, particularmente no trato gastrointestinal. |\n| Suínos | 90 | A administração simultânea de glucocorticóides aumenta o risco de hemorragia gastrointestinal. |\n",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:50:59.428270",
+      "tempo": 14.756980895996094
+    },
+    {
+      "numero": 22,
+      "pergunta": "O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?",
+      "categoria": "medicamento",
+      "entidades": {
+        "termo_busca": "Colombovac PMV/POX",
+        "pergunta_ollama": "O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?",
+        "substancia_ativa": "Colombovac PMV/POX",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "्डा",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:51:17.222736",
+      "tempo": 11.116952180862427
+    },
+    {
+      "numero": 23,
+      "pergunta": "Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "Butorfanol gatos",
+        "pergunta_ollama": "Que medicamentos com princípio ativo butorfanol indicado para gatos",
+        "substancia_ativa": "Butorfanol",
+        "especie_alvo": "Gatos",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Resultados para: 'Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?'\n\nTotal: 7\n\n1. **Torphasol 4 mg/ml solução injetável para cães e gatos**\n   - Espécies: Torphasol 4 mg/ml solução injetável para cães e gatos Substância Ativa: Butorfanol 4.0 mg | Espécie(s): Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/416-01-12rfvpt-torphasol-4-mg-ml-solucao-injetavel-para-caes-e-gatos-11447\n\n2. **Torbugesic vet 10 mg/ml solução injetável para cavalos, cães e gatos**\n   - Espécies: Torbugesic vet 10 mg/ml solução injetável para cavalos, cães e gatos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/677-01-13dfvpt-torbugesic-vet-10-mg-ml-solucao-injetavel-para-cavalos-caes-e-gatos-11445\n\n3. **Butomidor 10mg/ml solução injetável para cavalos, cães e gatos**\n   - Espécies: Butomidor 10mg/ml solução injetável para cavalos, cães e gatos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/316-01-11dfvpt-butomidor-10mg-ml-solucao-injetavel-para-cavalos-caes-e-gatos-3783\n\n4. **Alvegesic vet. 10 mg/ml  solução injetável para cavalos, cães e gatos**\n   - Espécies: Alvegesic vet. 10 mg/ml  solução injetável para cavalos, cães e gatos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/342-01-11dfvpt-alvegesic-vet-10-mg-ml-solucao-injetavel-para-cavalos-caes-e-gatos-3699\n\n5. **Dolorex 10 mg/ml, solução injetável para equinos, caninos e felinos**\n   - Espécies: Dolorex 10 mg/ml, solução injetável para equinos, caninos e felinos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/006-01-07rfvpt-dolorex-10-mg-ml-solucao-injetavel-para-equinos-caninos-e-felinos-10151\n\n6. **Torphadine 10 mg/ml solução injetável para cães, gatos e cavalos**\n   - Espécies: Torphadine 10 mg/ml solução injetável para cães, gatos e cavalos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Caninos (cães), Felinos (gatos), Equinos (cavalos)\n   - Link: https://medvet.dgav.pt/products/1040-01-16dfvpt-torphadine-10-mg-ml-solucao-injetavel-para-caes-gatos-e-cavalos-11446\n\n7. **ButorVet 10 mg/ml solução injetável**\n   - Espécies: ButorVet 10 mg/ml solução injetável Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos, Gatos, Cães\n   - Link: https://medvet.dgav.pt/products/1702-01-25rfvpt-butorvet-10-mg-ml-solucao-injetavel-12147\n\n\nNota: Informações extraídas da página de busca.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:51:31.262088",
+      "tempo": 8.69726037979126
+    },
+    {
+      "numero": 24,
+      "pergunta": "Que medicamentos/marcas existem com o princípio ativo doramectina?",
+      "categoria": "comparacao",
+      "entidades": {
+        "termo_busca": "doramectina",
+        "pergunta_ollama": "Que medicamentos contendo o princípio ativo doramectina?",
+        "substancia_ativa": "doramectina",
+        "especie_alvo": "",
+        "forma_farmaceutica": ""
+      },
+      "resposta": "Resultados para: 'Que medicamentos/marcas existem com o princípio ativo doramectina?'\n\nTotal: 5\n\n1. **Dectomax 5 mg/ml solução para unção contínua para bovinos**\n   - Espécies: Dectomax 5 mg/ml solução para unção contínua para bovinos Substância Ativa: Doramectina 5.0 mg | Espécie(s): Bovinos\n   - Link: https://medvet.dgav.pt/products/622-02-12dfvpt-dectomax-5-mg-ml-solucao-para-uncao-continua-para-bovinos-10125\n\n2. **Dectomax 10 mg/ml solução injetável para bovinos, ovinos e suínos**\n   - Espécies: Dectomax 10 mg/ml solução injetável para bovinos, ovinos e suínos Substância Ativa: Doramectina 10.0 mg | Espécie(s): Bovinos, Ovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/622-01-12dfvpt-dectomax-10-mg-ml-solucao-injetavel-para-bovinos-ovinos-e-suinos-7903\n\n3. **Taurador 5 mg/ml solução para unção contínua para bovinos**\n   - Espécies: Taurador 5 mg/ml solução para unção contínua para bovinos Substância Ativa: Doramectina 5.0 mg | Espécie(s): Bovinos\n   - Link: https://medvet.dgav.pt/products/731-01-13dfvpt-taurador-5-mg-ml-solucao-para-uncao-continua-para-bovinos-11425\n\n4. **Taurador 10 mg/ml solução injetável para bovinos, ovinos e suínos**\n   - Espécies: Taurador 10 mg/ml solução injetável para bovinos, ovinos e suínos Substância Ativa: Doramectina 10.0 mg/ml | Espécie(s): Bovinos, Ovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/1672-01-24-dfvpt-taurador-10-mg-ml-solucao-injetavel-para-bovinos-ovinos-e-suinos-12121\n\n5. **Dorimec 10 mg/ml Solução injetável para bovinos, ovinos e suínos**\n   - Espécies: Dorimec 10 mg/ml Solução injetável para bovinos, ovinos e suínos Substância Ativa: Doramectina 10.0 mg | Espécie(s): Bovinos, Ovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/1724-01-25dfvpt-dorimec-10-mg-ml-solucao-injetavel-para-bovinos-ovinos-e-suinos-12174\n\n\nNota: Informações extraídas da página de busca.",
+      "tempo_total": 0,
+      "tempo_classificacao": 0,
+      "tempo_processamento": 0,
+      "sucesso": true,
+      "erro": null,
+      "timestamp": "2025-11-03T16:51:42.859001",
+      "tempo": 8.054214477539062
+    }
+  ]
+}

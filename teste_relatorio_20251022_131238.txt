@@ -1,0 +1,410 @@
+temporario4
+================================================================================
+RELATÓRIO DE TESTES - Sistema de Consulta Veterinária
+================================================================================
+
+Data: 2025-10-22 13:12:38
+Total de testes: 27
+Tempo total: 3100.14s
+
+
+================================================================================
+TESTE #1
+================================================================================
+Pergunta: Para que espécies está indicado o medicamento Simparica?
+Status: ✅ SUCESSO
+Tempo: 42.48s
+
+Resposta:
+--------------------------------------------------------------------------------
+Embora não haja informação específica sobre as espécies para as quais o Simparica está indicado, o documento indica que é utilizado para cães e gatos.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #2
+================================================================================
+Pergunta: Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?
+Status: ✅ SUCESSO
+Tempo: 104.71s
+
+Resposta:
+--------------------------------------------------------------------------------
+A dose recomendada do medicamento Senvelgo 15 mg/ml em gatos é de 1 mg/kg de peso corporal administrado uma vez ao dia. Embora não haja informação específica sobre a dose em 5 mg/kg, o documento indica que a dose padrão é de 1 mg/kg.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #3
+================================================================================
+Pergunta: Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?
+Status: ✅ SUCESSO
+Tempo: 111.59s
+
+Resposta:
+--------------------------------------------------------------------------------
+O medicamento Pathozone 250 mg em bovinos deve ser administrado via intramamária. O documento especifica que o conteúdo da seringa (10 ml de suspensão) deve ser introduzido diretamente no quarto infetado através do canal do teto, após ordenhar a fundo. É crucial limpar e desinfetar o canal do teto antes da administração e, após a administração, deve-se massagear o úbere para garantir uma melhor distribuição do medicamento.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #4
+================================================================================
+Pergunta: Como deve ser armazenado, depois de aberto o medicamento Flevox?
+Status: ✅ SUCESSO
+Tempo: 106.28s
+
+Resposta:
+--------------------------------------------------------------------------------
+Embora não haja informação específica sobre o armazenamento após aberto do medicamento Flevox, o documento indica que o prazo de validade do medicamento veterinário como embalado para venda é de 3 anos e que a validade refere-se ao último dia do mês.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #5
+================================================================================
+Pergunta: Quais os intervalos de segurança do medicamento Felpreva?
+Status: ✅ SUCESSO
+Tempo: 121.68s
+
+Resposta:
+--------------------------------------------------------------------------------
+Embora não haja informação específica sobre "intervalos de segurança" no sentido de tempo entre doses ou após a administração, o documento fornece informações sobre os intervalos de tempo em que o medicamento Felpreva é eficaz contra diferentes parasitas:
+
+*   **Pulgas:** Início da eficácia contra novas infestações ocorre até 8 horas e durante 2 meses após a administração, com efeito imediato (12 horas) contra pulgas que se alimentam do animal.
+*   **Carraças:** A eliminação de carraças Ixodes ricinus ocorre em 24 horas (para a eliminação inicial) e em 48 horas durante as 13 semanas seguintes.
+*   **Carraças:** A eliminação de carraças Ixodes ricinus que causem nova infestação ocorre em 48 horas durante as 13 semanas seguintes.
+*   **Nemátodos:** O emodepside é eficaz contra todos os estádios dos nemátodos, com ação imediata.
+*   **Parasitas intestinais:** O praziquantel é eficaz contra Dipylidium caninum e Taenia taeniaeformis.
+
+**Observação:** O documento enfatiza que a eficácia do medicamento depende da fixação dos parasitas no hospedeiro e da sua exposição ao medicamento. Portanto, a duração da proteção é baseada no tempo que os parasitas permanecem fixados e expostos ao medicamento, e não em intervalos de tempo fixos entre as doses.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #6
+================================================================================
+Pergunta: O medicamentos Maxy é usado para que?
+Status: ✅ SUCESSO
+Tempo: 108.01s
+
+Resposta:
+--------------------------------------------------------------------------------
+O medicamento Maxy é usado para tratar infeções bacterianas em frangos de carne e patos. Embora não haja informação específica sobre a dosagem, o documento indica que o uso é baseado em testes de sensibilidade e deve ser sempre realizado em conformidade com a avaliação benefício/risco realizada pelo médico veterinário responsável. O documento também indica que o Maxy não é eficaz contra microrganismos produtores de beta-lactamase.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #7
+================================================================================
+Pergunta: Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para porcos?
+Status: ✅ SUCESSO
+Tempo: 31.28s
+
+Resposta:
+--------------------------------------------------------------------------------
+None
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #8
+================================================================================
+Pergunta: Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Terramicina 55 mg/g?
+Status: ✅ SUCESSO
+Tempo: 31.82s
+
+Resposta:
+--------------------------------------------------------------------------------
+None
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #9
+================================================================================
+Pergunta: Para que espécies está indicado o medicamento Animeloxan?
+Status: ✅ SUCESSO
+Tempo: 104.30s
+
+Resposta:
+--------------------------------------------------------------------------------
+O medicamento Animeloxan está indicado para bovinos, suínos e éguas.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #10
+================================================================================
+Pergunta: Que medicamentos contendo o princípio ativo Meloxicam pode ser administrado a suínos?
+Status: ✅ SUCESSO
+Tempo: 31.47s
+
+Resposta:
+--------------------------------------------------------------------------------
+None
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #11
+================================================================================
+Pergunta: Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos?
+Status: ✅ SUCESSO
+Tempo: 111.50s
+
+Resposta:
+--------------------------------------------------------------------------------
+Embora não haja informação específica sobre a dose do Dexinjet 2 mg/ml em suínos, o documento indica que para o tratamento da cetose primária em bovinos (acetonemia) recomenda-se administrar doses de 0,02 a 0,04 mg dexametasona / kg de peso corporal correspondentes a 5-10 ml por vaca, administradas por injeção intramuscular, dependendo do tamanho da vaca e da duração dos sinais clínicos.  Não há informação disponível sobre a dose específica para suínos.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #12
+================================================================================
+Pergunta: Qual a forma de administração do medicamento Hidrocol em suínos?
+Status: ✅ SUCESSO
+Tempo: 109.25s
+
+Resposta:
+--------------------------------------------------------------------------------
+De acordo com o documento, a forma de administração do medicamento Hidrocol em suínos é:
+
+*   **Carne e vísceras: 1 dia.**
+*   **Administração com bomba doseadora:** O tratamento é distribuído ao longo de um período de 24 horas, durante 3-5 dias consecutivos. É utilizada uma bomba doseadora para adicionar uma solução de stock numa concentração pré-determinada, à água de bebida.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #13
+================================================================================
+Pergunta: E perus?
+Status: ✅ SUCESSO
+Tempo: 28.56s
+
+Resposta:
+--------------------------------------------------------------------------------
+None
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #14
+================================================================================
+Pergunta: Qual a dose que deve ser administrada do medicamento Domtor em gatos?
+Status: ✅ SUCESSO
+Tempo: 183.15s
+
+Resposta:
+--------------------------------------------------------------------------------
+⚠️ A dose que deve ser administrada do medicamento Domtor em gatos é:
+
+*   **10-20 µg/kg** para Sedação ligeira
+*   **30-80 µg/kg** para Sedação moderada a profunda e analgesia
+*   **0,1-0,2 ml/10 kg** para Pré-anestesia
+
+Embora não haja informação específica sobre a via de administração (intramuscular, subcutânea), o documento indica que a dose é calculada em função da espécie e do modo de administração.
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #15
+================================================================================
+Pergunta: Como deve ser armazenado o medicamento Acuimix?
+Status: ✅ SUCESSO
+Tempo: 111.55s
+
+Resposta:
+--------------------------------------------------------------------------------
+Para armazenar o medicamento Acuimix, o documento indica o seguinte:
+
+*   **Conservar a temperaturas abaixo dos 25 º C.**
+*   **Após abertura do acondicionamento primário: 6 meses.**
+*   **Validade do medicamento veterinário tal como embalado para venda: 2 anos.**
+*   **Validade após abertura do acondicionamento primário: 6 meses.**
+*   **Validade quando incorporado no alimento: 6 meses.**
+
+Embora não haja informação específica sobre a embalagem, o documento indica que a validade do produto é de 2 anos quando embalado e 6 meses após a abertura do acondicionamento primário.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #16
+================================================================================
+Pergunta: Como deve ser armazenado, depois de aberto o medicamento Calcibel?
+Status: ✅ SUCESSO
+Tempo: 106.87s
+
+Resposta:
+--------------------------------------------------------------------------------
+Embora não haja informação específica sobre o armazenamento após a abertura do medicamento Calcibel, o documento indica que:
+
+*   O prazo de validade do medicamento tal como embalado para venda é de 3 anos.
+*   Após a primeira abertura do acondicionamento primário, o medicamento deve ser administrado imediatamente.
+*   O prazo de validade indicado no rótulo após “Exp.” corresponde ao último dia do mês indicado.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #17
+================================================================================
+Pergunta: Quais os intervalos de segurança do medicamento Maxy?
+Status: ✅ SUCESSO
+Tempo: 109.51s
+
+Resposta:
+--------------------------------------------------------------------------------
+Com base no documento fornecido, os intervalos de segurança do medicamento Maxy são os seguintes:
+
+*   **Frangos de carne:** 1 dia
+*   **Patos:** 9 dias
+*   **Perus:** 5 dias
+*   **Aves poedeiras:** Não autorizado para administração em aves poedeiras cujos ovos se destinem ao consumo humano ou 3 semanas antes do início da postura.
+
+**Observação:** Não há informação específica sobre intervalos de segurança para outros produtos de origem animal (leite, ovos, etc.). O documento apenas especifica os intervalos de segurança para frangos, patos e perus.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #18
+================================================================================
+Pergunta: Para que é usado o medicamentos Apilife?
+Status: ✅ SUCESSO
+Tempo: 109.80s
+
+Resposta:
+--------------------------------------------------------------------------------
+O medicamento Apilife Var é utilizado para tratar a dermatite de contacto e irritação da pele e dos olhos observada com o timol em abelhas. Ele é aplicado em colmeias para prevenir e tratar problemas de pele.
+
+As principais informações sobre o uso do Apilife Var, conforme o documento, são:
+
+*   **Posologia:** 1 tira a cada 7 dias para cada colmeia, com um tratamento completo de 4 tiras por colmeia.
+*   **Via de Administração:** Retirar uma tira e posicioná-la num dos quatro cantos sobre o ninho, longe da criação. Também pode ser cortada em 3-4 pedaços e colocada nos cantos da colmeia.
+*   **Precauções:** Evitar o contacto direto com a pele e os olhos. Utilizar equipamento de proteção individual (luvas). Lavar as mãos e o material em contacto com a tira com água e sabão.
+*   **Temperatura Ideal:** A eficácia é melhor entre 20-25°C.
+*   **Monitorização:** A queda do ácaro deve ser monitorizada regularmente, e um tratamento adicional pode ser necessário se a queda média for superior a um ácaro por dia.
+*   **Sobredosagem:** Se a quantidade de tiras for superior à correta, pode-se criar distúrbios nas abelhas. Remover as tiras em excesso se encontrar abelhas e larvas mortas.
+
+Embora não haja informação específica sobre a duração do tratamento, o documento indica que o tratamento deve ser repetido 4 vezes consecutivas.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #19
+================================================================================
+Pergunta: Qual é a composição do medicamento Genestran?
+Status: ✅ SUCESSO
+Tempo: 110.94s
+
+Resposta:
+--------------------------------------------------------------------------------
+Cada ml contém:
+
+*   **Substância ativa:** R(+)-cloprostenol (como R(+)-cloprostenol sódico) – 75 microgramas
+*   **Excipientes:** Clorocresol (como conservante) – 1,0 mg
+
+Embora não haja informação específica sobre a quantidade de clorocresol, o documento indica que ele é usado como conservante.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #20
+================================================================================
+Pergunta: Em que espécies pode ser usado o medicamento Terramicina 500 mg?
+Status: ✅ SUCESSO
+Tempo: 93.63s
+
+Resposta:
+--------------------------------------------------------------------------------
+O medicamento Terramicina 500 mg pode ser usado em vacas. Embora não haja informação específica sobre outras espécies, o documento indica que é destinado ao uso em vacas.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #21
+================================================================================
+Pergunta: Que reações adversas pode apresentar o medicamento Suispirin?
+Status: ✅ SUCESSO
+Tempo: 111.19s
+
+Resposta:
+--------------------------------------------------------------------------------
+As reações adversas que o medicamento Suispirin pode apresentar são:
+
+*   **Irritação gastrointestinal:** Especialmente em animais com doença gastrointestinal pré-existente, podendo manifestar-se como fezes pretas devido à perda de sangue no trato gastrointestinal.
+*   **Inibição da coagulação sanguínea:** Ocorre ocasionalmente e, se presente, é reversível em aproximadamente 7 dias.
+*   **Aumento do potencial nefrotóxico:** Em combinação com antibióticos aminoglicosídeos.
+*   **Aumento da ocorrência intensificada de efeitos colaterais no trato gastrointestinal:** Em combinação com outros AINE (anti-inflamatórios não esteróides) e glucocorticóides.
+*   **Acidificação urinária:** Causada pelo ácido ascórbico, metionina ou cloreto de amónio, levando à diminuição da excreção renal do ácido salicílico e aumento do risco de reações tóxicas.
+
+Embora não haja informação específica sobre a frequência ou gravidade dessas reações, o documento indica que a irritação gastrointestinal é uma reação comum.
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #22
+================================================================================
+Pergunta: O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?
+Status: ✅ SUCESSO
+Tempo: 110.66s
+
+Resposta:
+--------------------------------------------------------------------------------
+Sim, o medicamento Colombovac PMV/POX é sujeito a receita médica veterinária. O documento afirma explicitamente: "Medicamento veterinário sujeito a receita médica veterinária."
+
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #23
+================================================================================
+Pergunta: Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?
+Status: ✅ SUCESSO
+Tempo: 32.06s
+
+Resposta:
+--------------------------------------------------------------------------------
+None
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #24
+================================================================================
+Pergunta: Que medicamentos/marcas existem com o princípio ativo doramectina?
+Status: ✅ SUCESSO
+Tempo: 31.88s
+
+Resposta:
+--------------------------------------------------------------------------------
+None
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #25
+================================================================================
+Pergunta: Que medicamentos/marcas existem em comprimidos com o princípio ativo ácido tolfenâmico?
+Status: ✅ SUCESSO
+Tempo: 33.23s
+
+Resposta:
+--------------------------------------------------------------------------------
+None
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #26
+================================================================================
+Pergunta: Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Animeloxan?
+Status: ✅ SUCESSO
+Tempo: 32.07s
+
+Resposta:
+--------------------------------------------------------------------------------
+None
+--------------------------------------------------------------------------------
+
+================================================================================
+TESTE #27
+================================================================================
+Pergunta: Qual o medicamento alternativo para Trocoxil 75 para cães?
+Status: ✅ SUCESSO
+Tempo: 32.92s
+
+Resposta:
+--------------------------------------------------------------------------------
+None
+--------------------------------------------------------------------------------

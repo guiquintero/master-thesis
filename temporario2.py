@@ -31,6 +31,8 @@ import sys
 # Importar o classificador de query
 from query_classifier import QueryClassifier
 
+from pdf_estruturado_extractor import PDFProcessorAvancado, PDFEstruturadoExtractor
+
 # Desativar alertas de aviso de SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -288,11 +290,12 @@ class TabelaInterpreter:
 
 
 class PDFProcessor:
-    """Classe dedicada ao processamento avançado de PDFs"""
+    """Wrapper que usa o processador avançado mantendo compatibilidade"""
     
     def __init__(self):
+        self.processador_avancado = PDFProcessorAvancado()
         self.secoes_importantes = [
-            '1.', '2.', '3.', '4.', '5.', '6.',  # Seções numeradas
+            '1.', '2.', '3.', '4.', '5.', '6.',
             'composição', 'indicações', 'posologia', 'contra-indicações',
             'advertências', 'reações adversas', 'interações', 'sobredosagem',
             'propriedades', 'incompatibilidades', 'validade', 'armazenamento',
@@ -300,316 +303,65 @@ class PDFProcessor:
         ]
     
     def extrair_e_processar_pdf(self, pdf_path):
-        """
-        Extrai texto do PDF com tratamento especial para tabelas
-        e remove duplicações
-        """
-        try:
-            texto_completo = []
-            
-            with fitz.open(pdf_path) as pdf_file:
-                for page_num, page in enumerate(pdf_file):
-                    # Extrair texto normal
-                    texto_pagina = page.get_text()
-                    
-                    # Tentar extrair tabelas estruturadas
-                    tabelas = self._extrair_tabelas_estruturadas(page)
-                    
-                    if tabelas:
-                        # Se encontrou tabelas, processar separadamente
-                        texto_processado = self._processar_pagina_com_tabelas(
-                            texto_pagina, 
-                            tabelas, 
-                            page_num
-                        )
-                    else:
-                        texto_processado = texto_pagina
-                    
-                    texto_completo.append(texto_processado)
-            
-            # Juntar todo o texto
-            texto_unificado = "\n\n".join(texto_completo)
-            
-            # Limpar e formatar
-            texto_limpo = self._limpar_texto_pdf(texto_unificado)
-            
-            # Dividir em seções e remover duplicações
-            secoes = self._dividir_em_secoes_sem_duplicacao(texto_limpo)
-            
-            return secoes
-            
-        except Exception as e:
-            print(f"Erro ao processar PDF: {e}")
-            return []
-    
-    def _extrair_tabelas_estruturadas(self, page):
-        """
-        Tenta identificar e extrair tabelas do PDF usando análise de layout
-        """
-        tabelas = []
-        
-        try:
-            # Obter blocos de texto com coordenadas
-            blocos = page.get_text("dict")["blocks"]
-            
-            # Identificar possíveis tabelas (blocos alinhados verticalmente)
-            linhas_tabela = []
-            linha_atual = []
-            y_anterior = None
-            
-            for bloco in blocos:
-                if "lines" in bloco:
-                    for linha in bloco["lines"]:
-                        for span in linha["spans"]:
-                            texto = span["text"].strip()
-                            if texto:
-                                y = span["bbox"][1]  # coordenada y
-                                x = span["bbox"][0]  # coordenada x
-                                
-                                # Se mudou de linha (y diferente)
-                                if y_anterior is not None and abs(y - y_anterior) > 5:
-                                    if len(linha_atual) > 1:  # Linha com múltiplas colunas
-                                        linhas_tabela.append(sorted(linha_atual, key=lambda item: item[1]))
-                                    linha_atual = []
-                                
-                                linha_atual.append((texto, x, y))
-                                y_anterior = y
-            
-            # Adicionar última linha
-            if len(linha_atual) > 1:
-                linhas_tabela.append(sorted(linha_atual, key=lambda item: item[1]))
-            
-            # Se encontrou estrutura tabular, formatar
-            if len(linhas_tabela) >= 2:
-                tabela_formatada = self._formatar_tabela(linhas_tabela)
-                if tabela_formatada:
-                    tabelas.append(tabela_formatada)
-        
-        except Exception as e:
-            print(f"Erro ao extrair tabelas: {e}")
-        
-        return tabelas
-    
-    def _formatar_tabela(self, linhas_tabela):
-        """
-        Formata linhas de tabela em texto estruturado legível
-        """
-        if not linhas_tabela:
-            return None
-        
-        # Verificar se é realmente uma tabela (consistência de colunas)
-        num_colunas = [len(linha) for linha in linhas_tabela]
-        if len(set(num_colunas)) > 2:  # Muita variação no número de colunas
-            return None
-        
-        # Formatar como tabela markdown-like
-        tabela_texto = "\n=== TABELA ===\n"
-        
-        # Primeira linha como cabeçalho (se aplicável)
-        if linhas_tabela:
-            cabecalho = " | ".join([item[0] for item in linhas_tabela[0]])
-            tabela_texto += cabecalho + "\n"
-            tabela_texto += "-" * len(cabecalho) + "\n"
-        
-        # Demais linhas como dados
-        for linha in linhas_tabela[1:]:
-            linha_texto = " | ".join([item[0] for item in linha])
-            tabela_texto += linha_texto + "\n"
-        
-        tabela_texto += "=== FIM TABELA ===\n"
-        
-        return tabela_texto
-    
-    def _processar_pagina_com_tabelas(self, texto_pagina, tabelas, page_num):
-        """
-        Combina texto normal com tabelas formatadas
-        """
-        resultado = f"\n--- Página {page_num + 1} ---\n"
-        resultado += texto_pagina
-        
-        for i, tabela in enumerate(tabelas):
-            resultado += f"\n\n{tabela}\n"
-        
-        return resultado
-    
-    def _limpar_texto_pdf(self, texto):
-        """
-        Limpa texto do PDF removendo artefatos comuns
-        """
-        # Remover cabeçalhos/rodapés repetitivos
-        texto = re.sub(
-            r"\nDireção Geral de Alimentação e Veterinária.*?Página \d+ de \d+ \n", 
-            "", 
-            texto, 
-            flags=re.DOTALL
-        )
-        
-        # Normalizar quebras de linha múltiplas
-        texto = re.sub(r'\n{3,}', '\n\n', texto)
-        
-        # Remover espaços em excesso
-        texto = re.sub(r' {2,}', ' ', texto)
-        
-        return texto.strip()
-    
-    def _dividir_em_secoes_sem_duplicacao(self, texto):
-        """
-        Divide o texto em seções E remove conteúdo duplicado
-        """
-        # Dividir por seções numeradas principais (1., 2., 3., etc)
-        # MAS manter TODO o conteúdo (incluindo após FOLHETO)
-        
-        partes = re.split(r'\n(?=\d+\.\s)', texto)
-        
-        # Usar OrderedDict para manter ordem e remover duplicações
-        secoes_unicas = OrderedDict()
-        
-        for parte in partes:
-            if not parte.strip():
-                continue
-            
-            # Gerar hash do conteúdo para detectar duplicações
-            conteudo_normalizado = self._normalizar_para_comparacao(parte)
-            hash_conteudo = hash(conteudo_normalizado)
-            
-            # Se não existe ainda, adicionar
-            if hash_conteudo not in secoes_unicas:
-                secoes_unicas[hash_conteudo] = parte.strip()
-            else:
-                # Se existe, verificar se a nova versão tem mais informações
-                parte_existente = secoes_unicas[hash_conteudo]
-                if len(parte.strip()) > len(parte_existente):
-                    secoes_unicas[hash_conteudo] = parte.strip()
-        
-        # Retornar lista de seções únicas
-        return list(secoes_unicas.values())
-    
-    def _normalizar_para_comparacao(self, texto):
-        """
-        Normaliza texto para comparação (remove espaços, pontuação, etc)
-        """
-        # Converter para minúsculas
-        texto_norm = texto.lower()
-        
-        # Remover pontuação e espaços extras
-        texto_norm = re.sub(r'[^\w\s]', '', texto_norm)
-        texto_norm = re.sub(r'\s+', ' ', texto_norm)
-        
-        return texto_norm.strip()
+        """Usa o processador avançado"""
+        return self.processador_avancado.extrair_e_processar_pdf(pdf_path)
     
     def formatar_conteudo_para_ollama(self, secoes, pergunta):
-        """
-        Formata seções do PDF de maneira otimizada para o Ollama,
-        com ênfase especial em tabelas
-        """
-        # Identificar seções relevantes para a pergunta
+        """Mantém método original para compatibilidade"""
         secoes_relevantes = self._filtrar_secoes_relevantes(secoes, pergunta)
         
-        # Formatar para melhor compreensão
         texto_formatado = []
-        
         for i, secao in enumerate(secoes_relevantes):
-            # Detectar se tem tabela
-            if '=== TABELA ===' in secao:
-                # Processar tabela de forma especial
-                texto_formatado.append(
-                    self._formatar_secao_com_tabela(secao, i)
-                )
+            if '=== TABELA ===' in secao or '📊 TABELA' in secao:
+                texto_formatado.append(self._formatar_secao_com_tabela(secao, i))
             else:
-                # Seção normal
                 texto_formatado.append(f"\n### Seção {i+1}\n{secao}\n")
         
         return texto_formatado
     
     def _filtrar_secoes_relevantes(self, secoes, pergunta):
-        """
-        Filtra seções mais relevantes para a pergunta
-        """
-        pergunta_lower = pergunta.lower()
-        palavras_chave = pergunta_lower.split()
+        """Filtragem inteligente de seções"""
+        if not secoes:
+            return []
         
-        # Pontuar cada seção por relevância
+        pergunta_lower = pergunta.lower()
+        palavras_chave = [p for p in pergunta_lower.split() if len(p) > 3]
+        
         secoes_pontuadas = []
         
         for secao in secoes:
             secao_lower = secao.lower()
             pontuacao = 0
             
-            # Pontos por palavra-chave encontrada
+            # Pontos por palavra-chave
             for palavra in palavras_chave:
-                if len(palavra) > 3:  # Ignorar palavras muito curtas
-                    pontuacao += secao_lower.count(palavra) * 2
+                pontuacao += secao_lower.count(palavra) * 2
             
             # Pontos extras para seções importantes
-            for termo_importante in self.secoes_importantes:
-                if termo_importante in secao_lower:
+            for termo in self.secoes_importantes:
+                if termo.lower() in secao_lower:
                     pontuacao += 5
             
-            # Pontos extras para tabelas
-            if '=== TABELA ===' in secao:
+            # Pontos extras para tabelas e resumo
+            if any(marcador in secao for marcador in ['📊 TABELA', 'RESUMO ESTRUTURADO', '===']):
                 pontuacao += 10
             
             secoes_pontuadas.append((secao, pontuacao))
         
-        # Ordenar por pontuação e retornar top seções
+        # Ordenar e retornar top seções
         secoes_pontuadas.sort(key=lambda x: x[1], reverse=True)
-        
-        # Retornar todas com pontuação > 0, ou pelo menos as 10 primeiras
         secoes_relevantes = [s[0] for s in secoes_pontuadas if s[1] > 0]
         
-        if not secoes_relevantes:
-            secoes_relevantes = [s[0] for s in secoes_pontuadas[:10]]
+        # Sempre incluir o resumo estruturado se existir
+        resumo = next((s for s in secoes if 'RESUMO ESTRUTURADO' in s), None)
+        if resumo and resumo not in secoes_relevantes:
+            secoes_relevantes.insert(0, resumo)
         
-        return secoes_relevantes
+        return secoes_relevantes[:15]  # Top 15 seções
     
     def _formatar_secao_com_tabela(self, secao, indice):
-        """
-        Formata seção que contém tabela de forma especial para o Ollama
-        """
-        resultado = f"\n### Seção {indice+1} [CONTÉM TABELA]\n"
-        resultado += "⚠️ ATENÇÃO: Esta seção contém dados tabulares. Leia linha por linha.\n\n"
-        
-        # Extrair e reformatar a tabela
-        partes = secao.split('=== TABELA ===')
-        
-        # Texto antes da tabela
-        if partes[0].strip():
-            resultado += "Contexto:\n" + partes[0].strip() + "\n\n"
-        
-        # Tabela
-        if len(partes) > 1:
-            tabela_parte = partes[1].split('=== FIM TABELA ===')[0]
-            
-            resultado += "DADOS TABULARES (leia cuidadosamente):\n"
-            resultado += "```\n"
-            resultado += tabela_parte.strip()
-            resultado += "\n```\n\n"
-            
-            # Converter tabela para formato mais explícito
-            resultado += "INTERPRETAÇÃO DA TABELA:\n"
-            linhas = [l.strip() for l in tabela_parte.strip().split('\n') if l.strip() and not l.startswith('-')]
-            
-            if linhas:
-                # Primeira linha = cabeçalhos
-                cabecalhos = [c.strip() for c in linhas[0].split('|') if c.strip()]
-                resultado += f"Colunas: {', '.join(cabecalhos)}\n\n"
-                
-                # Demais linhas = dados
-                for i, linha in enumerate(linhas[1:], 1):
-                    valores = [v.strip() for v in linha.split('|') if v.strip()]
-                    resultado += f"Linha {i}:\n"
-                    for j, valor in enumerate(valores):
-                        if j < len(cabecalhos):
-                            resultado += f"  - {cabecalhos[j]}: {valor}\n"
-                    resultado += "\n"
-        
-        # Texto depois da tabela
-        if len(partes) > 1 and '=== FIM TABELA ===' in partes[1]:
-            texto_depois = partes[1].split('=== FIM TABELA ===')[1].strip()
-            if texto_depois:
-                resultado += "Informações adicionais:\n" + texto_depois + "\n"
-        
-        return resultado
+        """Formata seção com tabela mantendo estrutura"""
+        return secao  # Já vem formatado do extrator avançado
 
 
 
@@ -744,6 +496,28 @@ class SistemaConsultaVetOtimizado:
             'formatacao': 0,
             'total': 0
         }
+        self.pdf_processor = PDFProcessor()  # Usar o novo processor
+        self.pdf_extrator_avancado = None
+    def _buscar_informacao_direta_pdf_avancada(self, pdf_path, tipo_info, especie=None):
+        """
+        Versão avançada da busca direta usando extrator estruturado
+        """
+        # Criar extrator se não existe
+        if not self.pdf_extrator_avancado:
+            self.pdf_extrator_avancado = PDFProcessorAvancado()
+        
+        # Processar PDF
+        if pdf_path not in self.pdf_extrator_avancado.cache_processados:
+            print(colored(f"🔄 Processando PDF com extrator avançado...", "cyan"))
+            resultado = self.pdf_extrator_avancado.extrator.processar_pdf_completo(pdf_path)
+            
+            if resultado.get('sucesso'):
+                self.pdf_extrator_avancado.cache_processados[pdf_path] = resultado
+                self.pdf_extrator_avancado.extrator.informacoes_extraidas = resultado['informacoes_extraidas']
+        
+        # Buscar informação específica
+        return self.pdf_extrator_avancado.buscar_informacao_direta(tipo_info, especie)
+ 
 
     def _gerar_cache_key_inteligente(self, classificacao):
         """
@@ -990,6 +764,75 @@ class SistemaConsultaVetOtimizado:
                 )
                 print(colored(f"📄 Seções do PDF filtradas: {len(contexto_pdf_filtrado)}/{len(contexto_pdf_completo)}", "cyan"))
         
+        if tem_pdf and self.pdf_extrator_avancado:
+
+          primeiro_item = contexto_dados[0]
+          pdf_url = primeiro_item.get('url', '')
+          
+          if pdf_url:
+              pdf_filename = os.path.join(
+                  PDF_CACHE_DIR, 
+                  hashlib.md5(pdf_url.encode()).hexdigest() + ".pdf"
+              )
+              
+              if os.path.exists(pdf_filename):
+                  print(colored("🎯 Tentando busca estruturada avançada...", "cyan"))
+                  
+                  # Identificar tipo de informação
+                  pergunta_lower = pergunta_ollama.lower()
+                  
+                  tipo_info_map = {
+                      'dose': ['dose', 'dosagem', 'posologia'],
+                      'armazenamento': ['armazenamento', 'armazenar', 'conservar', 'temperatura'],
+                      'especies': ['espécie', 'especie', 'animal', 'indicado'],
+                      'administracao': ['administração', 'administracao', 'via'],
+                      'reacoes': ['reações', 'reacoes', 'adversas', 'efeitos'],
+                      'intervalos': ['intervalo', 'segurança', 'tempo de espera', 'carência'],
+                      'receita': ['receita', 'prescrição'],
+                      'composicao': ['composição', 'composicao', 'princípio ativo']
+                  }
+                  
+                  tipo_detectado = None
+                  for tipo, palavras in tipo_info_map.items():
+                      if any(palavra in pergunta_lower for palavra in palavras):
+                          tipo_detectado = tipo
+                          break
+                  
+                  if tipo_detectado:
+                      # Buscar com extrator estruturado
+                      resultado_estruturado = self._buscar_informacao_direta_pdf_avancada(
+                          pdf_filename,
+                          tipo_detectado,
+                          especie_alvo
+                      )
+                      
+                      if resultado_estruturado and resultado_estruturado.get('encontrado'):
+                          print(colored(f"✅ Informação encontrada com busca estruturada!", "green"))
+                          print(colored(f"   Confiança média: {resultado_estruturado.get('confianca_media', 0)*100:.1f}%", "cyan"))
+                          
+                          # Se confiança é alta, usar diretamente
+                          if resultado_estruturado.get('confianca_media', 0) >= 0.85:
+                              info_extraida = resultado_estruturado['info_extraida']
+                              
+                              # Construir resposta baseada na informação estruturada
+                              resposta = self._construir_resposta_de_info_estruturada(
+                                  pergunta_ollama,
+                                  info_extraida,
+                                  medicamento_nome,
+                                  tipo_detectado
+                              )
+                              
+                              # Salvar em cache
+                              if classificacao and pergunta_original:
+                                  self._salvar_resposta_cache_inteligente(
+                                      classificacao, 
+                                      pergunta_original, 
+                                      resposta
+                                  )
+                              
+                              return formatar_links_resposta(resposta, contexto_dados)
+
+
         # Busca direta primeiro
         busca_direta = None
         tipo_info = None
@@ -1174,6 +1017,52 @@ class SistemaConsultaVetOtimizado:
         except Exception as e:
             print(colored(f"❌ Erro ao consultar Ollama: {e}", "red"))
             return f"Erro ao consultar Ollama: {e}"
+    
+    
+    def _construir_resposta_de_info_estruturada(self, pergunta, info_extraida, medicamento, tipo_info):
+        """
+        Constrói resposta formatada a partir de informação estruturada
+        """
+        if not info_extraida:
+            return f"Não foram encontradas informações sobre {tipo_info} para {medicamento}."
+        
+        # Ordenar por confiança
+        info_ordenada = sorted(info_extraida, key=lambda x: x.get('confianca', 0), reverse=True)
+        
+        resposta_partes = []
+        
+        # Cabeçalho
+        if tipo_info == 'dose' or tipo_info == 'dosagem':
+            resposta_partes.append(f"**Dosagem de {medicamento}:**\n")
+        elif tipo_info == 'armazenamento':
+            resposta_partes.append(f"**Condições de Armazenamento de {medicamento}:**\n")
+        elif tipo_info == 'especies':
+            resposta_partes.append(f"**Espécies-alvo de {medicamento}:**\n")
+        elif tipo_info == 'administracao':
+            resposta_partes.append(f"**Forma de Administração de {medicamento}:**\n")
+        else:
+            resposta_partes.append(f"**Informações sobre {tipo_info} de {medicamento}:**\n")
+        
+        # Informações encontradas
+        for i, info in enumerate(info_ordenada[:3], 1):  # Top 3
+            conteudo = info.get('conteudo', '')
+            confianca = info.get('confianca', 0)
+            secao = info.get('secao', '')
+            
+            if i == 1 and confianca >= 0.9:
+                # Informação principal (mais confiável)
+                resposta_partes.append(f"{conteudo}")
+            else:
+                resposta_partes.append(f"\n• {conteudo}")
+            
+            # Adicionar metadados discretamente
+            if confianca < 0.8:
+                resposta_partes.append(f" (Seção {secao})")
+        
+        # Rodapé
+        resposta_partes.append(f"\n\n_Informação extraída automaticamente do documento oficial._")
+        
+        return "\n".join(resposta_partes)     
 
 
     def _comprimir_contexto_ollama(self, contexto_dados, tipo_consulta, pergunta_ollama):
@@ -1563,9 +1452,11 @@ class SistemaConsultaVetOtimizado:
             return link_info['dados_basicos']
 
     async def _extrair_conteudo_pdf_async(self, pdf_url):
-        """Versão simplificada com foco em tabelas"""
+        """
+        Versão atualizada que usa o extrator avançado
+        """
         cache_filename = os.path.join(PDF_CACHE_DIR, hashlib.md5(pdf_url.encode()).hexdigest() + ".pdf")
-        text_cache = cache_filename.replace(".pdf", "_v2.txt")  # v2 para invalidar cache antigo
+        text_cache = cache_filename.replace(".pdf", "_v3_estruturado.txt")  # v3 para novo formato
         
         # Verificar cache
         if os.path.exists(text_cache):
@@ -1586,11 +1477,14 @@ class SistemaConsultaVetOtimizado:
                                 f.write(pdf_content)
             except:
                 return None
-    
-        # Processar PDF
+        
+        # Processar com extrator avançado
         try:
-            interpreter = TabelaInterpreter()
-            secoes = interpreter.processar_pdf_completo(cache_filename)
+            processador = PDFProcessorAvancado()
+            secoes = processador.extrair_e_processar_pdf(cache_filename)
+            
+            # Guardar referência ao extrator para buscas diretas
+            self.pdf_extrator_avancado = processador
             
             # Salvar em cache
             texto_completo = "\n\n".join(secoes)
@@ -1600,7 +1494,7 @@ class SistemaConsultaVetOtimizado:
             return texto_completo
         except Exception as e:
             print(colored(f"Erro ao processar PDF: {e}", "red"))
-        return None
+            return None
     
         
     def _extrair_secoes_relevantes_pdf(self, conteudo_pdf, pergunta):
@@ -1814,6 +1708,7 @@ class SistemaConsultaVetOtimizado:
                     
                     # EXTRAÇÃO PRIORITÁRIA: De tabelas estruturadas
                     if is_tabela:
+                        print(colored(f"  📊 TABELA detectada na seção {i}", "cyan"))
                         
                         # Extrair doses de formato tabular
                         linhas = [l.strip() for l in secao_original.split('\n') if l.strip()]
@@ -1953,40 +1848,39 @@ class SistemaConsultaVetOtimizado:
         # Criar lista explícita de doses válidas
         doses_validas_str = "\n".join([f"  - {dose}" for dose in doses_encontradas])
         
-        prompt = f"""
-        MEDICAMENTO: {medicamento_nome}
+        prompt = f"""MEDICAMENTO: {medicamento_nome}
 
-        DOSES IDENTIFICADAS NO DOCUMENTO:
-        {doses_validas_str}
+DOSES IDENTIFICADAS NO DOCUMENTO:
+{doses_validas_str}
 
-        ⚠️ ATENÇÃO CRÍTICA:
-        As doses acima foram EXTRAÍDAS DIRETAMENTE do documento oficial.
-        Você DEVE usar APENAS essas doses. NÃO invente, NÃO calcule, NÃO assuma.
+⚠️ ATENÇÃO CRÍTICA:
+As doses acima foram EXTRAÍDAS DIRETAMENTE do documento oficial.
+Você DEVE usar APENAS essas doses. NÃO invente, NÃO calcule, NÃO assuma.
 
-        DOCUMENTO COMPLETO:
-        {secoes_texto}
+DOCUMENTO COMPLETO:
+{secoes_texto}
 
-        PERGUNTA: {pergunta}
+PERGUNTA: {pergunta}
 
-        REGRAS OBRIGATÓRIAS:
-        1. Use APENAS as doses listadas acima em "DOSES IDENTIFICADAS"
-        2. NÃO confunda:
-        - Nome do medicamento (ex: "Senvelgo 15 mg/ml") ≠ dose
-        - Concentração (mg/ml) ≠ dose por peso (mg/kg)
-        3. Se a pergunta menciona uma espécie, encontre a dose ESPECÍFICA para ela
-        4. Formato da resposta: "A dose para [espécie] é [valor exato das doses identificadas]"
-        5. Se NÃO encontrar dose para a espécie específica, diga: "Não há dose específica para [espécie] no documento"
-        6. NUNCA use valores do nome do medicamento como dose
+REGRAS OBRIGATÓRIAS:
+1. Use APENAS as doses listadas acima em "DOSES IDENTIFICADAS"
+2. NÃO confunda:
+   - Nome do medicamento (ex: "Senvelgo 15 mg/ml") ≠ dose
+   - Concentração (mg/ml) ≠ dose por peso (mg/kg)
+3. Se a pergunta menciona uma espécie, encontre a dose ESPECÍFICA para ela
+4. Formato da resposta: "A dose para [espécie] é [valor exato das doses identificadas]"
+5. Se NÃO encontrar dose para a espécie específica, diga: "Não há dose específica para [espécie] no documento"
+6. NUNCA use valores do nome do medicamento como dose
 
-        EXEMPLO DE RESPOSTA CORRETA:
-        "Segundo o documento, a dose indicada de {medicamento_nome} para gatos é 1 mg/kg."
+EXEMPLO DE RESPOSTA CORRETA:
+"Segundo o documento, a dose indicada de {medicamento_nome} para gatos é 1 mg/kg."
 
-        EXEMPLO DE RESPOSTA ERRADA (NÃO FAÇA ISSO):
-        ❌ "A dose é 15 mg" (confundiu com concentração do nome)
-        ❌ "A dose é 15.0 mg" (inventou baseado no nome)
+EXEMPLO DE RESPOSTA ERRADA (NÃO FAÇA ISSO):
+❌ "A dose é 15 mg" (confundiu com concentração do nome)
+❌ "A dose é 15.0 mg" (inventou baseado no nome)
 
-        AGORA RESPONDA A PERGUNTA USANDO APENAS AS DOSES IDENTIFICADAS:
-        """
+AGORA RESPONDA A PERGUNTA USANDO APENAS AS DOSES IDENTIFICADAS:
+"""
         
         return prompt
     
@@ -2102,29 +1996,29 @@ class SistemaConsultaVetOtimizado:
         4. Se a informação está em formato tabular, CITE EXATAMENTE como aparece
         5. Para doses em tabelas: procure pela espécie e leia o valor correspondente
         """
-            
-            prompt = f"""
-        MEDICAMENTO: {medicamento_nome}
+        
+        # Criar prompt (dentro ou fora do if)
+        prompt = f"""MEDICAMENTO: {medicamento_nome}
 
-        DOCUMENTO COMPLETO (TODAS AS SEÇÕES):
-        {secoes_texto}
+DOCUMENTO COMPLETO (TODAS AS SEÇÕES):
+{secoes_texto}
 
-        PERGUNTA: {pergunta}
-        {instrucoes_tabela}
+PERGUNTA: {pergunta}
+{instrucoes_tabela}
 
-        INSTRUÇÕES CRÍTICAS:
-        1. Leia CUIDADOSAMENTE todo o conteúdo acima
-        2. Se houver TABELAS, interprete-as corretamente:
-        - Identifique os cabeçalhos
-        - Encontre a linha correspondente à espécie/situação
-        - Leia o valor correto da coluna apropriada
-        3. A informação solicitada DEVE estar no documento
-        4. NUNCA invente ou assuma informações
-        5. Se a informação estiver em tabela, descreva: "Segundo a tabela, [informação]"
-        6. Seja PRECISO e cite EXATAMENTE os valores encontrados
+INSTRUÇÕES CRÍTICAS:
+1. Leia CUIDADOSAMENTE todo o conteúdo acima
+2. Se houver TABELAS, interprete-as corretamente:
+   - Identifique os cabeçalhos
+   - Encontre a linha correspondente à espécie/situação
+   - Leia o valor correto da coluna apropriada
+3. A informação solicitada DEVE estar no documento
+4. NUNCA invente ou assuma informações
+5. Se a informação estiver em tabela, descreva: "Segundo a tabela, [informação]"
+6. Seja PRECISO e cite EXATAMENTE os valores encontrados
 
-        RESPOSTA DETALHADA:
-        """
+RESPOSTA DETALHADA:
+"""
         
         return prompt
 
