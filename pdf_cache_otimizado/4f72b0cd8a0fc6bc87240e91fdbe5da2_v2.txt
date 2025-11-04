@@ -1,0 +1,1271 @@
+RESUMO DAS CARACTERÍSTICAS DO MEDICAMENTO 
+ 
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  📍 Via: IV
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+TERRAMICINA 100 mg/ml solução injetável para bovinos, ovinos, caprinos, suínos e equinos.
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+ 
+Cada ml contém: 
+ 
+Substância(s) ativa(s): 
+Cloridrato de oxitetraciclina 
+ 
+ 
+ 
+ 
+100 mg 
+(Equivalente a 92,72 mg de oxitetraciclina base) 
+ 
+Excipientes: 
+Monotioglicerol       
+ 
+ 
+ 
+ 
+ 
+10,53 mg 
+Formaldeído sulfoxilato de sódio 
+ 
+ 
+ 
+  3,92 mg 
+ 
+ 
+Para a lista completa de excipientes, ver secção 6.1.
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Solução injetável. 
+Solução amarela a âmbar.
+
+4. 
+INFORMAÇÕES CLÍNICAS 
+ 
+4.1 
+Espécie(s)-alvo 
+ 
+Bovinos, Ovinos, Caprinos, Suínos e Equinos. 
+ 
+4.2 
+Indicações de utilização, especificando as espécies-alvo 
+ 
+O medicamento veterinário está indicado para o tratamento de infeções causadas por, ou associadas a, 
+microrganismos sensíveis à oxitetraciclina, em bovinos, ovinos, caprinos, suínos e equinos, incluindo 
+o tratamento de infeções respiratórias causadas por Pasteurella multocida, Mannheimia haemolytica, 
+Histophilus somni e Mycoplasma bovis e para  tratamento do aborto enzoótico ovino (Chlamydophila 
+abortus – Chlamydia psittaci). 
+ 
+4.3 
+Contraindicações 
+ 
+Não administrar em caso de hipersensibilidade às tetraciclinas ou a qualquer dos excipientes.  
+Não administrar em animais com alterações hepáticas ou renais. 
+ 
+4.4 
+Advertências especiais para cada espécie-alvo 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 3 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Aves
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Ocorre resistência cruzada entre as tetraciclinas. A utilização sistemática de uma única classe de 
+antibióticos pode resultar na indução de resistências na população bacteriana. A utilização fora das 
+indicações recomendadas neste RCMV pode também aumentar a prevalência de bactérias resistentes. 
+ 
+A indicação no tratamento do aborto enzoótico ovino  não elimina uma possível transmissão pela 
+placenta. 
+ 
+4.5 
+Precauções especiais de utilização 
+ 
+Precauções especiais para utilização em animais 
+ 
+Não administrar mais de 10 ml no mesmo local de injeção. 
+ 
+A administração do medicamento veterinário deve basear-se em testes de sensibilidade de bactérias 
+isoladas do animal. Caso isso não seja possível, a terapêutica deve basear-se na informação 
+epidemiológica local (regional, ao nível da exploração) sobre a sensibilidade da bactéria alvo. Deverá 
+ter-se o cuidado de não exceder a dosagem recomendada. 
+ 
+Deve ter-se em consideração as medidas antimicrobianas oficiais, nacionais e regionais quando o 
+medicamento veterinário é administrado.  
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais 
+ 
+As pessoas com hipersensibilidade conhecida às tetraciclinas devem evitar qualquer contacto com o 
+medicamento veterinário.  
+Manipular o medicamento com cuidado para evitar a autoinjeção acidental assim como o contacto 
+com pele e olhos, tomando precauções específicas como usar luvas e lavar as mãos após utilização. 
+Em caso de contacto com a pele e olhos, lavar abundamente com água. Em caso de autoinjeção dirija-
+se imediatamente a um médico e mostre-lhe o folheto informativo ou o rótulo. 
+ 
+Se se desenvolverem sintomas após exposição ao medicamento veterinário, tais como rash cutâneo, o 
+médico deverá ser imediatamente contactado. O edema do rosto, lábios ou olhos ou dificuldade 
+respiratória são sintomas mais graves que requerem atenção médica imediata. 
+ 
+4.6  
+Reações adversas (frequência e gravidade) 
+ 
+Em casos raros podem observar-se reações alérgicas e de fotossensibilidade cutânea. A injeção 
+intramuscular pode ser dolorosa e causar inflamação e necrose no local de injeção. Muito raramente 
+pode ocorrer nos cavalos uma enterocolite que pode ter desfecho mortal. 
+ 
+O uso prolongado de tetraciclinas em animais jovens pode causar inibição de crescimento dos ossos e 
+provocar descoloração dos dentes na fase de desenvolvimento da dentição. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- Muito comum (mais de 1 em 10 animais apresentando evento(s) adverso(s) durante o decurso de um 
+tratamento) 
+- Comum (mais de 1 mas menos de 10 animais em 100 animais) 
+- Pouco frequentes (mais de 1 mas menos de 10 animais em 1.000 animais) 
+- Raros (mais de 1 mas menos de 10 animais em 10.000 animais)  
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: Oral
+
+Entrada 2:
+  📍 Via: Oral
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+Entrada 5:
+  🐾 Espécie: Ovinos
+
+Entrada 6:
+  🐾 Espécie: Equinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+- Muito rara (menos de 1 animal em 10.000 animais, incluindo relatos isolados). 
+ 
+4.7 
+Utilização durante a gestação, a lactação e a postura de ovos 
+ 
+Os estudos de laboratório efectuados em ratas, cobaias e coelhas  não revelaram efeitos teratogénicos. 
+Administrar apenas em conformidade com a avaliação benefício/risco realizada pelo veterinário 
+responsável. Administração não recomendada durante a lactação. 
+ 
+4.8 
+Interações medicamentosas e outras formas de interação 
+ 
+Não é recomendada a administração concomitante com antibióticos bactericidas.  
+ 
+As tetraciclinas apresentam afinidade e tendem a formar complexos insolúveis com catiões bivalentes 
+e trivalentes, sobretudo cálcio, ferro, magnésio e cobre. 
+ 
+Ocorre resistência cruzada entre as tetraciclinas. 
+ 
+4.9 
+Posologia e via de administração 
+ 
+Administração por via intramuscular ou  intravenosa. 
+ 
+Recomenda-se uma dose diária de 10 mg de oxitetraciclina por quilo de peso corporal, equivalente a 1 
+ml do medicamento veterinário por cada 10 kg de peso corporal, durante 2-3 dias e até um máximo de 
+5 dias.  
+ 
+Para assegurar a correta dosagem, o peso corporal deve ser calculado com o maior rigor possível para 
+evitar subdosagens. 
+ 
+4.10 Sobredosagem (sintomas, procedimentos de emergência, antídotos), (se necessário) 
+ 
+A oxitetraciclina tem uma ampla margem de segurança nas espécies alvo pelo que não é esperada 
+sintomatologia clínica por sobredosagem. 
+ 
+4.11 Intervalo(s) de segurança 
+ 
+Carne e vísceras: 
+Bovinos: 34  dias 
+Suínos: 24 dias 
+Ovinos e Caprinos: 15 dias. 
+ 
+Leite: 
+Vacas, Ovelhas e Cabras: 120 horas 
+ 
+Não administrar a equinos destinados a consumo humano. Não administrar a éguas cujo leite seja 
+destinado a consumo humano.
+
+5. 
+PROPRIEDADES FARMACOLÓGICAS 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 5 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  💉 Dose: 10 mg/kg
+  📍 Via: Intramuscular
+
+Entrada 2:
+  🐾 Espécie: Aves
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Grupo farmacoterapêutico: Antibiótico para uso sistémico (tetraciclinas, oxitetraciclina). 
+Código ATCvet: QJ01AA06 
+ 
+5.1 
+Propriedades farmacodinâmicas 
+ 
+As tetraciclinas são antibióticos bacteriostáticos que inibem a síntese das proteínas bacterianas nos 
+organismos sensíveis. Esta acção antibacteriana resulta da ligação à sub-unidade 30S dos ribossomas 
+bacteriano  interferindo na fixação do RNA transferência ao RNA mensageiro e assim impedindo a 
+adição de aminoácidos à cadeia peptídica e inibindo a síntese proteica.  
+Existem pelo menos dois mecanismos de resistência às tetraciclinas. O mais importante deve-se à 
+diminuição da acumulação intracelular do fármaco. O outro mecanismo evidencia-se por uma 
+diminuição da afinidade do ribossoma por mutação cromossómica. 
+ 
+A oxitetraciclina tem atividade entre suscetível a moderada, contra microrganismos Gram positivos e 
+negativos, incluindo Pasteurella multocida, Mannheimia haemolytica, Histophilus spp, Mycoplasma 
+spp, Arcanobacterium pyogenes, Haemophilus parasuis, Bordetella bronchiseptica, Actinobacillus 
+pleuropneumoniae, Chlamydophila abortus, Theileria, Anaplasma spp, Listeria monocytogenes. 
+ 
+Os pontos de ruptura microbiológico para as tetraciclinas segundo o CLSI são os seguintes: 
+ 
+CMI (μg/ml)  
+Interpretação  
+≤ 4  
+(S) Suscetível  
+8  
+(I) Intermédio  
+≥ 16  
+(R) Resistente  
+ 
+ 
+5.2 
+Propriedades farmacocinéticas 
+ 
+Após a administração intramuscular de oxitetraciclina (10 mg / kg durante 3 dias consecutivos) em 
+vacas e ovelhas, as concentrações plasmáticas foram detetadas a partir de 30 minutos após injeção, 
+atingindo a concentração máxima aproximadamente 4 horas após a administração.  As concentrações 
+máximas após a terceira administração foram superiores às obtidas após as duas primeiras 
+administrações. A oxitetraciclina é rapidamente absorvida e distribui-se por todo o organismo, 
+atingindo concentrações mais elevadas no rim, fígado, baço e pulmão e  atravessa a barreira 
+placentária.  A ligação às proteínas plasmáticas varia entre  numa proporção compreendida entre 20 e 
+40%. As tetraciclinas eliminam-se principalmente através da urina. Ocorre também eliminação por via 
+biliar numa pequena parte.
+
+6. 
+INFORMAÇÕES FARMACÊUTICAS 
+ 
+6.1 
+Lista de excipientes 
+ 
+Monotioglicerol       
+ 
+ 
+ 
+ 
+ 
+ 
+Formaldeído sulfoxilato de sódio 
+Polivinilpirrolidona 
+Óxido de magnésio 
+Monoetanolamina 
+Ácido clorídrico  
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 6 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: SC
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Azoto 
+Água para preparações injetáveis. 
+ 
+ 
+6.2 
+Incompatibilidades  
+ 
+Na ausência de estudos de compatibilidade, este medicamento veterinário não deve ser misturado com 
+outros. 
+ 
+6.3 
+Prazo de validade  
+ 
+Prazo de validade do medicamento veterinário tal como embalado para venda: 2 anos 
+Prazo de validade do medicamento veterinário após a primeira abertura do acondicionamento primário: 
+Uso imediato 
+ 
+ 
+6.4 
+Precauções especiais de conservação 
+ 
+Conservar a temperatura inferior a 25ºC. Proteger da luz.  
+ 
+Manter fora da vista e do alcance das crianças. 
+ 
+Não utilizar depois de expirado o prazo de validade indicado na embalagem e no rótulo depois de 
+VAL. A validade refere-se ao último dia do mês indicado. 
+ 
+ 
+6.5 
+Natureza e composição do acondicionamento primário 
+ 
+Frascos multidose de vidro âmbar de tipo II com fecho de borracha butilada e cápsula de 
+alumínio com 50 ml e 100 ml. Embalagem com 1 frasco de 50 ml e 100 ml. 
+ 
+É possível que não sejam comercializadas todas as apresentações. 
+ 
+6.6 
+Precauções especiais para a eliminação de medicamentos veterinários não utilizados ou de 
+desperdícios derivados da utilização desses medicamentos 
+ 
+O medicamento veterinário não utilizado ou os seus desperdícios devem ser eliminados de acordo com a 
+legislação em vigor.
+
+7. 
+TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+Zoetis Portugal, Lda. 
+Lagoas Park – Edifício 10 
+2740-271 Porto Salvo
+
+8. 
+NÚMERO(S) DE REGISTO DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+1047/01/16NFVPT
+
+9.  
+DATA DA PRIMEIRA AUTORIZAÇÃO/RENOVAÇÃO DA AUTORIZAÇÃO 
+ 
+ 24 de Maio de1976
+
+10. 
+DATA DA REVISÃO DO TEXTO 
+ 
+Fevereiro 2017. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ROTULAGEM E FOLHETO INFORMATIVO 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A. ROTULAGEM 
+
+================================================================================
+📊 PÁGINA 10 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+INDICAÇÕES A INCLUIR NO  ACONDICIONAMENTO SECUNDÁRIO   
+ 
+{caixas de 50 ml / 100 ml }
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+TERRAMICINA 100 mg/ml solução injetável para bovinos, ovinos, caprinos, suínos e equinos. 
+Oxitetraciclina
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS E OUTRAS SUBSTÂNCIAS 
+ 
+Cada ml contém:  
+ 
+Substância ativa:  
+Oxitetraciclina (como cloridrato)  
+ 
+ 
+  100 mg  
+ 
+Excipientes: 
+Monotioglicerol       
+ 
+ 
+ 
+ 
+ 
+10,53 mg 
+Formaldeído sulfoxilato de sódio 
+ 
+ 
+ 
+  3,92 mg
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Solução injetável.
+
+4. 
+DIMENSÃO DA EMBALAGEM 
+ 
+50 ml 
+100 ml
+
+5. 
+ESPÉCIES-ALVO 
+ 
+Bovinos, ovinos, caprinos, suínos e equinos.
+
+6. 
+INDICAÇÃO (INDICAÇÕES) 
+ 
+Para tratamento de infeções causadas por microrganismos sensíveis à oxitetraciclina em bovinos, 
+ovinos, caprinos, suínos e equinos. 
+ 
+Antes de utilizar, leia o folheto informativo.
+
+7. 
+MODO E VIA(S) DE ADMINISTRAÇÃO 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 11 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Bovinos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Ovinos
+
+Entrada 4:
+  🐾 Espécie: Equinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+IM/ IV    
+ 
+Antes de utilizar, leia o folheto informativo.
+
+8. 
+INTERVALO DE SEGURANÇA 
+ 
+Intervalo de segurança 
+Carne e vísceras: 
+Bovinos: 34  dias 
+Suínos: 24 dias 
+Ovinos e Caprinos: 15 dias. 
+ 
+Leite: 
+Vacas, Ovelhas e Cabras: 120 horas 
+ 
+Não administrar a equinos destinados a consumo humano. Não administrar a éguas cujo leite seja 
+destinado a consumo humano.
+
+9. 
+ADVERTÊNCIA(S) ESPECIAL (ESPECIAIS), SE NECESSÁRIO 
+ 
+Antes de utilizar, leia o folheto informativo.
+
+10. 
+PRAZO DE VALIDADE 
+ 
+VAL:
+
+11. 
+CONDIÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Conservar a temperatura inferior a 25ºC. Proteger da luz.
+
+12. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+Eliminação dos restos não utilizados: ler o folheto informativo.
+
+13. 
+MENÇÃO “EXCLUSIVAMENTE PARA USO VETERINÁRIO” E CONDIÇÕES OU 
+RESTRIÇÕES RELATIVAS AO FORNECIMENTO E À UTILIZAÇÃO, se for caso 
+disso 
+ 
+USO VETERINÁRIO 
+ 
+Exclusivamente para uso veterinário – Medicamento veterinário sujeito a receita médico veterinária. 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+14. 
+MENÇÃO “MANTER FORA DA VISTA E DO ALCANCE DAS CRIANÇAS” 
+ 
+Manter fora do alcance e da vista das crianças.
+
+15. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO 
+ 
+Zoetis Portugal, Lda. 
+Lagoas Park – Edifício 10 
+2740 - 271 Porto Salvo
+
+16. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+1047/01/16 NFVPT
+
+17. 
+NÚMERO DO LOTE DE FABRICO 
+ 
+Lote  {número} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 13 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: SC
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+Entrada 5:
+  🐾 Espécie: Ovinos
+
+Entrada 6:
+  🐾 Espécie: Equinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+INDICAÇÕES MÍNIMAS A INCLUIR EM PEQUENAS UNIDADES DE 
+ACONDICIONAMENTO PRIMÁRIO 
+ 
+{frasco 50 ml e 100 ml}
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+TERRAMICINA 100 mg/ml solução injetável para bovinos, ovinos, caprinos, suínos e equinos.
+
+2. 
+COMPOSIÇÃO QUANTITATIVA DA(S) SUBSTÂNCIA(S) ATIVA(S)  
+ 
+Cada ml contém:  
+Substância ativa:  
+Oxitetraciclina (como cloridrato)  
+ 
+ 
+  100 mg
+
+3. 
+CONTEÚDO EM PESO, VOLUME OU NÚMERO DE DOSES 
+ 
+50 ml  
+100 ml
+
+4. 
+VIA(S) DE ADMINISTRAÇÃO 
+ 
+IM / IV
+
+5. 
+INTERVALO DE SEGURANÇA 
+ 
+Carne e vísceras: 
+Bovinos: 34  dias 
+Suínos: 24 dias 
+Ovinos e Caprinos: 15 dias. 
+ 
+Leite: 
+Vacas, Ovelhas e Cabras: 120 horas 
+ 
+Não administrar a equinos destinados a consumo humano. Não administrar a éguas cujo leite seja 
+destinado a consumo humano.
+
+6. 
+NÚMERO DO LOTE 
+ 
+Lote:   
+
+--------------------------------------------------------------------------------
+
+7. 
+PRAZO DE VALIDADE 
+VAL:
+
+8. 
+MENÇÃO “EXCLUSIVAMENTE PARA USO VETERINÁRIO” 
+ 
+USO VETERINÁRIO 
+ 
+AIM nº 1047/01/16 NFVPT 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. FOLHETO INFORMATIVO 
+
+================================================================================
+📊 PÁGINA 16 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  📍 Via: IV
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+FOLHETO INFORMATIVO PARA: 
+TERRAMICINA 100 mg/ml solução injetável para bovinos, ovinos, caprinos, suínos e equinos.
+
+1. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO E DO TITULAR DA AUTORIZAÇÃO DE FABRICO RESPONSÁVEL 
+PELA LIBERTAÇÃO DO LOTE, SE FOREM DIFERENTES 
+ 
+Titular da autorização de introdução no mercado: 
+Zoetis Portugal, Lda. 
+Lagoas Park – Edifício 10 
+2740 - 271 Porto Salvo 
+ 
+Titular da autorização de fabrico  responsável pela libertação de lotes: 
+FAREVA AMBOISE 
+Zone Industrielle,  
+29 route des Industries  
+37530 Pocé-sur-Cisse        
+França
+
+2. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+TERRAMICINA 100 mg/ml solução injetável para bovinos, ovinos, caprinos, suínos e equinos. 
+Oxitetraciclina cloridrato
+
+3. 
+DESCRIÇÃO DA(S) SUBSTÂNCIA(S) ATIVA(S) E OUTRA(S) SUBSTÂNCIA(S) 
+ 
+Cada ml contém: 
+ 
+Substância(s) ativa(s): 
+Cloridrato de oxitetraciclina 
+ 
+ 
+ 
+ 
+100 mg 
+(Equivalente a 92,72 mg de oxitetraciclina base) 
+ 
+Excipientes: 
+Monotioglicerol       
+ 
+ 
+ 
+ 
+ 
+10,53 mg 
+Formaldeído sulfoxilato de sódio 
+ 
+ 
+ 
+  3,92 mg
+
+4. 
+INDICAÇÕES 
+ 
+O medicamento veterinário está indicado para o tratamento de infeções causadas por, ou associadas a, 
+microrganismos sensíveis à oxitetraciclina, em bovinos, ovinos, caprinos, suínos e equinos, incluindo 
+o tratamento de infeções respiratórias causadas por Pasteurella multocida, Mannheimia haemolytica, 
+Histophilus somni e Mycoplasma bovis e para  tratamento do aborto enzoótico ovino (Chlamydophila 
+abortus – Chlamydia psittaci).
+
+5. 
+CONTRAINDICAÇÕES 
+ 
+Não administrar em caso de hipersensibilidade às tetraciclinas ou a algum dos excipientes.  
+Não administrar em animais com alterações hepáticas ou renais. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 17 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Aves
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  📍 Via: Oral
+
+Entrada 4:
+  📍 Via: Oral
+
+Entrada 5:
+  🐾 Espécie: Bovinos
+
+Entrada 6:
+  🐾 Espécie: Suínos
+
+Entrada 7:
+  🐾 Espécie: Ovinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+6. 
+REAÇÕES ADVERSAS  
+ 
+Em casos raros podem observar-se reações alérgicas e de fotossensibilidade cutânea. A injeção 
+intramuscular pode ser dolorosa e causar inflamação e necrose no local de injeção. Muito raramente 
+pode ocorrer nos cavalos uma enterocolite que pode ter desfecho mortal. 
+ 
+O uso prolongado de tetraciclinas em animais jovens pode causar inibição de crescimento dos ossos e 
+provocar descoloração dos dentes na fase de desenvolvimento da dentição. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- Muito comum (mais de 1 em 10 animais apresentando evento(s) adverso(s) durante o decurso de um 
+tratamento) 
+- Comum (mais de 1 mas menos de 10 animais em 100 animais) 
+- Pouco frequentes (mais de 1 mas menos de 10 animais em 1.000 animais) 
+- Raros (mais de 1 mas menos de 10 animais em 10.000 animais)  
+- Muito rara (menos de 1 animal em 10.000 animais, incluindo relatos isolados). 
+ 
+Caso detete efeitos graves ou outros efeitos não mencionados neste folheto, informe o seu médico 
+veterinário.
+
+7. 
+ESPÉCIES-ALVO 
+ 
+Bovinos, ovinos, caprinos, suínos e equinos.
+
+8. 
+DOSAGEM EM FUNÇÃO DA ESPÉCIE, VIA(S) E MODO DE ADMINISTRAÇÃO 
+ 
+Administração por via intramuscular ou  intravenosa. 
+ 
+Recomenda-se uma dose diária de 10 mg de oxitetraciclina por quilo de peso corporal, equivalente a 1 
+ml do medicamento veterinário por cada 10 kg de peso corporal, durante 2-3 dias e até um máximo de 
+5 dias.
+
+9. 
+INSTRUÇÕES COM VISTA A UMA UTILIZAÇÃO CORRETA 
+ 
+Não administrar mais de 10 ml no mesmo local de injeção.  
+ 
+Para assegurar a correta dosagem, o peso corporal deve ser calculado com o maior rigor possível para 
+evitar subdosagens.
+
+10. 
+INTERVALO DE SEGURANÇA 
+ 
+Carne e vísceras: 
+Bovinos: 34  dias 
+Suínos: 24 dias 
+Ovinos e Caprinos: 15 dias. 
+ 
+Leite: 
+Vacas, Ovelhas e Cabras: 120 horas 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 18 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Equinos
+
+Entrada 2:
+  🐾 Espécie: Aves
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Não administrar a equinos destinados a consumo humano. Não administrar a éguas cujo leite seja 
+destinado a consumo humano.
+
+11. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Manter fora da vista e do alcance das crianças. 
+ 
+Conservar a temperatura inferior a 25ºC. Proteger da luz. 
+ 
+Não utilizar depois de expirado o prazo de validade indicado na embalagem e no rótulo depois de 
+VAL.  A validade refere-se ao último dia do mês indicado.
+
+12. 
+ADVERTÊNCIA(S) ESPECIAL(AIS) 
+ 
+Advertências especiais para cada espécie alvo 
+Ocorre resistência cruzada entre as tetraciclinas. A utilização sistemática de uma única classe de 
+antibióticos pode resultar na indução de resistências na população bacteriana. A utilização fora das 
+indicações recomendadas neste RCMV pode também aumentar a prevalência de bactérias resistentes. 
+ 
+A indicação no tratamento do aborto enzoótico ovino não elimina uma possível transmissão pela 
+placenta. 
+ 
+Precauções especiais para utilização em animais 
+Não  administrar mais de 10 ml no mesmo local de injeção. 
+ 
+A administração do medicamento veterinário deve basear-se em testes de sensibilidade de bactérias 
+isoladas do animal. Caso isso não seja possível, a terapêutica deve basear-se na informação 
+epidemiológica local (regional, ao nível da exploração) sobre a sensibilidade da bactéria alvo. Deverá 
+ter-se o cuidado de não exceder a dosagem recomendada. 
+ 
+Deve ter-se em consideração as medidas antimicrobianas oficiais, nacionais e regionais quando o 
+medicamento veterinário é administrado.  
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais 
+As pessoas com hipersensibilidade conhecida às tetraciclinas devem evitar qualquer contacto com o 
+medicamento veterinário.  
+Manipular o medicamento com cuidado para evitar a autoinjeção acidental assim como o contacto 
+com pele e olhos, tomando precauções específicas como usar luvas e lavar as mãos após utilização. 
+Em caso de contacto com a pele e olhos, lavar abundamente com água. Em caso de autoinjeção dirija-
+se imediatamente a um médico e mostre-lhe o folheto informativo ou o rótulo. 
+ 
+Se se desenvolverem sintomas após exposição ao medicamento veterinário, tais como rash cutâneo, o 
+médico deverá ser imediatamente contactado. O edema do rosto, lábios ou olhos ou dificuldade 
+respiratória são sintomas mais graves que requerem atenção médica imediata. 
+ 
+Gestação e lactação 
+Os estudos de laboratório efectuados em ratas, cobaias e coelhas  não revelaram efeitos teratogénicos. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 19 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: SC
+
+Entrada 2:
+  📍 Via: SC
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Administrar apenas em conformidade com a avaliação benefício/risco realizada pelo veterinário 
+responsável. Administração não recomendada durante  a lactação. 
+ 
+Interações medicamentosas e outras formas de interação 
+Não é recomendada a administração concomitante com antibióticos bactericidas.  
+ 
+As tetraciclinas apresentam afinidade e tendem a formar complexos insolúveis com catiões bivalentes 
+e trivalentes, sobretudo cálcio, ferro, magnésio e cobre. 
+ 
+Incompatibilidades 
+Na ausência de estudos de compatibilidade, este medicamento veterinário não deve ser misturado com 
+outros.
+
+13. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+Os medicamentos não devem ser eliminados no lixo ou esgotos domésticos. 
+ 
+Pergunte ao médico veterinário como deve eliminar os medicamentos veterinários que já não são 
+necessários. Estas medidas contribuem para a proteção do ambiente.
+
+14. 
+DATA DA ÚLTIMA APROVAÇÃO DO FOLHETO INFORMATIVO 
+ 
+Fevereiro 2017.
+
+15. 
+OUTRAS INFORMAÇÕES 
+ 
+Frascos multidose de vidro âmbar de tipo II com fecho de borracha de clorobutilo e cápsula de 
+alumínio com 50 ml, 100 ml e 250 ml. Embalagem com 1 frasco de 50 ml, 100 ml e 250 ml; 
+Embalagem com 10 frascos de 100 ml. 
+ 
+É possível que não sejam comercializadas todas as apresentações. 
+ 
+Exclusivamente para uso veterinário – medicamento veterinário sujeito a receita médico veterinária. 
+ 
+AIM nº 1047/01/16 NFVPT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------

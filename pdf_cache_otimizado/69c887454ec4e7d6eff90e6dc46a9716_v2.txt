@@ -1,0 +1,1368 @@
+================================================================================
+📊 PÁGINA 1 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 1 de 16 
+ 
+RESUMO DAS CARACTERÍSTICAS DO MEDICAMENTO
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Flevox 67 mg Solução para unção punctiforme para cães pequenos
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+ 
+1 pipeta de 0,67 ml contém: 
+ 
+Substância ativa 
+Fipronil 
+ 
+ 
+67 mg 
+ 
+Excipientes: 
+Butilhidroxianisol (E320) 
+0,268 mg 
+Butilhidroxitolueno (E321) 
+0,134 mg 
+ 
+Para a lista completa dos excipientes, ver a secção 6.1.
+
+3. 
+FORMA FARMACÊUTICA 
+Solução para unção punctiforme 
+Solução amarela, límpida
+
+4. 
+INFORMAÇÕES CLÍNICAS 
+ 
+ 
+4.1 
+Espécie alvo 
+ 
+ 
+ 
+Caninos (Cães). 
+ 
+ 
+4.2 
+Indicações de utilização, especificando a espécie alvo 
+ 
+Em cães: 
+Tratamento 
+de 
+infestações 
+por 
+pulgas 
+(Ctenocephalides 
+spp.) 
+e 
+piolhos 
+mordedores/sugadores (Trichodectes canis). 
+ 
+A eficácia inseticida contra novas infestações por pulgas adultas persiste até 8 semanas. 
+As pulgas recém-chegadas são mortas em 48 horas após a chegada ao animal. O 
+medicamento veterinário pode ser usado como parte de uma estratégia de tratamento da 
+dermatite alérgica por picada da pulga (DAPP) quando esta foi previamente diagnosticada 
+pelo médico veterinário. 
+ 
+O medicamento veterinário não demonstrou um efeito acaricida imediato contra carraças, 
+mas demonstrou uma eficácia acaricida persistente até 4 semanas contra carraças 
+Rhipicephalus sanguineus e Dermacentor reticulatus e até 3 semanas contra Ixodes 
+ricinus. Se as carraças destas espécies estiverem presentes aquando da aplicação do 
+medicamento veterinário, as carraças poderão não ser todas mortas nas primeiras 48 
+horas, mas serão eliminadas numa semana. 
+ 
+4.3 
+Contra-indicações 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Gatos
+
+Entrada 4:
+  🐾 Espécie: Cães
+
+Entrada 5:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 2 de 16 
+ 
+Na ausência de dados disponíveis, o medicamento veterinário não deve ser aplicado a 
+cachorros com idade inferior a 8 semanas e/ou peso inferior a 2 kg. 
+Não aplicar a animais doentes (doença sistémica, febre…) ou convalescentes. 
+Não usar em coelhos, pois podem ocorrer reações adversas e mesmo morte. 
+Não administrar em caso de hipersensibilidade ao Fipronil ou a qualquer dos excipientes. 
+Não administrar por via oral. 
+Este medicamento veterinário foi especificamente desenvolvido para cães. Não usar em 
+gatos pois poderia resultar numa sobredosagem. 
+ 
+4.4 
+Advertências especiais para cada espécie-alvo 
+ 
+As pulgas dos animais de estimação infestam frequentemente os cestos, camas e áreas de 
+repouso regular dos animais, como tapetes e mobiliário, que devem ser tratados, em caso 
+de infestação maciça e no início das medidas de controlo, com um insecticida adequado e 
+aspirados regularmente. 
+ 
+As carraças que se encontrem já no animal antes do tratamento poderão não ser 
+eliminadas nas primeiras 48 horas após a aplicação do medicamento veterinário, mas 
+podem ser mortas numa semana. É recomendada a remoção das carraças que já se 
+encontrem no animal no momento da aplicação. O medicamento veterinário não impede 
+que as carraças se fixem no animal. Se o animal foi tratado antes da exposição às 
+carraças, a maioria das carraças será eliminada nas 48 horas após a infestação.  
+Esta será normalmente antes do ingurgitamento, minimizando, mas sem excluir, o risco 
+de transmissão de doenças. Uma vez mortas, as carraças caem do animal, mas as carraças 
+remanescentes podem ser removidas com um suave puxão. 
+ 
+Não estão disponíveis dados sobre o efeito do banho e de champôs sobre a eficácia do 
+medicamento veterinário. Portanto, devem ser evitados banhos ou imersão em água nos 2 
+dias após a aplicação e banhos frequentes mais do que uma vez por semana.  
+ 
+Para melhor controlo dos problemas de pulgas numa casa com vários animais, todos os 
+cães e gatos na casa devem ser tratados com um insecticida adequado. 
+ 
+Quando administrado como parte de uma estratégia no tratamento da dermatite alérgica 
+por picada da pulga (DAPP), são recomendadas aplicações mensais no paciente alérgico e 
+nos outros gatos e cães da casa.  
+ 
+4.5 
+Precauções especiais de utilização 
+ 
+i) Precauções especiais de utilização no animal 
+Evitar o contacto com os olhos do animal. Em caso de contacto acidental com os olhos, 
+enxaguar imediatamente com água abundante. 
+ É importante ter certeza de que o produto é aplicado numa área onde o animal não 
+consiga lambê-la e assegure que os animais não se lambem uns aos outros após o 
+tratamento. 
+Não aplicar o medicamento veterinário em feridas ou pele afectada. 
+Não foram realizados estudos específicos para averiguar a segurança do medicamento 
+veterinário após a administração repetida devido ao perfil de segurança conhecido da 
+substância ativa e excipientes. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 3 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IV
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 3 de 16 
+ 
+ii) Precauções especiais a adoptar pela pessoa que administra o medicamento 
+veterinário aos animais 
+Este medicamento veterinário pode causar irritação nos olhos e mucosas. Assim, deve-se 
+evitar o contacto com os olhos e boca. 
+No caso de contacto acidental com os olhos, enxaguar imediatamente com água 
+abundante. Se a irritação persistir, procurar conselho médico e mostrar o rótulo ou folheto 
+informativo. 
+Evitar o contacto do produto com os dedos. Se tal ocorrer, lavar as mãos com água e 
+sabão. Lavar as mãos após a aplicação. 
+Não fumar, beber ou comer durante a aplicação. 
+Pessoas com conhecida hipersensibilidade ao fipronil ou a qualquer dos excipientes 
+devem evitar o contacto com o medicamento veterinário. 
+Enquanto o local de aplicação não estiver completamente seco, os animais não devem ser 
+manuseados nem as crianças devem brincar com eles. Por isso, é recomendado que não se 
+aplique o medicamento veterinário aos animais durante o dia mas sim durante a noite, 
+devendo impedir-se que os mesmos durmam com os donos, especialmente com as 
+crianças, após a aplicação recente do medicamento veterinário. 
+Manter as pipetas na embalagem original e eliminar imediatamente as pipetas usadas. 
+iii) Outras precauções 
+O fipronil pode afectar negativamente os organismos aquáticos. Os cães não devem ser 
+autorizados a nadar em cursos de água nos 2 dias após a aplicação. 
+ 
+4.6 
+Reações adversas (frequência e gravidade) 
+ 
+Se o animal se lamber pode observar-se um breve período de hipersalivação, devido 
+principalmente à natureza do veículo.  
+Entre as extremamente raras reações adversas, foram relatadas reações cutâneas 
+transitórias no local de aplicação (descamação, alopécia local, prurido e eritema) bem 
+como prurido e alopécia geral. Excepcionalmente foram observados, após aplicação, 
+hipersalivação, sintomas neurológicos reversíveis (hiperestesia, depressão, sintomas 
+nervosos), vómitos ou sinais respiratórios. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- Muito comum (mais de 1 em 10 animais apresentando evento(s) adverso(s) durante o 
+decurso de um tratamento) 
+- Comum (mais de 1 mas menos de 10 animais em 100 animais) 
+- Pouco frequentes (mais de 1 mas menos de 10 animais em 1.000 animais) 
+- Raros (mais de 1 mas menos de 10 animais em 10.000 animais)  
+- Muito rara (menos de 1 animal em 10.000 animais, incluindo relatos isolados) 
+ 
+ 
+4.7 
+Utilização em caso de gestação e lactação 
+ 
+Estudos laboratoriais com fipronil não demonstraram efeitos teratogénicos ou 
+embriotóxicos. Não foram efectuados estudos deste medicamento veterinário em cadelas 
+gestantes ou lactantes. Administrar em conformidade com a avaliação risco/benefício 
+realizado pelo médico veterinário responsável. 
+ 
+4.8 
+Interações medicamentosas e outras formas de interação. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: Topica
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 4 de 16 
+ 
+ 
+Desconhecidas. 
+ 
+ 
+4.9 
+Posologia modo e via de administração 
+ 
+ 
+Exclusivamente para uso externo 
+ 
+Administrar por unção punctiforme. 
+ 
+Antes do tratamento os animais devem ser pesados com precisão. 
+ 
+ 
+Aplicar topicamente na pele 1 pipeta de 0,67 ml no cão com peso superior a 2 kg e até 10 
+kg. 
+ 
+O intervalo mínimo de tratamento é 4 semanas.  
+ 
+Modo de administração 
+Afastar os pêlos na linha dorsal entre as escápulas, até que a pele fique bem visível. 
+Colocar a ponta da pipeta sobre a pele e apertá-la delicadamente, para esvaziar 
+completamente o seu conteúdo directamente sobre a pele. 
+ 
+É importante ter a certeza que o medicamento veterinário é aplicado numa área em que o 
+animal não possa lamber-se e assegurar que os animais não se lambam entre si após a 
+aplicação. 
+Aquando da aplicação do medicamento veterinário na pele, evitar molhar excessivamente 
+o pêlo com o medicamento veterinário, uma vez que este causa um efeito pegajoso do 
+pêlo na zona. Contudo, se este efeito ocorrer, desaparecerá geralmente nas 24 horas após 
+a aplicação, mas pode persistir até 2 semanas. 
+ 
+4.10 
+Sobredosagem (sintomas, procedimentos de emergência, antídotos), se 
+necessário 
+ 
+Não foi observado qualquer efeito indesejável em cães e cachorros com 8 ou mais 
+semanas de idade e pesando cerca de 2 kg, sujeitos a estudos de segurança, com uma 
+aplicação de 5 vezes a dose recomendada. 
+O risco de efeitos adversos pode contudo aumentar com sobredosagem, pelo que os 
+animais devem ser tratados com a pipeta correcta de acordo com o seu peso. 
+ 
+4.11 
+Intervalo de Segurança 
+ 
+Não aplicável.
+
+5. 
+PROPRIEDADES FARMACOLÓGICAS 
+Grupo farmacoterapêutico: Ectoparasiticidas de uso tópico, incluindo insecticidas 
+Código ATCVet: QP53AX15 
+ 
+5.1 
+Propriedades farmacodinâmicas 
+O Fipronil é um insecticida e acaricida pertencente à família dos fenilpirazois. Actua 
+interagindo com os canais de cloro, em especial os regulados pelo neurotransmissor ácido 
+gama-aminobutírico (GABA), bloqueando, deste modo, a transferência pré e pós-
+sináptica dos iões cloro através da membrana celular. Como resultado produz-se uma 
+actividade incontrolada do sistema nervoso central e morte dos insectos e ácaros. 
+O Fipronil também inibe os canais de cloro ativados pelo glutamato (GloCls) que só são 
+encontrados em invertebrados. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 5 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IV
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 5 de 16 
+ 
+ 
+5.2 
+Propriedades farmacocinéticas 
+Depois de uma aplicação local de fipronil no cão, a absorção sistémica é insignificante. 
+Níveis baixos de fipronil podem ser detectados no plasma, com uma alta variabilidade 
+entre cães. Após a aplicação, existe uma boa distribuição da substância ativa nos pêlos, 
+apresentando um gradiente de concentração que se estende entre o ponto de aplicação às 
+áreas periféricas. 
+O metabolito principal é o derivado sulfona do fipronil, que também possui propriedades 
+insecticida e acaricida. A concentração de fipronil no pêlo diminui com o tempo.
+
+6. 
+INFORMAÇÕES FARMACÊUTICAS 
+ 
+6.1. 
+Lista dos excipientes 
+Butilhidroxianisol (E320)  
+Butilhidroxitolueno (E321) 
+Povidona (K17) 
+Dietilenoglicol monoetiléter. 
+ 
+ 
+6.2. 
+Incompatibilidades 
+ 
+ 
+Desconhecidas. 
+ 
+6.3. 
+Prazo de validade 
+ 
+ 
+Prazo de validade do medicamento veterinário como embalado para venda: 3 anos 
+ 
+6.4. 
+Precauções especiais de conservação 
+ 
+Este medicamento veterinário não necessita de condições especiais de conservação. 
+ 
+6.5. 
+Natureza e composição da embalagem imediata 
+ 
+A embalagem primária é composta de pipetas feito de poliacrilonitrila / polipropileno - 
+um copolímero de olefina cíclica - folha selada termoformada de polipropileno / 
+polipropileno com folha de cobertura de poliacrilonitrila / alumínio / polietileno 
+tereftalato. 
+ 
+Cada pipeta está contida num blister individual. 
+ 
+Caixa de cartão contendo 1 blister com 1 pipeta de 0,67 ml 
+Caixa de cartão contendo 3 blisters com 1 pipeta de 0,67 ml 
+Caixa de cartão contendo 6 blisters com 1 pipeta de 0,67 ml 
+Caixa de cartão contendo 30 blisters com 1 pipeta de 0,67 ml 
+Caixa de cartão contendo 36 blisters com 1 pipeta de 0,67 ml 
+Caixa de cartão contendo 50 blisters com 1 pipeta de 0,67 ml 
+ 
+Poderão não ser comercializadas todas as apresentações. 
+ 
+6.6. 
+Precauções especiais de eliminação do medicamento não utilizado ou dos seus 
+desperdícios, se existirem. 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 6 de 16 
+ 
+O medicamento veterinário não utilizado ou os resíduos derivados do medicamento 
+veterinários devem ser eliminados de acordo com a legislação em vigor.  
+O fipronil pode exercer efeitos adversos nos organismos aquáticos. Não contaminar lagos, 
+cursos de água ou valas de irrigação com o produto ou com as embalagens vazias.
+
+7. 
+NOME OU DESIGNAÇÃO SOCIAL E DOMICÍLIO DO TITULAR DA 
+AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+Titular da Autorização de Introdução no Mercado  
+ 
+VÉTOQUINOL, Lda 
+Rua Consiglieri Pedroso, nº 123, Edifício H,  
+Queluz de Baixo 
+2730-056 BARCARENA
+
+8. 
+NÚMERO DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+326/02/11DFVPT
+
+9. 
+DATA DA PRIMEIRA AUTORIZAÇÃO 
+ 
+3 de Março de 2011
+
+10. 
+DATA DA REVISÃO DO TEXTO 
+ 
+ 
+Março de 2016
+
+11. 
+PROIBIÇÃO DE VENDA, FORNECIMENTO E/OU UTILIZAÇÃO 
+Não aplicável 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 7 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+
+Entrada 4:
+  🐾 Espécie: Cães
+
+Entrada 5:
+  🐾 Espécie: Cães
+
+Entrada 6:
+  🐾 Espécie: Cães
+
+Entrada 7:
+  🐾 Espécie: Cães
+
+Entrada 8:
+  🐾 Espécie: Cães
+
+Entrada 9:
+  🐾 Espécie: Cães
+
+Entrada 10:
+  🐾 Espécie: Cães
+
+Entrada 11:
+  🐾 Espécie: Cães
+
+Entrada 12:
+  🐾 Espécie: Cães
+
+Entrada 13:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 7 de 16 
+ 
+ 
+FOLHETO INFORMATIVO 
+ 
+Flevox 67 mg Solução para unção punctiforme para Cães Pequenos 
+Flevox 134 mg Solução para unção punctiforme para Cães Médios  
+Flevox 268 mg Solução para unção punctiforme para Cães Grandes 
+Flevox 402 mg Solução para unção punctiforme para Cães Muito Grandes
+
+1. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO 
+NO MERCADO E DO TITULAR DA AUTORIZAÇÃO DE FABRICO RESPONSÁVEL 
+PELA LIBERTAÇÃO DO LOTE, SE FOREM DIFERENTES 
+ 
+Titular da Autorização de Introdução no Mercado: 
+VÉTOQUINOL, Lda. 
+Rua Consiglieri Pedroso, nº 123, Edifício H,  
+Queluz de Baixo 
+2730-056 BARCARENA  
+ 
+Fabricante Libertador de Lote: 
+VETOQUINOL BIOWET Sp. Z.o.o. 
+ 
+Ou 
+VETOQUINOL SA 
+UL. KOSYNIERÓW GDYŃSKICH 13/14 
+ 
+MAGNY VERNOIS 
+66-400 GORZÓW WLKP 
+ 
+ 
+ 
+F-70200 LURE 
+POLÓNIA 
+ 
+ 
+ 
+ 
+ 
+FRANÇA
+
+2. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+Flevox 67 mg Solução para unção punctiforme para Cães Pequenos 
+Flevox 134 mg Solução para unção punctiforme para Cães Médios  
+Flevox 268 mg Solução para unção punctiforme para Cães Grandes 
+Flevox 402 mg Solução para unção punctiforme para Cães Muito Grandes 
+ 
+Fipronil
+
+3. 
+DESCRIÇÃO DA(S) SUBSTÂNCIA(S) ATIVA(S) E OUTRA(S) SUBSTÂNCIA(S) 
+ 
+1 pipeta contém: 
+ 
+ 
+Flevox Cães 
+Pequenos 
+Flevox Cães 
+Médios 
+Flevox Cães 
+Grandes 
+Flevox Cães 
+Muito Grandes 
+Substância Ativa 
+ 
+ 
+ 
+ 
+Fipronil 
+67 mg 
+134 mg 
+268 mg 
+402 mg 
+Excipientes: 
+ 
+ 
+ 
+ 
+Butilhidroxianisol (E320) 
+0,268 mg 
+0,536 mg 
+1,072 mg 
+1,608 mg 
+Butilhidroxitolueno (E321) 
+0,134 mg 
+0,268 mg 
+0,536 mg 
+0,804 mg
+
+4. 
+INDICAÇÕES 
+ 
+Em cães: 
+Tratamento de infestações por pulgas (Ctenocephalides spp.) e piolhos mordedores/sugadores 
+(Trichodectes canis). 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 8 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 8 de 16 
+ 
+ 
+A eficácia inseticida contra novas infestações por pulgas adultas persiste até 8 semanas. As 
+pulgas recém-chegadas são mortas em 48 horas após a chegada ao animal. O medicamento 
+veterinário pode ser usado como parte de uma estratégia de tratamento da dermatite alérgica por 
+picada da pulga (DAPP) quando esta foi previamente diagnosticada pelo médico veterinário. 
+ 
+O medicamento veterinário não demonstrou um efeito acaricida imediato contra carraças, mas 
+demonstrou uma eficácia acaricida persistente até 4 semanas contra carraças Rhipicephalus 
+sanguineus e Dermacentor reticulatus e até 3 semanas contra Ixodes ricinus. Se as carraças 
+destas espécies estiverem presentes aquando da aplicação do medicamento veterinário, as 
+carraças poderão não ser todas mortas nas primeiras 48 horas, mas serão eliminadas numa 
+semana.
+
+5. 
+CONTRA-INDICAÇÕES 
+ 
+Na ausência de dados disponíveis, o medicamento veterinário não deve ser aplicado a cachorros 
+com idade inferior a 8 semanas e/ou peso inferior a 2 kg. 
+Não aplicar a animais doentes (doença sistémica, febre…) ou convalescentes. 
+Não usar em coelhos, pois podem ocorrer reações adversas e mesmo morte. 
+Não administrar em caso de hipersensibilidade ao Fipronil ou a qualquer dos excipientes. 
+Não administrar por via oral. 
+Este medicamento veterinário foi especificamente desenvolvido para cães. Não usar em gatos 
+pois poderia resultar numa sobredosagem.
+
+6. 
+REAÇÕES ADVERSAS  
+ 
+Se o animal se lamber pode observar-se um breve período de hipersalivação, devido 
+principalmente à natureza do veículo.  
+Entre as extremamente raras reações adversas, foram relatadas reações cutâneas transitórias no 
+local de aplicação (descamação, alopécia local, prurido e eritema) bem como prurido e alopécia 
+geral. Excepcionalmente foram observados, após aplicação, hipersalivação, sintomas 
+neurológicos reversíveis (hiperestesia, depressão, sintomas nervosos), vómitos ou sinais 
+respiratórios. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- Muito comum (mais de 1 em 10 animais apresentando evento(s) adverso(s) durante o decurso 
+de um tratamento) 
+- Comum (mais de 1 mas menos de 10 animais em 100 animais) 
+- Pouco frequentes (mais de 1 mas menos de 10 animais em 1.000 animais) 
+- Raros (mais de 1 mas menos de 10 animais em 10.000 animais)  
+- Muito rara (menos de 1 animal em 10.000 animais, incluindo relatos isolados) 
+ 
+ 
+Caso detete efeitos secundários não mencionados neste folheto, informe o médico veterinário.
+
+7. 
+ESPÉCIES - ALVO 
+ 
+Caninos (Cães). 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 9 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+
+Entrada 4:
+  🐾 Espécie: Cães
+
+Entrada 5:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 9 de 16
+
+8. 
+DOSAGEM 
+EM 
+FUNÇÃO 
+DA 
+ESPÉCIE, 
+VIA(S) 
+E 
+MODO 
+DE 
+ADMINISTRAÇÃO 
+ 
+Exclusivamente para uso externo 
+Administrar por unção punctiforme. 
+Antes do tratamento os animais devem ser pesados com precisão. 
+Aplicar topicamente na pele: 
+* 1 pipeta de 0,67 ml por cão com peso superior a 2 kg e até 10 kg. 
+* 1 pipeta de 1,34 ml por cão com peso superior a 10 kg e até 20 kg. 
+* 1 pipeta de 2,68 ml por cão com peso superior a 20 kg e até 40 kg. 
+* 1 pipeta de 4,02 ml por cão com peso superior a 40 kg e até 60 kg. 
+Para cães com peso superior a 60 kg usar 2 pipetas de 2,68 ml 
+ 
+O intervalo mínimo de tratamento é 4 semanas.  
+ 
+Afastar os pêlos na linha dorsal entre as escápulas, até que a pele fique bem visível. Colocar a 
+ponta da pipeta sobre a pele e apertá-la delicadamente, para esvaziar completamente o seu 
+conteúdo directamente sobre a pele. 
+ 
+ 
+ 
+É importante ter a certeza que o medicamento veterinário é aplicado numa área em que o animal 
+não possa lamber-se e assegurar que os animais não se lambam entre si após a aplicação. 
+Aquando da aplicação do medicamento veterinário na pele, evitar molhar excessivamente o pêlo 
+com o medicamento veterinário, uma vez que este causa um efeito pegajoso do pêlo na zona. 
+Contudo, se este efeito ocorrer, desaparecerá geralmente nas 24 horas após a aplicação, mas 
+pode persistir até 2 semanas.
+
+9. INSTRUÇÕES COM VISTA A UMA UTILIZAÇÃO CORRETA 
+ 
+Nenhuma.
+
+10. 
+INTERVALO DE SEGURANÇA 
+ 
+Não aplicável.
+
+11. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Este medicamento veterinário não necessita de condições especiais de conservação 
+Manter fora da vista e do alcance das crianças 
+Não administrar este medicamento veterinário após a data de validade indicada na embalagem 
+externa. Esta data de validade refere-se ao último dia do mês. 
+Cortar com tesoura para retirar a pipeta 
+Cortar com tesoura para retirar a pipeta 
+Cortar com tesoura para retirar a pipeta 
+ 
+Aplicar na pele entre as espátulas 
+Aplicar na pele entre as espátulas 
+Aplicar na pele entre as espátulas 
+ 
+Partir o topo 
+Partir o topo 
+Partir o topo 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 10 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Gatos
+
+Entrada 4:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 10 de 16
+
+12. 
+ADVERTÊNCIA (S) ESPECIAL (AIS) 
+ 
+As pulgas dos animais de estimação infestam frequentemente os cestos, camas e áreas de 
+repouso regular dos animais, como tapetes e mobiliário, que devem ser tratados, em caso de 
+infestação maciça e no início das medidas de controlo, com um insecticida adequado e aspirados 
+regularmente. 
+ 
+As carraças que se encontrem já no animal antes do tratamento poderão não ser eliminadas nas 
+primeiras 48 horas após a aplicação do medicamento veterinário, mas podem ser mortas numa 
+semana. É recomendada a remoção das carraças que já se encontrem no animal no momento da 
+aplicação. O medicamento veterinário não impede que as carraças se fixem no animal. Se o 
+animal foi tratado antes da exposição às carraças, a maioria das carraças será eliminada nas 48 
+horas após a infestação. Esta será normalmente antes do ingurgitamento, minimizando, mas sem 
+excluir, o risco de transmissão de doenças. Uma vez mortas, as carraças caem do animal, mas as 
+carraças remanescentes podem ser removidas com um suave puxão. 
+Não estão disponíveis dados sobre o efeito do banho e de champôs sobre a eficácia do 
+medicamento veterinário. Portanto, devem ser evitados banhos ou imersão em água nos 2 dias 
+após a aplicação e banhos frequentes mais do que uma vez por semana.  
+Para melhor controlo dos problemas de pulgas numa casa com vários animais, todos os cães e 
+gatos na casa devem ser tratados com um insecticida adequado. 
+Quando administrado como parte de uma estratégia no tratamento da dermatite alérgica por 
+picada da pulga (DAPP), são recomendadas aplicações mensais no paciente alérgico e nos 
+outros gatos e cães da casa.  
+ 
+Precauções especiais de utilização no animal 
+É importante ter certeza de que o produto é aplicado numa área onde o animal não consiga 
+lambê-la e assegure que os animais não se lambem uns aos outros após o tratamento. 
+Evitar o contacto com os olhos do animal. Em caso de contacto acidental com os olhos, 
+enxaguar imediatamente com água abundante.  
+Não aplicar o medicamento veterinário em feridas ou pele afectada. 
+Não foram realizados estudos específicos para averiguar a segurança do medicamento 
+veterinário após a administração repetida devido ao perfil de segurança conhecido da substância 
+ativa e excipientes. 
+ 
+Precauções especiais a adoptar pela pessoa que administra o medicamento veterinário aos 
+animais 
+ 
+Este medicamento veterinário pode causar irritação nos olhos e mucosas. Assim, deve-se evitar 
+o contacto com os olhos e boca. 
+No caso de contacto acidental com os olhos, enxaguar imediatamente com água abundante. Se a 
+irritação persistir, procurar conselho médico e mostrar o ou folheto informativo. 
+Evitar o contacto do medicamento veterinário com os dedos. Se tal ocorrer, lavar as mãos com 
+água e sabão. Lavar as mãos após a aplicação. 
+Não fumar, beber ou comer durante a aplicação. 
+Pessoas com conhecida hipersensibilidade ao fipronil ou a qualquer dos excipientes, devem 
+evitar o contacto com o medicamento veterinário. 
+Enquanto o local de aplicação não estiver completamente seco, os animais não devem ser 
+manuseados nem as crianças devem brincar com eles. Por isso, é recomendado que não se 
+aplique o medicamento veterinário aos animais durante o dia mas sim durante a noite, devendo 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 11 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IV
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 11 de 16 
+ 
+impedir-se que os mesmos durmam com os donos, especialmente com as crianças, após a 
+aplicação recente do medicamento veterinário. 
+ 
+Outras precauções 
+ 
+O fipronil pode afectar negativamente os organismos aquáticos. Os cães não devem ser 
+autorizados a nadar em cursos de água nos 2 dias após a aplicação. 
+Manter as pipetas na embalagem original e eliminar imediatamente as pipetas usadas. 
+ 
+ 
+Utilização em caso de gestação e lactação 
+ 
+Estudos laboratoriais com fipronil não demonstraram efeitos teratogénicos ou embriotóxicos. 
+Não foram efectuados estudos deste medicamento veterinário em cadelas gestantes ou lactantes. 
+Administrar em conformidade com a avaliação risco/benefício realizada pelo médico veterinário 
+responsável. 
+ 
+Interações medicamentosas e outras formas de interação. 
+ 
+Desconhecidas. 
+ 
+Sobredosagem  
+ 
+Não foi observado qualquer efeito indesejável em cães e cachorros com 8 ou mais semanas de 
+idade e pesando cerca de 2 kg, sujeitos a estudos de segurança, com uma aplicação de 5 vezes a 
+dose recomendada. 
+O risco de efeitos adversos pode contudo aumentar com sobredosagem, pelo que os animais 
+devem ser tratados com a pipeta correcta de acordo com o seu peso.
+
+13. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS RESÍDUOS, SE FOR CASO DISSO 
+ 
+O medicamento veterinário não utilizado ou os resíduos derivados do medicamento veterinário 
+devem ser eliminados de acordo com a legislação em vigor.  
+O fipronil pode exercer efeitos adversos nos organismos aquáticos. Não contaminar lagos, 
+cursos de água ou valas de irrigação com o produto ou com as embalagens vazias.
+
+14. 
+DATA DA ÚLTIMA APROVAÇÃO DO FOLHETO INFORMATIVO 
+ 
+Março de 2016
+
+15. 
+OUTRAS INFORMAÇÕES 
+ 
+Apresentações: 
+ 
+Flevox 67 mg solução para unção punctiforme para Cães Pequenos 
+Caixa de cartão contendo 1 blister com 1 pipeta de 0.67 ml 
+Caixa de cartão contendo 3 blisters com 1 pipeta de 0.67 ml 
+Caixa de cartão contendo 6 blisters com 1 pipeta de 0.67 ml 
+Caixa de cartão contendo 30 blisters com 1 pipeta de 0.67 ml 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 12 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 12 de 16 
+ 
+Caixa de cartão contendo 36 blisters com 1 pipeta de 0.67 ml 
+Caixa de cartão contendo 50 blisters com 1 pipeta de 0.67 ml 
+ 
+Flevox 134 mg solução para unção punctiforme para Cães Médios 
+Caixa de cartão contendo 1 blister com 1 pipeta de 1.34 ml 
+Caixa de cartão contendo 3 blisters com 1 pipeta de 1.34 ml 
+Caixa de cartão contendo 6 blisters com 1 pipeta de 1.34 ml 
+Caixa de cartão contendo 30 blisters com 1 pipeta de 1.34 ml 
+Caixa de cartão contendo 36 blisters com 1 pipeta de 1.34 ml 
+Caixa de cartão contendo 50 blisters com 1 pipeta de 1.34 ml 
+ 
+Flevox 268 mg solução para unção punctiforme para Cães Grandes 
+Caixa de cartão contendo 1 blister com 1 pipeta de 2.68 ml 
+Caixa de cartão contendo 3 blisters com 1 pipeta de 2.68 ml 
+Caixa de cartão contendo 6 blisters com 1 pipeta de 2.68 ml 
+Caixa de cartão contendo 30 blisters com 1 pipeta de 2.68 ml 
+Caixa de cartão contendo 36 blisters com 1 pipeta de 2.68 ml 
+Caixa de cartão contendo 50 blisters com 1 pipeta de 2.68 ml 
+ 
+Flevox 402 mg solução para unção punctiforme para Cães Muito Grandes 
+Caixa de cartão contendo 1 blister com 1 pipeta de 4.02 ml 
+Caixa de cartão contendo 3 blisters com 1 pipeta de 4.02 ml 
+Caixa de cartão contendo 6 blisters com 1 pipeta de 4.02 ml 
+Caixa de cartão contendo 30 blisters com 1 pipeta de 4.02 ml 
+Caixa de cartão contendo 36 blisters com 1 pipeta de 4.02 ml 
+Caixa de cartão contendo 50 blisters com 1 pipeta de 4.02 ml 
+ 
+Poderão não ser comercializadas todas as apresentações. 
+ 
+ 
+USO VETERINÁRIO  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 13 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 13 de 16 
+ 
+TEXTO PARA CARTONAGEM
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Flevox 67 mg Solução para unção punctiforme para Cães Pequenos 
+Fipronil
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS E OUTRAS SUBSTÂNCIAS 
+ 
+1 pipeta de 0,67 ml contém: 
+Fipronil 
+ 
+ 
+67 mg 
+Butilhidroxianisol (E320) 
+0,268 mg 
+Butilhidroxitolueno (E321) 
+0,134 mg
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Solução para unção punctiforme
+
+4. 
+DIMENSÃO DA EMBALAGEM 
+ 
+1 pipeta de 0,67 ml 
+3 pipetas de 0,67 ml 
+6 pipetas de 0,67 ml 
+30 pipetas de 0,67 ml 
+36 pipetas de 0,67 ml 
+50 pipetas de 0,67 ml
+
+5. 
+ESPÉCIES-ALVO 
+ 
+Caninos (Cães).
+
+6. 
+INDICAÇÕES 
+ 
+Tratamento de infestações por pulgas e piolhos mordedores/sugadores, controlo da dermatite 
+alérgica por picada de pulga. 
+Antes de utilizar, ler o folheto informativo.
+
+7. 
+MODO E VIA(S) DE ADMINISTRAÇÃO 
+ 
+Antes de utilizar, leia o folheto informativo.
+
+8. 
+INTERVALO DE SEGURANÇA
+
+9. 
+ADVERTÊNCIA(S) ESPECIAL (ESPECIAIS), SE NECESSÁRIO 
+ 
+Antes de utilizar, leia o folheto informativo. 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 14 de 16
+
+10. 
+PRAZO DE VALIDADE 
+ 
+<EXP {mês/ano}>
+
+11. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Este medicamento veterinário não necessita de condições especiais de conservação.
+
+12. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS RESÍDUOS, SE FOR CASO DISSO 
+ 
+Eliminação: Leia o folheto informativo.
+
+13. 
+MENÇÃO “EXCLUSIVAMENTE PARA USO VETERINÁRIO” E CONDIÇÕES 
+OU RESTRIÇÕES RELATIVAS AO FORNECIMENTO E À UTILIZAÇÃO, se 
+for caso disso 
+ 
+USO VETERINÁRIO 
+(fundo verde) 
+(obrigatório)
+
+14. 
+MENÇÃO “MANTER FORA DO ALCANCE E DA VISTA DAS CRIANÇAS” 
+ 
+Manter fora da vista e do alcance das crianças.
+
+15. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO 
+NO MERCADO 
+ 
+Titular da Autorização de Introdução no Mercado: 
+VETOQUINOL, Lda. 
+Rua Consiglieri Pedroso, nº 123, Edifício H,  
+Queluz de Baixo 
+2730-056 BARCARENA
+
+16. 
+NÚMERO DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+326/02/11DFVPT
+
+17. 
+NÚMERO DO LOTE DE FABRICO 
+ 
+<Lot> {número} 
+ 
+ 
+ 
+ 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 15 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 15 de 16 
+ 
+TEXTO PARA BLISTER
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Flevox 67mg Solução para unção punctiforme para Cães Pequenos 
+Fipronil
+
+2. 
+COMPOSIÇÃO QUANTITATIVA DA(S) SUBSTÂNCIA(S) ATIVA(S)  
+ 
+Fipronil 
+67 mg
+
+3. 
+CONTEÚDO EM PESO, VOLUME OU NÚMERO DE DOSES 
+ 
+0,67 ml
+
+4. 
+VIA(S) DE ADMINISTRAÇÃO 
+ 
+ 
+ 
+Pictograma da via de administração
+
+5. 
+INTERVALO DE SEGURANÇA
+
+6. 
+NÚMERO DO LOTE 
+ 
+<Lot> {número}
+
+7. 
+PRAZO DE VALIDADE 
+ 
+<EXP {MM/AAAA}>
+
+8. 
+MENÇÃO “EXCLUSIVAMENTE PARA USO VETERINÁRIO” 
+ 
+Exclusivamente para uso veterinário. 
+ 
+USO VETERINÁRIO 
+(fundo verde) 
+(obrigatório) 
+ 
+ 
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 16 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+Direção-Geral de Alimentação e Veterinária – DGAMV 
+Última revisão do texto em março de 2016 
+Página 16 de 16 
+ 
+INDICAÇÕES MÍNIMAS A INCLUIR NAS PIPETAS 
+ 
+FLEVOX   67 MG SOLUÇÃO PARA UNÇÃO PUNCTIFORME PARA CÃES 
+PEQUENOS
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Flevox  67 mg Solução para unção punctiforme para Cães Pequenos 
+Fipronil
+
+2. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+Vétoquinol
+
+3. 
+PRAZO DE VALIDADE 
+ 
+EXP {mês/ano}
+
+4. 
+NÚMERO DO LOTE DE FABRICO 
+ 
+Lot
+
+5. 
+MENÇÃO “EXCLUSIVAMENTE PARA USO VETERINÁRIO” 
+ 
+USO VETERINÁRIO. 
+ 
+ 
+ 
+Pictograma da espécie alvo, apenas para tratamento animal, e forma farmacêutica. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------

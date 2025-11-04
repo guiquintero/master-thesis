@@ -1,0 +1,14 @@
+{
+  "resposta": "O medicamento Simparica está indicado para as seguintes espécies:\n\n*   **Pulgas:** *Ctenocephalides felis* e *Ctenocephalides canis*\n*   **Carraças:** *Dermacentor reticulatus*, *Ixodes hexagonus*, *Ixodes ricinus*, *Rhipicephalus sanguineus*\n*   **Ácaros:** *Demodex canis*, *Otodectes cynotis*, *Sarcoptes scabiei*",
+  "pergunta_original": "Para que espécies está indicado o medicamento Simparica?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Simparica",
+    "pergunta_ollama": "Para que espécies está indicado o medicamento Simparica?",
+    "substancia_ativa": "Simparica",
+    "especie_alvo": "",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1762258873.4802165,
+  "modelo_usado": "gemma3:latest"
+}

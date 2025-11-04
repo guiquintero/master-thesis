@@ -1,0 +1,1543 @@
+ANEXO I 
+ 
+RESUMO DAS CARACTERÍSTICAS DO MEDICAMENTO VETERINÁRIO 
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+Entrada 4:
+  🐾 Espécie: Bovinos
+
+Entrada 5:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+ 
+Cada ml contém: 
+Substância ativa: 
+Meloxicam 
+20 mg 
+ 
+Excipientes: 
+ 
+Composição qualitativa dos excipientes e 
+outros componentes 
+Composição quantitativa, se esta informação 
+for essencial para a administração adequada 
+do medicamento veterinário 
+N-metilpirrolidona  
+718,20 mg 
+Etanol, anidro 
+158,00 mg 
+Hidróxido de sódio (para ajuste do pH) 
+ 
+Ácido clorídrico, diluir (para ajuste do pH) 
+ 
+Água para injetáveis 
+ 
+Solução transparente, amarela.
+
+3. 
+INFORMAÇÃO CLÍNICA 
+ 
+3.1 
+Espécies-alvo 
+ 
+Bovinos, suínos e equinos. 
+ 
+3.2 
+Indicações de utilização para cada espécie-alvo 
+ 
+Bovinos: 
+Para administração nas infeções respiratórias agudas com antibioterapia apropriada, a fim de reduzir os 
+sinais clínicos em bovinos. 
+Para administração em casos de diarreia em combinação com terapia de reidratação oral a fim de reduzir 
+os sinais clínicos em vitelos com mais de uma semana de idade e animais jovens, não lactentes. 
+Como terapia adjuvante no tratamento de mastite aguda em combinação com antibioterapia. 
+Para alívio da dor no pós-operatório, na sequência da descorna em vitelos. 
+Suínos: 
+Para administração nos distúrbios do aparelho locomotor não infeciosos para reduzir os sintomas como 
+claudicação e inflamação. 
+Como terapia adjuvante no tratamento de septicemia e toxemia puerperal (mastite-metrite-síndrome 
+agalactia) com antibioterapia apropriada. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 3 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Equinos
+
+Entrada 2:
+  🐾 Espécie: Equinos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Equinos: 
+Para administração no alívio da inflamação e alívio da dor em distúrbios musculosqueléticos agudos e 
+crónicos. 
+Para o alívio da dor associada com cólica equina. 
+ 
+3.3 
+Contraindicações 
+ 
+Ver também a secção 3.7. 
+Não administrar a equinos com menos de 6 semanas de idade. 
+Não administrar em casos de funções hepática, cardíaca ou renal deficientes e distúrbios hemorrágicos 
+ou quando há evidências de lesões ulcerogénicas gastrointestinais. 
+Não administrar em casos de hipersensibilidade à substância ativa ou a algum dos excipientes. 
+ 
+Para o tratamento de diarreia em bovinos, não administrar a animais com menos de uma semana de 
+idade. 
+ 
+3.4 
+Advertências especiais 
+ 
+O tratamento de vitelos com o medicamento veterinário 20 minutos antes da descorna reduz a dor no 
+pós-operatório. O medicamento veterinário em si não proporciona alívio adequado da dor durante 
+o procedimento de descorna. Para obter um alívio adequado da dor durante a cirurgia, é necessária co-
+medicação com um analgésico apropriado. 
+ 
+3.5 
+Precauções especiais de utilização 
+ 
+Precauções especiais para a utilização segura nas espécies-alvo: 
+Evitar a administração em animais gravemente desidratados, hipovolémicos ou hipotensos, que 
+necessitem de reidratação parentérica, dado que podem potencialmente estar em risco de toxicidade 
+renal. 
+Em caso de alívio inadequado da dor quando administrado no tratamento da cólica equina, deve 
+proceder-se a uma reavaliação cuidadosa do diagnóstico, dado que pode ser indício da necessidade de 
+uma intervenção cirúrgica. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais: 
+A autoinjeção acidental pode dar origem a dores. Pessoas com hipersensibilidade conhecida a 
+medicamentos anti-inflamatórios não-esteroides (AINE) devem evitar o contacto com o medicamento 
+veterinário. 
+Em caso de autoinjeção acidental, procurar imediatamente aconselhamento médico e mostrar o folheto 
+ou o rótulo ao médico. 
+Em caso de contacto acidental com a pele, lavar cuidadosamente a área afetada.  
+Lavar as mãos depois de administrar. 
+Sabe-se que os AINE e outros inibidores da prostaglandina têm efeitos adversos na gestação e/ou no 
+desenvolvimento embrionário. 
+Estudos laboratoriais em coelhos e ratos com o excipiente N-metilpirrolidona demostraram evidência 
+de efeitos fetotóxicos. 
+As mulheres em idade fértil, as mulheres grávidas ou as mulheres com suspeita de estarem grávidas 
+devem utilizar o medicamento veterinário com extrema precaução, de modo a evitar a autoinjeção 
+acidental. 
+ 
+Precauções especiais para a proteção do ambiente: 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Bovinos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Equinos
+
+Entrada 4:
+  🐾 Espécie: Aves
+
+Entrada 5:
+  📍 Via: Subcutânea
+
+Entrada 6:
+  📍 Via: Intramuscular
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Não aplicável. 
+ 
+ 
+3.6 
+Eventos adversos 
+ 
+Bovinos: 
+ 
+Raros 
+(1 a 10 animais / 10 000 animais 
+tratados): 
+Reações anafilactoides1 
+Frequência indeterminada  
+(não pode ser estimada a partir dos 
+dados disponíveis): 
+Inchaço no local da injeção2 
+ 
+Suínos: 
+ 
+Raros 
+(1 a 10 animais / 10 000 animais 
+tratados): 
+Reações anafilactoides1 
+Frequência indeterminada  
+(não pode ser estimada a partir dos 
+dados disponíveis): 
+Irritação no local da injeção3 
+ 
+Equinos: 
+ 
+Raros 
+(1 a 10 animais / 10 000 animais 
+tratados): 
+Reações anafilactoides1 
+Frequência indeterminada  
+(não pode ser estimada a partir dos 
+dados disponíveis): 
+Inchaço no local da injeção4 
+ 
+1 Podem ser graves (e mesmo fatais); devem ser tratadas a nível sintomatológico. 
+2 Após injeção subcutânea única; não doloroso; pode durar até 23 dias. 
+3 Após duas injeções intramusculares consecutivas; pode durar até 9 dias. 
+4 Temporário; desaparece sem intervenção. 
+ 
+Se ocorrerem eventos adversos, o tratamento deve ser descontinuado e deve procurar-se aconselhamento 
+médico-veterinário. 
+ 
+A notificação de eventos adversos é importante. Permite a monitorização contínua da segurança de um 
+medicamento veterinário. As notificações devem ser enviadas, de preferência por um médico 
+veterinário, ao titular da Autorização de Introdução no Mercado ou ao respetivo representante local ou 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 5 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  📍 Via: IM
+
+Entrada 4:
+  🐾 Espécie: Equinos
+
+Entrada 5:
+  🐾 Espécie: Bovinos
+
+Entrada 6:
+  📍 Via: Subcutânea
+
+Entrada 7:
+  📍 Via: Oral
+
+Entrada 8:
+  🐾 Espécie: Suínos
+
+Entrada 9:
+  📍 Via: Oral
+
+Entrada 10:
+  📍 Via: Oral
+
+Entrada 11:
+  🐾 Espécie: Equinos
+
+Entrada 12:
+  📍 Via: Oral
+
+Entrada 13:
+  📍 Via: Oral
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+à autoridade nacional competente através do sistema nacional de farmacovigilância veterinária. Para 
+obter informações de contacto, consulte o Folheto Informativo 
+ 
+ 
+3.7 
+Utilização durante a gestação, a lactação ou a postura de ovos 
+ 
+Gestação e lactação: 
+ 
+Bovinos e suínos: 
+A segurança do medicamento veterinário não foi determinada em bovinos e suínos durante a gestação, 
+lactação ou em animais destinados a reprodução. Estudos laboratoriais em coelhos e ratos com o 
+excipiente N-metilpirrolidona mostraram evidência de efeitos fetotóxicos. Deve ser administrado 
+apenas em conformidade com a avaliação benefício-risco realizada pelo médico veterinário 
+responsável. 
+Equinos: 
+Não administrar a éguas gestantes ou lactantes. 
+ 
+Ver também a secção 3.3. 
+ 
+3.8 
+Interação com outros medicamentos e outras formas de interação 
+ 
+Não administrar simultaneamente com glucocorticosteroides, outros medicamentos veterinários anti-
+inflamatórios não esteroides ou com agentes anticoagulantes. 
+ 
+3.9 
+Posologia e via de administração 
+ 
+Administração intravenosa, subcutânea ou intramuscular. 
+Bovinos: 
+Administração subcutânea ou intravenosa única de uma dose de 0,5 mg de meloxicam/kg de peso 
+corporal (isto é, 2,5 ml/100 kg de peso corporal) em combinação com antibioterapia ou com terapia de 
+reidratação oral, conforme apropriado. 
+Suínos: 
+Administração intramuscular única de uma dose de 0,4 mg de meloxicam/kg de peso corporal (isto é, 
+2,0 ml/100 kg de peso corporal) em combinação com antibioterapia ou com terapia de reidratação oral, 
+conforme apropriado. Se necessário, pode ser administrada uma segunda dose de meloxicam ao fim de 
+24 horas. 
+Recomenda-se alternar os locais de injeção. 
+Equinos: 
+Administração intravenosa única de uma dose de 0,6 mg de meloxicam/kg de peso corporal (isto é, 3,0 
+ml/100 kg de peso corporal). 
+ 
+3.10 Sintomas de sobredosagem (e, quando aplicável, procedimentos de emergência e 
+antídotos) 
+ 
+3.11 Restrições especiais de utilização e condições especiais de utilização, incluindo restrições à 
+utilização de medicamentos veterinários antimicrobianos e antiparasitários, a fim de 
+limitar o risco de desenvolvimento de resistência 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 6 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Bovinos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Equinos
+
+Entrada 4:
+  🐾 Espécie: Equinos
+
+Entrada 5:
+  🐾 Espécie: Suínos
+
+Entrada 6:
+  🐾 Espécie: Suínos
+  📍 Via: IM
+
+Entrada 7:
+  📍 Via: Intramuscular
+
+Entrada 8:
+  🐾 Espécie: Bovinos
+  📍 Via: IM
+
+Entrada 9:
+  📍 Via: Intramuscular
+
+Entrada 10:
+  🐾 Espécie: Bovinos
+
+Entrada 11:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Não aplicável. 
+ 
+3.12 Intervalos de segurança 
+ 
+Bovinos: 
+Carne e vísceras: 
+15 dias. 
+Leite: 
+5 dias. 
+Suínos: 
+Carne e vísceras: 
+8 dias. 
+Equinos: 
+Carne e vísceras: 
+5 dias. 
+ 
+Não administrar a equinos produtores de leite destinado ao consumo humano.
+
+4. 
+PROPRIEDADES FARMACOLÓGICAS 
+ 
+4.1 
+Código ATCvet: 
+QM01AC06 
+ 
+4.2 
+Propriedades farmacodinâmicas 
+O meloxicam é um anti-inflamatório não-esteroide (AINE) da classe oxicam, que atua através da 
+inibição da síntese de prostaglandina, exercendo assim um efeito anti-inflamatório, analgésico, 
+antiexsudativo e antipirético. Reduz a infiltração de leucócitos no tecido inflamado. Em menor grau, 
+inibe também a agregação de trombócitos induzida pelo colagénio. O meloxicam possui também 
+propriedades antiendotóxicas, porque já ficou demonstrado que inibe a produção de tromboxano B2 
+induzido pela administração da endotoxina de E. coli em vitelos, vacas lactantes e suínos. 
+ 
+4.3 
+Propriedades farmacocinéticas 
+ 
+Absorção 
+Em suínos, atingiram-se concentrações máximas plasmáticas de meloxicam 1,0 h pós-administração 
+de dose única intramuscular de 20 mg/ml do medicamento veterinário tendo por base uma dose de 0,4 
+mg de meloxicam/kg de peso corporal.  
+ 
+Em bovinos, atingiram-se concentrações máximas plasmáticas de meloxicam 6,8 h pós-administração 
+de dose única intramuscular de 20 mg/ml do medicamento veterinário tendo por base uma dose de 0,5 
+mg de meloxicam/kg de peso corporal.  
+ 
+Distribuição 
+Mais de 98% do meloxicam liga-se às proteínas plasmáticas. As maiores concentrações de meloxicam 
+encontram-se no fígado e rins. Podem ser detetadas concentrações comparativamente baixas na 
+musculatura esquelética e gordura. 
+Metabolismo 
+O meloxicam é predominantemente encontrado no plasma. Em bovinos, o meloxicam é também um dos 
+principais produtos de excreção no leite e bílis, enquanto a urina contém apenas vestígios do composto 
+principal. Em suínos, a bílis e a urina contêm apenas vestígios do composto principal. O meloxicam é 
+metabolizado num álcool, um derivado ácido e vários metabolitos polares. Ficou demonstrado que todos 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 7 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Equinos
+  📍 Via: IV
+
+Entrada 2:
+  🐾 Espécie: Suínos
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+  📍 Via: Subcutânea
+
+Entrada 4:
+  🐾 Espécie: Equinos
+  📍 Via: IM
+
+Entrada 5:
+  📍 Via: IM
+
+Entrada 6:
+  📍 Via: SC
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+os metabolitos principais são farmacologicamente inativos. O metabolismo em equinos não foi 
+investigado. 
+Eliminação 
+Em suínos, calculou-se que a semivida terminal média seja aproximadamente 3,2 h para o meloxicam, 
+na sequência da administração intramuscular. 
+ 
+Em bovinos, calculou-se que a semivida terminal média na sequência de administração subcutânea seja 
+aproximadamente 14,0 h para o meloxicam. 
+ 
+Em equinos, após a injeção intravenosa, o meloxicam é eliminado com uma semivida terminal de 8,5 
+horas. 
+ 
+Aproximadamente 50% da dose administrada é eliminada pela urina e o restante através das fezes.
+
+5. 
+INFORMAÇÕES FARMACÊUTICAS 
+ 
+5.1 
+Incompatibilidades principais 
+ 
+Na ausência de estudos de compatibilidade, este medicamento veterinário não deve ser misturado com 
+outros. 
+ 
+5.2 
+Prazo de validade 
+ 
+Prazo de validade do medicamento veterinário tal como embalado para venda: 3 anos. 
+Prazo de validade após a primeira abertura do acondicionamento primário: 28 dias. 
+ 
+5.3 
+Precauções especiais de conservação 
+ 
+Este medicamento veterinário não necessita de qualquer temperatura especial de conservação. 
+ 
+5.4 
+Natureza e composição do acondicionamento primário 
+Frascos de vidro transparente (tipo I) de 50 ml e 100 ml, cada um fechado com rolhas de borracha de 
+bromobutilo e fixas com tampas de alumínio ou alumínio/PP de arrancar num caixa de cartão. 
+ 
+ Apresentações: 
+1 x 50 ml 
+12 x 50 ml 
+1 x 100 ml 
+12 x 100 ml 
+ 
+É possível que não sejam comercializadas todas as apresentações. 
+ 
+5.5 
+Precauções especiais para a eliminação de medicamentos veterinários não utilizados ou de 
+desperdícios derivados da utilização desses medicamentos 
+ 
+Os medicamentos não devem ser eliminados no lixo ou nos esgotos domésticos. 
+ 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Utilize regimes de recolha de medicamentos veterinários para a eliminação de medicamentos 
+veterinários não utilizados ou de resíduos resultantes da utilização desses medicamentos, em 
+cumprimento dos requisitos nacionais e de quaisquer sistemas de recolha nacionais aplicáveis ao 
+medicamento veterinário em causa.
+
+6. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+aniMedica GmbH
+
+7. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+1300/01/19RFVPT
+
+8. 
+DATA DA PRIMEIRA AUTORIZAÇÃO 
+ 
+Data da primeira autorização: 6 de agosto de 2019.
+
+9. 
+DATA DA ÚLTIMA REVISÃO DO RESUMO DAS CARACTERÍSTICAS DO 
+MEDICAMENTO VETERINÁRIO 
+ 
+12/2024
+
+10. 
+CLASSIFICAÇÃO DOS MEDICAMENTOS VETERINÁRIOS 
+ 
+Medicamento veterinário sujeito a receita médico-veterinária. 
+ 
+Está disponível informação pormenorizada sobre este medicamento veterinário na base de dados de 
+medicamentos da União Europeia Union Product Database 
+(https://medicines.health.europa.eu/veterinary). 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO III 
+ 
+ROTULAGEM E FOLHETO INFORMATIVO 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A. ROTULAGEM 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 11 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+Entrada 5:
+  🐾 Espécie: Equinos
+
+Entrada 6:
+  🐾 Espécie: Bovinos
+
+Entrada 7:
+  🐾 Espécie: Suínos
+
+Entrada 8:
+  🐾 Espécie: Equinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+INDICAÇÕES A INCLUIR NO ACONDICIONAMENTO SECUNDÁRIO 
+ 
+{Caixa de cartão}
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Animeloxan 20 mg/ml, solução injetável
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS 
+ 
+Cada ml contém: 
+Substância ativa: 
+Meloxicam 
+20 mg
+
+3. 
+DIMENSÃO DA EMBALAGEM 
+ 
+50 ml 
+100 ml 
+12 x 50 ml 
+12 x 100 ml
+
+4. 
+ESPÉCIES-ALVO 
+ 
+Bovinos, suínos e equinos
+
+5. 
+INDICAÇÕES
+
+6. 
+VIAS DE ADMINISTRAÇÃO 
+ 
+Bovinos: s.c., i.v. 
+Suínos: i.m. 
+Equinos: i.v.
+
+7. 
+INTERVALOS DE SEGURANÇA 
+ 
+Intervalo de segurança: 
+Bovinos: 
+Carne e vísceras: 
+15 dias. 
+Leite: 
+5 dias. 
+ 
+Suínos: 
+Carne e vísceras: 
+8 dias. 
+ 
+Equinos: 
+Carne e vísceras: 
+5 dias. 
+ 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Não administrar a equinos produtores de leite destinado ao consumo humano.
+
+8. 
+PRAZO DE VALIDADE 
+ 
+Exp. {mm/aaaa} 
+ 
+Após a primeira abertura, administrar no prazo de 28 dias.
+
+9. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO
+
+10. 
+MENÇÃO "Antes de administrar, ler o folheto informativo" 
+ 
+Antes de administrar, ler o folheto informativo.
+
+11. 
+MENÇÃO "USO VETERINÁRIO" 
+ 
+USO VETERINÁRIO  
+Medicamento veterinário sujeito a receita médico-veterinária.
+
+12. 
+MENÇÃO "MANTER FORA DA VISTA E DO ALCANCE DAS CRIANÇAS" 
+ 
+Manter fora da vista e do alcance das crianças.
+
+13. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+aniMedica GmbH
+
+14. 
+NÚMEROS DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+1300/01/19RFVPT
+
+15. 
+NÚMERO DO LOTE 
+ 
+Lot {número} 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 13 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+Entrada 5:
+  🐾 Espécie: Equinos
+
+Entrada 6:
+  🐾 Espécie: Bovinos
+
+Entrada 7:
+  🐾 Espécie: Suínos
+
+Entrada 8:
+  🐾 Espécie: Equinos
+
+Entrada 9:
+  🐾 Espécie: Equinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+INDICAÇÕES A INCLUIR NO ACONDICIONAMENTO PRIMÁRIO 
+ 
+{Rótulo 100 ml, 50 ml}
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Animeloxan 20 mg/ml, solução injetável
+
+2. 
+ DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS 
+ 
+Cada ml contém: 
+Substância ativa: 
+Meloxicam 
+20 mg
+
+3. 
+ESPÉCIES-ALVO 
+ 
+Bovinos, suínos e equinos
+
+4. 
+VIAS DE ADMINISTRAÇÃO 
+ 
+Bovinos: s.c., i.v. 
+ 
+Suínos: i.m. 
+ 
+Equinos: i.v. 
+ 
+Antes de administrar, ler o folheto informativo.
+
+5. 
+INTERVALOS DE SEGURANÇA 
+ 
+Intervalo de segurança:  
+ 
+Bovinos: 
+Carne e vísceras: 
+15 dias. 
+Leite: 
+5 dias. 
+ 
+Suínos: 
+Carne e vísceras: 
+8 dias. 
+ 
+Equinos: 
+Carne e vísceras: 
+5 dias. 
+ 
+Não administrar a equinos produtores de leite destinado ao consumo humano.
+
+6. 
+PRAZO DE VALIDADE 
+ 
+Exp. {mm/aaaa} 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Após a primeira abertura, administrar no prazo de 28 dias. 
+Após a primeira abertura, administrar até:..........
+
+7. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO
+
+8. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+aniMedica GmbH
+
+9. 
+NÚMERO DO LOTE 
+ 
+Lot {número} 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+INDICAÇÕES MÍNIMAS A INCLUIR EM PEQUENAS UNIDADES DE 
+ACONDICIONAMENTO PRIMÁRIO 
+ 
+{Rótulo 50 ml}
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Animeloxan
+
+2. 
+INFORMAÇÕES QUANTITATIVAS SOBRE AS SUBSTÂNCIAS ATIVAS 
+ 
+Meloxicam  
+20 mg/ml
+
+3. 
+NÚMERO DO LOTE 
+ 
+Lot {número}
+
+4. 
+PRAZO DE VALIDADE 
+ 
+Exp. {mm/aaaa} 
+ 
+Após a primeira abertura, administrar no prazo de 28 dias. 
+Após a primeira abertura, administrar até:............. 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. FOLHETO INFORMATIVO 
+
+================================================================================
+📊 PÁGINA 17 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+Entrada 4:
+  🐾 Espécie: Bovinos
+
+Entrada 5:
+  🐾 Espécie: Suínos
+
+Entrada 6:
+  🐾 Espécie: Equinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+FOLHETO INFORMATIVO
+
+1. 
+Nome do medicamento veterinário 
+ 
+Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos
+
+2. 
+Composição 
+ 
+Cada ml contém: 
+Substância ativa: 
+Meloxicam 
+ 
+       20 mg 
+Excipiente(s): 
+N-metilpirrolidona 
+ 
+ 
+718,20 mg 
+Etanol, anidro 
+ 
+ 
+158,00 mg 
+ 
+Solução transparente, amarela.
+
+3. 
+Espécies-alvo 
+ 
+Bovinos, suínos e equinos
+
+4. 
+Indicações de utilização 
+ 
+Bovinos: 
+Para administração nas infeções respiratórias agudas com antibioterapia apropriada, a fim de reduzir os 
+sinais clínicos em bovinos. 
+Para administração em casos de diarreia em combinação com terapia de reidratação oral a fim de reduzir 
+os sinais clínicos em vitelos com mais de uma semana de idade e animais jovens, não lactentes. 
+Como terapia adjuvante no tratamento de mastite aguda em combinação com antibioterapia. 
+Para alívio de dor no pós-operatório, na sequência da descorna em vitelos. 
+Suínos: 
+Para administração nos distúrbios do aparelho locomotor não infeciosos para reduzir os sintomas como 
+claudicação e inflamação. 
+Como terapia adjuvante no tratamento de septicemia e toxemia puerperal (mastite-metrite-síndrome 
+agalactia) com antibioterapia apropriada. 
+Equinos: 
+Para administração no alívio da inflamação e alívio da dor em distúrbios musculosqueléticos agudos e 
+crónicos. 
+Para o alívio da dor associada com cólica equina.
+
+5. 
+Contraindicações 
+ 
+Ver também a secção “Gestação e lactação” 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 18 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Equinos
+
+Entrada 2:
+  🐾 Espécie: Bovinos
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+Entrada 5:
+  📍 Via: IM
+
+Entrada 6:
+  🐾 Espécie: Equinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Não administrar a equinos com menos de 6 semanas de idade. 
+Não administrar em casos de funções hepática, cardíaca ou renal deficientes e distúrbios hemorrágicos 
+ou quando há evidências de lesões ulcerogénicas gastrointestinais. 
+Não administrar em caso de hipersensibilidade à substância ativa ou a qualquer dos excipientes. 
+ 
+Para o tratamento de diarreia em bovinos, não administrar a animais com menos de uma semana de 
+idade.
+
+6. 
+Advertências especiais 
+ 
+Advertências especiais: 
+O tratamento de vitelos com o medicamento veterinário 20 minutos antes da descorna reduz a dor no 
+pós-operatório. O medicamento veterinário em si não proporciona alívio adequado da dor durante 
+o procedimento de descorna. Para obter um alívio adequado da dor durante a cirurgia, é necessária co-
+medicação com um analgésico apropriado. 
+ 
+Precauções especiais para uma utilização segura nas espécies-alvo: 
+Evitar a administração a animais gravemente desidratados, hipovolémicos ou hipotensos, que 
+necessitem de reidratação parentérica, dado que podem potencialmente estar em risco de toxicidade 
+renal. 
+Em caso de alívio inadequado da dor quando administrado no tratamento da cólica equina, deve 
+proceder-se a uma reavaliação cuidadosa do diagnóstico, dado que pode ser indício da necessidade de 
+uma intervenção cirúrgica. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais: 
+A autoinjeção acidental pode dar origem a dores. Pessoas com hipersensibilidade conhecida a 
+medicamentos anti-inflamatórios não-esteroides (AINE) devem evitar o contacto com o medicamento 
+veterinário. 
+Em caso de autoinjeção acidental, procurar imediatamente aconselhamento médico e mostrar o folheto 
+ou o rótulo ao médico. 
+Em caso de contacto acidental com a pele, lavar cuidadosamente a área afetada. Lavar as mãos depois 
+de administrar. 
+Sabe-se que os AINE e outros inibidores da prostaglandina têm efeitos adversos na gestação e/ou no 
+desenvolvimento embrionário. 
+Estudos laboratoriais em coelhos e ratos com o excipiente N-metilpirrolidona demostraram evidência 
+de efeitos fetotóxicos. 
+As mulheres em idade fértil, as mulheres grávidas ou as mulheres com suspeita de estarem grávidas 
+devem utilizar o medicamento veterinário com extrema precaução, de modo a evitar a autoinjeção 
+acidental. 
+ 
+Gestação e lactação: 
+ 
+Bovinos e suínos: 
+A segurança do medicamento veterinário não foi determinada em bovinos e suínos durante a gestação, 
+lactação ou em animais destinados a reprodução. Estudos laboratoriais em coelhos e ratos com o 
+excipiente N-metilpirrolidona mostraram evidência de efeitos fetotóxicos. Deve ser administrado 
+apenas em conformidade com a avaliação benefício-risco realizada pelo médico veterinário 
+responsável. 
+ 
+Equinos: 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Não administrar a éguas gestantes ou lactantes. 
+ 
+Ver também a secção “Contraindicações”. 
+ 
+Interação com outros medicamentos e outras formas de interação: 
+Não administrar simultaneamente com glucocorticosteroides, outros medicamentos veterinários anti-
+inflamatórios não esteroides ou com agentes anticoagulantes. 
+ 
+Sobredosagem: 
+Em caso de sobredosagem deve ser iniciado o tratamento sintomático. 
+ 
+Incompatibilidades principais: 
+Na ausência de estudos de compatibilidade, este medicamento veterinário não deve ser misturado com 
+outros.
+
+7. 
+Eventos adversos 
+ 
+Bovinos: 
+Raros (1 a 10 animais / 10 000 animais tratados): Reações anafilactoides (reação alérgica grave)1 
+Frequência indeterminada (não pode ser estimada a partir dos dados disponíveis): Inchaço no local da 
+injeção2 
+ 
+Suínos: 
+Raros (1 a 10 animais / 10 000 animais tratados): Reações anafilactoides (reação alérgica grave)1 
+Frequência indeterminada (não pode ser estimada a partir dos dados disponíveis): Irritação no local da 
+injeção3 
+ 
+Equinos: 
+Raros (1 a 10 animais / 10 000 animais tratados): Reações anafilactoides (reação alérgica grave)1 
+Frequência indeterminada (não pode ser estimada a partir dos dados disponíveis): Inchaço no local da 
+injeção4 
+ 
+1 Podem ser graves (e mesmo fatais); devem ser tratadas a nível sintomatológico. 
+2 Após injeção subcutânea única; não doloroso; pode durar até 23 dias. 
+3 Após duas injeções intramusculares consecutivas; pode durar até 9 dias. 
+4 Temporário; desaparece sem intervenção. 
+ 
+Se ocorrerem eventos adversos, o tratamento deve ser descontinuado e deve procurar-se aconselhamento 
+médico-veterinário. 
+ 
+A notificação de eventos adversos é importante. Permite a monitorização contínua da segurança de um 
+medicamento veterinário. Caso detete quaisquer efeitos mencionados neste folheto ou outros efeitos 
+mesmo que não mencionados, ou pense que o medicamento veterinário não foi eficaz, informe o seu 
+médico veterinário. Também pode comunicar quaisquer eventos adversos ao titular da Autorização de 
+Introdução no Mercado ou representante local do Titular da Autorização de Introdução no Mercado 
+utilizando os dados de contacto no final deste folheto, ou através do Sistema Nacional de 
+Farmacovigilância Veterinária (SNFV): farmacovigilancia.vet@dgav.pt. 
+
+================================================================================
+📊 PÁGINA 20 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Bovinos
+
+Entrada 2:
+  📍 Via: Subcutânea
+
+Entrada 3:
+  📍 Via: Oral
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+Entrada 5:
+  📍 Via: Oral
+
+Entrada 6:
+  📍 Via: Oral
+
+Entrada 7:
+  🐾 Espécie: Equinos
+
+Entrada 8:
+  📍 Via: Oral
+
+Entrada 9:
+  📍 Via: Oral
+
+Entrada 10:
+  🐾 Espécie: Bovinos
+
+Entrada 11:
+  🐾 Espécie: Suínos
+
+Entrada 12:
+  🐾 Espécie: Equinos
+
+Entrada 13:
+  🐾 Espécie: Equinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+8. 
+Dosagem em função da espécie, via e modo de administração 
+ 
+ Administração intravenosa, subcutânea ou intramuscular. 
+Bovinos: 
+Administração subcutânea (s.c.) ou intravenosa (i.v.) única de uma dose de 0,5 mg de meloxicam/kg de 
+peso corporal (isto é, 2,5 ml/100 kg de peso corporal) em combinação com antibioterapia ou com terapia 
+de reidratação oral, conforme apropriado. 
+Suínos: 
+Administração intramuscular (i.m.) única de uma dose de 0,4 mg de meloxicam/kg de peso corporal 
+(isto é, 2,0 ml/100 kg de peso corporal) em combinação com antibioterapia ou com terapia de reidratação 
+oral, conforme apropriado. Se necessário, pode ser administrada uma segunda dose de meloxicam ao 
+fim de 24 horas. Recomenda-se alternar os locais de injeção. 
+ 
+Equinos: 
+Administração intravenosa única de uma dose de 0,6 mg de meloxicam/kg de peso corporal (isto é, 3,0 
+ml/100 kg de peso corporal).
+
+9. 
+Instruções com vista a uma administração correta 
+ 
+Não existem.
+
+10. 
+Intervalos de segurança 
+ 
+Bovinos: 
+Carne e vísceras: 
+15 dias. 
+Leite: 
+5 dias. 
+Suínos: 
+Carne e vísceras: 
+8 dias. 
+Equinos: 
+Carne e vísceras: 
+5 dias. 
+ 
+Não administrar a equinos produtores de leite destinado ao consumo humano.
+
+11. 
+Precauções especiais de conservação 
+ 
+Manter fora da vista e do alcance das crianças. 
+ 
+Este medicamento veterinário não necessita de qualquer temperatura especial de conservação. 
+ 
+Prazo de validade após a primeira abertura do acondicionamento primário: 
+28 dias. 
+ 
+Não utilizar este medicamento veterinário depois de expirado o prazo de validade indicado no frasco 
+depois de Exp. O prazo de validade corresponde ao último dia do mês indicado. 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 21 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: SC
+
+Entrada 2:
+  📍 Via: SC
+
+Entrada 3:
+  📍 Via: SC
+
+Entrada 4:
+  📍 Via: SC
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+12. 
+Precauções especiais de eliminação 
+ 
+Os medicamentos não devem ser eliminados no lixo ou nos esgotos domésticos. 
+Utilize regimes de recolha de medicamentos veterinários para a eliminação de medicamentos 
+veterinários não utilizados ou de resíduos resultantes da utilização desses medicamentos, em 
+cumprimento dos requisitos nacionais e de quaisquer sistemas de recolha nacionais aplicáveis. 
+Estas medidas destinam-se a ajudar a proteger o ambiente. 
+Pergunte ao seu médico veterinário ou farmacêutico como deve eliminar os medicamentos veterinários 
+que já não são necessários.
+
+13. 
+Classificação dos medicamentos veterinários 
+ 
+Medicamento veterinário sujeito a receita médico-veterinária.
+
+14. 
+Números de autorização de introdução no mercado e tamanhos de embalagem 
+ 
+1300/01/19RFVPT  
+ 
+Apresentações: 
+1 x 50 ml frasco de vidro numa caixa de cartão.  
+12 x 50 ml frasco de vidro numa caixa de cartão. 
+1 x 100 ml frasco de vidro numa caixa de cartão.  
+12 x 100 ml frasco de vidro numa caixa de cartão. 
+ 
+É possível que não sejam comercializadas todas as apresentações.
+
+15. 
+Data em que o folheto informativo foi revisto pela última vez 
+ 
+12/2024 
+ 
+Está disponível informação pormenorizada sobre este medicamento veterinário na base de dados de 
+medicamentos da União Europeia Union Product Database 
+(https://medicines.health.europa.eu/veterinary).
+
+16. 
+Detalhes de contacto 
+ 
+Titular da Autorização de Introdução no Mercado: 
+aniMedica GmbH 
+Im Südfeld 9 
+48308 Senden-Bösensell 
+Alemanha 
+ 
+Fabricante responsável pela libertação do lote: 
+aniMedica GmbH 
+Im Südfeld 9 
+48308 Senden-Bösensell 
+Alemanha 
+ 
+Industrial Veterinaria, S.A. 
+Esmeralda 19 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+08950 Esplugues de Llobregat (Barcelona) 
+Espanha 
+ 
+aniMedica Herstellungs GmbH 
+Im Südfeld 9 
+48308 Senden-Bösensell 
+Alemanha 
+ 
+Representantes locais e detalhes de contacto para comunicar suspeitas de eventos adversos: 
+Campifarma, Lda. 
+Av. Pedro Álvares Cabral 
+CESE V, Ed. E24 
+2710-297 Sintra 
+Tel: +351 211 929 009  
+Email: farmacovigilancia@campifarma.com

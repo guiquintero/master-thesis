@@ -1,0 +1,14 @@
+{
+  "resposta": "A dose para gatos é 1 mg/kg.",
+  "pergunta_original": "Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Senvelgo 15 mg/ml gatos",
+    "pergunta_ollama": "Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?",
+    "substancia_ativa": "Senvelgo",
+    "especie_alvo": "Gatos",
+    "forma_farmaceutica": "15 mg/ml"
+  },
+  "timestamp": 1762258887.392432,
+  "modelo_usado": "gemma3:latest"
+}

@@ -1,0 +1,1663 @@
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO I 
+ 
+RESUMO DAS CARACTERÍSTICAS DO MEDICAMENTO VETERINÁRIO 
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 5:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 6:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 7:
+  🐾 Espécie: Cães
+
+Entrada 8:
+  🐾 Espécie: Cães
+
+Entrada 9:
+  🐾 Espécie: Cães
+
+Entrada 10:
+  🐾 Espécie: Cães
+
+Entrada 11:
+  🐾 Espécie: Cães
+
+Entrada 12:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+2
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Simparica 5 mg comprimidos mastigáveis para cães 1,3-2,5 kg 
+Simparica 10 mg comprimidos mastigáveis para cães  > 2,5-5 kg 
+Simparica 20 mg comprimidos mastigáveis para cães  > 5-10 kg 
+Simparica 40 mg comprimidos mastigáveis para cães  > 10-20 kg 
+Simparica 80 mg comprimidos mastigáveis para cães > 20-40 kg 
+Simparica 120 mg comprimidos mastigáveis para cães > 40-60 kg
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+ 
+Cada comprimido contém: 
+ 
+Substância(s) ativa(s): 
+ 
+Simparica comprimidos mastigáveis 
+sarolaner (mg) 
+para cães 1,3-2,5 kg 
+5 
+para cães > 2,5-5 kg 
+10 
+para cães > 5-10 kg 
+20 
+para cães > 10-20 kg 
+40 
+para cães > 20-40 kg 
+80 
+para cães > 40-60 kg 
+120 
+ 
+Excipientes: 
+ 
+Composição qualitativa dos excipientes e outros componentes 
+Hipromelose, acetato sucinato, grau médio 
+Lactose monohidratada 
+Glicolato sódico de amido 
+Silica coloidal anidra 
+Estearato de magnésio 
+Amido de milho 
+Açucar de confetaria 
+Glucose, líquida (81,5% sólidos) 
+Pó de fígado de porco seco por pulverização 
+Proteína hidrolisada vegetal 
+Gelatina tipo A 
+Germe de trigo 
+Hidrogeno fosfato de cálcio anidro 
+ 
+Comprimidos mastigáveis matizados de cor castanha, de formato quadrado com arestas arredondadas.  
+O número em relevo num dos lados designa a dosagem (mg) do comprimido: “5”, “10”, “20”, “40”, 
+“80” ou “120”. 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 3 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  📍 Via: IV
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: SC
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+3
+
+3. 
+INFORMAÇÃO CLÍNICA 
+ 
+3.1 
+Espécies-alvo 
+ 
+Caninos (Cães). 
+ 
+3.2 
+Indicações de utilização para cada espécie-alvo 
+ 
+Para o tratamento das infestações por carraças (Dermacentor reticulatus,  Ixodes hexagonus, Ixodes 
+ricinus e Rhipicephalus sanguineus). O medicamento veterinário tem atividade imediata e persistente 
+de eliminação das carraças pelo menos até 5 semanas. 
+ 
+Para o tratamento das infestações por pulgas (Ctenocephalides felis e Ctenocephalides canis). O 
+medicamento veterinário tem atividade imediata e persistente de eliminação das pulgas, contra novas 
+infestações pelo menos até 5 semanas. O medicamento veterinário pode ser usado como parte da 
+estratégia de tratamento da dermatite alérgica à picada da pulga (DAPP). 
+ 
+Para o tratamento da sarna sarcóptica (Sarcoptes scabiei). 
+ 
+Para o tratamento de infestações por ácaros auriculares (Otodectes cynotis). 
+ 
+Para o tratamento da demodicose (Demodex canis). 
+ 
+Para redução do risco de infeção por Babesia canis canis transmitida por Dermacentor reticulatus 
+durante 28 dias após o tratamento. O efeito é indireto devido à atividade do medicamento veterinário 
+contra o vetor. 
+ 
+As pulgas e as carraças devem estar fixas no hospedeiro e iniciar a alimentação de modo a serem 
+expostas à substância ativa.  
+ 
+3.3 
+Contraindicações 
+ 
+Não administrar em caso de hipersensibilidade à substância ativa ou a algum dos excipientes. 
+ 
+3.4 
+Advertências especiais 
+ 
+A transmissão de B.canis canis não pode ser completamente excluída, uma vez que as carraças D. 
+reticulatus têm que se fixar ao hospedeiro antes de serem mortas. Como o efeito acaricida contra D. 
+reticulatus pode levar até 48 horas, a transmissão de B. canis canis durante as primeiras 48 horas não 
+pode ser excluída. 
+ 
+A utilização do medicamento veterinário deve ser baseada na situação epidemiológica local, incluindo o 
+conhecimento das espécies de carraças prevalentes, uma vez que a transmissão de B. canis por outras 
+espécies de carraças além da D. reticulatus é possível e deve fazer parte de um programa de controlo 
+integrado para prevenir a transmissão de Babesia canis. 
+ 
+3.5 
+Precauções especiais de utilização 
+ 
+Precauções especiais para a utilização segura nas espécies-alvo: 
+Na ausência de dados disponíveis, o tratamento de cachorros com idade inferior a 8 semanas e/ou 
+cães com peso inferior a 1,3 kg, deve basear-se numa avaliação benefício/risco realizada pelo 
+médico veterinário responsável. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais: 
+Lavar as mãos após manusear o medicamento veterinário. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+4 
+A ingestão acidental do medicamento veterinário pode potencialmente causar efeitos adversos, tais como 
+sinais neurológicos excitatórios transitórios. Para impedir que as crianças tenham acesso direto ao 
+medicamento veterinário, só deve ser retirado um comprimido mastigável do blister de cada vez e apenas 
+quando necessário. Após a administração, o blister deve ser imediatamente colocado na embalagem 
+original e esta deve ser conservada fora da vista e do alcance das crianças. Em caso de ingestão acidental, 
+dirija-se imediatamente a um médico e mostre-lhe o folheto informativo ou o rótulo do medicamento 
+veterinário. 
+ 
+Precauções especiais para a proteção do ambiente: 
+Não aplicável. 
+ 
+3.6 
+Eventos adversos 
+ 
+Caninos (cães): 
+ 
+Muito raros  
+(<1 animal / 10 000 animais tratados, 
+incluindo notificações isoladas): 
+sinais gastrintestinais (como vómito,  
+diarreia)1 
+distúrbios sistémicos ((como letargia, anorexia)1 
+sinais neurológicos (como tremores, ataxia,  
+convulsões)2  
+1 Leves e transitórios. 
+2 Na maior parte dos casos estes sinais são transitórios. 
+ 
+A notificação de eventos adversos é importante. Permite a monitorização contínua da segurança de um 
+medicamento veterinário. As notificações devem ser enviadas, de preferência por um médico veterinário, ao 
+titular da Autorização de Introdução no Mercado ou ao respetivo representante local ou à autoridade 
+nacional competente através do sistema nacional de farmacovigilância veterinária. Consulte o Folheto 
+Informativo para as respetivas informações de contacto. 
+ 
+3.7 
+Utilização durante a gestação, a lactação ou a postura de ovos 
+ 
+A segurança do medicamento veterinário não foi determinada durante a gestação e a lactação ou em 
+animais destinados a reprodutores. Os estudos de laboratório efetuados em ratos e coelhos não 
+revelaram quaisquer efeitos teratogénicos.  
+ 
+Gestação e lactação: 
+Administração não recomendada nestes animais. 
+ 
+Fertilidade: 
+Administração não recomendada a animais reprodutores. 
+ 
+3.8 
+Interação com outros medicamentos e outras formas de interação 
+ 
+Desconhecidas. 
+ 
+Durante os ensaios clínicos de campo, não se observaram interações entre este medicamento veterinário 
+e medicamentos veterinários administrados por rotina.  
+ 
+Em estudos laboratoriais de segurança, não se observaram interações quando sarolaner foi 
+coadministrado com milbemicina oxima, moxidectina e pamoato de pirantel.(Nestes estudos a eficácia 
+não foi investigada). 
+ 
+O Sarolaner liga-se fortemente às proteínas plasmáticas e poderá competir com outros medicamentos  
+que se ligam fortemente às proteínas plasmáticas, tais como medicamentos anti-inflamatórios não 
+esteroides (AINE) e o derivado cumarínico varfarina. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 5 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  💉 Dose: 4 mg/kg
+  📍 Via: Oral
+
+Entrada 2:
+  💉 Dose: 4 mg/kg
+  📍 Via: Oral
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 4:
+  💉 Dose: 4 mg/kg
+  📍 Via: IM
+
+Entrada 5:
+  📍 Via: IM
+  ⏰ Intervalo de segurança: 28 dias
+
+Entrada 6:
+  💉 Dose: 4 mg/kg
+  📍 Via: IM
+
+Entrada 7:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+5 
+3.9 
+Posologia e via de administração 
+ 
+Para administração oral.  
+Os comprimidos podem ser administrados com ou sem alimentos. 
+ 
+O medicamento veterinário deve ser administrado na dose de 2–4 mg/kg de peso corporal, de 
+acordo com a tabela seguinte:     
+ 
+Peso corporal  
+(kg) 
+Dosagem do comprimido 
+(mg sarolaner) 
+Número de comprimidos a 
+serem administrados 
+1,3–2,5 
+5 
+um 
+ > 2,5–5 
+10 
+um 
+> 5–10 
+20 
+um 
+> 10–20 
+40 
+um 
+> 20 –40 
+80 
+um 
+> 40–60 
+120 
+um 
+> 60 
+Combinação adequada de comprimidos 
+ 
+Administrar a combinação apropriada de dosagens disponíveis para alcançar a dose recomendada de 
+2-4 mg/kg. Para assegurar uma dosagem correta, o peso corporal deve ser determinado com a maior 
+precisão possível. 
+ 
+Os comprimidos deste medicamento veterinário são mastigáveis e palatáveis e quando dados pelos 
+donos são prontamente consumidos pelos cães. Se o comprimido não é tomado voluntariamente pelo 
+cão, pode também ser administrado com alimentos ou diretamente na boca. Os comprimidos não 
+devem ser divididos. 
+ 
+Esquema de tratamento: 
+Para um ótimo controlo das infestações por pulgas e carraças, o medicamento veterinário deve ser 
+administrado a intervalos mensais e, com base na situação epidemiológica local, prosseguir durante a 
+época de pulgas e/ou carraças.  
+ 
+Para o tratamento de infestações por ácaros auriculares (Otodectes cynotis) deve ser administrada 
+uma única dose do medicamento veterinário. Recomenda-se uma consulta médico-veterinária 30 dias 
+após o tratamento, dado que alguns animais podem necessitar de uma segunda aplicação. 
+ 
+Para o tratamento da sarna sarcóptica (provocada por Sarcoptes scabiei var. canis) deve ser 
+administrada uma dose mensal em dois meses consecutivos.  
+ 
+Para o tratamento da demodicose (causada por Demodex canis) a administração de uma dose 
+mensal durante três meses consecutivos é eficaz e conduz a uma acentuada melhoria dos sinais 
+clínicos. O tratamento deve ser mantido até que as raspagens de pele sejam negativas em pelo menos 
+duas raspagens consecutivas com um intervalo de um mês. Como a demodicose é uma doença 
+multifatorial, é também aconselhável, sempre que possível, tratar adequadamente qualquer doença 
+subjacente. 
+ 
+3.10 Sintomas de sobredosagem (e, quando aplicável, procedimentos de emergência e 
+antídotos) 
+ 
+Num estudo de segurança, o medicamento veterinário foi administrado oralmente a cachorros Beagle de 
+8 semanas, em 0, 1, 3 e 5 vezes a dose  máxima de exposição de 4 mg/kg, por 10 vezes com intervalo 
+de 28 dias entre cada uma. Nenhuns eventos adversos foram observados com a dose máxima de 
+exposição de 4 mg/kg. Nos grupos com sobredosagem foram observados em alguns animais sinais 
+neurológicos auto limitantes transitórios: tremores ligeiros com 3 vezes a dose máxima de exposição e 
+convulsões com 5 vezes a dose máxima de exposição. Todos os cães recuperaram sem tratamento.  
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 6 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: Oral
+
+Entrada 4:
+  💉 Dose: 4 mg/kg
+
+Entrada 5:
+  📍 Via: Oral
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+6 
+O Sarolaner é bem tolerado em Collies com deficiente proteína 1 multiresistente  (MDR1 -/-), após a 
+administração oral única de 5 vezes a dose recomendada. Não foram observados sinais clínicos 
+relacionados com o tratamento. 
+ 
+3.11 Restrições especiais de utilização e condições especiais de utilização, incluindo restrições à 
+utilização de medicamentos veterinários antimicrobianos e antiparasitários, a fim de 
+limitar o risco de desenvolvimento de resistência 
+ 
+Não aplicável. 
+ 
+3.12 Intervalos de segurança 
+ 
+Não aplicável.
+
+4. 
+PROPRIEDADES <FARMACOLÓGICAS> <IMUNOLÓGICAS> 
+ 
+4.1 
+Código ATCvet: QP53BE03 
+ 
+4.2 
+Propriedades farmacodinâmicas 
+ 
+O Sarolaner é um acaricida e inseticida pertencente à família das isoxazolinas. O alvo primário da 
+ação do sarolaner nos insetos e acarídeos é o bloqueio funcional dos canais de cloro-ligantes (recetores 
+GABA e recetores glutamato). Sarolaner bloqueia os canais de cloro-ligantes recetores GABA e 
+glutamato no sistema nervoso central dos insetos e acarídeos. A rutura destes recetores  pelo sarolaner 
+impede  a transferência dos iões cloro pelos canais de cloro-ligantes recetores GABA e glutamato, 
+resultando num aumento da estimulação nervosa e morte dos parasitas alvo. Sarolaner apresenta maior 
+potência funcional para bloquear os recetores dos insetos/acarídeos comparativamente aos recetores 
+dos mamíferos. Sarolaner não interage com outros conhecidos locais de ligação GABAérgicos ou 
+nicotínicos dos insecticidas como os neonicotinóides, fiproles, milbemicinas, avermectinas e 
+ciclodienos. Sarolaner é ativo contra pulgas adultas (Ctenocephalides felis e Ctenocephalides canis) 
+assim como contra diversas espécies de carraças tais como Dermacentor reticulatus, Ixodes 
+hexagonus, Ixodes ricinus, Rhipicephalus sanguineus e ácaros Demodex canis, Otodectes cynotis e 
+Sarcoptes scabiei.  
+ 
+Para as pulgas, o início da eficácia ocorre dentro de 8 horas após fixação, no período de 28 dias após 
+administração do medicamento veterinário. Para as carraças (I. ricinus), o início da eficácia ocorre 
+dentro de 12 horas após fixação, no período de 28 dias após administração do medicamento 
+veterinário. As carraças que estejam no animal antes da administração são eliminadas em 24 horas. 
+ 
+O medicamento veterinário elimina novas pulgas nos cães antes de conseguirem pôr ovos e assim 
+contribui para o controlo ambiental das populações de pulgas nas áreas a que os cães têm acesso. 
+ 
+4.3 
+Propriedades farmacocinéticas 
+ 
+A biodisponibilidade do sarolaner após administração oral foi elevada, acima de 85%. Em cães Beagle 
+houve proporcionalidade na absorção de sarolaner entre a dose recomendada de 2-4 mg/kg e 20 
+mg/kg. O estado prandial dos animais não afeta significativamente a extensão da sua absorção. 
+ 
+O Sarolaner demonstrou ter baixa clearance (0,12 ml/min/kg) e um volume de distribuição moderado 
+(2,81 l/kg). A semivida foi comparável nas vias intravenosa e oral aos 12 e 11 dias, respetivamente. A 
+ligação às proteínas plasmáticas foi determinada in vitro e calculada  em ≥ 99,9%. 
+ 
+Um estudo de distribuição demonstrou que  os resíduos relacionados com 14C-Sarolaner eram 
+extensamente distribuídos nos tecidos. A depleção dos tecidos foi consistente com a semivida 
+plasmática. 
+ 
+
+--------------------------------------------------------------------------------
+
+7 
+A principal via de eliminação é a excreção biliar da molécula precursora com eliminação pelas fezes.
+
+5. 
+INFORMAÇÕES FARMACÊUTICAS 
+ 
+5.1 
+Incompatibilidades principais 
+ 
+Não aplicável. 
+ 
+5.2 
+Prazo de validade 
+ 
+Prazo de validade do medicamento veterinário tal como embalado para venda: 30 meses. 
+ 
+5.3 
+Precauções especiais de conservação 
+ 
+Este medicamento veterinário não necessita de quaisquer precauções especiais de conservação. 
+ 
+5.4 
+Natureza e composição do acondicionamento primário 
+ 
+Embalagem de blister com “foil” alumínio. 
+Uma caixa de cartão contém 1 blister com 1, 3 ou 6 comprimidos. 
+É possível que não sejam comercializadas todas as apresentações. 
+ 
+5.5 
+Precauções especiais para a eliminação de medicamentos veterinários não utilizados ou de 
+desperdícios derivados da utilização desses medicamentos 
+ 
+Os medicamentos não devem ser eliminados no lixo ou nos esgotos domésticos. 
+ 
+Utilize regimes de recolha de medicamentos veterinários para a eliminação de medicamentos veterinários 
+não utilizados ou de resíduos resultantes da utilização desses medicamentos, em cumprimento dos 
+requisitos nacionais e de quaisquer sistemas de recolha nacionais aplicáveis ao medicamento veterinário 
+em causa.
+
+6. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+Zoetis Belgium
+
+7. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+EU/2/15/191/001-018
+
+8. 
+DATA DA PRIMEIRA AUTORIZAÇÃO 
+ 
+Data da primeira autorização: 06/11/2015.
+
+9. 
+DATA DA ÚLTIMA REVISÃO DO RESUMO DAS CARACTERÍSTICAS DO 
+MEDICAMENTO VETERINÁRIO
+
+10. 
+CLASSIFICAÇÃO DOS MEDICAMENTOS VETERINÁRIOS 
+ 
+Medicamento veterinário sujeito a receita médico-veterinária. 
+
+8 
+ 
+Está disponível informação pormenorizada sobre este medicamento veterinário na base de dados de 
+medicamentos da União Europeia Union Product Database  
+(https://medicines.health.europa.eu/veterinary). 
+ 
+ 
+
+9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO II 
+ 
+OUTRAS CONDIÇÕES E REQUISITOS DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO 
+ 
+Não existentes. 
+ 
+ 
+
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO III 
+ 
+ROTULAGEM E FOLHETO INFORMATIVO 
+ 
+ 
+
+11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A. ROTULAGEM 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 12 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 5:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 6:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 7:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+12 
+INDICAÇÕES A INCLUIR NO ACONDICIONAMENTO SECUNDÁRIO 
+ 
+CARTONAGEM
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Simparica 5 mg comprimidos mastigáveis para cães 1,3-2,5 kg 
+Simparica 10 mg comprimidos mastigáveis para cães  > 2,5-5 kg 
+Simparica 20 mg comprimidos mastigáveis para cães  > 5-10 kg 
+Simparica 40 mg comprimidos mastigáveis para cães  > 10-20 kg 
+Simparica 80 mg comprimidos mastigáveis para cães > 20-40 kg 
+Simparica 120 mg comprimidos mastigáveis para cães > 40-60 kg
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS 
+ 
+sarolaner 5 mg 
+sarolaner 10 mg 
+sarolaner 20 mg 
+sarolaner 40 mg 
+sarolaner 80 mg 
+sarolaner 120 mg
+
+3. 
+DIMENSÃO DA EMBALAGEM 
+ 
+1 comprimido 
+3 comprimidos 
+6 comprimidos
+
+4. 
+ESPÉCIES-ALVO 
+ 
+Caninos (Cães).
+
+5. 
+INDICAÇÕES
+
+6. 
+VIAS DE ADMINISTRAÇÃO 
+ 
+Administração oral.
+
+7. 
+INTERVALOS DE SEGURANÇA
+
+8. 
+PRAZO DE VALIDADE 
+ 
+Exp.{mm/aaaa} 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 13 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 2:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 3:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 4:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 5:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 6:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 7:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 8:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 9:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 10:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 11:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 12:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 13:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 14:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 15:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 16:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 17:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 18:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+13
+
+9. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO
+
+10. 
+MENÇÃO "Antes de administrar, ler o folheto informativo" 
+ 
+Antes de administrar, ler o folheto informativo.
+
+11. 
+MENÇÃO "USO VETERINÁRIO" 
+ 
+USO VETERINÁRIO
+
+12. 
+MENÇÃO "MANTER FORA DA VISTA E DO ALCANCE DAS CRIANÇAS" 
+ 
+Manter fora da vista e do alcance das crianças.
+
+13. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+Zoetis Belgium
+
+14. 
+NÚMEROS DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+EU/2/15/191/001 (5 mg, 1 comprimido) 
+EU/2/15/191/002 (5 mg, 3 comprimidos) 
+EU/2/15/191/003 (5 mg, 6 comprimidos) 
+EU/2/15/191/004 (10 mg, 1 comprimido) 
+EU/2/15/191/005 (10 mg, 3 comprimidos) 
+EU/2/15/191/006 (10 mg, 6 comprimidos) 
+EU/2/15/191/007 (20 mg, 1 comprimido) 
+EU/2/15/191/008 (20 mg, 3 comprimidos) 
+EU/2/15/191/009 (20 mg, 6 comprimidos) 
+EU/2/15/191/010 (40 mg, 1 comprimido) 
+EU/2/15/191/011 (40 mg, 3 comprimidos) 
+EU/2/15/191/012 (40 mg, 6 comprimidos) 
+EU/2/15/191/013 (80 mg, 1 comprimido) 
+EU/2/15/191/014 (80 mg, 3 comprimidos) 
+EU/2/15/191/015 (80 mg, 6 comprimidos) 
+EU/2/15/191/016 (120 mg, 1 comprimido) 
+EU/2/15/191/017 (120 mg, 3 comprimidos) 
+EU/2/15/191/018 (120 mg, 6 comprimidos)
+
+15. 
+NÚMERO DO LOTE 
+ 
+Lot: {número} 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 14 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+14 
+INDICAÇÕES MÍNIMAS A INCLUIR EM PEQUENAS UNIDADES DE 
+ACONDICIONAMENTO PRIMÁRIO 
+ 
+BLISTER
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Simparica
+
+2. 
+INFORMAÇÕES QUANTITATIVAS SOBRE AS SUBSTÂNCIAS ATIVAS 
+ 
+1,3–2,5 kg 
+> 2,5–5 kg 
+> 5–10 kg 
+> 10–20 kg 
+> 20–40 kg 
+> 40–60 kg 
+ 
+5 mg 
+10 mg 
+20 mg 
+40 mg 
+80 mg 
+120 mg
+
+3. 
+NÚMERO DO LOTE 
+ 
+Lot {número}
+
+4. 
+PRAZO DE VALIDADE 
+ 
+Exp. {mm/aaaa} 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+15 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. FOLHETO INFORMATIVO 
+
+================================================================================
+📊 PÁGINA 16 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 5:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 6:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 7:
+  🐾 Espécie: Cães
+
+Entrada 8:
+  🐾 Espécie: Cães
+
+Entrada 9:
+  🐾 Espécie: Cães
+
+Entrada 10:
+  🐾 Espécie: Cães
+
+Entrada 11:
+  🐾 Espécie: Cães
+
+Entrada 12:
+  🐾 Espécie: Cães
+
+Entrada 13:
+  🐾 Espécie: Cães
+
+Entrada 14:
+  📍 Via: IV
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+16 
+FOLHETO INFORMATIVO
+
+1. 
+Nome do medicamento veterinário 
+ 
+Simparica 5 mg comprimidos mastigáveis para cães 1,3-2,5 kg 
+Simparica 10 mg comprimidos mastigáveis para cães  > 2,5-5 kg 
+Simparica 20 mg comprimidos mastigáveis para cães  > 5-10 kg 
+Simparica 40 mg comprimidos mastigáveis para cães  > 10-20 kg 
+Simparica 80 mg comprimidos mastigáveis para cães > 20-40 kg 
+Simparica 120 mg comprimidos mastigáveis para cães > 40-60 kg
+
+2. 
+Composição 
+ 
+Cada comprimido contém: 
+ 
+Simparica comprimidos mastigáveis 
+sarolaner (mg) 
+para cães 1,3-2,5 kg 
+5 
+para cães > 2,5-5 kg 
+10 
+para cães > 5-10 kg 
+20 
+para cães > 10-20 kg 
+40 
+para cães > 20-40 kg 
+80 
+para cães > 40-60 kg 
+120 
+ 
+Comprimidos mastigáveis matizados de cor castanha, de formato quadrado com arestas arredondadas. 
+O número em relevo num dos lados designa a dosagem (mg) do comprimido: “5”, “10”, “20”, “40”, 
+“80” ou “120”.
+
+3. 
+Espécies-alvo 
+ 
+Caninos (Cães).
+
+4. 
+Indicações de utilização 
+ 
+Para o tratamento das infestações por carraças (Dermacentor reticulatus,  Ixodes hexagonus, Ixodes 
+ricinus e Rhipicephalus sanguineus). O medicamento veterinário tem atividade imediata e persistente 
+de eliminação das carraças pelo menos até 5 semanas. 
+ 
+Para o tratamento das infestações por pulgas (Ctenocephalides felis e Ctenocephalides canis). O 
+medicamento veterinário tem atividade imediata e persistente de eliminação das pulgas, contra novas 
+infestações pelo menos até 5 semanas. O medicamento veterinário pode ser usado como parte da 
+estratégia de tratamento da dermatite alérgica à picada da pulga (DAPP). 
+ 
+Para o tratamento da sarna sarcóptica (Sarcoptes scabiei). 
+ 
+Para o tratamento de infestações por ácaros auriculares (Otodectes cynotis). 
+ 
+Para o tratamento da demodicose (Demodex canis). 
+ 
+Para redução do risco de infeção por Babesia canis canis transmitida por Dermacentor reticulatus 
+durante 28 dias após o tratamento. O efeito é indireto devido à atividade do medicamento veterinário 
+contra o vetor. 
+ 
+As pulgas e as carraças devem estar fixas no hospedeiro e iniciar a alimentação de modo a serem 
+expostas à substância ativa.  
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 17 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+17
+
+5. 
+Contraindicações 
+ 
+Não administrar em caso de hipersensibilidade à substância ativa ou a algum dos excipientes.
+
+6. 
+Advertências especiais 
+ 
+Advertências especiais: 
+A transmissão de B.canis canis não pode ser completamente excluída, uma vez que as carraças D. 
+reticulatus têm que se fixar ao hospedeiro antes de serem mortas. Como o efeito acaricida contra D. 
+reticulatus pode levar até 48 horas, a transmissão de B. canis canis durante as primeiras 48 horas não 
+pode ser excluída. 
+ 
+A utilização do medicamento veterinário deve ser baseada na situação epidemiológica local, incluindo 
+o conhecimento das espécies de carraças prevalentes, uma vez que a transmissão de B. canis por outras 
+espécies de carraças além da D. reticulatus é possível e deve fazer parte de um programa de controlo 
+integrado para prevenir a transmissão de Babesia canis. 
+ 
+Precauções especiais para uma utilização segura nas espécies-alvo: 
+Não deve ser administrado a cachorros com idade inferior a 8 semanas e/ou cães com peso inferior a 
+1,3 kg, exceto se tal for indicado por um médico veterinário. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais: 
+Lavar as mãos após manusear o medicamento veterinário. 
+A ingestão acidental do medicamento veterinário pode potencialmente causar efeitos adversos, tais 
+como sinais neurológicos excitatórios transitórios.  
+Para impedir que as crianças tenham acesso direto ao medicamento veterinário, só deve ser retirado 
+um comprimido mastigável do blister de cada vez e apenas quando necessário. Após administração, o 
+blister deve ser imediatamente colocado na embalagem original e esta deve ser conservada fora da 
+vista e do alcance das crianças. Em caso de ingestão acidental, dirija-se imediatamente a um médico e 
+mostre-lhe o folheto informativo ou o rótulo do medicamento veterinário.  
+ 
+Gestação e lactação: 
+A segurança do medicamento veterinário não foi determinada durante a gestação e a lactação ou em 
+animais destinados a reprodutores. Os estudos de laboratório efetuados em ratos e coelhos não 
+revelaram quaisquer efeitos teratogénicos. Administração não recomendada nestes animais. 
+ 
+Fertilidade: 
+A segurança do medicamento veterinário não foi determinada em animais destinados a reprodutores.  
+Administração não recomendada nestes animais. 
+ 
+ 
+Interação com outros medicamentos e outras formas de interação:  
+Desconhecidas. 
+ 
+Durante os ensaios clínicos de campo, não se observaram interações entre este medicamento 
+veterinário e medicamentos veterinários administrados por rotina.  
+ 
+Em estudos laboratoriais de segurança, não se observaram interações quando sarolaner foi 
+coadministrado com milbemicina oxima, moxidectina e pamoato de pirantel (Nestes estudos a eficácia 
+não foi investigada). 
+ 
+Sarolaner liga-se fortemente às proteínas plasmáticas e poderá competir com outros medicamentos que 
+se ligam fortemente às proteínas plasmáticas, tais como medicamentos anti-inflamatórios não 
+esteroides (AINE) e o derivado cumarínico varfarina. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 18 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  💉 Dose: 4 mg/kg
+  📍 Via: IM
+
+Entrada 2:
+  📍 Via: IM
+
+Entrada 3:
+  💉 Dose: 4 mg/kg
+  📍 Via: IM
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 5:
+  🐾 Espécie: Cães
+
+Entrada 6:
+  💉 Dose: 4 mg/kg
+  📍 Via: Oral
+
+Entrada 7:
+  💉 Dose: 4 mg/kg
+  📍 Via: Oral
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+18 
+ 
+Sobredosagem: 
+Num estudo de segurança, o medicamento veterinário foi administrado oralmente a cachorros  Beagle 
+de 8 semanas, em 0, 1, 3 e 5 vezes a dose  máxima de exposição de 4 mg/kg, por 10 vezes com 
+intervalo de 28 dias entre cada uma. Nenhuns eventos adversos foram observados com a dose máxima 
+de exposição de 4 mg/kg. Nos grupos com sobredosagem foram observados em alguns animais sinais 
+neurológicos auto limitantes transitórios: tremores ligeiros com 3 vezes a dose  máxima de exposição e 
+convulsões com 5 vezes a dose máxima de exposição. Todos os cães recuperaram sem tratamento. 
+ 
+O Sarolaner é bem tolerado em Collies com deficiente proteína 1 multiresistente  (MDR1 -/-), após a 
+administração oral única de 5 vezes a dose recomendada. Não foram observados sinais clínicos 
+relacionados com o tratamento.
+
+7. 
+Eventos adversos 
+ 
+Caninos (cães): 
+ 
+Muito raros  
+(<1 animal / 10 000 animais tratados, incluindo notificações isoladas): 
+sinais gastrintestinais (ex. vómito, diarreia)1 
+distúrbios sistémicos ((ex. letargia, anorexia)1 
+sinais neurológicos (ex. tremores, ataxia, convulsões)2 
+1 Leves e transitórios. 
+2 Na maior parte dos casos estes sinais são transitórios. 
+ 
+A notificação de eventos adversos é importante. Permite a monitorização contínua da segurança de um 
+medicamento veterinário. Caso detete quaisquer efeitos mencionados neste folheto ou outros efeitos 
+mesmo que não mencionados, ou pense que o medicamento veterinário não foi eficaz, informe o seu 
+médico veterinário. Também pode comunicar quaisquer eventos adversos ao titular da Autorização de 
+Introdução no Mercado ou representante local do titular da Autorização de Introdução no Mercado 
+utilizando os dados de contacto no final deste folheto, ou através do Sistema Nacional de 
+Farmacovigilância Veterinária (SNFV).
+
+8. 
+Dosagem em função da espécie, via e modo de administração 
+ 
+Para administração oral.  
+ 
+O medicamento veterinário deve ser administrado na dose de 2–4 mg /kg de peso corporal, de acordo 
+com a tabela seguinte: 
+ 
+Peso corporal  
+(kg) 
+Dosagem do comprimido 
+(mg sarolaner) 
+Número de comprimidos a 
+serem administrados 
+1,3–2,5 
+5 
+um 
+> 2,5–5 
+10 
+um 
+> 5–10 
+20 
+um 
+> 10–20 
+40 
+um 
+> 20 –40 
+80 
+um 
+> 40–60 
+120 
+um 
+> 60 
+Combinação adequada de comprimidos 
+ 
+Administrar a combinação apropriada de dosagens disponíveis para alcançar a dose recomendada de 
+2-4 mg/kg.  Para assegurar uma dosagem correta, o peso corporal deve ser determinado com a maior 
+precisão possível. 
+Os comprimidos não devem ser divididos. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 19 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+19 
+ 
+Os comprimidos podem ser administrados com ou sem alimentos. 
+ 
+Esquema de tratamento: 
+Para um ótimo controlo das infestações por pulgas e carraças, o medicamento veterinário deve ser 
+administrado a intervalos mensais e, com base na situação epidemiológica local, e prosseguir durante a 
+época de pulgas e/ou carraças.   
+ 
+Para o tratamento de infestações por ácaros auriculares (Otodectes cynotis) deve ser administrada uma 
+única dose do medicamento veterinário. Recomenda-se uma consulta médico-veterinária 30 dias após 
+o tratamento, dado que alguns animais podem necessitar de uma segunda aplicação. 
+ 
+Para o tratamento da sarna sarcóptica (provocada por Sarcoptes scabiei var. canis) deve ser 
+administrada uma dose mensal em dois meses consecutivos.  
+ 
+Para o tratamento da demodicose (causada por Demodex canis) a administração de uma dose 
+mensal durante três meses consecutivos é eficaz e conduz a uma acentuada melhoria dos sinais 
+clínicos. O tratamento deve ser mantido até que as raspagens de pele sejam negativas em pelo menos 2 
+raspagens consecutivas com um intervalo de um mês. Como a demodicose é uma doença multifatorial, 
+é também aconselhável, sempre que possível, tratar adequadamente qualquer doença subjacente.
+
+9. 
+Instruções com vista a uma administração correta 
+ 
+Os comprimidos deste medicamento veterinário são mastigáveis e palatáveis e quando dados pelos 
+donos são prontamente consumidos pelos cães. Se o comprimido não é tomado voluntariamente pelo 
+cão, pode também ser administrado com alimentos ou diretamente na boca.
+
+10. 
+Intervalos de segurança 
+ 
+Não aplicável.
+
+11. 
+Precauções especiais de conservação 
+ 
+Manter fora da vista e do alcance das crianças. 
+Este medicamento veterinário não necessita de quaisquer precauções especiais de conservação. Não 
+administrar este medicamento veterinário depois de expirado o prazo de validade indicado na 
+cartonagem e no blister após Exp. O prazo de validade corresponde ao último dia do mês indicado.
+
+12. 
+Precauções especiais de eliminação 
+ 
+Os medicamentos não devem ser eliminados no lixo ou nos esgotos domésticos. 
+ 
+Utilize regimes de recolha de medicamentos veterinários para a eliminação de medicamentos 
+veterinários não utilizados ou de resíduos resultantes da utilização desses medicamentos, em 
+cumprimento dos requisitos nacionais e de quaisquer sistemas de recolha nacionais aplicáveis. Estas 
+medidas destinam-se a ajudar a proteger o ambiente. 
+ 
+Pergunte ao seu médico veterinário ou farmacêutico como deve eliminar os medicamentos veterinários 
+que já não são necessários. 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+20
+
+13. 
+Classificação dos medicamentos veterinários 
+ 
+Medicamento veterinário sujeito a receita médico-veterinária.
+
+14. 
+Números de autorização de introdução no mercado e tamanhos de embalagem 
+ 
+EU/2/15/191/001-018. 
+ 
+Em cada dosagem, os comprimidos mastigáveis estão disponíveis nas apresentações seguintes: caixa 
+de cartão com 1 blister contendo 1, 3 ou 6 comprimidos.  
+ 
+É possível que não sejam comercializadas todas as apresentações.
+
+15. 
+Data em que o folheto informativo foi revisto pela última vez 
+ 
+Está disponível informação pormenorizada sobre este medicamento veterinário na base de dados de 
+medicamentos da União Europeia Union Product Database  
+(https://medicines.health.europa.eu/veterinary).
+
+16. 
+Detalhes de contacto 
+ 
+Titular da autorização de introdução no mercado e fabricante responsável pela libertação do 
+lote: 
+ 
+Zoetis Belgium  
+Rue Laid Burniat 1 
+1348 Louvain-La-Neuve 
+Bélgica 
+ 
+Representantes locais e detalhes de contacto para comunicar suspeitas de eventos adversos: 
+ 
+België/Belgique/Belgien 
+Zoetis Belgium 
+Mercuriusstraat 20 
+BE-1930 Zaventem 
+Tél/Tel: +32 (0) 800 99 189 
+Lietuva 
+Zoetis Belgium 
+Mercuriusstraat 20 
+1930 Zaventem 
+Belgija 
+Tel: +370 610 05088 
+ 
+Република България 
+Zoetis Belgium 
+Rue Laid Burniat 1 
+1348 Louvain-la-Neuve 
+Белгия 
+Teл: +359 888 51 30 30 
+Luxembourg/Luxemburg 
+Zoetis Belgium 
+Mercuriusstraat 20 
+1930 Zaventem 
+Belsch 
+Tél/Tel: +32 (2) 746 80 11 
+ 
+Česká republika 
+Zoetis Česká republika, s.r.o. 
+náměstí 14. října 642/17 
+CZ 150 00 Praha 
+Tel: +420 257 101 111 
+Magyarország 
+Zoetis Hungary Kft. 
+Csörsz u. 41. 
+HU-1124 Budapest 
+Tel.: +36 1 224 5200 
+ 
+
+================================================================================
+📊 PÁGINA 21 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+21 
+Danmark 
+Zoetis Animal Health ApS 
+Øster Alle 48 
+DK-2100 København 
+Tlf: +45 70 20 73 05 
+adr.scandinavia@zoetis.com 
+ 
+ 
+Malta 
+Agrimed Limited 
+Mdina Road, Zebbug ZBG 9016, 
+MT 
+Tel: +356 21 465 797 
+Deutschland 
+Zoetis Deutschland GmbH 
+Schellingstr. 1 
+DE-10785 Berlin 
+Tel: +49 30 2020 0049 
+tierarzneimittelsicherheit@zoetis.com 
+ 
+Nederland 
+Zoetis B.V. 
+Rivium Westlaan 74 
+NL-2909 LD Capelle aan den IJssel 
+Tel: +31 (0)10 714 0900 
+Eesti 
+Zoetis Belgium 
+Mercuriusstraat 20 
+1930 Zaventem 
+Belgia 
+Tel: +370 610 05088 
+ 
+Norge 
+Zoetis Animal Health ApS 
+Øster Alle 48 
+DK-2100 København 
+Danmark 
+Tlf: +47 23 29 86 80 
+adr.scandinavia@zoetis.com 
+ 
+Kύπρος 
+Zoetis Hellas S.A. 
+Φραγκοκκλησιάς 7, Μαρούσι 
+15125, Αττική 
+Ελλάδα 
+Τηλ: +30 210 6791900 
+ 
+Österreich 
+Zoetis Österreich GmbH 
+Floridsdorfer Hauptstr. 1 
+AT-1210 Wien 
+Tel: +43 (0)1 2701100 100 
+España 
+Zoetis Spain, S.L. 
+Parque Empresarial Vía Norte Edificio nº1, 
+c/ Quintanavides nº13 
+ES-28050 Madrid 
+Tel: +34 91 4191900 
+ 
+Polska 
+Zoetis Polska Sp. z o.o. 
+ul. Postępu 17B 
+PL - 02-676 Warszawa 
+Tel.: +48 22 2234800 
+France 
+Zoetis France 
+10 rue Raymond David 
+FR-92240 Malakoff 
+Tél: +33 (0)800 73 00 65 
+ 
+Portugal 
+Zoetis Portugal Lda. 
+Lagoas Park, Edifício 10 
+PT-2740-271 Porto Salvo 
+Tel: +351 21 042 72 00 
+Hrvatska 
+Zoetis B.V. 
+Podružnica Zagreb za promidžbu 
+Petra Hektorovića 2 
+HR-10000 Zagreb 
+Tel: +385 1 6441 462 
+ 
+România 
+Zoetis România S.R.L. 
+Expo Business Park, 54A Aviator Popișteanu, 
+Clădirea 2, Etaj 1-3, Sector 1,  
+București, 012095 - RO 
+Tel: +40785019479 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 22 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+22 
+Ireland 
+Zoetis Belgium S.A. (Irish Branch) 
+2nd Floor, Building 10,  
+Cherrywood Business Park,  
+Loughlinstown, 
+Co. Dublin, 
+IE – Dublin D18 T3Y1 
+Tel: +353 (0) 1 256 9800 
+ 
+Slovenija 
+Zoetis B.V. 
+Podružnica Zagreb za promidžbu 
+Petra Hektorovića 2, 
+10000 Zagreb, 
+Hrvaška 
+Tel: +385 1 6441 462 
+Ísland 
+Zoetis Animal Health ApS 
+Øster Alle 48 
+DK-2100 København 
+Danmörku 
+Sími: +45 70 20 73 05 
+adr.scandinavia@zoetis.com 
+ 
+ 
+Slovenská republika 
+Zoetis Česká republika, s.r.o. 
+náměstí 14. října 642/17 
+150 00 Praha 
+Česká republika 
+Tel: +420 257 101 111 
+Italia 
+Zoetis Italia S.r.l. 
+Via Andrea Doria 41M, 
+IT-00192 Roma 
+Tel: +39 06 3366 8111 
+Suomi/Finland 
+Zoetis Finland Oy 
+Bulevardi 21 / SPACES 
+FI-00180 Helsinki/Helsingfors 
+Suomi/Finland 
+Puh/Tel: +358 10 336 7000 
+laaketurva@zoetis.com 
+ 
+ 
+Ελλάδα 
+Zoetis Hellas S.A. 
+Φραγκοκκλησιάς 7, Μαρούσι 
+EL-15125 Αττική 
+Τηλ: +30 210 6791900 
+Sverige 
+Zoetis Animal Health ApS 
+Øster Alle 48 
+DK-2100 Köpenhamn 
+Danmark 
+Tel: +46 (0) 76 760 0677 
+adr.scandinavia@zoetis.com 
+ 
+ 
+Latvija 
+Zoetis Belgium 
+Mercuriusstraat 20 
+1930 Zaventem 
+Beļģija 
+Tel: +370 610 05088 
+United Kingdom (Northern Ireland) 
+Zoetis Belgium S.A. (Irish Branch) 
+2nd Floor, Building 10,  
+Cherrywood Business Park,  
+Loughlinstown, 
+Co. Dublin, 
+IE – Dublin D18 T3Y1 
+Tel: +353 (0) 1 256 9800
+
+17. 
+Outras informações 
+ 
+Sarolaner é um acaricida e inseticida pertencente à família das isoxazolinas. Sarolaner é ativo contra 
+pulgas adultas (Ctenocephalides felis e Ctenocephalides canis) assim como contra diversas espécies de 
+carraças tais como Dermacentor reticulatus, Ixodes hexagonus, Ixodes ricinus, Rhipicephalus 
+sanguineus e ácaros Demodex canis, Otodectes cynotis e Sarcoptes scabiei.  
+Para as pulgas, o início da eficácia ocorre dentro de 8 horas após fixação, no período de 28 dias após a 
+administração do medicamento veterinário. Para as carraças (I. ricinus), o início da eficácia ocorre 
+dentro de 12 horas após fixação, no período de 28 dias após a administração do medicamento 
+veterinário. As carraças que estejam no animal antes da administração são eliminadas em 24 horas. 
+
+--------------------------------------------------------------------------------
+
+23 
+ 
+O medicamento veterinário elimina novas pulgas nos cães antes de conseguirem pôr ovos e assim 
+contribui para o controlo ambiental das populações de pulgas nas áreas a que os cães têm acesso.

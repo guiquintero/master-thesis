@@ -1,0 +1,792 @@
+ANEXO I 
+ 
+RESUMO DAS CARACTERÍSTICAS DO MEDICAMENTO 
+ 
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Bovinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Terramicina 500 mg comprimidos intrauterinos
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+ 
+Cada comprimido contém: 
+ 
+Substância(s) ativa(s): 
+ 
+Cloridrato de oxitetraciclina 
+ 
+500 mg 
+ 
+ 
+Para a lista completa de excipientes, ver secção 6.1.
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Comprimido de aplicação intrauterina, cor amarelo claro, alongado com extremidades redondas e 
+lados retos.
+
+4. 
+INFORMAÇÕES CLÍNICAS 
+ 
+4.1 
+Espécie(s)-alvo 
+ 
+Bovinos (vacas reprodutoras) 
+ 
+4.2 
+Indicações de utilização, especificando as espécies-alvo 
+ 
+Para o tratamento em vacas, depois de partos difíceis, de embriotomias ou cesarianas, no caso de 
+retenção de secundinas, perturbações puerperais e no tratamento de piometrites e endometrites. 
+ 
+4.3 
+Contraindicações  
+ 
+Não administrar em caso de hipersensibilidade à substância ativa ou a qualquer um dos excipientes. 
+ 
+4.4 
+Advertências especiais 
+ 
+Não existem. 
+ 
+4.5 
+Precauções especiais de utilização 
+ 
+Precauções especiais para a utilização em animais 
+ 
+Na presença de qualquer processo infeccioso recomenda-se a confirmação bacteriológica do 
+diagnóstico. A administração do medicamento veterinário deve basear-se em testes de sensibilidade 
+das bactérias isoladas do animal. Se não for possível, o tratamento deve basear-se na informação 
+epidemiológica local (ao nível regional e de exploração) sobre a sensibilidade das bactérias alvo. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 3 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Aves
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+  
+ 
+Antes da aplicação dos comprimidos intrauterinos é recomendada a lavagem do útero com uma 
+solução adequada para eliminar os fluidos uterinos e restos de placenta. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais 
+ 
+Lavar as mãos após a administração. 
+ 
+Em caso de ingestão acidental, dirija-se imediatamente a um médico e mostre-lhe o folheto 
+informativo ou o rótulo. 
+ 
+As pessoas com hipersensibilidade conhecida a tetraciclinas devem evitar o contacto com o 
+medicamento veterinário. 
+ 
+4.6  
+Reações adversas (frequência e gravidade) 
+ 
+Não conhecidas. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- muito frequente (mais de 1 animal apresentando evento(s) adverso(s) em 10 animais tratados) 
+- frequente  (mais de 1 mas menos de 10 animais em 100 animais tratados) 
+- pouco frequentes (mais de 1 mas menos de 10 animais em 1 000 animais tratados) 
+- rara (mais de 1 mas menos de 10 animais em 10 000 animais tratados)  
+- muito rara (menos de 1 animal em 10 000 animais tratados, incluindo notificações isoladas) 
+ 
+4.7 
+Utilização durante a gestação, a lactação e a postura de ovos 
+ 
+Não administrar (durante toda ou parte da gestação). 
+ 
+4.8 
+Interações medicamentosas e outras formas de interação 
+ 
+Não administrar de forma conjunta com antibióticos bactericidas. Existe resistência cruzada entre  
+o grupo das tetraciclinas. 
+ 
+4.9 
+Posologia e via de administração 
+ 
+Administrar exclusivamente por via intrauterina, introduzindo os comprimidos profundamente no 
+útero, tendo em atenção que em animais de pequeno porte poderá ser necessário fraccionar os 
+comprimidos. 
+No caso de útero seco, recomenda-se a infusão de 250-500 ml de soro fisiológico ou de água, límpida 
+e tépida com vista a facilitar a desagregação do comprimido. 
+Normalmente a aplicação de um comprimido é suficiente. Em casos graves o tratamento deve repetir-
+se todas as 24 horas. 
+ 
+Vía intrauterina: - Metrite: 1,5 – 2 g de oxitetraciclina/vaca/día (equivalente a 3 - 4 comprimidos), 
+durante 4 a 5 dias. 
+ 
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: SC
+  ⏰ Intervalo de segurança: 4 dias
+
+Entrada 2:
+  🐾 Espécie: Aves
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+  
+4.10 Sobredosagem (sintomas, procedimentos de emergência, antídotos), se necessário 
+ 
+Não aplicável. 
+ 
+4.11 Intervalo(s) de segurança 
+ 
+Carne e vísceras: 4 dias. 
+Leite: 3 dias.
+
+5. 
+PROPRIEDADES FARMACOLÓGICAS 
+ 
+Grupo farmacoterapeutico: Antimicrobianos e antissépticos intrauterinos.  
+ATCvet Code: QG51AA01 
+ 
+5.1     Propriedades farmacológicas  
+ 
+O medicamento veterinário é um antibiótico de largo espectro, ativo contra bactérias Gram-positivas, 
+Gram-negativas, espiroquetas, micoplasmas, protozoários e clamídias. A oxitetraciclina é um 
+antimicrobiano pertencente à família das tetraciclinas que atua como agente bacteriostático inibindo a 
+síntese proteica nas bactérias. A oxitetraciclina atravessa a membrana externa das bactérias mediante 
+difusão passiva e atingem o citoplasma por um mecanismo energético. Dentro do citoplasma une-se ao 
+ribossoma inibindo a síntese proteica. 
+ 
+5.2  
+Propriedades farmacocinéticas 
+ 
+Após a administração intrauterina de oxitetraciclina uma pequena parte absorve-se desde o útero e 
+passa a circulação sistémica com concentrações plasmáticas e no leite até às 24 horas. No tecido 
+inflamado (endometrite) a absorção é menor. A eliminação é principalmente pelas secreções uterinas e 
+uma pequena parte pela urina, fezes e leite.
+
+6. 
+INFORMAÇÕES FARMACÊUTICAS 
+ 
+6.1 
+Lista de excipientes 
+ 
+Metabisulfito de sódio (E223) 
+Ácido tartárico 
+Cetrimida 
+Hidrogenocarbonato de sódio 
+Povidona 
+Estearato de magnésio 
+Talco 
+Manitol 
+ 
+ 
+6.2 
+Incompatibilidades principais  
+ 
+Não aplicável.  
+ 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+  
+6.3 
+Prazo de validade  
+ 
+Prazo de validade do medicamento veterinário tal como embalado para venda: 3 anos. 
+ 
+6.4 
+Precauções especiais de conservação 
+ 
+Conservar a temperatura inferior a 25ºC. 
+Conservar em local seco. 
+Proteger da luz. 
+ 
+6.5 
+Natureza e composição do acondicionamento primário 
+ 
+Caixa de cartão com 2 ou 10 saquetas de alumínio/papel/polietileno, cada saqueta com 1 comprimido. 
+ 
+É possível que não sejam comercializadas todas as apresentações. 
+ 
+6.6 
+Precauções especiais para a eliminação de medicamentos veterinários não utilizados ou de 
+desperdícios derivados da utilização desses medicamentos 
+ 
+O medicamento veterinário não utilizado ou os seus desperdícios devem ser eliminados de acordo com os 
+requisitos nacionais.
+
+7. 
+TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+Zoetis Portugal, Lda. 
+Lagoas Park – Edifício 10 
+2740-271 Porto Salvo
+
+8. 
+NÚMERO(S) DE REGISTO DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+1468/01/21NFVPT
+
+9.  
+DATA DA PRIMEIRA AUTORIZAÇÃO/RENOVAÇÃO DA AUTORIZAÇÃO 
+ 
+04 de fevereiro de 1980.
+
+10. 
+DATA DA REVISÃO DO TEXTO 
+ 
+Novembro 2021
+
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO III 
+ 
+ROTULAGEM E FOLHETO INFORMATIVO 
+
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A. ROTULAGEM 
+
+================================================================================
+📊 PÁGINA 8 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+
+Entrada 2:
+  📍 Via: SC
+  ⏰ Intervalo de segurança: 4 dias
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+  
+ 
+INDICAÇÕES A INCLUIR NO ACONDICIONAMENTO PRIMÁRIO 
+ 
+EMBALAGEM DE CARTÃO
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Terramicina 500 mg comprimidos intrauterinos
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS E OUTRAS SUBSTÂNCIAS 
+ 
+Cada comprimido intrauterino contém: 
+ 
+Substância(s) ativa(s): 
+ 
+Cloridrato de oxitetraciclina 
+ 
+500 mg
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Comprimidos intrauterinos.
+
+4. 
+DIMENSÃO DA EMBALAGEM 
+ 
+2 comprimidos intrauterinos 
+10 comprimidos intrauterinos
+
+5. 
+ESPÉCIES-ALVO 
+ 
+Vacas.
+
+6. 
+INDICAÇÃO (INDICAÇÕES)
+
+7. 
+MODO E VIA(S) DE ADMINISTRAÇÃO 
+ 
+Antes de administrar, ler o folheto informativo.
+
+8. 
+INTERVALO(S) DE SEGURANÇA 
+ 
+Carne e vísceras: 4 dias. 
+Leite: 3 dias. 
+ 
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+9. 
+ADVERTÊNCIA(S) ESPECIAL (ESPECIAIS), SE NECESSÁRIO
+
+10. 
+PRAZO DE VALIDADE 
+ 
+VAL {mês/ano} ou EXP. {mês/ano}
+
+11. 
+CONDIÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Conservar a temperatura inferior a 25ºC. Conservar em local seco. Proteger da luz.
+
+12. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+O medicamento veterinário não utilizado ou os seus desperdícios devem ser eliminados de acordo com 
+os requisitos nacionais.
+
+13. 
+MENÇÃO “USO VETERINÁRIO” E CONDIÇÕES OU RESTRIÇÕES RELATIVAS 
+AO FORNECIMENTO E À UTILIZAÇÃO, se for caso disso 
+ 
+Medicamento veterinário sujeito a receita médico veterinária. 
+ 
+USO VETERINÁRIO
+
+14. 
+MENÇÃO “MANTER FORA DA VISTA E DO  ALCANCE DAS CRIANÇAS” 
+ 
+Manter fora da vista e do alcance das crianças.
+
+15. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO 
+ 
+Zoetis Portugal, Lda. 
+Lagoas Park – Edifício 10 
+2740-271 Porto Salvo
+
+16. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+1468/01/21NFVPT
+
+17. 
+NÚMERO DO LOTE DE FABRICO 
+ 
+Lote {número} 
+
+================================================================================
+📊 PÁGINA 10 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+
+Entrada 2:
+  📍 Via: SC
+  ⏰ Intervalo de segurança: 4 dias
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+  
+ 
+INDICAÇÕES MÍNIMAS A INCLUIR EM PEQUENAS UNIDADES DE 
+ACONDICIONAMENTO PRIMÁRIO 
+ 
+SAQUETAS
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Terramicina 500 mg comprimidos intrauterinos
+
+2. 
+COMPOSIÇÃO DA(S) SUBSTÂNCIA(S) ATIVA(S)  
+ 
+Cloridrato de oxitetraciclina 
+ 
+500 mg
+
+3. 
+CONTEÚDO EM PESO, VOLUME OU NÚMERO DE DOSES 
+ 
+2 comprimidos intrauterinos 
+10 comprimidos intrauterinos
+
+4. 
+VIA(S) DE ADMINISTRAÇÃO 
+ 
+Administração intrauterina.
+
+5. 
+INTERVALO(S) DE SEGURANÇA 
+ 
+Carne e vísceras: 4 dias. 
+Leite: 3 dias.
+
+6. 
+NÚMERO DO LOTE 
+ 
+Lote {número}
+
+7. 
+PRAZO DE VALIDADE 
+ 
+VAL  ou EXP  {MM/AAAA}
+
+8. 
+MENÇÃO “USO VETERINÁRIO” 
+ 
+USO VETERINÁRIO 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. FOLHETO INFORMATIVO 
+
+================================================================================
+📊 PÁGINA 12 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+
+Entrada 2:
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+  
+FOLHETO INFORMATIVO 
+Terramicina 500 mg comprimidos intrauterinos
+
+1. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO E DO TITULAR DA AUTORIZAÇÃO DE FABRICO RESPONSÁVEL 
+PELA LIBERTAÇÃO DO LOTE, SE FOREM DIFERENTES 
+ 
+Titular da autorização de introdução no mercado: 
+Zoetis Portugal, Lda. 
+Lagoas Park – Edifício 10 
+2740-271 Porto Salvo 
+ 
+Fabricante responsável pela libertação de lotes: 
+Farmasierra Manufacturing S.L. 
+Carretera de Irun km 26,200 
+28700 San Sebastián de los Reyes 
+Espanha
+
+2. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Terramicina 500 mg comprimidos intrauterinos 
+Cloridrato de oxitetraciclina
+
+3. 
+DESCRIÇÃO DA(S) SUBSTÂNCIA(S) ATIVA(S) E OUTRA(S) SUBSTÂNCIA(S) 
+ 
+Cada comprimido contém: 
+ 
+Substância(s) ativa(s): 
+ 
+Cloridrato de oxitetraciclina 
+ 
+500 mg
+
+4. 
+INDICAÇÃO (INDICAÇÕES) 
+ 
+Para o tratamento em vacas, depois de partos difíceis, de embriotomias ou cesarianas, no caso de 
+retenção de secundinas, perturbações puerperais e no tratamento de piometrites e endometrites.
+
+5. 
+CONTRAINDICAÇÕES 
+ 
+Não administrar em caso de hipersensibilidade à substância ativa ou a qualquer um dos excipientes.
+
+6. 
+REAÇÕES ADVERSAS  
+ 
+Não conhecidas. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- muito frequente (mais de 1 animal apresentando evento(s) adverso(s) em 10 animais tratados) 
+- frequente  (mais de 1 mas menos de 10 animais em 100 animais tratados) 
+- pouco frequente (mais de 1 mas menos de 10 animais em 1 000 animais tratados) 
+- rara (mais de 1 mas menos de 10 animais em 10 000 animais tratados)  
+- muito rara (menos de 1 animal em 10 000 animais tratados, incluindo notificações isoladas) 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 13 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Aves
+  📍 Via: IM
+
+Entrada 2:
+  📍 Via: SC
+  ⏰ Intervalo de segurança: 4 dias
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+  
+ 
+Caso detete quaisquer efeitos mencionados neste folheto ou outros efeitos mesmo que não 
+mencionados, ou pense que o medicamento não foi eficaz, informe o seu médico veterinário. 
+ 
+Alternativamente pode notificar  através do Sistema Nacional de Farmacovigilância Veterinária 
+(SNFV): farmacovigilancia.vet@dgav.pt .
+
+7. 
+ESPÉCIES-ALVO 
+ 
+Vacas
+
+8. 
+DOSAGEM EM FUNÇÃO DA ESPÉCIE, VIA(S) E MODO DE ADMINISTRAÇÃO 
+ 
+Administrar exclusivamente por via intrauterina, introduzindo os comprimidos profundamente no 
+útero, tendo em atenção que em animais de pequeno porte poderá ser necessário fraccionar os 
+comprimidos. 
+No caso de útero seco, recomenda-se a infusão de 250-500 ml de soro fisiológico ou de água, límpida 
+e tépida com vista a facilitar a desagregação do comprimido. 
+ 
+Normalmente a aplicação de um comprimido é suficiente. Em casos graves o tratamento deve repetir-
+se todas as 24 horas. 
+ 
+Vía intrauterina: - Metrite: 1,5 – 2 g de oxitetraciclina/vaca/día (equivalente a 3 - 4 comprimidos), 
+durante 4 a 5 dias.
+
+9. 
+INSTRUÇÕES COM VISTA A UMA UTILIZAÇÃO CORRETA 
+ 
+Antes da aplicação dos comprimidos intrauterinos é recomendada a lavagem do útero com uma 
+solução adequada para eliminar os fluidos uterinos e restos de placenta.
+
+10. 
+INTERVALO(S) DE SEGURANÇA 
+ 
+Carne e vísceras: 4 dias. 
+Leite: 3 dias.
+
+11. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Manter fora do alcance e da vista das crianças. 
+Conservar a temperatura inferior a 25ºC. 
+Conservar em local seco. 
+Proteger da luz. 
+Não administrar depois de expirado o prazo de validade indicado no rótulo depois de VAL ou EXP.
+
+12. 
+ADVERTÊNCIA(S) ESPECIAL(AIS) 
+ 
+Precauções especiais de utilização 
+Precauções especiais para a utilização em animais 
+Na presença de qualquer processo infeccioso recomenda-se a confirmação bacteriológica do 
+diagnóstico. A administração do medicamento veterinário deve basear-se em testes de sensibilidade 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+  
+das bactérias isoladas do animal. Se não for possível, o tratamento deve basear-se na informação 
+epidemiológica local (ao nível regional e de exploração) sobre a sensibilidade das bactérias alvo. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos 
+animais 
+Em caso de ingestão acidental, dirija-se imediatamente a um médico e mostre-lhe o folheto 
+informativo ou o rótulo. 
+ 
+As pessoas com hipersensibilidade conhecida a tetraciclinas devem evitar o contacto com o 
+medicamento veterinário. 
+ 
+Utilização durante a gestação, a lactação e a postura de ovos 
+Não administrar (durante toda ou parte da gestação). 
+ 
+Interações medicamentosas e outras formas de interação 
+Não administrar de forma conjunta com antibióticos bactericidas. Existe resistência cruzada entre  
+o grupo das tetraciclinas. 
+ 
+Sobredosagem (sintomas, procedimentos de emergência, antídotos), se necessário 
+O uso excessivo ou contínuo deve ser evitado devido às interações com vitaminas ou minerais da dieta 
+normal dos animais.
+
+13. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+O medicamento veterinário não utilizado ou os seus desperdícios devem ser eliminados de acordo com os 
+requisitos nacionais. Os medicamentos não devem ser eliminados no lixo ou esgotos domésticos. Pergunte 
+ao seu médico veterinário como deve eliminar os medicamentos que já não são necessários. Estas medidas 
+contribuem para a proteção do ambiente.
+
+14. 
+DATA DA ÚLTIMA APROVAÇÃO DO FOLHETO INFORMATIVO 
+ 
+Novembro 2021.
+
+15. 
+OUTRAS INFORMAÇÕES 
+ 
+Apresentação 
+ 
+Caixa de cartão com 2 ou 10 saquetas de alumínio/papel/polietileno, cada saqueta com 1 comprimido. 
+ 
+É possível que não sejam comercializadas todas as apresentações.

@@ -6,7 +6,7 @@ selenium==4.15.0
 PyMuPDF==1.23.8
 urllib3==2.0.4
 tqdm==4.66.1
-ollama
+ollama==0.3.3
 aiohttp
 
 # Processamento avançado de tabelas em PDFs

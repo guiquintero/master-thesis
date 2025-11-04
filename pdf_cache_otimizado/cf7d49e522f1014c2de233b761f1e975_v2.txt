@@ -1,0 +1,1770 @@
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO I  
+ 
+RESUMO DAS CARACTERÍSTICAS DO MEDICAMENTO 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+
+Entrada 2:
+  🐾 Espécie: Gatos
+
+Entrada 3:
+  🐾 Espécie: Gatos
+
+Entrada 4:
+  🐾 Espécie: Gatos
+
+Entrada 5:
+  🐾 Espécie: Gatos
+
+Entrada 6:
+  🐾 Espécie: Gatos
+
+Entrada 7:
+  🐾 Espécie: Gatos
+
+Entrada 8:
+  🐾 Espécie: Gatos
+  📍 Via: SC
+
+Entrada 9:
+  🐾 Espécie: Gatos
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+2
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Felpreva solução para unção punctiforme para gatos pequenos (1,0 – 2,5 kg) 
+Felpreva solução para unção punctiforme para gatos médios (> 2,5 – 5,0 kg) 
+Felpreva solução para unção punctiforme para gatos grandes (> 5,0 – 8,0 kg)
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+ 
+Substâncias ativas: 
+ 
+Cada aplicador para unção punctiforme administra: 
+ 
+ 
+Volume da  
+dose unitária 
+[ml] 
+Tigolaner  
+Emodepside  
+Praziquantel  
+Felpreva para gatos pequenos  
+(1,0 – 2,5 kg) 
+0,37 ml 
+36,22 mg 
+7,53 mg 
+30,12 mg 
+Felpreva para gatos médios 
+(> 2,5 – 5,0 kg)  
+0,74 ml 
+72,45 mg 
+15,06 mg 
+60,24 mg 
+Felpreva para gatos grandes 
+(> 5,0 – 8,0 kg)  
+1,18 ml 
+115,52 mg 
+24,01 mg 
+96,05 mg 
+ 
+ 
+Excipientes: 
+ 
+Butil-hidroxianisol 2,63 mg/ml (E320) e butil-hidroxitolueno 1,10 mg/ml (E321), como antioxidantes. 
+ 
+Para a lista completa de excipientes, ver secção 6.1.
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Solução para unção punctiforme. 
+Solução límpida, de cor amarela a vermelha.  
+Podem ocorrer alterações na cor durante o armazenamento. Este fenómeno não afeta a qualidade do 
+medicamento veterinário.
+
+4. 
+INFORMAÇÕES CLÍNICAS 
+ 
+4.1 
+Espécies-alvo 
+ 
+Felinos (Gatos). 
+ 
+4.2 
+Indicações de utilização, especificando as espécies-alvo 
+ 
+Para gatos com, ou em risco de, infeções/infestações parasitárias mistas. O medicamento veterinário é 
+indicado exclusivamente para o tratamento dirigido simultaneamente a ectoparasitas, céstodos e 
+nemátodos.  
+ 
+Ectoparasitas 
+ 
+Para o tratamento de infestações de pulgas (Ctenocephalides felis) e carraças (Ixodes ricinus, 
+Ixodes holocyclus) em gatos, com atividade imediata e persistente durante 13 semanas.  
+ 
+O medicamento veterinário pode ser utilizado como parte de uma estratégia de tratamento para 
+o controlo de dermatite alérgica a pulgas (flea allergy dermatitis, FAD). 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 3 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+
+Entrada 2:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+3 
+ 
+Para o tratamento de casos ligeiros a moderados de sarna notoédrica (Notoedres cati). 
+ 
+Para o tratamento de infestações por ácaros auriculares (Otodectes cynotis). 
+ 
+Nemátodos gastrointestinais 
+Para o tratamento de infeções com: 
+ 
+Toxocara cati (adultos maduros, adultos imaturos, L4 e L3)  
+ 
+Toxascaris leonina (adultos maduros, adultos imaturos e L4) 
+ 
+Ancylostoma tubaeforme (adultos maduros, adultos imaturos e L4) 
+ 
+Parasitas pulmonares (nemátodos) 
+Para o tratamento de infeções com: 
+ 
+Aelurostrongylus abstrusus (adultos) 
+ 
+Troglostrongylus brevior (adultos) 
+ 
+ Céstodos 
+Para o tratamento de infeções com: 
+ 
+Dipylidium caninum (adultos maduros e adultos imaturos)  
+ 
+Taenia taeniaeformis (adultos)  
+ 
+4.3 
+Contraindicações 
+ 
+Não administrar em caso de hipersensibilidade às substâncias ativas ou a algum dos excipientes.  
+ 
+4.4 
+Advertências especiais para cada espécie-alvo 
+ 
+Os ectoparasitas necessitam iniciar a alimentação no hospedeiro para ficarem expostos ao tigolaner; 
+como tal, o risco de transmissão de doenças infeciosas transmitidas por parasitas não pode ser 
+excluído. 
+ 
+Os parasitas podem desenvolver resistência a qualquer classe de anti-helmínticos após a utilização 
+frequente e repetida de um anti-helmíntico dessas classes, em circunstâncias específicas. Por 
+conseguinte, a administração deste medicamento veterinário deve ser baseada na avaliação de cada 
+caso individual e nas informações epidemiológicas locais sobre a suscetibilidade atual da espécie-alvo, 
+de forma a limitar a possibilidade da seleção futura de resistência.  
+ 
+A aplicação de champô ou imersão do animal em água imediatamente após o tratamento pode reduzir 
+a eficácia do medicamento veterinário. Como tal, não se deve dar banho aos animais tratados, até a 
+solução secar. 
+ 
+4.5 
+Precauções especiais de utilização 
+ 
+Precauções especiais para a utilização em animais 
+ 
+Na ausência de dados disponíveis, não é recomendado o tratamento de gatinhos com idade inferior 
+a 10 semanas ou com um peso inferior a 1 kg. 
+ 
+Este medicamento veterinário é destinado a uso tópico e não deve ser administrado sob qualquer outra 
+forma, por exemplo, por via oral. 
+Aplicar apenas em pele intacta. Aplicar conforme descrito na secção 4.9, para evitar que o animal 
+lamba ou ingira o medicamento veterinário. Evitar que o gato tratado ou outros gatos que com ele 
+contactem lambam o local de aplicação enquanto este estiver húmido. Para sinais observados após a 
+ingestão oral (por exemplo, lamber) consultar a secção 4.6. 
+O medicamento veterinário pode ser irritante para os olhos. Em caso de contacto acidental do 
+medicamento veterinário com os olhos dos gatos, lavar bem com água corrente. Caso ocorra irritação 
+dos olhos, procurar ajuda médico veterinária.  
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+
+Entrada 2:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+4 
+Não existem dados relativos à utilização do medicamento veterinário em animais doentes ou 
+debilitados; como tal, o medicamento veterinário deve ser utilizado apenas com base numa avaliação 
+de benefício-risco para estes animais. 
+Podem ocorrer sinais agudos de pneumonia após o tratamento, como resultado da resposta 
+inflamatória do hospedeiro contra a morte dos parasitas pulmonares T. brevior, especialmente em 
+gatos jovens. 
+ 
+O medicamento veterinário não deve ser administrado em intervalos inferiores a 8 semanas. Devido à 
+atividade do medicamento veterinário contra pulgas e carraças durante um período de 3 meses do 
+ponto de vista clínico, a utilização do medicamento veterinário não é indicada em intervalos inferiores 
+a três meses. 
+  
+Não estão disponíveis dados de segurança para o animal-alvo para além de 4 tratamentos 
+consecutivos, e a acumulação do tigolaner é provável. Os tratamentos repetidos devem ser restringidos 
+a situações individuais limitadas em conformidade com a avaliação benefício-risco realizada pelo 
+médico veterinário responsável. Consultar as secções 4.10 e 5.2. 
+ 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento aos animais 
+ 
+O medicamento veterinário pode causar sintomas neurológicos e elevar temporariamente os níveis de 
+glicose sérica após a ingestão acidental. 
+Não fumar, nem comer ou beber durante a aplicação. 
+Lavar as mãos após a administração. 
+Os aplicadores usados devem ser eliminados imediatamente e não devem ficar à vista ou ao alcance de 
+crianças. 
+ 
+Em caso de contacto acidental do conteúdo do aplicador com a pele, lavar imediatamente com sabão e 
+água. 
+O medicamento veterinário pode ser irritante para os olhos. Em caso de contacto acidental do 
+medicamento veterinário com os olhos, lavar bem em água abundante. 
+Se os sintomas cutâneos ou oculares persistirem, ou em caso de ingestão acidental, especialmente por 
+crianças, dirija-se imediatamente a um médico e mostre-lhe o folheto informativo ou o rótulo. 
+ 
+Uma vez que estão descritos efeitos fetotóxicos em animais de laboratório após a sua exposição ao 
+tigolaner e emodepside, as mulheres grávidas e as mulheres que pretendam engravidar devem usar 
+luvas durante a administração para evitar o contato direto com o medicamento veterinário. 
+As mulheres grávidas devem evitar o contacto com o local da aplicação durante as primeiras 24 horas 
+após a aplicação do medicamento veterinário e até a área tratada já não ser observável. Manter as 
+crianças afastadas dos animais tratados durante as primeiras 24 horas após a aplicação do 
+medicamento veterinário. Devem ser tomadas precauções de forma a não permitir que as crianças 
+tenham contacto intenso e prolongado com os gatos tratados até a área tratada já não ser observável. É 
+recomendado tratar os animais ao final da tarde. No dia do tratamento, não se deve deixar os animais 
+tratados dormir na cama dos donos, especialmente com crianças ou mulheres grávidas.  
+ 
+O medicamento veterinário pode manchar ou danificar alguns materiais, incluindo peles, tecidos, 
+plásticos e superfícies polidas. Deixar o local de aplicação secar antes de permitir o contacto com tais 
+materiais. 
+ 
+4.6 
+Reações adversas (frequência e gravidade) 
+ 
+Em casos muito raros, podem ocorrer reações leves e transitórias no local da aplicação após a 
+administração, tais como prurido, eritema, enfraquecimento do pelo e/ou inflamação. São 
+frequentemente observados efeitos cosméticos no local da aplicação, tais como um eriçamento do 
+pelo. 
+Em casos muito raros, podem ocorrer distúrbios gastrointestinais ligeiros e transitórios, tais como 
+hipersalivação ou vómitos. A ocorrência destes efeitos é considerada como uma consequência do gato 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 5 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: Oral
+
+Entrada 2:
+  📍 Via: Oral
+
+Entrada 3:
+  🐾 Espécie: Gatos
+
+Entrada 4:
+  🐾 Espécie: Gatos
+
+Entrada 5:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+5 
+lamber o local de aplicação imediatamente após o tratamento. Em determinados casos, estes sinais 
+podem ser acompanhados de sinais inespecíficos, tais como agitação, vocalização ou perda do apetite. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- muito frequente (mais de 1 animal apresentando evento(s) adverso(s) em 10 animais tratados) 
+- frequente (mais de 1 mas menos de 10 animais em 100 animais tratados) 
+- pouco frequente (mais de 1 mas menos de 10 animais em 1 000 animais tratados) 
+- rara (mais de 1 mas menos de 10 animais em 10 000 animais tratados) 
+- muito rara (menos de 1 animal em 10 000 animais tratados, incluindo notificações isoladas). 
+ 
+4.7 
+Utilização durante a gestação, a lactação ou a postura de ovos 
+ 
+Foram descritos efeitos fetotóxicos em animais de laboratório após a sua exposição ao tigolaner e 
+emodepside. A segurança do medicamento veterinário não foi determinada durante a gestação ou a 
+lactação; como tal, não é recomendada a administração nesses animais. 
+ 
+4.8 
+Interações medicamentosas e outras formas de interação 
+ 
+O emodepside é um substrato da glicoproteína-P. A coadministração com outras substâncias que são 
+substratos/inibidores da glicoproteína-P (por exemplo, ivermectina e outras lactonas macrocíclicas 
+antiparasitárias, eritromicina, prednisolona e ciclosporina) podem dar origem a interações 
+farmacocinéticas entre os medicamentos.  
+ 
+4.9 
+Posologia e via de administração 
+ 
+Administração por unção punctiforme. Apenas para uso externo. 
+ 
+Posologia  
+ 
+As doses mínimas recomendadas são de 14,4 mg tigolaner / kg de peso corporal, 3 mg emodepside / 
+kg de peso corporal, 12 mg praziquantel / kg de peso corporal, equivalentes a 0,148 ml de 
+medicamento veterinário / kg de peso corporal. 
+ 
+Peso 
+corporal 
+do gato 
+(kg) 
+Tamanho do aplicador a 
+ser utilizado: 
+Solução para unção 
+punctiforme Felpreva 
+Volume 
+unitário (ml) 
+ 
+Tigolaner 
+(mg/kg pc) 
+Emodepside 
+(mg/kg pc) 
+Praziquantel 
+(mg/kg pc) 
+1,0 – 2,5 
+para gatos pequenos 
+0,37  
+14,5 – 36,2 
+3,0 – 7,5 
+12,0 – 30,1 
+2,6 - 5,0 
+para gatos médios 
+0,74  
+14,5 – 27,9 
+3,0 – 5,8 
+12,0 – 23,2 
+5,1 – 8,0 
+para gatos grandes 
+1,18  
+14,4 – 22,7 
+3,0 – 4,7 
+12,0 - 18,8 
+> 8,0 
+Utilizar uma combinação apropriada de aplicadores 
+ 
+Esquema de tratamento 
+O tratamento é indicado exclusivamente quando dirigido simultaneamente a ectoparasitas, céstodos e 
+nemátodos. Na ausência de infeções mistas ou risco de infeções mistas, devem ser utilizados 
+medicamentos veterinários antiparasitários de espetro estreito adequados.  
+ 
+Pulgas e carraças 
+O medicamento veterinário permanece ativo contra pulgas e carraças durante um período 
+de 13 semanas.  
+Caso seja necessária a repetição do tratamento no período de 13 semanas após a administração, deve 
+ser utilizado um medicamento veterinário de espetro estreito adequado. 
+ 
+Ácaros 
+Para o tratamento de ácaros auriculares (Otodectes cynotis) e sarna notoédrica (Notoedres cati), deve 
+ser administrada uma única dose do medicamento veterinário.  
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 6 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+6 
+O sucesso do tratamento e a necessidade de repetição do tratamento com um medicamento veterinário 
+antiparasitário de espetro estreito devem ser determinados pelo médico veterinário após 4 semanas. 
+Devido a casos pontuais de ácaros isolados sobreviventes e, por isso, existir o risco de um novo ciclo 
+de otocaríase, o sucesso do tratamento deve ser confirmado pelo médico veterinário 1 mês após o 
+tratamento. 
+ 
+Nemátodos e céstodos gastrointestinais 
+Deve ser administrada uma única dose do tratamento veterinário para o tratamento de nemátodos e 
+céstodos gastrointestinais. A necessidade e a frequência de repetição do tratamento devem estar em 
+conformidade com o aconselhamento do médico veterinário e ter em conta a situação epidemiológica 
+local, assim como o estilo de vida do gato. 
+Caso seja necessária a repetição do tratamento no período de 3 meses após a administração, deve ser 
+utilizado um medicamento veterinário de espetro estreito adequado. 
+ 
+Parasitas pulmonares 
+Para o tratamento contra os parasitas pulmonares Aelurostrongylus abstrusus e Troglostrongylus 
+brevior, é recomendado um tratamento com o medicamento veterinário seguido por um segundo 
+tratamento após duas semanas, com uma solução para unção punctiforme para gatos 
+contendo 21,4 mg/ml de emodepside e 85,8 mg/ml de praziquantel, uma vez que não existem 
+medicamentos veterinários que contenham emodepside como substância ativa isolada. 
+ 
+Via de administração 
+ 
+Utilizar tesouras (1) para abrir o blister resistente à abertura por crianças. Remover a película de 
+alumínio (2) e retirar o aplicador para unção punctiforme da embalagem (3). 
+ 
+ 
+ 
+Segurar o aplicador na posição vertical (4), torcer e puxar a tampa (5) e utilizar a extremidade oposta 
+da tampa para quebrar o selo (6). 
+ 
+ 
+ 
+Dividir o pelo no pescoço do gato, na base do crânio, até que a pele seja visível (7). Colocar a ponta do 
+aplicador na pele e apertar firmemente e repetidamente para esvaziar o conteúdo diretamente sobre a 
+pele (7). A aplicação na base do crânio irá minimizar a possibilidade do gato lamber o medicamento 
+veterinário. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 7 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+
+Entrada 2:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+7 
+ 
+ 
+4.10 Sobredosagem (sintomas, procedimentos de emergência, antídotos), se necessário 
+ 
+Foi observada uma diminuição no peso da tiroide em alguns animais machos após a administração de 
+4 tratamentos consecutivos de até 5 vezes superiores à dose máxima recomendada, em gatinhos a 
+partir das 10 semanas de idade e em gatos adultos. Em gatos adultos, foi observado um aumento 
+transitório das enzimas hepáticas (AST, ALT), acompanhado de congestão hepática multifocal num 
+animal, no grupo de dose elevada (5x), assim como um aumento do colesterol em todos os grupos de 
+sobredosagem (3x, 5x). Não foram observados sinais clínicos sistémicos. Ocorreram casos de reações 
+no local da aplicação, no grupo de dose elevada (5x) (alopecia, eritema, hiperplasia da epiderme e/ou 
+infiltrados inflamatórios). 
+ 
+Não existem antídotos conhecidos. 
+ 
+4.11 Intervalo(s) de segurança 
+ 
+Não aplicável.
+
+5. 
+PROPRIEDADES FARMACOLÓGICAS 
+ 
+Grupo farmacoterapêutico: Produtos antiparasitários, inseticidas e repelentes, combinações de 
+praziquantel.  
+Código ATCvet: QP52AA51 Praziquantel, associações. 
+ 
+5.1 
+Propriedades farmacodinâmicas 
+ 
+O tigolaner pertence à classe química dos bispirazóis. O tigolaner atua como um inibidor potente do 
+recetor do neurotransmissor ácido gama-aminobutírico (GABA). O tigolaner apresenta maior potência 
+funcional para bloquear os recetores dos insetos/acarídeos comparativamente aos recetores dos 
+mamíferos, in vitro. Este é um acaricida e inseticida e é eficaz contra carraças (Ixodes ricinus, I. 
+Holocyclus), pulgas (Ctenocephalides felis) e ácaros (Notoedres cati, Otodectes cynotis) em gatos. 
+ 
+As pulgas que se encontram presentes no animal antes da administração são eliminadas em 12 horas. 
+O início da eficácia contra novas infestações por pulgas ocorre até 8 horas e durante 2 meses após a 
+administração do medicamento veterinário, e, posteriormente, até 24 horas. As pulgas e as carraças 
+devem estar fixas no hospedeiro e iniciar a alimentação de modo a serem expostas a tigolaner. As 
+carraças Ixodes ricinus que se encontram presentes no animal antes da administração são eliminadas 
+em 24 horas. As carraças Ixodes ricinus que causem nova infestação são eliminadas em 48 horas 
+durante 13 semanas. 
+ 
+O emodepside é um composto semissintético pertencente ao grupo químico dos depsipéptidos. Este é 
+ativo contra todos os estádios dos nemátodos (ascarídeos e ancilóstomos). Neste medicamento 
+veterinário, o emodepside é responsável pela eficácia contra Toxocara cati, Toxascaris leonina, 
+Ancylostoma tubaeforme, Aelurostrongylus abstrusus e Troglostrongylus brevior. 
+Este atua na junção neuromuscular através da estimulação de recetores pré-sinápticos pertencentes à 
+família dos recetores de secretinas, que resulta na paralisia e morte dos parasitas. 
+ 
+O praziquantel é um derivado da pirazinoisoquinolina, eficaz contra Dipylidium caninum e Taenia 
+taeniaeformis. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 8 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Aves
+
+Entrada 2:
+  🐾 Espécie: Gatos
+  📍 Via: Tópica
+
+Entrada 3:
+  📍 Via: IM
+
+Entrada 4:
+  📍 Via: IM
+
+Entrada 5:
+  📍 Via: IM
+
+Entrada 6:
+  📍 Via: IM
+
+Entrada 7:
+  📍 Via: IM
+
+Entrada 8:
+  📍 Via: IV
+
+Entrada 9:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+8 
+O praziquantel é absorvido rapidamente através da superfície dos parasitas e atua essencialmente 
+através da alteração da permeabilidade das membranas dos parasitas para o Ca++. Tal resulta em danos 
+graves no tegumento dos parasitas, contração e paralisia, perturbação do metabolismo e, finalmente, 
+morte do parasita. 
+ 
+5.2 
+Propriedades farmacocinéticas 
+ 
+Após uma administração tópica única do medicamento veterinário em gatos, foram atingidas 
+concentrações plasmáticas máximas de tigolaner de 1,35 mg/l, 12 dias após a dosagem. As 
+concentrações plasmáticas de tigolaner diminuíram lentamente, com uma semivida média de 24 dias. 
+O emodepside atingiu concentrações plasmáticas máximas de 0,044 mg/l, 1,5 dias após a dosagem. As 
+concentrações plasmáticas de emodepside diminuíram, com uma semivida média de 14,5 dias. O 
+praziquantel atingiu concentrações plasmáticas máximas de 0,048 mg/l, apenas 5 horas após a 
+dosagem. As concentrações plasmáticas de praziquantel diminuíram, com uma semivida média 
+de 10 dias. Foram observadas variações individuais nas concentrações plasmáticas e tempos de 
+semivida para todas as três substâncias. Para o tigolaner, foi demonstrado um aumento significativo da 
+semivida após doses repetidas, resultando na acumulação de tigolaner após 4 tratamentos consecutivos 
+em gatos. 
+ 
+O tigolaner e o emodepside são escassamente metabolizados e são principalmente excretados nas 
+fezes. A excreção renal é a via secundária de eliminação. O praziquantel é metabolizado 
+principalmente no fígado e são excretadas apenas quantidades vestigiais de forma idêntica na urina e 
+nas fezes.
+
+6. 
+INFORMAÇÕES FARMACÊUTICAS 
+ 
+6.1 
+Lista de excipientes 
+ 
+Butil-hidroxianisol (E320) 
+Butil-hidroxitolueno (E321) 
+Glicerol isopropilideno 
+Ácido lático 
+ 
+6.2 
+Incompatibilidades principais 
+ 
+Desconhecidas. 
+ 
+6.3 
+Prazo de validade 
+ 
+Prazo de validade do medicamento veterinário conforme embalado para venda: 18 meses. 
+ 
+6.4. 
+Precauções especiais de conservação 
+ 
+Este medicamento veterinário não necessita de qualquer temperatura especial de conservação. 
+Manter o aplicador no blister de alumínio para o proteger da humidade. 
+ 
+6.5 
+Natureza e composição do acondicionamento primário 
+ 
+Aplicador de polipropileno branco, com tampa de polipropileno, em blister de alumínio. 
+Caixa de cartão com blisters contendo 1, 2, 10 ou 20 aplicador(es) (0,37 ml cada). 
+Caixa de cartão com blisters contendo 1, 2, 10 ou 20 aplicador(es) (0,74 ml cada). 
+Caixa de cartão com blisters contendo 1, 2, 10 ou 20 aplicador(es) (1,18 ml cada). 
+É possível que não sejam comercializadas todas as apresentações. 
+ 
+
+--------------------------------------------------------------------------------
+
+9 
+6.6 
+Precauções especiais para a eliminação de medicamentos veterinários não utilizados ou de 
+desperdícios derivados da utilização desses medicamentos 
+O medicamento veterinário não deve ser eliminado nos cursos de água, porque pode constituir perigo 
+para peixes e outros organismos aquáticos. 
+O medicamento veterinário não utilizado ou os seus desperdícios devem ser eliminados de acordo com os 
+requisitos nacionais.
+
+7. 
+TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO
+Vetoquinol S.A. 
+Magny-Vernois 
+70200 Lure  
+França
+
+8. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO
+EU/2/21/277/001-012
+
+9. 
+DATA DA PRIMEIRA AUTORIZAÇÃO/RENOVAÇÃO DA AUTORIZAÇÃO
+Data da primeira autorização: 11/11/2021
+
+10. 
+DATA DA REVISÃO DO TEXTO
+Encontram-se disponíveis informações detalhadas sobre este medicamento veterinário no website da 
+Agência Europeia do Medicamento http://www.ema.europa.eu/. 
+PROIBIÇÃO DE VENDA, FORNECIMENTO E/OU UTILIZAÇÃO 
+Não aplicável. 
+
+ 
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO II 
+ 
+A. 
+FABRICANTE RESPONSÁVEL PELA LIBERTAÇÃO DO LOTE 
+ 
+B. 
+CONDIÇÕES OU RESTRIÇÕES DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO RELATIVAMENTE AO FORNECIMENTO OU UTILIZAÇÃO 
+ 
+C. 
+INDICAÇÃO DOS LIMITES MÁXIMOS DE RESÍDUOS 
+
+ 
+11 
+A. 
+FABRICANTE RESPONSÁVEL PELA LIBERTAÇÃO DO LOTE 
+ 
+Nome e endereço do fabricante responsável pela libertação do lote 
+ 
+Vetoquinol S.A. 
+Magny-Vernois 
+70200 Lure  
+França 
+ 
+ 
+B. 
+CONDIÇÕES OU RESTRIÇÕES DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO RELATIVAMENTE AO FORNECIMENTO OU UTILIZAÇÃO 
+ 
+Medicamento veterinário sujeito a receita médico-veterinária. 
+ 
+ 
+C. 
+INDICAÇÃO DOS LIMITES MÁXIMOS DE RESÍDUOS 
+ 
+Não aplicável. 
+ 
+
+ 
+12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO III 
+ 
+ROTULAGEM E FOLHETO INFORMATIVO 
+
+ 
+13 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A. ROTULAGEM 
+
+================================================================================
+📊 PÁGINA 14 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+
+Entrada 2:
+  🐾 Espécie: Gatos
+
+Entrada 3:
+  🐾 Espécie: Gatos
+
+Entrada 4:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+14 
+ 
+INDICAÇÕES A INCLUIR NO ACONDICIONAMENTO SECUNDÁRIO 
+ 
+Caixa de cartão
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Felpreva solução para unção punctiforme para gatos pequenos (1,0 – 2,5 kg) 
+Felpreva solução para unção punctiforme para gatos médios (> 2,5 – 5,0 kg) 
+Felpreva solução para unção punctiforme para gatos grandes (> 5,0 – 8,0 kg) 
+ 
+tigolaner/emodepside/praziquantel
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS 
+ 
+36,22 mg tigolaner/7,53 mg emodepside/30,12 mg praziquantel 
+72,45 mg tigolaner/15,06 mg emodepside/60,24 mg praziquantel 
+115,52 mg tigolaner/24,01 mg emodepside/96,05 mg praziquantel
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Solução para unção punctiforme
+
+4. 
+DIMENSÃO DA EMBALAGEM 
+ 
+0,37 ml 
+0,74 ml 
+1,18 ml 
+ 
+1 aplicador  
+2 aplicadores 
+10 aplicadores 
+20 aplicadores
+
+5. 
+ESPÉCIES-ALVO 
+ 
+Gatos  
+1,0 – 2,5 kg 
+> 2,5 – 5,0 kg 
+> 5,0 – 8,0 kg
+
+6. 
+INDICAÇÃO (INDICAÇÕES)
+
+7. 
+MODO E VIA(S) DE ADMINISTRAÇÃO 
+ 
+Administração por unção punctiforme. 
+Antes de utilizar, leia o folheto informativo. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 15 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+15
+
+8. 
+INTERVALO(S) DE SEGURANÇA
+
+9. 
+ADVERTÊNCIA(S) ESPECIAL (ESPECIAIS), SE NECESSÁRIO 
+ 
+Antes de utilizar, leia o folheto informativo.
+
+10. 
+PRAZO DE VALIDADE 
+ 
+EXP
+
+11. 
+CONDIÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Manter o aplicador no blister de alumínio para o proteger da humidade.
+
+12. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+Eliminação dos restos não utilizados: ler o folheto informativo.
+
+13. 
+MENÇÃO “EXCLUSIVAMENTE PARA USO VETERINÁRIO” E CONDIÇÕES OU 
+RESTRIÇÕES RELATIVAS AO FORNECIMENTO E À UTILIZAÇÃO, SE FOR CASO 
+DISSO 
+ 
+Uso veterinário. Medicamento veterinário sujeito a receita médico-veterinária.
+
+14. 
+MENÇÃO "MANTER FORA DA VISTA E DO ALCANCE DAS CRIANÇAS" 
+ 
+Manter fora da vista e do alcance das crianças.
+
+15. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO 
+ 
+Vetoquinol S.A. 
+Magny-Vernois 
+70200 Lure  
+França
+
+16. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO) 
+ 
+EU/2/21/277/001 (36,22 mg + 7,53 mg + 30,12 mg, 1 aplicador) 
+EU/2/21/277/002 (36,22 mg + 7,53 mg + 30,12 mg, 2 aplicadores) 
+EU/2/21/277/003 (36,22 mg + 7,53 mg + 30,12 mg, 10 aplicadores) 
+EU/2/21/277/004 (36,22 mg + 7,53 mg + 30,12 mg, 20 aplicadores) 
+ 
+EU/2/21/277/005 (72,45 mg + 15,06 mg + 60,24 mg, 1 aplicador) 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 16 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+16 
+EU/2/21/277/006 (72,45 mg + 15,06 mg + 60,24 mg, 2 aplicadores) 
+EU/2/21/277/007 (72,45 mg + 15,06 mg + 60,24 mg, 10 aplicadores) 
+EU/2/21/277/008 (72,45 mg + 15,06 mg + 60,24 mg, 20 aplicadores) 
+ 
+EU/2/21/277/009 (115,52 mg + 24,01 mg + 96,05 mg, 1 aplicador) 
+EU/2/21/277/010 (115,52 mg + 24,01 mg + 96,05 mg, 2 aplicadores) 
+EU/2/21/277/011 (115,52 mg + 24,01 mg + 96,05 mg, 10 aplicadores) 
+EU/2/21/277/012 (115,52 mg + 24,01 mg + 96,05 mg, 20 aplicadores)
+
+17. 
+NÚMERO DO LOTE DE FABRICO 
+ 
+Lot 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 17 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+17 
+ 
+INDICAÇÕES MÍNIMAS A INCLUIR NAS EMBALAGENS BLISTER OU FITAS 
+CONTENTORAS 
+ 
+Blister
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Felpreva 1,0 – 2,5 kg 
+Felpreva > 2,5 – 5,0 kg 
+Felpreva > 5,0 – 8,0 kg 
+tigolaner, emodepside, praziquantel (EN e/ou Latim)
+
+2. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+Vetoquinol S.A.
+
+3. 
+PRAZO DE VALIDADE 
+ 
+EXP
+
+4. 
+NÚMERO DO LOTE 
+ 
+Lot
+
+5. 
+MENÇÃO “EXCLUSIVAMENTE PARA USO VETERINÁRIO” 
+ 
+Uso veterinário. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 18 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+18 
+ 
+INDICAÇÕES MÍNIMAS A INCLUIR EM PEQUENAS UNIDADES DE 
+ACONDICIONAMENTO PRIMÁRIO 
+ 
+Aplicador para unção punctiforme
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Felpreva 1,0 – 2,5 kg 
+Felpreva > 2,5 – 5,0 kg 
+Felpreva > 5,0 – 8,0 kg 
+tigolaner, emodepside, praziquantel
+
+2. 
+COMPOSIÇÃO DA(S) SUBSTÂNCIA(S) ATIVA(S) 
+ 
+36,22 mg tigolaner, 7,53 mg emodepside, 30,12 mg praziquantel  
+72,45 mg tigolaner, 15,06 mg emodepside, 60,24 mg praziquantel 
+115,52 mg tigolaner, 24,01 mg emodepside, 96,05 mg praziquantel
+
+3. 
+CONTEÚDO EM PESO, VOLUME OU NÚMERO DE DOSES 
+ 
+0,37 ml 
+0,74 ml 
+1,18 ml
+
+4. 
+VIA(S) DE ADMINISTRAÇÃO
+
+5. 
+INTERVALO(S) DE SEGURANÇA)
+
+6. 
+NÚMERO DO LOTE 
+ 
+Lot
+
+7. 
+PRAZO DE VALIDADE 
+ 
+EXP
+
+8. 
+MENÇÃO “EXCLUSIVAMENTE PARA USO VETERINÁRIO” 
+ 
+Uso veterinário.
+
+--------------------------------------------------------------------------------
+
+ 
+19 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. FOLHETO INFORMATIVO 
+
+================================================================================
+📊 PÁGINA 20 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+
+Entrada 2:
+  🐾 Espécie: Gatos
+
+Entrada 3:
+  🐾 Espécie: Gatos
+
+Entrada 4:
+  🐾 Espécie: Gatos
+
+Entrada 5:
+  🐾 Espécie: Gatos
+
+Entrada 6:
+  🐾 Espécie: Gatos
+
+Entrada 7:
+  🐾 Espécie: Gatos
+
+Entrada 8:
+  🐾 Espécie: Gatos
+
+Entrada 9:
+  🐾 Espécie: Gatos
+
+Entrada 10:
+  🐾 Espécie: Gatos
+  📍 Via: SC
+
+Entrada 11:
+  🐾 Espécie: Gatos
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+20 
+FOLHETO INFORMATIVO: 
+Felpreva solução para unção punctiforme para gatos pequenos (1,0 – 2,5 kg) 
+Felpreva solução para unção punctiforme para gatos médios (> 2,5 – 5,0 kg) 
+Felpreva solução para unção punctiforme para gatos grandes (> 5,0 – 8,0 kg)
+
+1. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO E DO TITULAR DA AUTORIZAÇÃO DE FABRICO RESPONSÁVEL 
+PELA LIBERTAÇÃO DO LOTE, SE FOREM DIFERENTES 
+ 
+Titular da autorização de introdução no mercado e fabricante responsável pela libertação dos lotes: 
+Vetoquinol S.A. 
+Magny-Vernois 
+70200 Lure 
+França
+
+2. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Felpreva solução para unção punctiforme para gatos pequenos (1,0 – 2,5 kg) 
+Felpreva solução para unção punctiforme para gatos médios (> 2,5 – 5,0 kg) 
+Felpreva solução para unção punctiforme para gatos grandes (> 5,0 – 8,0 kg) 
+tigolaner/emodepside/praziquantel
+
+3. 
+DESCRIÇÃO DA(S) SUBSTÂNCIA(S) ATIVA(S) E OUTRA(S) SUBSTÂNCIA(S) 
+ 
+Cada aplicador para unção punctiforme administra: 
+ 
+Solução para unção 
+punctiforme Felpreva 
+Volume da  
+dose unitária 
+[ml] 
+Tigolaner 
+[mg] 
+Emodepside 
+[mg] 
+Praziquantel 
+[mg] 
+para gatos pequenos (1,0 –
+ 2,5 kg) 
+0,37 
+36,22 
+7,53 
+30,12 
+para gatos médios (> 2,5 –
+ 5,0 kg)  
+0,74 
+72,45 
+15,06 
+60,24 
+para gatos grandes (> 5,0 –
+ 8,0 kg)  
+1,18 
+115,52 
+24,01 
+96,05 
+ 
+Excipientes: butil-hidroxianisol 2,63 mg/ml (E320) e butil-hidroxitolueno 1,10 mg/ml (E321), como 
+antioxidantes. 
+ 
+Solução para unção punctiforme. 
+Solução límpida, de cor amarela a vermelha. 
+Podem ocorrer alterações na cor durante o armazenamento. Este fenómeno não afeta a qualidade do 
+medicamento veterinário.
+
+4. 
+INDICAÇÃO (INDICAÇÕES) 
+ 
+Para gatos com, ou em risco de, infeções/infestações parasitárias mistas. O medicamento veterinário é 
+indicado exclusivamente para o tratamento dirigido simultaneamente a ectoparasitas, céstodos e 
+nemátodos.  
+ 
+Ectoparasitas 
+ 
+Para o tratamento de infestações de pulgas (Ctenocephalides felis) e carraças (Ixodes ricinus, 
+Ixodes holocyclus) em gatos, com atividade imediata e persistente durante 13 semanas. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 21 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+21 
+ 
+O medicamento veterinário pode ser utilizado como parte de uma estratégia de tratamento para 
+o controlo de dermatite alérgica a pulgas (flea allergy dermatitis, FAD). 
+ 
+Para o tratamento de casos ligeiros a moderados de sarna notoédrica (causada por Notoedres 
+cati). 
+ 
+Para o tratamento de infestações por ácaros auriculares (Otodectes cynotis). 
+ 
+Nemátodos gastrointestinais 
+Para o tratamento de infeções com: 
+ 
+Toxocara cati (adultos maduros, adultos imaturos, L4 e L3)  
+ 
+Toxascaris leonina (adultos maduros, adultos imaturos e L4) 
+ 
+Ancylostoma tubaeforme (adultos maduros, adultos imaturos e L4) 
+ 
+Parasitas pulmonares (nemátodos) 
+Para o tratamento de infeções com: 
+ 
+Aelurostrongylus abstrusus (adultos) 
+ 
+Troglostrongylus brevior (adultos) 
+ 
+ Céstodos 
+Para o tratamento de infeções com: 
+ 
+Dipylidium caninum (adultos maduros e adultos imaturos)  
+ 
+Taenia taeniaeformis (adultos)
+
+5. 
+CONTRAINDICAÇÕES 
+ 
+Não administrar em caso de hipersensibilidade às substâncias ativas ou a algum dos excipientes.
+
+6. 
+REAÇÕES ADVERSAS 
+ 
+Em casos muito raros, podem ocorrer reações leves e transitórias no local da aplicação após a 
+administração, tais como prurido, eritema, enfraquecimento do pelo e/ou inflamação. São 
+frequentemente observados efeitos cosméticos no local da aplicação, tais como um eriçamento do 
+pelo. 
+Em casos muito raros, podem ocorrer distúrbios gastrointestinais ligeiros e transitórios, tais como 
+hipersalivação ou vómitos. A ocorrência destes efeitos é considerada como uma consequência do gato 
+lamber o local de aplicação imediatamente após o tratamento. Em determinados casos, estes sinais 
+podem ser acompanhados de sinais inespecíficos, tais como agitação, vocalização ou perda do apetite. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- muito frequente (mais de 1 animal apresentando evento(s) adverso(s) em 10 animais tratados) 
+- frequente (mais de 1 mas menos de 10 animais em 100 animais tratados) 
+- pouco frequente (mais de 1 mas menos de 10 animais em 1 000 animais tratados) 
+- rara (mais de 1 mas menos de 10 animais em 10 000 animais tratados) 
+- muito rara (menos de 1 animal em 10 000 animais tratados, incluindo notificações isoladas). 
+ 
+Caso detete quaisquer efeitos mencionados neste folheto ou outros efeitos mesmo que não 
+mencionados, ou pense que o medicamento veterinário não foi eficaz, informe o seu médico 
+veterinário.
+
+7. 
+ESPÉCIES-ALVO 
+ 
+Felinos (Gatos). 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 22 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: Oral
+
+Entrada 2:
+  📍 Via: Oral
+
+Entrada 3:
+  🐾 Espécie: Gatos
+
+Entrada 4:
+  🐾 Espécie: Gatos
+
+Entrada 5:
+  🐾 Espécie: Gatos
+
+Entrada 6:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+22
+
+8. 
+DOSAGEM EM FUNÇÃO DA ESPÉCIE, VIA(S) E MODO DE ADMINISTRAÇÃO 
+ 
+Administração por unção punctiforme. Apenas para uso externo. 
+ 
+Posologia  
+ 
+As doses mínimas recomendadas são de 14,4 mg de tigolaner/kg de peso corporal, 3 mg de 
+emodepside/kg de peso corporal, 12 mg de praziquantel/kg de peso corporal, equivalentes a 0,148 ml 
+do medicamento veterinário/kg de peso corporal. 
+ 
+Peso 
+corporal 
+do gato 
+(kg) 
+Tamanho do aplicador a 
+ser utilizado: 
+Felpreva solução para 
+unção punctiforme  
+Volume da 
+dose unitária 
+(ml) 
+ 
+Tigolaner 
+(mg/kg pc) 
+Emodepside 
+(mg/kg pc) 
+Praziquantel 
+(mg/kg pc) 
+1 – 2,5 
+para gatos pequenos 
+0,37  
+14,5 – 36,2 
+3,0 – 7,5 
+12,0 – 30,1 
+2,6 – 5,0 
+para gatos médios 
+0,74  
+14,5 – 27,9 
+3,0 – 5,8 
+12,0 – 23,2 
+5,1 – 8,0 
+para gatos grandes 
+1,18  
+14,4 – 22,7 
+3,0 – 4,7 
+12,0 - 18,8 
+> 8,0 
+Utilizar uma combinação apropriada de aplicadores 
+ 
+ 
+Esquema de tratamento 
+O tratamento é indicado exclusivamente quando dirigido simultaneamente a ectoparasitas, céstodos e 
+nemátodos. Na ausência de infeções mistas ou risco de infeções mistas, devem ser utilizados 
+medicamentos veterinários antiparasitários de espetro estreito adequados. 
+ 
+Pulgas e carraças 
+O medicamento veterinário permanece ativo contra pulgas e carraças durante um período 
+de 13 semanas.  
+Caso seja necessária a repetição do tratamento no período de 13 semanas após a administração, deve 
+ser utilizado um medicamento veterinário de espetro estreito adequado. 
+ 
+Ácaros 
+Para o tratamento de ácaros auriculares (Otodectes cynotis) e sarna notoédrica (Notoedres cati), deve 
+ser administrada uma única dose do medicamento veterinário.  
+O sucesso do tratamento e a necessidade de repetição do tratamento com um medicamento veterinário 
+antiparasitário de espetro estreito devem ser determinados pelo veterinário após 4 semanas. 
+Devido a casos pontuais de ácaros isolados sobreviventes e, por isso, existir o risco de um novo ciclo 
+de otocaríase, o sucesso do tratamento deve ser confirmado pelo médico veterinário 1 mês após o 
+tratamento. 
+ 
+Nemátodos e Céstodos gastrointestinais 
+Deve ser administrada uma única dose do tratamento veterinário para o tratamento de nemátodos e 
+céstodos. A necessidade e a frequência de repetição do tratamento devem estar em conformidade com 
+o aconselhamento do médico veterinário e ter em conta a situação epidemiológica local, assim como o 
+estilo de vida do gato. 
+Caso seja necessária a repetição do tratamento no período de 3 meses após a administração, deve ser 
+utilizado um medicamento veterinário de espetro estreito adequado. 
+ 
+Parasitas pulmonares 
+Para o tratamento contra os parasitas pulmonares Aelurostrongylus abstrusus e Troglostrongylus 
+brevior, é recomendado um tratamento com o medicamento veterinário seguido por um segundo 
+tratamento após duas semanas, com uma solução para unção punctiforme para gatos 
+contendo 21,4 mg/ml de emodepside e 85,8 mg/ml de praziquantel, uma vez que não existem 
+medicamentos veterinários que contenham emodepside como substância ativa isolada. 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 23 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+23
+
+9. 
+INSTRUÇÕES COM VISTA A UMA UTILIZAÇÃO CORRETA 
+ 
+Utilizar tesouras (1) para abrir o blister resistente à abertura por crianças. Remover a película de 
+alumínio (2) e retirar o aplicador para unção punctiforme da embalagem (3). 
+ 
+ 
+ 
+Segurar o aplicador na posição vertical (4), torcer e puxar a tampa (5) e utilizar a extremidade oposta 
+da tampa para quebrar o selo (6). 
+ 
+ 
+ 
+Dividir o pelo no pescoço do gato, na base do crânio, até que a pele seja visível (7). Colocar a ponta do 
+aplicador na pele e apertar firmemente e repetidamente para esvaziar o conteúdo diretamente sobre a 
+pele (7). A aplicação na base do crânio irá minimizar a possibilidade do gato lamber o medicamento 
+veterinário.
+
+10. 
+INTERVALO(S) DE SEGURANÇA) 
+ 
+Não aplicável.
+
+11. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Manter fora da vista e do alcance das crianças. 
+Este medicamento veterinário não necessita de qualquer temperatura especial de conservação. 
+Manter o aplicador no blister de alumínio para o proteger da humidade. 
+Não administrar depois de expirado o prazo de validade indicado no rótulo e na embalagem. O prazo 
+de validade refere-se ao último dia do mês. 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 24 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+  📍 Via: IV
+
+Entrada 2:
+  🐾 Espécie: Gatos
+
+Entrada 3:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+24
+
+12. 
+ADVERTÊNCIA(S) ESPECIAL(AIS) 
+ 
+Advertências especiais para cada espécie alvo: 
+Os ectoparasitas necessitam iniciar a alimentação no hospedeiro para ficarem expostos ao tigolaner; 
+como tal, o risco de transmissão de doenças infeciosas transmitidas por parasitas não pode ser 
+excluído. 
+ 
+Os parasitas podem desenvolver resistência a qualquer classe de anti-helmínticos após a utilização 
+frequente e repetida de um anti-helmíntico dessas classes, em circunstâncias específicas. Por 
+conseguinte, a administração deste medicamento veterinário deve ser baseada na avaliação de cada 
+caso individual e nas informações epidemiológicas locais sobre a suscetibilidade atual da espécie-alvo, 
+de forma a limitar a possibilidade da seleção futura de resistência.  
+ 
+A aplicação de champô ou imersão do animal em água imediatamente após o tratamento pode reduzir 
+a eficácia do medicamento veterinário. Como tal, não se deve dar banho aos animais tratados, até a 
+solução secar. 
+ 
+Precauções especiais para a utilização em animais: 
+ 
+Na ausência de dados disponíveis, não é recomendado o tratamento de gatinhos com idade inferior 
+a 10 semanas ou com um peso inferior a 1 kg. 
+ 
+Este medicamento veterinário é destinado a uso tópico e não deve ser administrado sob qualquer outra 
+forma, por exemplo, por via oral. 
+Aplicar apenas em pele intacta. Aplicar conforme descrito em “instruções com vista a uma utilização 
+correta” para impedir que o animal lamba e ingira o medicamento veterinário. Evitar que o gato 
+tratado ou outros gatos que com ele contactem lambam o local de aplicação enquanto este estiver 
+húmido. Para sinais observados após a ingestão oral (por exemplo, ao lamber) por favor, consultar a 
+secção “reações adversas”. 
+ 
+O medicamento veterinário pode ser irritante para os olhos. Em caso de contacto acidental do 
+medicamento veterinário com os olhos dos gatos, lavar bem com água corrente. Caso ocorra irritação 
+dos olhos, procurar ajuda médico veterinária. 
+ 
+Não existem dados relativos à utilização do medicamento veterinário em animais doentes ou 
+debilitados; como tal, o medicamento veterinário deve ser utilizado apenas com base numa avaliação 
+de benefício-risco para estes animais. 
+ 
+Podem ocorrer sinais agudos de pneumonia após o tratamento, como resultado da resposta 
+inflamatória do hospedeiro contra a morte dos parasitas pulmonares T. brevior, especialmente em 
+gatos jovens. 
+ 
+O medicamento veterinário não deve ser administrado em intervalos inferiores a 8 semanas. Devido à 
+atividade do medicamento veterinário contra pulgas e carraças durante um período de 3 meses do 
+ponto de vista clínico, a utilização do medicamento veterinário não é indicada em intervalos inferiores 
+a três meses.  
+ 
+Não estão disponíveis dados de segurança para o animal-alvo para além de 4 tratamentos 
+consecutivos, e a acumulação do tigolaner é provável. Os tratamentos repetidos devem ser restringidos 
+a situações individuais limitadas em conformidade com a avaliação benefício-risco realizada pelo 
+médico veterinário responsável. Consulte a secção “Sobredosagem”. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento aos animais: 
+O medicamento veterinário pode causar sintomas neurológicos e elevar temporariamente os níveis de 
+glicose sérica após a ingestão acidental. 
+Não fumar, nem comer ou beber durante a aplicação. 
+Lavar as mãos após a administração. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 25 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Gatos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+25 
+Os aplicadores usados devem ser eliminados imediatamente e não devem ficar à vista ou ao alcance de 
+crianças.  
+Em caso de contacto acidental do conteúdo do aplicador com a pele, lavar imediatamente com sabão e 
+água. 
+O medicamento veterinário pode ser irritante para os olhos. Em caso de contacto acidental do 
+medicamento veterinário com os olhos, lavar bem em água abundante. 
+Se os sintomas cutâneos ou oculares persistirem, ou em caso de ingestão acidental, especialmente por 
+crianças, dirija-se imediatamente a um médico e mostre-lhe o folheto informativo ou o rótulo. 
+ 
+Uma vez que estão descritos efeitos fetotóxicos em animais de laboratório após a sua exposição ao 
+tigolaner e emodepside, as mulheres grávidas e as mulheres que pretendam engravidar devem usar 
+luvas durante a administração para evitar o contato direto com o medicamento veterinário. 
+ 
+As mulheres grávidas devem evitar o contacto com o local da aplicação durante as primeiras 24 horas 
+após a aplicação do produto e até a área tratada já não ser observável. Manter as crianças afastadas dos 
+animais tratados durante as primeiras 24 horas após a aplicação do medicamento veterinário. Devem 
+ser tomadas precauções de forma a não permitir que as crianças tenham contacto intenso e prolongado 
+com os gatos tratados até a área tratada já não ser observável. É recomendado tratar os animais ao final 
+da tarde. No dia do tratamento, não se deve deixar os animais tratados dormir na cama dos donos, 
+especialmente com crianças ou mulheres grávidas. 
+ 
+O medicamento veterinário pode manchar ou danificar alguns materiais, incluindo peles, tecidos, 
+plásticos e superfícies polidas. Deixar o local de aplicação secar antes de permitir o contacto com tais 
+materiais. 
+ 
+Gestação e lactação: 
+Foram descritos efeitos fetotóxicos em animais de laboratório após a sua exposição ao tigolaner e 
+emodepside. A segurança do medicamento veterinário não foi determinada durante a gestação ou a 
+lactação; como tal, não é recomendada a administração nesses animais. 
+ 
+ 
+Interações medicamentosas e outras formas de interação: 
+ 
+O emodepside é um substrato da glicoproteína-P. A coadministração com outras substâncias que são 
+substratos/inibidores da glicoproteína-P (por exemplo, ivermectina e outras lactonas macrocíclicas 
+antiparasitárias, eritromicina, prednisolona e ciclosporina) podem dar origem a interações 
+farmacocinéticas entre os medicamentos.  
+ 
+Sobredosagem (sintomas, procedimentos de emergência, antídotos): 
+ 
+Foi observada uma diminuição no peso da tiroide em alguns animais machos após a administração de 
+4 tratamentos consecutivos de até 5 vezes superiores à dose máxima recomendada, em gatinhos a 
+partir das 10 semanas de idade e em gatos adultos. Em gatos adultos, foi observado um aumento 
+transitório das enzimas hepáticas (AST, ALT), acompanhado de congestão hepática multifocal num 
+animal, no grupo de dose elevada (5x), assim como um aumento do colesterol em todos os grupos de 
+sobredosagem (3x, 5x). Não foram observados sinais clínicos sistémicos. 
+Ocorreram casos de reações no local da aplicação, no grupo de dose elevada (5x) (alopecia, eritema, 
+hiperplasia da epiderme e/ou infiltrados inflamatórios). 
+ 
+Não existem antídotos conhecidos.
+
+13. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+O medicamento veterinário não deve entrar em contacto com cursos de água, visto poder ser perigoso 
+para os peixes e outros organismos aquáticos. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 26 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Gatos
+
+Entrada 2:
+  🐾 Espécie: Aves
+
+Entrada 3:
+  🐾 Espécie: Gatos
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+26 
+O medicamento veterinário não utilizado ou os seus desperdícios devem ser eliminados de acordo com a 
+legislação em vigor.
+
+14. 
+DATA DA ÚLTIMA APROVAÇÃO DO FOLHETO INFORMATIVO 
+ 
+Encontram-se disponíveis informações detalhadas sobre este medicamento veterinário no website da 
+Agência Europeia do Medicamento http://www.ema.europa.eu/.
+
+15. 
+OUTRAS INFORMAÇÕES 
+ 
+Apresentações: 1, 2, 10 ou 20 aplicadores. É possível que não sejam comercializadas todas as 
+apresentações. 
+ 
+O tigolaner pertence à classe química dos bispirazóis. O tigolaner atua como um inibidor potente do 
+recetor do neurotransmissor ácido gama-aminobutírico (GABA). O tigolaner apresenta maior potência 
+funcional para bloquear os recetores dos insetos/acarídeos comparativamente aos recetores dos 
+mamíferos, in vitro. Este é um acaricida e inseticida e é eficaz contra carraças (Ixodes ricinus, I. 
+Holocyclus), pulgas (Ctenocephalides felis) e ácaros (Notoedres cati, Otodectes cynotis) em gatos. 
+ 
+As pulgas que se encontram presentes no animal antes da administração são eliminadas em 12 horas. 
+O início da eficácia contra novas infestações por pulgas ocorre até 8 horas e durante 2 meses após a 
+administração do medicamento veterinário, e, posteriormente, até 24 horas. As pulgas e as carraças 
+devem estar fixas no hospedeiro e iniciar a alimentação de modo a serem expostas a tigolaner. As 
+carraças Ixodes ricinus que se encontram presentes no animal antes da administração são eliminadas 
+em 24 horas. As carraças Ixodes ricinus que causem nova infestação são eliminadas em 48 horas 
+durante 13 semanas. 
+ 
+O emodepside é um composto semissintético pertencente ao grupo químico dos depsipéptidos. Este é 
+ativo contra todos os estádios dos nemátodos (ascarídeos e ancilóstomos). Neste medicamento 
+veterinário, o emodepside é responsável pela eficácia contra Toxocara cati, Toxascaris leonina, 
+Ancylostoma tubaeforme, Aelurostrongylus abstrusus e Troglostrongylus brevior. 
+Este atua na junção neuromuscular através da estimulação de recetores pré-sinápticos pertencentes à 
+família dos recetores de secretinas, que resulta na paralisia e morte dos parasitas. 
+ 
+O praziquantel é um derivado da pirazinoisoquinolina, eficaz contra Dipylidium caninum e Taenia 
+taeniaeformis. 
+O praziquantel é absorvido rapidamente através da superfície dos parasitas e atua essencialmente 
+através da alteração da permeabilidade das membranas dos parasitas para o Ca++. Tal resulta em danos 
+graves no tegumento dos parasitas, contração e paralisia, perturbação do metabolismo e, finalmente, 
+morte do parasita. 
+ 
+ 
+[Informações para leitura a serem colocadas na parte superior do folheto da embalagem] 
+ 
+Caro dono, 
+Receitaram o medicamento veterinário Felpreva ao seu gato, um medicamento veterinário aprovado 
+para gatos. Este folheto contém informações importantes para a aplicação e utilização do Felpreva. 
+Leia atentamente este folheto e siga as respetivas instruções.  
+ 
+ 
+
+--------------------------------------------------------------------------------

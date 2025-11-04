@@ -1,0 +1,14 @@
+{
+  "resposta": "Musical Maxy é usado para tratar infecções bacterianas em frangos, patos, perus e suínos.\n",
+  "pergunta_original": "O medicamentos Maxy é usado para que?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Maxy",
+    "pergunta_ollama": "O medicamento Maxy é usado para que?",
+    "substancia_ativa": "Maxy",
+    "especie_alvo": "",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1762258941.2619972,
+  "modelo_usado": "gemma3:latest"
+}
