@@ -1,14 +1,14 @@
 {
-  "resposta": "شاركة: Não há intervalos de segurança especificados explicitamente no texto fornecido. O documento descreve os componentes do medicamento Felpreva (tigolaner, emodepside e praziquantel) e seus mecanismos de ação, mas não fornece informações sobre intervalos de segurança entre aplicações ou outros fatores de risco.\n\nPara obter informações sobre intervalos de segurança, seria necessário consultar a bula completa do medicamento Felpreva ou obter orientação de um veterinário.",
+  "resposta": "Segundo o documento fornecido, o intervalo de segurança do medicamento Felpreva é:\n\nNão há intervalo de segurança especificado para o medicamento Felpreva. Na seção correspondente ao intervalo de segurança, está escrito: \"intervalo de segurança\". Isso sugere que não há informações adicionais sobre um período específico de segurança a ser observado com este medicamento.",
   "pergunta_original": "Quais os intervalos de segurança do medicamento Felpreva?",
   "categoria": "medicamento",
   "entidades": {
     "termo_busca": "Felpreva",
-    "pergunta_ollama": "Quais os intervalos de segurança do medicamento Felpreva?",
-    "substancia_ativa": "Felpreva",
+    "pergunta_ollama": "Qual é o intervalo de segurança do medicamento Felpreva?",
+    "substancia_ativa": "",
     "especie_alvo": "",
     "forma_farmaceutica": ""
   },
-  "timestamp": 1762258928.3230193,
-  "modelo_usado": "gemma3:latest"
+  "timestamp": 1762292974.3795955,
+  "modelo_usado": "qwen2.5:14b"
 }

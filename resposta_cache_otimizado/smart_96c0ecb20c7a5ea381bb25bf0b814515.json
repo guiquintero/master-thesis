@@ -1,0 +1,14 @@
+{
+  "resposta": "O medicamento Acuimix deve ser armazenado a temperaturas abaixo dos 25 ºC, conforme indicado na seção de precauções especiais de conservação.",
+  "pergunta_original": "Como deve ser armazenado o medicamento Acuimix?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Acuimix",
+    "pergunta_ollama": "Como deve ser armazenado o medicamento Acuimix?",
+    "substancia_ativa": "",
+    "especie_alvo": "",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1762293494.3644152,
+  "modelo_usado": "qwen2.5:14b"
+}

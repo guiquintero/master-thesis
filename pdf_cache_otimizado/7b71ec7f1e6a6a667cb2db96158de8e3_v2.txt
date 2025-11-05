@@ -1,0 +1,1198 @@
+ANEXO I 
+ 
+RESUMO DAS CARACTERÍSTICAS DO MEDICAMENTO 
+ 
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+HIDROCOL, 4000000 UI/ml solução para administração na água de bebida / leite
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+ 
+Cada ml contém: 
+ 
+Substância ativa: 
+Colistina (sob a forma de sulfato) 4000000 UI 
+ 
+Excipiente: 
+Álcool Benzílico (E1519) 
+ 
+0,010 ml 
+ 
+Para a lista completa de excipientes, ver secção 6.1.
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Solução para administração na água de bebida / leite (de substituição). 
+Solução de coloração alaranjada a acastanhada.
+
+4. 
+INFORMAÇÕES CLÍNICAS 
+ 
+4.1 
+Espécies-alvo 
+Bovinos (vitelos), ovinos (borregos), suínos, frangos e perus 
+ 
+4.2 
+Indicações de utilização, especificando as espécies-alvo 
+Tratamento e metafilaxia de infeções entéricas causadas por por Escherichia coli não invasivos e 
+sensíveis à colistina.  
+No caso de metafilaxia, a presença da doença no grupo / rebanho deve ser estabelecida antes da 
+administração do medicamento veterinário. 
+ 
+4.3 
+Contraindicações  
+ 
+Não administrar em caso de hipersensibilidade ao sulfato de colistina ou a algum dos excipientes.  
+Não administrar em caso de resistência às polimixinas.  
+Não administrar em equídeos, nomeadamente em potros, uma vez que o sulfato de colistina pode 
+alterar o equilíbrio da flora gastrointestinal, que pode levar ao desenvolvimento de colite (Colite X), 
+tipicamente associada ao Clostridium difficile, o que pode ser fatal.  
+ 
+ 
+4.4 
+Advertências especiais  para cada espécie-alvo 
+ 
+O sulfato de colistina exerce atividade dependente da concentração contra bactérias Gram-negativas. 
+Após a administração oral, são alcançadas concentrações elevadas no trato gastrointestinal, ou seja, o 
+local-alvo, devido à absorção fraca da substância ativa. Estes fatores indicam que uma duração de 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+tratamento superior à indicada na secção 4.9, não é recomendada, uma vez que leva a uma exposição 
+desnecessária do mesmo. 
+Como complemento do tratamento, devem ser introduzidas boas práticas de maneio e de higiene, de 
+modo a reduzir o risco de infeção e controlar a potencial formação de resistências.  
+Existe resistência cruzada entre a colistina e a polimixina B. 
+ 
+4.5 
+Precauções especiais de utilização 
+ 
+Precauções especiais para utilização em animais 
+ 
+A administração do medicamento veterinário deve basear-se em testes de sensibilidade e tendo sempre 
+em consideração as políticas locais e oficiais do uso de antimicrobianos 
+O sulfato de colistina é um medicamento de último recurso na medicina humana para o tratamento de 
+infeções causadas por determinadas bactérias multirresistentes. Com o intuito de minimizar qualquer 
+risco potencial associado à utilização generalizada de sulfato de colistina, a sua administração deve 
+ser limitada ao tratamento ou ao tratamento e à metafilaxia de doenças, e não deve ser administrada 
+para a profilaxia.  
+Sempre que possível, o sulfato de colistina só deve ser administrado com base em testes de 
+sensibilidade.  
+Um antibiótico com um risco menor de seleção de resistência antimicrobiana (categoria AMEG 
+inferior) deve ser usado para o tratamento de primeira linha quando o teste de sensibilidade sugere a 
+provável eficácia dessa abordagem. 
+A administração do medicamento veterinário em não conformidade com as instruções fornecidas no 
+RCMV pode causar falhas do tratamento e aumentar a prevalência das bactérias resistentes ao sulfato 
+de colistina.  
+No caso de animais recém-nascidos e animais com graves problemas gastrointestinais e renais, pode 
+ser aumentada a exposição sistémica ao sulfato de colistina. Podem ocorrer efeitos neurotóxicos e 
+nefrotóxicos.  
+Não administrar o sulfato de colistina como substituto das boas práticas de maneio.  
+ 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento aos animais 
+ 
+As pessoas com hipersensibilidade conhecida às polimixinas, como sulfato de colistina, devem evitar 
+o contacto com o medicamento veterinário. 
+Evitar o contacto direto com a pele e os olhos ao manipular o medicamento veterinário. Durante a 
+administração do medicamento veterinário deve ser utilizado equipamento de proteção 
+individual constituído por luvas e óculos protetores. 
+Não comer, beber ou fumar enquanto se manuseia o medicamento veterinário. 
+Lavar imediatamente os salpicos sobre a pele com sabão e água abundante.  
+Em caso de exposição ocular acidental, lave com água abundante, dirija-se imediatamente a um 
+médico e mostre-lhe o rótulo do medicamento veterinário.  
+Se desenvolver sintomas após a exposição, tais como erupções cutâneas, deve procurar 
+aconselhamento médico, mostrando-lhe este aviso. Inchaço da face, lábios ou olhos, ou dificuldade 
+em respirar são sintomas mais graves e requerem atenção médica urgente.  
+Lavar as mãos depois de administrar.  
+ 
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: Oral
+
+Entrada 2:
+  📍 Via: IV
+
+Entrada 3:
+  📍 Via: Oral
+
+Entrada 4:
+  🐾 Espécie: Aves
+  📍 Via: Oral
+
+Entrada 5:
+  📍 Via: IV
+
+Entrada 6:
+  📍 Via: Oral
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+  
+ 
+4.6  
+Reações adversas (frequência e gravidade) 
+ 
+Desconhecidas. 
+ 
+4.7 
+Utilização durante a gestação, a lactação ou a postura de ovos 
+ 
+A segurança do medicamento veterinário não foi determinada durante a gestação, a lactação ou a 
+postura de ovos. Contudo, o sulfato de colistina é fracamente absorvido após a administração oral, 
+pelo que a administração de sulfato de colistina durante a gestação, a lactação ou a postura de ovos 
+não deverá conduzir a problemas particulares. Administrar apenas em conformidade com a avaliação 
+benefício/risco realizada pelo médico veterinário responsável.  
+ 
+4.8 
+Interações medicamentosas e outras formas de interação 
+ 
+Depois da administração oral do sulfato de colistina, a interação com anestésicos (Agentes 
+Curarimiméticos) e miorrelaxantes não pode ser excluída em casos individuais. Deve ser evitada a 
+combinação com aminoglicosídeos e levamisol. Os efeitos do sulfato de colistina podem ser 
+antagonizados por catiões binários (ferro, cálcio, magnésio) e por ácidos gordos não saturados e 
+polifosfatos.   
+ 
+ 
+4.9 
+Posologia e via de administração 
+ 
+Para administração oral.  
+Na água de bebida ou leite. 
+Vitelos, borregos, suínos: 100 000 UI de sulfato de colistina por kg de peso corporal, diariamente, 
+durante 3-5 dias consecutivos, na água de bebida ou no leite (de substituição) em vitelos, equivalente 
+a 0,25 ml da solução concentrada por 10 kg de peso corporal por dia, durante 3-5 dias.  
+ 
+Galinhas e perus: 75 000 UI de sulfato de colistina por kg de peso corporal, diariamente, durante 3-5 
+dias consecutivos, na água de bebida, equivalente a 18,75 ml da solução concentrada por tonelada de 
+peso corporal por dia, durante 3-5 dias.  
+ 
+A duração do tratamento deve limitar-se ao período de tempo mínimo necessário para o tratamento da 
+doença.  
+Qualquer água medicada que não seja consumida no prazo de 24 horas deve ser eliminada.  
+Qualquer leite medicado que não seja consumido no prazo de 3 horas deve ser eliminado. 
+  
+Administração oral direta a animais individuais  
+A dose diária recomendada deve ser dividida por dois, se o medicamento veterinário for administrado 
+diretamente na boca do animal.  
+Antes de ser administrado diretamente por via oral, o medicamento veterinário deve ser diluído numa 
+quantidade de água de bebida equivalente a 2 x o volume do medicamento veterinário concentrado a 
+administrar.  
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 5 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: Oral
+
+Entrada 2:
+  🐾 Espécie: Aves
+  📍 Via: Oral
+
+Entrada 3:
+  📍 Via: IV
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+Entrada 5:
+  🐾 Espécie: Aves
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Administração através da água de bebida  
+A ingestão de água medicada depende da condição clínica dos animais. Para obter a dose correta, a 
+concentração de sulfato de colistina tem de ser ajustada em conformidade. Calcular cuidadosamente o 
+peso corporal médio dos animais a tratar, bem como o consumo médio diário de água, antes de cada 
+tratamento.  
+A ingestão de água deve ser monitorizada em intervalos frequentes. 
+ 
+A água medicada deve ser preparada todos os dias, imediatamente antes de ser disponibilizada.  
+A água medicada deve ser a única fonte de água de bebida para os animais, durante todo o período de 
+tratamento.  
+ 
+Com a fórmula seguinte, podemos calcular uma dose exata:  
+ 
+ml de 
+medicamento 
+veterinário por kg 
+de peso corporal 
+por dia 
+X 
+Peso corporal médio (kg) de 
+animais a serem tratados 
+= 
+ml de medicamento veterinário 
+por litro de água potável 
+Ingestão média diária de água (l / animal) 
+ 
+• Administração sem bomba doseadora: 
+O tratamento é distribuído num tanque ao longo de um período de 24 horas, durante 3-5 dias 
+consecutivos.  
+O medicamento veterinário é adicionado a um volume de água de bebida, correspondente ao volume 
+consumido pelos animais ao longo do período de tratamento (24 horas), para atingir uma dose de 100 
+000 UI de sulfato de colistina por kg de peso corporal para suínos, borregos e vitelos e de 75 000 UI 
+de sulfato de colistina por kg de peso corporal para galinhas e perus.  
+• Administração com bomba doseadora:  
+O tratamento é distribuído ao longo de um período de 24 horas, durante 3-5 dias consecutivos.  
+É utilizada uma bomba doseadora para adicionar uma solução de stock numa concentração pré-
+determinada, à água de bebida.  
+ 
+4.10   Sobredosagem (sintomas, procedimentos de emergência, antídotos), se necessário 
+ 
+Nenhum. 
+ 
+4.11 Intervalos de segurança 
+Bovinos (vitelos), ovinos (borregos) e suínos: 
+Carne e vísceras: 1 dia.  
+Não é autorizada a administração a fêmeas produtoras de leite destinado ao consumo humano. 
+ 
+Galinhas e perus: 
+Carne e vísceras: 1 dia. 
+Ovos: zero dias.  
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 6 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Peru
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+5. 
+PROPRIEDADES FARMACOLÓGICAS 
+ 
+Grupo farmacoterapêutico: Anti-infecioso intestinal, antibióticos  
+Código ATCvet: QA07AA10  
+ 
+5.1 
+Propriedades farmacodinâmicas 
+O sulfato de colistina é um antibiótico polipeptídeo, da classe das polimixinas.  
+ O sulfato de colistina exerce uma ação bactericida em estirpes de bactérias sensíveis, por disrupção 
+da membrana bacteriana citoplasmática, conduzindo a uma alteração da permeabilidade das células e 
+à consequente fuga dos materiais intracelulares  
+O sulfato de colistina é bactericida e eficaz contra uma variada gama de bactérias Gram-negativas, tais 
+como a enterobacteriáceas e, em particular, a Escherichia coli.  
+O sulfato de colistina possui uma atividade muito fraca contra as bactérias Gram-positivas e fungos.  
+O sulfato de colistina exerce atividade dependente da concentração contra bactérias Gram-negativas.  
+ 
+As bactérias Gram-positivas e algumas espécies de bactérias Gram-negativas, tais como Proteus e 
+Serratia. são naturalmente resistentes ao sulfato de colistina. 
+A resistência pode ser causada por mutações cromossómicas ou pode ser transferível (mediada por 
+plasmídeo, por exemplo, genes mcr). 
+Os pontos de corte clínicos para sulfato de colistina (EUCAST, 2021) para Enterobacterales são: 
+sensível ≤ 2 µg/ml e resistente > 2 µg/ml. 
+ 
+As seguintes Concentrações Inibitórias Mínimas (CIM) foram determinadas para colistina em isolados 
+europeus coletados de espécies-alvo de 2018 a 2019. 
+ 
+Espécies 
+Bactéria patogénica 
+Número de 
+isolados 
+CMI 50 (µg/ml) 
+ CMI90 (µg/ml) 
+Frangos 
+E. Coli 
+413 
+1 
+1 
+Perus 
+65 
+1 
+1 
+Suínos 
+724 
+1 
+1  
+Leitões 
+118 
+1 
+8 
+Bovinos (vitelos) 
+418 
+1 
+1 
+ 
+A resistência cruzada foi descrita entre polimixinas. 
+ 
+ 
+5.2 
+Propriedades farmacocinéticas 
+O sulfato de colistina é fracamente absorvido pelo trato gastrointestinal. Após a administração oral, 
+são alcançadas concentrações elevadas no trato gastrointestinal, ou seja, no local-alvo, devido à fraca 
+absorção da substância. 
+  
+ 
+No soro e nos tecidos as concentrações de colistina são muito baixas. Em contraste estão presentes 
+quantidades elevadas e persistentes nas diferentes secções do trato gastrointestinal.  
+Não foi observado um metabolismo significativo.  
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+O sulfato de colistina é quase exclusivamente eliminado através das fezes.  
+  
+Impacto ambiental 
+A colistina é classificada como muito persistente nos solos.
+
+6. 
+INFORMAÇÕES FARMACÊUTICAS 
+ 
+6.1 
+Lista de excipientes 
+ 
+Acetato de sódio trihidratado 
+Ácido acético glacial (para ajuste de pH)  
+Álcool benzílico (E1519)  
+Glicerol 
+Água purificada  
+ 
+6.2 
+Incompatibilidades  
+ 
+Na ausência de estudos de compatibilidade, este medicamento veterinário não deve ser misturado com 
+outros. 
+ 
+6.3 
+Prazo de validade  
+ 
+Prazo de validade do medicamento veterinário tal como embalado para venda: 18 meses. 
+Prazo de validade após a primeira abertura do acondicionamento primário: 3 meses. 
+Prazo de validade após diluição de acordo com as instruções: 24 horas. 
+Prazo de validade após diluição no leite / leite de substituição, de acordo com as instruções: 3 horas. 
+ 
+6.4 
+Precauções especiais de conservação 
+ 
+Não conservar acima de 25 °C. 
+Proteger da luz. 
+ 
+6.5 
+Natureza e composição do acondicionamento primário 
+ 
+O medicamento veterinário é fornecido em recipientes brancos de polietileno de alta densidade 
+(HDPE), com capacidade 1 l ou 5 l.  
+Os recipientes são selados por indução e fechados por uma tampa de rosca de polietileno de alta 
+densidade. 
+É possível que não sejam comercializadas todas as apresentações. 
+ 
+6.6 
+Precauções especiais para a eliminação de medicamentos veterinários não utilizados ou de 
+desperdícios derivados da utilização desses medicamentos 
+ 
+O medicamento veterinário não utilizado ou os seus desperdícios devem ser eliminados de acordo com 
+os requisitos nacionais.
+
+7. 
+TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+SP VETERINARIA SA 
+Crta Reus Vinyols km 4.1 
+Riudoms (43330) 
+Espanha
+
+8. 
+NÚMERO DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+1019/01/16DFVPT
+
+9.  
+DATA DA PRIMEIRA AUTORIZAÇÃO/RENOVAÇÃO DA AUTORIZAÇÃO 
+ 
+Data da primeira autorização: 30 de junho de 2016. 
+Data da última renovação: 23 de agosto de 2021.
+
+10. 
+DATA DA REVISÃO DO TEXTO 
+ 
+Agosto de 2021. 
+ 
+PROIBIÇÃO DE VENDA, FORNECIMENTO E/OU UTILIZAÇÃO 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO III 
+ 
+ROTULAGEM E FOLHETO INFORMATIVO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A.ROTULAGEM 
+
+================================================================================
+📊 PÁGINA 11 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+INDICAÇÕES A INCLUIR NO ACONDICIONAMENTO PRIMÁRIO 
+ 
+Rótulo para garrafa de 1L e garrafas de 5L
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+HIDROCOL, 4000000 UI/ml solução para administração na água de bebida / leite  
+Colistina
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS  
+ 
+Cada ml contém: 
+ 
+Substância ativa: 
+Colistina (sob a forma de sulfato) 4000000 UI
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Solução para administração na água de bebida / leite
+
+4. 
+DIMENSÃO DA EMBALAGEM 
+ 
+1 L 
+5 L
+
+5. 
+ESPÉCIES-ALVO 
+ 
+Bovinos (vitelos), ovinos (borregos), suínos, frangos e perus
+
+6. 
+INDICAÇÃO (INDICAÇÕES)
+
+7. 
+MODO E VIA(S) DE ADMINISTRAÇÃO 
+ 
+Antes de administrar, ler o folheto informativo.
+
+8. 
+INTERVALO(S) DE SEGURANÇA 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 12 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Aves
+
+Entrada 3:
+  📍 Via: IM
+  🌡️ Temperatura: 25°C
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Intervalos de segurança: 
+Bovinos (vitelos), ovinos (borregos) e suínos: 
+Carne e vísceras: 1 dia.  
+Não é autorizada a administração a fêmeas produtoras de leite destinado ao consumo humano. 
+ 
+Galinhas e perus: 
+Carne e vísceras: 1 dia.  
+Ovos: zero dias.
+
+9. 
+ADVERTÊNCIA(S) ESPECIAL (ESPECIAIS), SE NECESSÁRIO 
+ 
+Antes de administrar, ler o folheto informativo.
+
+10. 
+PRAZO DE VALIDADE 
+ 
+EXP> {MM /AAAA} 
+Após a primeira abertura da embalagem, administrar no prazo de 3 meses. 
+Administrar até:......
+
+11. 
+CONDIÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Não conservar acima de 25 °C. 
+Proteger da luz.
+
+12. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+Eliminação: ler o folheto informativo.
+
+13. 
+MENÇÃO “USO VETERINÁRIO” E CONDIÇÕES OU RESTRIÇÕES RELATIVAS 
+AO FORNECIMENTO E À UTILIZAÇÃO, SE FOR CASO DISSO 
+ 
+USO VETERINÁRIO - Medicamento veterinário sujeito a receita médico-veterinária.
+
+14. 
+MENÇÃO “MANTER FORA DA VISTA E DO ALCANCE DAS CRIANÇAS” 
+ 
+Manter fora da vista e do alcance das crianças. 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+15. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO 
+ 
+SP VETERINARIA SA 
+Crta Reus Vinyols km 4.1 
+Riudoms (43330) 
+Espanha
+
+16. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+1019/01/16DFVPT
+
+17. 
+NÚMERO DO LOTE DE FABRICO 
+ 
+Lote {número} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. FOLHETO INFORMATIVO 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+FOLHETO INFORMATIVO: 
+ 
+HIDROCOL, 4000000 UI/ml de solução para administração na água de bebida /leite
+
+1. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO E DO TITULAR DA AUTORIZAÇÃO DE FABRICO RESPONSÁVEL 
+PELA LIBERTAÇÃO DO LOTE, SE FOREM DIFERENTES 
+ 
+Titular da autorização de introdução no mercado e fabricante responsável pela libertação dos lotes : 
+ 
+SP VETERINARIA SA 
+Crta Reus Vinyols km 4.1 
+Riudoms (43330) 
+Espanha
+
+2. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+HIDROCOL, 4000000 UI/ml solução para administração na água de bebida / leite  
+Colistina
+
+3. 
+DESCRIÇÃO DA SUBSTÂNCIA ATIVA E OUTRA SUBSTÂNCIA 
+Cada ml contém: 
+ 
+Substância ativa: 
+Colistina (sob a forma de sulfato) 4000000 UI 
+ 
+Excipiente: 
+Álcool Benzílico (E1519) 
+ 
+0,010 ml
+
+4. 
+INDICAÇÃO (INDICAÇÕES) 
+Tratamento e metafilaxia de infeções entéricas causadas por por Escherichia coli não invasivos e 
+sensíveis à colistina.  
+No caso de metafilaxia, a presença da doença no grupo / rebanho deve ser estabelecida antes do uso 
+do produto.
+
+5. 
+CONTRAINDICAÇÕES 
+ 
+Não administrar em caso de hipersensibilidade ao sulfato de colistina ou a algum dos excipientes.  
+Não administrar em caso de resistência às polimixinas. 
+Não administrar em equídeos, nomeadamente em potros, uma vez que o sulfato de colistina pode 
+alterar o equilíbrio da flora gastrointestinal, que pode levar ao desenvolvimento de colite (Colite X), 
+tipicamente associada ao Clostridium difficile, o que pode ser fatal.  
+ 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 16 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+  📍 Via: Oral
+
+Entrada 3:
+  📍 Via: IV
+
+Entrada 4:
+  📍 Via: Oral
+
+Entrada 5:
+  🐾 Espécie: Aves
+  📍 Via: Oral
+
+Entrada 6:
+  📍 Via: IV
+
+Entrada 7:
+  📍 Via: Oral
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+6. 
+REAÇÕES ADVERSAS  
+ 
+Caso detete quaisquer efeitos mencionados neste folheto ou outros efeitos mesmo que não 
+mencionados, ou pense que o medicamento veterinário não foi eficaz, informe o seu médico 
+veterinário. 
+ 
+ 
+Alternativamente, pode notificar através do Sistema Nacional de Farmacovigilância Veterinária 
+(SNFV): farmacovigilancia.vet@dgav.pt.
+
+7. 
+ESPÉCIES-ALVO 
+ 
+Bovinos (vitelos), ovinos (borregos), suínos, frangos e perus.
+
+8. 
+DOSAGEM EM FUNÇÃO DA ESPÉCIE,  VIA(S) E MODO DE ADMINISTRAÇÃO 
+ 
+Para administração oral.  
+Na água de bebida ou leite. 
+Vitelos, borregos, suínos: 100 000 UI de sulfato de colistina por kg de peso corporal, diariamente, 
+durante 3-5 dias consecutivos, na água de bebida ou no leite (de substituição) em vitelos, equivalente 
+a 0,25 ml da solução concentrada por 10 kg de peso corporal por dia, durante 3-5 dias.  
+ 
+Galinhas e perus: 75 000 UI de sulfato de colistina por kg de peso corporal, diariamente, durante 3-5 
+dias consecutivos, na água de bebida, equivalente a 18,75 ml da solução concentrada por tonelada de 
+peso corporal por dia, durante 3-5 dias.  
+ 
+A duração do tratamento deve limitar-se ao período de tempo mínimo necessário para o tratamento da 
+doença.  
+Qualquer água medicada que não seja consumida no prazo de 24 horas deve ser eliminada.  
+Qualquer leite medicado que não seja consumido no prazo de 3 horas deve ser eliminado. 
+  
+Administração oral direta a animais individuais  
+A dose diária recomendada deve ser dividida por dois, se o medicamento veterinário for administrado 
+diretamente na boca do animal.  
+Antes de ser administrado diretamente por via oral, o medicamento veterinário deve ser diluído numa 
+quantidade de água de bebida equivalente a 2 x o volume do medicamento veterinário concentrado a 
+administrar.  
+ 
+Administração através da água de bebida  
+A ingestão de água medicada depende da condição clínica dos animais. Para obter a dose correta, a 
+concentração de sulfato de colistina tem de ser ajustada em conformidade. Calcular cuidadosamente o 
+peso corporal médio dos animais a tratar, bem como o consumo médio diário de água, antes de cada 
+tratamento.  
+A ingestão de água deve ser monitorizada em intervalos frequentes. 
+ 
+A água medicada deve ser preparada todos os dias, imediatamente antes de ser disponibilizada.  
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 17 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: Oral
+
+Entrada 2:
+  🐾 Espécie: Aves
+  📍 Via: Oral
+
+Entrada 3:
+  📍 Via: IV
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+Entrada 5:
+  🐾 Espécie: Aves
+
+Entrada 6:
+  📍 Via: IM
+  🌡️ Temperatura: 25°C
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+  
+ 
+A água medicada deve ser a única fonte de água de bebida para os animais, durante todo o período de 
+tratamento.  
+ 
+ 
+ml de 
+medicamento 
+veterinário por kg 
+de peso corporal 
+por dia 
+X 
+Peso corporal médio (kg) de 
+animais a serem tratados 
+= 
+ml de medicamento veterinário 
+por litro de água potável 
+Ingestão média diária de água (l / animal) 
+ 
+Com a fórmula seguinte, podemos calcular uma dose exata:  
+• Administração sem bomba doseadora:  
+O tratamento é distribuído num tanque ao longo de um período de 24 horas, durante 3-5 dias 
+consecutivos.  
+O medicamento veterinário é adicionado a um volume de água de bebida, correspondente ao volume 
+consumido pelos animais ao longo do período de tratamento (24 horas), para atingir uma dose de 100 
+000 UI de sulfato de colistina por kg de peso corporal para suínos, borregos e vitelos, e de 75 000 UI 
+de sulfato de colistina por kg de peso corporal para galinhas e perus.  
+• Administração com bomba doseadora:  
+O tratamento é distribuído ao longo de um período de 24 horas, durante 3-5 dias consecutivos.  
+É utilizada uma bomba doseadora para adicionar uma solução de stock numa concentração pré-
+determinada, à água de bebida.
+
+9. 
+INSTRUÇÕES COM VISTA A UMA UTILIZAÇÃO CORRETA
+
+10. 
+INTERVALO DE SEGURANÇA 
+ 
+Bovinos (vitelos), ovinos (borregos) e suínos: 
+Carne e vísceras: 1 dia.  
+Não é autorizada a administração a fêmeas produtoras de leite destinado ao consumo humano. 
+ 
+Galinhas e perus  
+Carne e vísceras: 1 dia.  
+Ovos: zero dias.
+
+11. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Manter fora da vista e do alcance das crianças. 
+Não conservar acima de 25 °C. 
+Proteger da luz. 
+Prazo de validade após a primeira abertura do acondicionamento primário: 3 meses. 
+Prazo de validade após diluição de acordo com as instruções: 24 horas. 
+Prazo de validade  após diluição no leite /leite de substituição, de acordo com as instruções: 3 horas. 
+ 
+Não administrar depois de expirado o prazo de validade indicado no rótulo depois de “EXP”. A 
+validade refere-se ao último dia do mês. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 18 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Aves
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+12. 
+ADVERTÊNCIA(S) ESPECIAL(AIS) 
+ 
+Precauções especiais para as espécies-alvo 
+A administração do medicamento veterinário deve basear-se em testes de sensibilidade e tendo sempre 
+em consideração as políticas locais e oficiais do uso de antimicrobianos. 
+O sulfato de colistina exerce atividade dependente da concentração contra bactérias Gram-negativas. 
+Após a administração oral, são alcançadas concentrações elevadas no trato gastrointestinal, ou seja, o 
+local-alvo, devido à absorção fraca da substância. Estes fatores indicam que uma duração de 
+tratamento superior à indicada na secção 8, não é recomendada, uma vez que leva a uma exposição 
+desnecessária do mesmo. 
+Como complemento do tratamento, devem ser introduzidas boas práticas de maneio e de higiene, de 
+modo a reduzir o risco de infeção e controlar a potencial formação de resistências.  
+Existe resistência cruzada entre a colistina e a polimixina B.  
+ 
+Precauções especiais para utilização em animais 
+ 
+A administração do medicamento veterinário deve basear-se em testes de sensibilidade e tendo sempre 
+em consideração as políticas locais e oficiais do uso de antimicrobianos. 
+O sulfato de colistina é um medicamento de último recurso na medicina humana para o tratamento de 
+infeções causadas por determinadas bactérias multirresistentes. Com o intuito de minimizar qualquer 
+risco potencial associado à utilização generalizada de sulfato de colistina, a sua administração deve 
+ser limitada ao tratamento ou ao tratamento e à metafilaxia de doenças, e não deve ser administrado 
+para a profilaxia.  
+Sempre que possível, o sulfato de colistina só deve ser administrado com base em testes de 
+sensibilidade.  
+Um antibiótico com um risco menor de seleção de resistência antimicrobiana (categoria AMEG 
+inferior) deve ser usado para o tratamento de primeira linha quando o teste de sensibilidade sugere a 
+provável eficácia dessa abordagem. 
+A administração do medicamento veterinário em não conformidade com as instruções fornecidas no 
+RCMV pode causar falhas do tratamento e aumentar a prevalência das bactérias resistentes ao sulfato 
+de colistina.  
+No caso de animais recém-nascidos e animais com graves problemas gastrointestinais e renais, pode 
+ser aumentada a exposição sistémica ao sulfato de colistina. Podem ocorrer alterações neurotóxicas e 
+nefrotóxicas.  
+Não administrar o sulfato de colistina como substituto das boas práticas de maneio.  
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento aos animais 
+As pessoas com hipersensibilidade conhecida às polimixinas, como o sulfato de colistina, devem 
+evitar o contacto com o medicamento veterinário. 
+Evitar o contacto direto com a pele e os olhos ao manipular o medicamento veterinário. Durante a 
+administração do medicamento veterinário deve ser utilizado equipamento de proteção 
+individual constituído por luvas e óculos protetores. Não comer, beber ou fumar enquanto se 
+manuseia o medicamento veterinário. 
+Lavar imediatamente os salpicos sobre a pele com sabão e água abundante.  
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Em caso de exposição ocular acidental, lave com água abundante, dirija-se imediatamente a um 
+médico e mostre-lhe o rótulo do medicamento veterinário.  
+Se desenvolver sintomas após a exposição, tais como erupções cutâneas, deve procurar 
+aconselhamento médico, mostrando-lhe este aviso. Inchaço da face, lábios ou olhos, ou dificuldade 
+em respirar são sintomas mais graves e requerem atenção médica urgente.  
+Lavar as mãos depois de administrar.  
+ 
+Utilização durante a gestação, a lactação, a postura de ovos ou a fertilidade 
+A segurança do medicamento veterinário não foi determinada durante a gestação, a lactação ou a 
+postura de ovos. Contudo, o sulfato de colistina é fracamente absorvido após a administração oral, 
+pelo que a administração de sulfato da colistina durante a gestação, a lactação ou a postura de ovos 
+não deverá conduzir a problemas particulares. Administrar apenas em conformidade com a avaliação 
+benefício/risco realizada pelo médico veterinário responsável durante estes períodos.  
+ 
+Interações medicamentosas e outras formas de interação 
+Depois da administração oral do sulfato de colistina, a interação com anestésicos (Agentes 
+Curarimiméticos) e miorrelaxantes não pode ser excluída em casos individuais. Deve ser evitada a 
+combinação com aminoglicosídeos e levamisol. Os efeitos do sulfato de colistina podem ser 
+antagonizados por catiões binários (ferro, cálcio, magnésio) e por ácidos gordos não saturados e 
+polifosfatos.   
+ 
+Sobredosagem (sintomas, procedimentos de emergência e antídotos):  
+Nenhum. 
+ 
+Incompatibilidades: 
+Na ausência de estudos de compatibilidade, este medicamento veterinário não deve ser misturado com 
+outros medicamentos veterinários. 
+ 
+Impacto ambiental: 
+A colistina é classificada como muito persistente nos solos.
+
+13. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+Os medicamentos não devem ser eliminados no lixo 
+Pergunte ao seu médico veterinário como deve eliminar os medicamentos veterinários que já não são 
+necessários. Estas medidas contribuem para a proteção do ambiente.
+
+14. 
+DATA DA ÚLTIMA APROVAÇÃO DO FOLHETO INFORMATIVO 
+ 
+Agosto de 2021. 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+OUTRAS INFORMAÇÕES 
+ 
+ 
+Apresentações: 
+Embalagens de 1L 
+Embalagens de 5L 
+ 
+É possível que não sejam comercializadas todas as apresentações.

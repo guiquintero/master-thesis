@@ -1,0 +1,14 @@
+{
+  "resposta": "O medicamento Calcibel deve ser administrado imediatamente após a abertura do acondicionamento primário. Não é recomendado armazenar o produto depois de aberto, conforme indicado na seção \"Precauções especiais de conservação\" do folheto informativo:\n\n**Prazo de validade após a primeira abertura do acondicionamento primário: administrar imediatamente.**\n\nPortanto, após a primeira abertura, o medicamento deve ser usado imediatamente e não pode ser armazenado para uso posterior.",
+  "pergunta_original": "Como deve ser armazenado, depois de aberto o medicamento Calcibel?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Calcibel",
+    "pergunta_ollama": "Como deve ser armazenado o medicamento Calcibel após a abertura?",
+    "substancia_ativa": "",
+    "especie_alvo": "",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1762293561.18989,
+  "modelo_usado": "qwen2.5:14b"
+}

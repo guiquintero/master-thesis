@@ -1,0 +1,1265 @@
+ANEXO I 
+ 
+RESUMO DAS CARACTERÍSTICAS DO MEDICAMENTO VETERINÁRIO 
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Genestran 75 microgramas/ml solução injetável para bovinos, equinos e suínos
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+ 
+Cada ml contém: 
+ 
+Substância ativa: 
+R(+)-cloprostenol (como R(+)-cloprostenol sódico)  
+ 
+ 
+75     microgramas 
+ 
+ 
+Excipientes: 
+ 
+Composição qualitativa dos excipientes e 
+outros componentes 
+Composição quantitativa, se esta informação 
+for essencial para a administração adequada 
+do medicamento veterinário 
+Clorocresol 
+1,0 mg 
+Ácido cítrico monoidratado 
+ 
+Hidróxido de sódio  
+ 
+Água para injetáveis 
+ 
+ 
+Uma solução injetável límpida e inodora.
+
+3. 
+INFORMAÇÃO CLÍNICA 
+ 
+3.1 
+Espécies-alvo 
+ 
+Bovinos, equinos, suínos. 
+ 
+3.2 
+Indicações de utilização para cada espécie-alvo 
+ 
+Bovinos: 
+- Indução da luteólise permitindo retomar o estro e a ovulação em fêmeas cíclicas quando administrado 
+durante o diestro; 
+- Sincronização do estro (no período de 2 a 5 dias) em grupos de fêmeas cíclicas, tratadas 
+simultaneamente; 
+- Tratamento do subestro e distúrbios uterinos relacionados com o funcionamento ou persistência de 
+corpo lúteo (endometrite, piómetra); 
+- Tratamento de quistos ováricos luteínicos; 
+- Indução do aborto até ao dia 150 de gestação; 
+- Expulsão de fetos mumificados; 
+- Indução do parto (dentro das duas últimas semanas de gestação). 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 3 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Equinos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+  
+ 
+Equinos: 
+- Indução da luteólise em éguas com um corpo lúteo funcional. 
+ 
+Suínos: 
+- Indução ou sincronização do parto (geralmente nas 24 a 36 horas seguintes) após o dia 113 de gestação 
+(o 1º dia de gestação é o último dia de inseminação natural ou artificial). 
+ 
+3.3 
+Contraindicações 
+ 
+Não administrar em caso de hipersensibilidade à substância ativa ou a algum dos excipientes. 
+Não administrar a animais com doenças respiratórias ou gastrointestinais espásticas. 
+Não administrar a animais gestantes, quando não se pretende a indução de aborto ou parto.  
+Não administrar por via intravenosa. 
+ 
+3.4 
+Advertências especiais 
+ 
+Não existentes. 
+ 
+3.5 
+Precauções especiais de utilização 
+ 
+Precauções especiais para a utilização segura nas espécies-alvo: 
+ 
+De forma a reduzir o risco de infeções anaeróbicas, o que poderá estar relacionado com as propriedades 
+farmacológicas das prostaglandinas, devem ser tomadas medidas de precaução para evitar a injeção em 
+áreas da pele contaminadas. Limpar e desinfetar os locais de injeção antes da sua aplicação. 
+Evitar a contaminação durante a administração do medicamento veterinário. Caso ocorra crescimento 
+aparente ou descoloração, o medicamento veterinário deve ser eliminado. 
+ 
+Suínos: usar somente quando é conhecida de forma precisa a data de inseminação. Administrar no dia 
+113 de gestação, e não mais cedo. O medicamento veterinário administrado antes da data recomendada 
+pode comprometer a viabilidade e o peso dos leitões. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais: 
+ 
+O medicamento veterinário deve ser manuseado de forma cuidadosa para evitar a autoinjeção acidental 
+e o contacto direto com a pele ou membranas mucosas do utilizador. As prostaglandinas do tipo F2 
+podem ser absorvidas através da pele e poderão causar broncospasmos ou abortos. Mulheres grávidas, 
+mulheres em idade fértil, asmáticos e pessoas com outras doenças do trato respiratório devem manusear 
+o medicamento veterinário com precaução. Como tal, devem usar luvas durante a administração do 
+medicamento veterinário. Em caso de derrame acidental sobre a pele, lavar imediatamente com água e 
+sabão. Em caso de autoinjeção acidental, dirija-se imediatamente a um médico e mostre-lhe o folheto 
+informativo ou o rótulo. Se ocorrer dificuldade respiratória resultante de inalação acidental ou injeção, 
+está indicado um broncodilatador de rápida ação, por exemplo, isoprenalina ou salbutamol por inalação. 
+ 
+Precauções especiais para a proteção do ambiente: 
+ 
+Não aplicável. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Bovinos
+
+Entrada 2:
+  🐾 Espécie: Equinos
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+  
+ 
+3.6 
+Eventos adversos 
+ 
+Bovinos: 
+ 
+Frequência indeterminada (não pode 
+ser estimada a partir dos dados 
+disponíveis): 
+Inflamação no local da injeção 
+Infeção no local da injeção ¹  
+Retenção de placenta² 
+1 Podem ocorrer infeções anaeróbias se forem introduzidas bactérias anaeróbias no tecido através da 
+injeção intramuscular. 
+2 Após a indução do parto. 
+Equinos:  
+Frequência indeterminada (não pode 
+ser estimada a partir dos dados 
+disponíveis): 
+Inflamação no local da injeção 
+Infeção no local da injeção ¹  
+Aumento da sudorese²  
+Diarreia² 
+1 Podem ocorrer infeções anaeróbias se forem introduzidas bactérias anaeróbias no tecido através da 
+injeção intramuscular. 
+2 Ligeira; temporariamente. 
+ 
+Suínos: 
+ 
+Frequência indeterminada (não pode 
+ser estimada a partir dos dados 
+disponíveis): 
+Inflamação no local da injeção 
+Infeção no local da injeção ¹  
+ 
+1 Podem ocorrer infeções anaeróbias se forem introduzidas bactérias anaeróbias no tecido através da 
+injeção intramuscular. 
+ 
+A notificação de eventos adversos é importante. Permite a monitorização contínua da segurança de um 
+medicamento veterinário. As notificações devem ser enviadas, de preferência por um médico 
+veterinário, ao titular da Autorização de Introdução no Mercado ou ao respetivo representante local ou 
+à autoridade nacional competente através do sistema nacional de farmacovigilância veterinária. Consulte 
+o folheto informativo para obter os respetivos detalhes de contacto. 
+  
+3.7 
+Utilização durante a gestação, a lactação ou a postura de ovos 
+ 
+Gestação: 
+Não administrar a animais gestantes, quando não se pretende a indução de aborto ou parto.  
+ 
+Lactação: 
+ 
+Pode ser administrado durante a lactação. 
+ 
+3.8 
+Interação com outros medicamentos e outras formas de interação 
+ 
+A administração simultânea de oxitocina e cloprostenol aumenta os efeitos no útero. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 5 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Bovinos
+
+Entrada 2:
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Equinos
+
+Entrada 4:
+  🐾 Espécie: Suínos
+
+Entrada 5:
+  🐾 Espécie: Suínos
+
+Entrada 6:
+  🐾 Espécie: Equinos
+
+Entrada 7:
+  🐾 Espécie: Bovinos
+
+Entrada 8:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+  
+ 
+3.9 
+Posologia e via de administração 
+ 
+Via intramuscular.  
+ 
+Bovinos: 
+2,0 ml (150 µg). 
+Indução do estro: dois dias após a administração, recomenda-se vigilância apertada do estro. 
+Sincronização do estro: os animais devem ser tratados duas vezes, com um intervalo de 11 dias. 
+ 
+Equinos: 
+0,3- 0,5 ml (22,5 – 37,5 μg) 
+Destinado a administração única. 
+ 
+Suínos: 
+0,7- 1,0 ml (52,5 - 75 μg) 
+Destinado a administração única. 
+ 
+A rolha não deve ser perfurada mais de 70 vezes. 
+ 
+3.10 Sintomas de sobredosagem (e, quando aplicável, procedimentos de emergência e 
+antídotos) 
+Não existe antídoto específico para o R(+)- cloprostenol. Em bovinos e suínos, não há registo de casos 
+de sobredosagem. Uma sobredosagem de R(+)- cloprostenol em equinos pode provocar diarreia 
+transitória, aumento da transpiração ao redor do pescoço e ligeira diminuição da temperatura corporal. 
+ 
+3.11 Restrições especiais de utilização e condições especiais de utilização, incluindo restrições à 
+utilização de medicamentos veterinários antimicrobianos e antiparasitários, a fim de 
+limitar o risco de desenvolvimento de resistência 
+ 
+Não aplicável. 
+ 
+3.12 Intervalos de segurança 
+ 
+Bovinos e equinos: 
+Carne e vísceras: 1 dia. 
+Leite: zero horas. 
+ 
+Suínos: 
+Carne e vísceras: 1 dia.
+
+4. 
+PROPRIEDADES FARMACOLÓGICAS 
+ 
+4.1 
+Código ATCvet: 
+QG02AD90 
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 6 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Bovinos
+
+Entrada 2:
+  📍 Via: IM
+
+Entrada 3:
+  📍 Via: SC
+
+Entrada 4:
+  📍 Via: SC
+
+Entrada 5:
+  📍 Via: SC
+
+Entrada 6:
+  📍 Via: SC
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+  
+ 
+4.2 
+Propriedades farmacodinâmicas 
+ 
+O medicamento veterinário contém R(+)–cloprostenol, componente biologicamente ativo da 
+prostaglandina sintética cloprostenol, cuja ação farmacológica é similar à da PGF2 endógena.   
+Uma vez que o medicamento veterinário apenas contém o componente biologicamente ativo R(+)-
+cloprostenol, doses baixas são suficientes para exercer os seus efeitos luteolítico e/ou de estimulação do 
+miométrio. 
+ 
+ 
+4.3 
+Propriedades farmacocinéticas 
+ 
+O cloprostenol é rapidamente reabsorvido. Conforme demonstrado nos bovinos, as concentrações 
+plasmáticas mais elevadas (Tmáx) foram atingidas numa hora com um t½ entre 40 e 80 minutos. A 
+eliminação ocorre através da urina e fezes.
+
+5. 
+INFORMAÇÕES FARMACÊUTICAS 
+ 
+5.1 
+Incompatibilidades principais 
+ 
+Na ausência de estudos de compatibilidade, este medicamento veterinário não deve ser misturado com 
+outros. 
+ 
+5.2 
+Prazo de validade 
+ 
+Prazo de validade do medicamento veterinário tal como embalado para venda: 3 anos. 
+Prazo de validade após a primeira abertura do acondicionamento primário: 28 dias. 
+ 
+5.3 
+Precauções especiais de conservação 
+ 
+Conservar o recipiente dentro da embalagem exterior para proteger da luz. 
+ 
+5.4 
+Natureza e composição do acondicionamento primário 
+ 
+Frascos de vidro incolor tipo I contendo 20 ml ou 50 ml da solução injetável, com rolhas de borracha 
+clorobutílica e cápsulas de alumínio. 
+ 
+Apresentações: 
+Caixa de cartão contendo 1 frasco de 20 ml. 
+Caixa de cartão contendo 1 frasco de 50 ml. 
+Caixa de cartão contendo 5 frascos de 20 ml. 
+ 
+É possível que não sejam comercializadas todas as apresentações. 
+ 
+5.5 
+Precauções especiais para a eliminação de medicamentos veterinários não utilizados ou de 
+desperdícios derivados da utilização desses medicamentos 
+ 
+Os medicamentos não devem ser eliminados no lixo ou nos esgotos domésticos. 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Utilize regimes de recolha de medicamentos veterinários para a eliminação de medicamentos 
+veterinários não utilizados ou de resíduos resultantes da utilização desses medicamentos, em 
+cumprimento dos requisitos nacionais e de quaisquer sistemas de recolha nacionais aplicáveis ao 
+medicamento veterinário em causa.
+
+6. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+aniMedica GmbH
+
+7. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+386/01/11 RFVPT.
+
+8. 
+DATA DA PRIMEIRA AUTORIZAÇÃO 
+ 
+Data da primeira autorização: 31 de outubro de 2011.
+
+9. 
+DATA DA ÚLTIMA REVISÃO DO RESUMO DAS CARACTERÍSTICAS DO 
+MEDICAMENTO VETERINÁRIO 
+ 
+09/2024
+
+10. 
+CLASSIFICAÇÃO DOS MEDICAMENTOS VETERINÁRIOS 
+ 
+Medicamento veterinário sujeito a receita médico-veterinária. 
+ 
+Está disponível informação pormenorizada sobre este medicamento veterinário na base de dados de 
+medicamentos da União Europeia Union Product Database 
+(https://medicines.health.europa.eu/veterinary). 
+  
+ 
+
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO III 
+ 
+ROTULAGEM E FOLHETO INFORMATIVO 
+ 
+ 
+
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A. ROTULAGEM 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 10 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Bovinos
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+  
+ 
+INDICAÇÕES A INCLUIR NO ACONDICIONAMENTO SECUNDÁRIO 
+ 
+Cartonagem
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Genestran 75 microgramas/ml solução injetável
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS 
+ 
+Cada ml contém: 
+ 
+Substância ativa: 
+R(+)-cloprostenol (como R(+)-cloprostenol sódico)  
+ 
+ 
+75     microgramas
+
+3. 
+DIMENSÃO DA EMBALAGEM 
+ 
+20 ml. 
+50 ml. 
+5 x 20 ml.
+
+4. 
+ESPÉCIES-ALVO 
+ 
+Bovinos, equinos, suínos.
+
+5. 
+INDICAÇÕES
+
+6. 
+VIAS DE ADMINISTRAÇÃO 
+ 
+Via intramuscular. 
+Precauções de utilização: O contacto com as mucosas e a administração acidental são perigosos.
+
+7. 
+INTERVALOS DE SEGURANÇA 
+ 
+Intervalo de segurança: 
+ 
+Bovinos e equinos 
+Carne e vísceras: 1 dia. 
+Leite: zero horas. 
+ 
+Suínos 
+Carne e vísceras: 1 dia.
+
+8. 
+PRAZO DE VALIDADE 
+ 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+  
+ 
+Exp. {mm/aaaa} 
+ 
+Prazo de validade após a primeira abertura do recipiente: 28 dias
+
+9. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Conservar o recipiente dentro da embalagem exterior para proteger da luz.
+
+10. 
+MENÇÃO "Antes de administrar, ler o folheto informativo" 
+ 
+Antes de administrar, ler o folheto informativo.
+
+11. 
+MENÇÃO "USO VETERINÁRIO" 
+ 
+USO VETERINÁRIO  
+ 
+Medicamento veterinário sujeito a receita médico-veterinária.
+
+12. 
+MENÇÃO "MANTER FORA DA VISTA E DO ALCANCE DAS CRIANÇAS" 
+ 
+Manter fora da vista e do alcance das crianças.
+
+13. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+aniMedica GmbH
+
+14. 
+NÚMEROS DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+386/01/11 RFVPT
+
+15. 
+NÚMERO DO LOTE 
+ 
+Lot {número} 
+ 
+ 
+ 
+
+================================================================================
+📊 PÁGINA 12 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Bovinos
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+Entrada 4:
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+  
+ 
+INDICAÇÕES A INCLUIR NO ACONDICIONAMENTO PRIMÁRIO 
+ 
+Rótulo 50 ml
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Genestran 75 microgramas/ml solução injetável
+
+2. 
+ DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS 
+ 
+Cada ml contém: 
+ 
+Substância ativa: 
+R(+)-cloprostenol (como R(+)-cloprostenol sódico)  
+ 
+ 
+75     microgramas
+
+3. 
+ESPÉCIES-ALVO 
+ 
+Bovinos, equinos, suínos.
+
+4. 
+VIAS DE ADMINISTRAÇÃO 
+ 
+Via intramuscular. 
+Antes de administrar, ler o folheto informativo.
+
+5. 
+INTERVALOS DE SEGURANÇA 
+ 
+Intervalo de segurança: 
+ 
+Bovinos e equinos 
+Carne e vísceras: 1 dia. 
+Leite: zero horas. 
+ 
+Suínos 
+Carne e vísceras: 1 dia.
+
+6. 
+PRAZO DE VALIDADE 
+ 
+Exp. {mm/aaaa} 
+ 
+Prazo de validade após a primeira abertura do recipiente: 28 dias.
+
+7. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Conservar o recipiente dentro da embalagem exterior para proteger da luz. 
+ 
+
+--------------------------------------------------------------------------------
+
+8. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+aniMedica GmbH
+
+9. 
+NÚMERO DO LOTE 
+ 
+Lot {número} 
+ 
+ 
+
+ 
+ 
+ 
+ 
+  
+ 
+INDICAÇÕES MÍNIMAS A INCLUIR EM PEQUENAS UNIDADES DE 
+ACONDICIONAMENTO PRIMÁRIO 
+ 
+Rótulo 20 ml
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Genestran 75 microgramas/ml solução injetável
+
+2. 
+INFORMAÇÕES QUANTITATIVAS SOBRE AS SUBSTÂNCIAS ATIVAS 
+ 
+Cada ml contém: 
+ 
+Substância ativa: 
+R(+)-cloprostenol (como R(+)-cloprostenol sódico)  
+ 
+ 
+75     microgramas
+
+3. 
+NÚMERO DO LOTE 
+ 
+Lot {número}
+
+4. 
+PRAZO DE VALIDADE 
+ 
+Exp. {mm/aaaa} 
+Prazo de validade após a primeira abertura do recipiente: 28 dias. 
+ 
+
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. FOLHETO INFORMATIVO 
+
+ 
+ 
+ 
+ 
+  
+ 
+FOLHETO INFORMATIVO
+
+1. 
+Nome do medicamento veterinário 
+ 
+Genestran 75 microgramas/ml solução injetável para bovinos, equinos e suínos
+
+2. 
+Composição 
+ 
+Cada ml contém: 
+Substância ativa:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R(+)-cloprostenol (como R(+)-cloprostenol sódico)  
+75  microgramas 
+ 
+Excipientes: 
+Clorocresol (como conservante)   
+ 
+ 
+ 
+1,0 mg 
+ 
+Uma solução injetável límpida e inodora.
+
+3. 
+Espécies-alvo 
+ 
+Bovinos, equinos, suínos.
+
+4. 
+Indicações de utilização 
+ 
+Bovinos: 
+- Indução da luteólise permitindo retomar o estro e a ovulação em fêmeas cíclicas quando administrado 
+durante o diestro; 
+- Sincronização do estro (no período de 2 a 5 dias) em grupos de fêmeas cíclicas, tratadas 
+simultaneamente; 
+- Tratamento do subestro e distúrbios uterinos relacionados com o funcionamento ou persistência de 
+corpo lúteo (endometrite, piómetra); 
+- Tratamento de quistos ováricos luteínicos; 
+- Indução do aborto até ao dia 150 de gestação; 
+- Expulsão de fetos mumificados; 
+- Indução do parto (dentro das duas últimas semanas de gestação). 
+ 
+Equinos: 
+- Indução da luteólise em éguas com um corpo lúteo funcional. 
+ 
+Suínos: 
+- Indução ou sincronização do parto (geralmente nas 24 a 36 horas seguintes) após o dia 113 de gestação 
+(o 1º dia de gestação é o último dia de inseminação natural ou artificial).
+
+5. 
+Contraindicações 
+ 
+Não administrar em caso de hipersensibilidade à substância ativa ou a algum dos excipientes. 
+
+================================================================================
+📊 PÁGINA 17 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Equinos
+
+Entrada 4:
+  🐾 Espécie: Bovinos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+  
+ 
+Não administrar a animais com doenças respiratórias ou gastrointestinais espásticas. 
+Não administrar a animais gestantes, quando não se pretende a indução de aborto ou parto. 
+Não administrar por via intravenosa.
+
+6. 
+Advertências especiais 
+ 
+Precauções especiais para uma utilização segura nas espécies-alvo: 
+Suínos: usar somente quando é conhecida de forma precisa a data de inseminação. Administrar no dia 
+113 de gestação, e não mais cedo. O medicamento veterinário administrado antes da data recomendada 
+pode comprometer a viabilidade e o peso dos leitões. 
+ 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais: 
+O medicamento veterinário deve ser manuseado de forma cuidadosa para evitar a autoinjeção acidental 
+e o contacto direto com a pele ou membranas mucosas do utilizador. As prostaglandinas do tipo F2 
+podem ser absorvidas através da pele e poderão causar broncospasmos ou abortos. Mulheres grávidas, 
+mulheres em idade fértil, asmáticos e pessoas com outras doenças do trato respiratório devem manusear 
+o medicamento veterinário com precaução. Como tal, devem usar luvas durante a administração do 
+medicamento veterinário. Em caso de derrame acidental sobre a pele, lavar imediatamente com água e 
+sabão. Em caso de autoinjeção acidental, dirija-se imediatamente a um médico e mostre-lhe o folheto 
+informativo ou o rótulo. Se ocorrer dificuldade respiratória resultante de inalação acidental ou injeção, 
+está indicado um broncodilatador de rápida ação, por exemplo, isoprenalina ou salbutamol por inalação. 
+ 
+Gestação: 
+Não administrar a animais gestantes, quando não se pretende a indução de aborto ou parto. 
+ 
+Lactação: 
+Pode ser administrado durante a lactação. 
+ 
+Interação com outros medicamentos e outras formas de interação: 
+A administração simultânea de oxitocina e cloprostenol aumenta os efeitos no útero. 
+ 
+Sobredosagem: 
+Não existe antídoto específico para o R(+)- cloprostenol. Em bovinos e suínos, não há registo de casos 
+de sobredosagem. Uma sobredosagem de R(+)- cloprostenol em equinos poderá provocar diarreia 
+transitória, aumento da transpiração ao redor do pescoço e ligeira diminuição da temperatura corporal. 
+ 
+Incompatibilidades principais: 
+Na ausência de estudos de compatibilidade, este medicamento veterinário não deve ser misturado com 
+outros.
+
+7. 
+Eventos adversos 
+ 
+Bovinos: 
+Frequência indeterminada (não pode 
+ser estimada a partir dos dados 
+disponíveis): 
+Inflamação no local da injeção 
+Infeção no local da injeção ¹  
+Retenção de placenta² 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 18 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Equinos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Bovinos
+
+Entrada 4:
+  📍 Via: IM
+
+Entrada 5:
+  🐾 Espécie: Equinos
+
+Entrada 6:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+  
+ 
+1 Podem ocorrer infeções anaeróbias se forem introduzidas bactérias anaeróbias no tecido através da 
+injeção intramuscular. 
+2 Após a indução do parto. 
+Equinos:  
+Frequência indeterminada (não pode 
+ser estimada a partir dos dados 
+disponíveis): 
+Inflamação no local da injeção 
+Infeção no local da injeção ¹  
+Aumento da sudorese²  
+Diarreia² 
+1 Podem ocorrer infeções anaeróbias se forem introduzidas bactérias anaeróbias no tecido através da 
+injeção intramuscular. 
+2 Ligeira; temporariamente. 
+ 
+Suínos: 
+ 
+Frequência indeterminada (não pode 
+ser estimada a partir dos dados 
+disponíveis): 
+Inflamação no local da injeção 
+Infeção no local da injeção ¹  
+ 
+1 Podem ocorrer infeções anaeróbias se forem introduzidas bactérias anaeróbias no tecido através da 
+injeção intramuscular. 
+ 
+A notificação de eventos adversos é importante. Permite a monitorização contínua da segurança de um 
+medicamento veterinário. Caso detete quaisquer efeitos mencionados neste folheto ou outros efeitos 
+mesmo que não mencionados, ou pense que o medicamento veterinário não foi eficaz, informe o seu 
+médico veterinário. Também pode comunicar quaisquer eventos adversos ao titular da Autorização de 
+Introdução no Mercado ou representante local do Titular da Autorização de Introdução no Mercado 
+utilizando os dados de contacto no final deste folheto, ou através do Sistema Nacional de 
+Farmacovigilância Veterinária (SNFV): farmacovigilancia.vet@dgav.pt .
+
+8. 
+Dosagem em função da espécie, via e modo de administração 
+ 
+Via intramuscular. 
+ 
+Bovinos: 
+2,0 ml (150 µg). 
+Indução do estro: dois dias após a administração, recomenda-se vigilância apertada do estro. 
+Sincronização do estro: os animais devem ser tratados duas vezes, com um intervalo de 11 dias. 
+ 
+Equinos: 
+0,3- 0,5 ml (22,5 – 37,5 μg). 
+ 
+Suínos: 
+0,7- 1,0 ml (52,5 - 75 μg). 
+ 
+A rolha não deve ser perfurada mais de 70 vezes. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 19 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Bovinos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+
+9. 
+Instruções com vista a uma administração correta 
+ 
+De forma a reduzir o risco de infeções anaeróbicas, o que poderá estar relacionado com as propriedades 
+farmacológicas das prostaglandinas, devem ser tomadas medidas de precaução para evitar a injeção em 
+áreas da pele contaminadas. Limpar e desinfetar os locais de injeção antes da sua aplicação. 
+Evitar a contaminação durante a administração do medicamento veterinário. Caso ocorra crescimento 
+aparente ou descoloração, o medicamento veterinário deve ser eliminado.
+
+10. 
+Intervalos de segurança 
+ 
+Bovinos e equinos 
+Carne e vísceras: 1 dia. 
+Leite: zero horas. 
+ 
+Suínos 
+Carne e vísceras: 1 dia.
+
+11. 
+Precauções especiais de conservação 
+ 
+Manter fora da vista e do alcance das crianças. 
+Conservar o recipiente dentro da embalagem exterior para proteger da luz. 
+Não administrar este medicamento veterinário depois de expirado o prazo de validade indicado na 
+embalagem e no frasco depois de “Exp”. A validade refere-se ao último dia do mês. 
+Prazo de validade após a primeira abertura do recipiente: 28 dias. Quando o recipiente é aberto pela 
+primeira vez, utilizando o prazo de validade que está especificado neste folheto informativo, deve 
+assinalar-se a data na qual qualquer medicamento veterinário remanescente no recipiente deve ser 
+eliminado.
+
+12. 
+Precauções especiais de eliminação 
+ 
+Os medicamentos não devem ser eliminados no lixo ou nos esgotos domésticos. 
+ 
+Utilize regimes de recolha de medicamentos veterinários para a eliminação de medicamentos 
+veterinários não utilizados ou de resíduos resultantes da utilização desses medicamentos, em 
+cumprimento dos requisitos nacionais e de quaisquer sistemas de recolha nacionais aplicáveis. Estas 
+medidas destinam-se a ajudar a proteger o ambiente. 
+ 
+Pergunte ao seu médico veterinário ou farmacêutico como deve eliminar os medicamentos veterinários 
+que já não são necessários.
+
+13. 
+Classificação dos medicamentos veterinários 
+ 
+Medicamento veterinário sujeito a receita médico-veterinária.
+
+14. 
+Números de autorização de introdução no mercado e tamanhos de embalagem 
+ 
+386/01/11RFVPT 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 20 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: SC
+
+Entrada 2:
+  📍 Via: SC
+
+Entrada 3:
+  📍 Via: SC
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Apresentações: 
+Caixa de cartão contendo 1 frasco de 20 ml. 
+Caixa de cartão contendo 1 frasco de 50 ml. 
+Caixa de cartão contendo 5 frascos de 20 ml. 
+ 
+É possível que não sejam comercializadas todas as apresentações.
+
+15. 
+Data em que o folheto informativo foi revisto pela última vez 
+ 
+07/2025 
+ 
+Está disponível informação pormenorizada sobre este medicamento veterinário na base de dados de 
+medicamentos da União Europeia Union Product Database 
+(https://medicines.health.europa.eu/veterinary).
+
+16. 
+Detalhes de contacto 
+ 
+Titular da Autorização de Introdução no Mercado e Fabricante responsável pela libertação do lote: 
+aniMedica GmbH 
+Im Südfeld 9 
+48308 Senden-Bösensell 
+Alemanha  
+ 
+Fabricante responsável pela libertação do lote: 
+aniMedica GmbH  
+ 
+ 
+ 
+ 
+Industrial Veterinaria S.A. 
+Im Südfeld 9 
+ 
+ 
+ 
+ 
+ 
+Esmeralda 19 
+48308 Senden-Bösensell  
+ 
+ 
+ 
+08950 Esplugues de Llobregat (Barcelona) 
+Alemanha  
+ 
+ 
+ 
+ 
+ 
+Espanha 
+ 
+Representantes locais e detalhes de contacto para comunicar suspeitas de eventos adversos: 
+Campifarma, Lda. 
+Av. Pedro Álvares Cabral 
+CESE V, Ed. E24 
+2710-297 Sintra  
+mail: farmacovigilancia@campifarma.com 
+phone: +351 211 929 009 
+ 
+
+--------------------------------------------------------------------------------

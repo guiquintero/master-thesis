@@ -1,0 +1,14 @@
+{
+  "resposta": "Segundo o texto fornecido, não há uma menção específica sobre como armazenar o medicamento Flevox após a abertura. No entanto, é mencionado que \"Este medicamento veterinário não necessita de condições especiais de conservação\", indicando que pode ser mantido sob condições normais após a abertura.",
+  "pergunta_original": "Como deve ser armazenado, depois de aberto o medicamento Flevox?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Flevox",
+    "pergunta_ollama": "Como deve ser armazenado o medicamento Flevox após a abertura?",
+    "substancia_ativa": "",
+    "especie_alvo": "",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1762292932.3656723,
+  "modelo_usado": "qwen2.5:14b"
+}

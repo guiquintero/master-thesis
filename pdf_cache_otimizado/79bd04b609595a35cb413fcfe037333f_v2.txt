@@ -1,0 +1,1150 @@
+================================================================================
+📊 PÁGINA 1 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: Oral
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 1 de 17 
+ 
+ 
+RESUMO DAS CARATERÍSTICAS DO MEDICAMENTO
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+Suispirin, 1000 mg / g, pó oral para suínos.
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+1 g de pó contém: 
+Substância activa: 
+Ácido acetilsalicílico                 1000 mg. 
+ 
+Para a lista completa de excipientes, ver secção 6.1.
+
+3. 
+FORMA FARMACÊUTICA 
+Pó oral. 
+Pó branco a quase branco.
+
+4. 
+INFORMAÇÕES CLÍNICAS 
+4.1 
+Espécies alvo 
+Suínos. 
+4.2 
+Indicações de utilização, especificando as espécies-alvo 
+Suíno:  
+Tratamento de suporte para a redução da febre, em combinação com terapia anti-infecciosa 
+apropriada, se necessário. 
+4.3 
+Contraindicações 
+Não administrar em caso de hipersensibilidade à substância ativa ou em casos de irritação 
+gastrointestinal e úlceras, distúrbios crónicos gastrointestinais, broncoespasmos, insuficiência 
+hepática ou nefropatias. 
+Não administrar a fêmeas gestantes ou lactantes. 
+Não administrar a leitões com menos de 4 semanas de idade. 
+4.4 
+Advertências especiais  
+No tratamento combinado com tetraciclinas, é recomendado um intervalo de tratamento de 
+pelo menos uma hora entre as duas substâncias ativas. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IV
+
+Entrada 2:
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 2 de 17 
+ 
+4.5 
+Precauções especiais para utilização 
+Precauções especiais para utilização em animais 
+É necessário assegurar que os animais consumem água suficiente durante o tratamento. 
+Dado que o medicamento veterinário pode inibir a coagulação sanguínea, recomenda-se que a 
+cirurgia eletiva não seja realizada até 7 dias após o término do tratamento.  
+ 
+Precauções especiais a adoptar pela pessoa que administra o medicamento aos animais 
+Não comer, beber ou fumar durante a administração deste medicamento veterinário. O 
+contacto através da pele ou das membranas mucosas do utilizador deve ser evitado devido ao 
+risco de sensibilização. Se sabe que é alérgico à aspirina, evite o contacto com este 
+medicamento veterinário. Usar vestuário de protecção adequado quando manipular este 
+medicamento veterinário, como por exemplo luvas e uma máscara facial. Lavar as mãos e 
+toda a pele exposta após a administração. 
+4.6 
+Reações adversas (frequência e gravidade) 
+Pode ocorrer irritação gastrointestinal, especialmente em animais com doença gastrointestinal 
+pré-existente. Essa irritação pode manifestar-se clinicamente pela produção de fezes pretas 
+devido à perda de sangue no trato gastrointestinal. 
+Pode ocorrer ocasionalmente inibição da coagulação sanguínea normal. Se este efeito ocorrer, 
+será reversível, e os efeitos irão diminuir dentro de aproximadamente 7 dias.  
+4.7 
+Utilização durante a gestação, lactação e a postura de ovos 
+Não administrar durante toda a gestação e lactação. 
+4.8 
+Interações medicamentosas e outras formas de interação 
+Penicilinas, sulfonamidas  
+Como resultado de sua elevada ligação às proteínas plasmáticas, o ácido acetilsalicílico pode 
+suprimir fortemente substâncias ligantes, como as penicilinas e sulfonamidas, potencializando 
+assim o efeito destas. 
+Furosemida 
+O efeito diurético da furosemida é diminuído. Isto pode causar sintomas de toxicidade em 
+animais que receberam altas doses de aspirina. 
+Tetraciclinas 
+A administração combinada de ácido acetilsalicílico tamponado com tetraciclinas pode levar 
+à formação de quelatos. 
+Antibióticos aminoglicosídeos 
+A combinação do ácido acetilsalicílico e antibióticos aminoglicosídeos leva ao aumento do 
+potencial nefrotóxico. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 3 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: IV
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+Entrada 4:
+  📍 Via: IV
+
+Entrada 5:
+  🐾 Espécie: Suínos
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 3 de 17 
+ 
+Ácido ascórbico, metionina, cloreto de amónio 
+A acidificação urinária causada pelo ácido ascórbico, metionina ou cloreto de amónio leva à 
+diminuição da excreção renal do ácido salicílico, com aumento do risco de reações tóxicas. 
+Medicamentos que levam à alcalinização urinária (hidrogenocarbonato de sódio) 
+A excreção renal de ácido salicílico é acelerada pela alcalinização da urina (bicarbonato de 
+sódio). 
+Anti-inflamatórios não-esteróides 
+A combinação com outros AINE leva ao aumento da ocorrência intensificada de efeitos 
+colaterais, particularmente no trato gastrointestinal. 
+Glucocorticóides 
+A administração simultânea de glucocorticóides aumenta o risco de hemorragia 
+gastrointestinal. 
+4.9 
+Posologia e via de administração 
+Pó oral para administração com a ração. 
+Para administração individual de suínos em explorações nas quais apenas um pequeno 
+número de suínos deve receber o medicamento veterinário.  
+Suínos: 
+30 mg de ácido acetilsalicílico (correspondente a 30 mg do medicamento veterinário) por kg 
+de peso corporal, duas vezes ao dia. 
+ 
+O período de tratamento é de 3 dias consecutivos.  
+Peso mínimo dos suínos a serem tratados: 11 kg. 
+O tratamento é realizado através da mistura do medicamento veterinário com cerca de 50 g ou 
+200 g (de acordo com o peso corporal) da dieta normal por suíno. Para medir a quantidade 
+correta do medicamento veterinário, usar as colheres fornecidas, de acordo com a tabela de 
+dosagem seguinte. A ração sem medicação só deve ser oferecida após o consumo completo de 
+toda a ração medicada. Os animais devem ser isolados de outros animais durante o 
+tratamento. 
+A ração medicada deve ser recém-preparada antes de cada administração.  
+ 
+Tipo de suíno 
+Peso 
+corporal 
+(kg) 
+Gramas do medicamento 
+veterinário por animal 
+(duas vezes ao dia) 
+Montante igual em ml  
+(Para medir a dose 
+com colheres) 
+Leitão desmamado 
+(pequeno) 
+11 kg 
+0,33 g 
+0,4 ml 
+Leitão desmamado 
+(grande) 
+25 kg 
+0, 75 g 
+1,0 ml 
+Suíno de engorda 
+(pequeno) 
+50 kg 
+1,50 g 
+2,0 ml 
+Suíno de engorda 
+(grande) 
+100 kg 
+3,00 g 
+4,0 ml 
+Porca 
+250 kg 
+7,50 g 
+10,0 ml 
+ 
+São fornecidas duas colheres medida de 0,4 ml (= 0,33 g do medicamento veterinário) e 3 ml 
+(= 2,25 g do medicamento veterinário). 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+
+Entrada 2:
+  🐾 Espécie: Suínos
+  💉 Dose: 90 mg/kg
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 4 de 17 
+ 
+ 
+O alimento medicado parcialmente consumido deve ser eliminado com outros desperdícios de 
+ração e não devem ser dados a outros animais. 
+Para evitar uma sobredosagem, os suínos a serem tratados devem ser pesados ou o peso 
+corporal deve ser estimado com precisão por uma pessoa experiente. 
+O consumo de ração pode estar diminuído em animais clinicamente doentes e também em 
+animais mais velhos; portanto o consumo de ração pode ter que ser ajustado para atingir a 
+ingestão da dose-alvo. A quantidade correta do medicamento veterinário deve ser misturada 
+com a ração num balde ou em recipiente similar. Para obter uma boa mistura e 
+homogeneidade, pode ser realizada uma pré-mistura. 
+O medicamento veterinário só deve ser adicionado a rações secas não peletizadas. Não usar 
+numa tremonha seca ou num alimentador semilíquido. 
+4.10 Sobredosagem (sintomas, procedimentos de emergência, antídotos), se necessário 
+Os suínos toleram doses de até 90 mg/kg durante até seis dias, sem quaisquer efeitos adversos 
+significativos. 
+Tratamento em caso de sobredosagem: descontinuar o tratamento com ácido acetilsalicílico 
+imediatamente e iniciar tratamento sintomático. A alcalinização da urina com bicarbonato de 
+sódio pode levar à excreção acelerada de ácido acetilsalicílico ou ácido salicílico. 
+4.11 Intervalo(s) de segurança 
+Suínos: 
+Carnes e vísceras: 1 dia.
+
+5. 
+PROPRIEDADES FARMACOLÓGICAS 
+Grupo farmacoterapêutico: Outros analgésicos e antipiréticos, ácido salicílico e derivados. 
+Código ATCvet: QN02BA01. 
+5.1 
+Propriedades farmacodinâmicas 
+O ácido acetilsalicílico é um anti-inflamatório não-esteróide bem conhecido, e um dos 
+analgésicos mais fracos. O ácido acetilsalicílico possui um efeito anti-inflamatório, um efeito 
+analgésico periférico e antipirético e inibe a agregação de trombócitos. 
+A eficácia do ácido acetilsalicílico é devida principalmente à inibição da enzima 
+ciclooxigenase, responsável pela formação de prostaglandinas e tromboxanos a partir do 
+ácido araquidónico. As prostaglandinas são significantes causas de inflamações, dor e febre. 
+5.2 
+Propriedades farmacocinéticas 
+Após a administração oral, o ácido acetilsalicílico é absorvido no estômago e no intestino 
+delgado superior, dependendo do conteúdo do estômago, do seu valor de pH e do tempo de 
+evacuação, assim como da formulação galénica. Ele é hidrolisado no seu principal metabolito 
+ácido salicílico em apenas alguns minutos. A desacetilação começa com a absorção pela 
+mucosa e ocorre em grande parte durante o metabolismo de primeira passagem. 
+Concentrações particularmente elevadas do metabólito principal, o ácido salicílico, podem ser 
+encontradas na parede do estômago, no fígado, no coração, nos pulmões, no córtex renal, no 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 5 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 5 de 17 
+ 
+plasma sanguíneo, na medula óssea e no tecido inflamado. Concentrações relativamente 
+baixas são observadas nos músculos não inflamados, na gordura e no tecido conjuntivo. Após 
+a administração de ácido acetilsalicílico a suínos, as concentrações plasmáticas máximas de 
+ácido salicílico são alcançadas aproximadamente 2 a 3 horas após a administração através da 
+ração. 24 horas após a administração final, só podem ser detetados vestígios de ácido 
+salicílico no plasma e no tecido. 
+O volume de distribuição do ácido salicílico é baixo. Até 75% de ácido salicílico liga-se às 
+proteínas plasmáticas em suínos. O salicilato pode superar a barreira placentária. 
+A meia-vida de eliminação aumenta com doses crescentes de ácido acetilsalicílico. A 
+semivida terminal média do ácido salicílico após o tratamento com o medicamento 
+veterinário  através da ração encontra-se entre 1,8 e 3,7 horas.  
+Depois da conjugação no fígado, o ácido salicílico é excretado por via renal. A excreção é 
+acelerada com valores de pH da urina entre 5 e 8.
+
+6. 
+INFORMAÇÕES FARMACÊUTICAS 
+6.1  Lista de excipientes 
+Nenhum. 
+6.2  Incompatibilidades 
+Na ausência de estudo de compatibilidade, este medicamento veterinário não deve ser 
+misturado com outros medicamentos veterinários. 
+6.3  Prazo de validade 
+Prazo de validade do medicamento veterinário, tal como embalado para venda: 5 anos. 
+Prazo de validade após a primeira abertura do acondicionamento primário: 6 meses. 
+ 
+Prazo de validade após a adição à ração de acordo com as instruções: 15 horas. 
+6.4. Precauções especiais de conservação 
+ 
+Fechar de forma segura os recipientes ou saquetas parcialmente usados, após a administração. 
+6.5  Natureza e composição do acondicionamento primário 
+1 x 100 g de pó e 10 x 100 g de pó em saquetas de papel / folha de polietileno / alumínio / 
+polietileno. 
+São fornecidas com o medicamento veterinário colheres de poliestireno de 0,4 ml e 3 ml. 
+Poderão não ser comercializadas todas as apresentações. 
+6.6  Precauções especiais para a eliminação de medicamentos veterinários não 
+utilizados ou de desperdícios derivados da utilização desses medicamentos 
+Qualquer medicamento veterinário não utilizado ou os seus desperdícios devem ser 
+eliminados de acordo com a legislação em vigor. 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 6 de 17
+
+7. 
+TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+aniMedica GmbH 
+Im Südfeld 9 
+48308 Senden-Bösensell 
+Alemanha
+
+8. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+566/01/12DFVPT.
+
+9. 
+DATA DA PRIMEIRA AUTORIZAÇÃO / RENOVAÇÃO DA AUTORIZAÇÃO 
+4 de junho de 2012 / 21 de dezembro de 2016. 
+10  
+DATA DA REVISÃO DO TEXTO 
+Dezembro de 2016. 
+PROIBIÇÃO DE VENDA, FORNECIMENTO E/OU UTILIZAÇÃO 
+ 
+Medicamento veterinário sujeito a receita médico-veterinária.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 7 de 17 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO III 
+ 
+ROTULAGEM E FOLHETO INFORMATIVO 
+
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 8 de 17 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A. ROTULAGEM 
+
+================================================================================
+📊 PÁGINA 9 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: Oral
+
+Entrada 2:
+  🐾 Espécie: Suínos
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 9 de 17 
+ 
+ 
+ 
+<PARTICULARIDADES A INCLUIR NO ACONDICIONAMENTO SECUNDÁRIO>  
+ 
+{RÓTULO} {CARTÃO}
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Suispirin, 1000 mg/g, pó oral para suínos 
+Ácido acetilsalicílico
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ACTIVAS E OUTRAS SUBSTÂNCIAS 
+ 
+1 g de pó contém: 
+Substância activa: 
+Ácido acetilsalicílico 1000 mg
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Pó oral
+
+4. 
+DIMENSÃO DA EMBALAGEM 
+ 
+100 g 
+10 x 100 g
+
+5. 
+ESPÉCIES-ALVO 
+ 
+Suínos
+
+6. 
+INDICAÇÃO (ÇÕES) 
+ 
+Suínos:  
+Tratamento de suporte para a redução da febre, em combinação com terapia anti-infecciosa 
+apropriada, se necessário.
+
+7. 
+MODO E VIA(S) DE ADMINISTRAÇÃO 
+ 
+Pó oral para administração na ração. 
+Leia o folheto informativo antes de administrar. 
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 10 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 10 de 17
+
+8. 
+INTERVALO DE SEGURANÇA 
+ 
+Intervalo segurança: 
+Suíno: 
+Carnes e vísceras: 1 dia.
+
+9. 
+ADVERTÊNCIA(S) ESPECIAL (ESPECIAIS), SE NECESSÁRIO 
+ 
+Leia o folheto informativo antes de administrar.
+
+10. 
+PRAZO DE VALIDADE 
+ 
+VAL {mês/ano} 
+Prazo de validade após a primeira abertura do acondicionamento primário: 6 meses. 
+Prazo de validade após a adição à ração de acordo com as instruções: 15 horas. 
+Uma vez aberto, administrar até  ...
+
+11. 
+CONDIÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Fechar de forma segura os recipientes parcialmente usados, após a administração.
+
+12. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+ 
+UTILIZADO OU DOS SEUSDESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+Eliminação dos restos não utilizados: ler o folheto informativo.
+
+13. 
+MENÇÃO “EXCLUSIVAMENTE PARA USO VETERINÁRIO” E 
+CONDIÇÕES OU RESTRIÇÕES RELATIVAS AO FORNECIMENTO E À 
+UTILIZAÇÃO, se for caso  disso 
+ 
+USO VETERINÁRIO 
+Medicamento veterinário sujeito a receita médico-veterinária.
+
+14. 
+MENÇÃO “MANTER FORA DA VISTA E DO ALCANCE DAS CRIANÇAS” 
+ 
+ 
+Manter fora da vista e do alcance das crianças.
+
+15. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO 
+NO MERCADO 
+Titular da autorização de introdução no mercado: 
+aniMedica GmbH 
+Im Südfeld 9 
+48308 Senden-Bösensell 
+Alemanha 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 11 de 17
+
+16. 
+NÚMERO DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+566/01/12DFVPT
+
+17. 
+NÚMERO DO LOTE DE FABRICO 
+ 
+<Lote> <Remessa> <BN> {número} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 12 de 17 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. FOLHETO INFORMATIVO 
+
+================================================================================
+📊 PÁGINA 13 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: Oral
+
+Entrada 2:
+  🐾 Espécie: Suínos
+  📍 Via: Oral
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 13 de 17 
+ 
+FOLHETO INFORMATIVO PARA: 
+ 
+Suispirin, 1000 mg/g, pó oral para suínos
+
+1. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO E DO TITULAR DA AUTORIZAÇÃO DE FABRICO RESPONSÁVEL 
+PELA LIBERTAÇÃO DO LOTE, SE FOREM DIFERENTES 
+ 
+Titular da autorização de introdução no mercado: 
+aniMedica GmbH 
+Im Südfeld 9 
+48308 Senden-Bösensell 
+Alemanha 
+ 
+Fabricante responsável pela libertação dos lotes: 
+aniMedica GmbH 
+Im Südfeld 9 
+48308 Senden-Bösensell 
+Alemanha 
+ 
+Industrial Veterinaria, S.A. 
+Esmeralda 19 
+Esplugues de Llobregat 
+08950 Barcelona 
+Espanha
+
+2. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+Suispirin, 1000 mg/g, pó oral para suínos 
+Ácido acetilsalicílico
+
+3. 
+DESCRIÇÃO DA(S) SUBSTÂNCIA(S) ACTIVA(S) E DE OUTRA(S) SUBSTÂNCIA(S) 
+1 g de pó contém: 
+Substância activa: 
+Ácido acetilsalicílico      1000 mg 
+ 
+Pó branco a quase branco.
+
+4. 
+INDICAÇÃO(ÇÕES) 
+Suíno:  
+Tratamento de suporte para a redução da febre, em combinação com terapia anti-infecciosa 
+apropriada, se necessário.
+
+5. 
+CONTRAINDICAÇÕES 
+Não administrar em caso de hipersensibilidade à substância ativa ou em casos de irritação 
+gastrointestinal e úlceras, distúrbios crónicos gastrointestinais, broncoespasmos, insuficiência 
+hepática ou nefropatias. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 14 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Aves
+  📍 Via: SC
+
+Entrada 3:
+  🐾 Espécie: Suínos
+
+Entrada 4:
+  🐾 Espécie: Suínos
+  📍 Via: IV
+
+Entrada 5:
+  🐾 Espécie: Suínos
+
+Entrada 6:
+  🐾 Espécie: Suínos
+
+Entrada 7:
+  📍 Via: IV
+
+Entrada 8:
+  🐾 Espécie: Suínos
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 14 de 17 
+ 
+Não administrar a fêmeas gestantes ou lactantes. 
+Não administrar a leitões com menos de 4 semanas de idade.
+
+6. 
+REAÇÕES ADVERSAS 
+Pode ocorrer irritação gastrointestinal, especialmente em animais com doença gastrointestinal pré-
+existente. Essa irritação pode manifestar-se clinicamente pela produção de fezes pretas devido à perda 
+de sangue no trato gastrointestinal. 
+Pode ocorrer ocasionalmente inibição da coagulação sanguínea normal. Se este efeito ocorrer, será 
+reversível, e os efeitos irão diminuir dentro de aproximadamente 7 dias.  
+ 
+Se forem observados efeitos graves ou outros efeitos não descritos neste folheto informativo, informe 
+o seu médico veterinário.
+
+7. 
+ESPÉCIES-ALVO 
+Suínos.
+
+8. 
+DOSAGEM EM FUNÇÃO DA ESPÉCIE, VIA(S) E MODO DE ADMINISTRAÇÃO 
+Pó oral para administração com a ração. 
+Para administração individual de suínos em explorações nas quais apenas um pequeno número de 
+suínos deve receber o medicamento veterinário.  
+ 
+Suínos: 
+30 mg de ácido acetilsalicílico (correspondente a 30 mg do medicamento veterinário) por kg de peso 
+corporal, duas vezes ao dia. 
+O período de tratamento é de 3 dias consecutivos.  
+Peso mínimo de suínos a ser tratado: 11 kg. 
+ 
+O tratamento é realizado através da mistura do medicamento veterinário com cerca de 50 g ou 200 g 
+(de acordo com o peso corporal) da dieta normal por suíno. Para medir a quantidade correta do 
+medicamento veterinário, usar as colheres fornecidas, de acordo com a tabela de dosagem seguinte. A 
+ração sem medicação só deve ser oferecida após o consumo completo de toda a ração medicada. Os 
+animais devem ser isolados de outros animais durante o tratamento. 
+A ração medicada deve ser recém-preparada antes de cada administração.  
+ 
+Tipo de suíno 
+Peso 
+corporal 
+(kg) 
+Gramas do medicamento 
+veterinário por animal 
+(duas vezes ao dia) 
+Montante igual em ml  
+(Para medir a dose 
+com colheres) 
+Leitão desmamado 
+(pequeno) 
+11 kg 
+0,33 g 
+0,4 ml 
+Leitão desmamado 
+(grande) 
+25 kg 
+0, 75 g 
+1,0 ml 
+Suíno de engorda 
+(pequeno) 
+50 kg 
+1,50 g 
+2,0 ml 
+Suíno de engorda 
+(grande) 
+100 kg 
+3,00 g 
+4,0 ml 
+Porca 
+250 kg 
+7,50 g 
+10,0 ml 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 15 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  📍 Via: Oral
+
+Entrada 2:
+  📍 Via: IV
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 15 de 17 
+ 
+ 
+São fornecidas  duas colheres  medida de 0,4 ml  (= 0,33 g do medicamento veterinário)  e  3 ml         
+(= 2,25 g do medicamento veterinário). 
+ 
+O alimento medicado parcialmente consumido deve ser eliminado com outros desperdícios de ração e 
+não devem ser dados a outros animais. 
+Para evitar uma sobredosagem, os suínos a serem tratados devem ser pesados ou o peso corporal deve 
+ser estimado com precisão por uma pessoa experiente. 
+O consumo de ração pode estar diminuído em animais clinicamente doentes e também em animais 
+mais velhos; portanto o consumo de ração pode ter que ser ajustado para atingir a ingestão da dose-
+alvo. A quantidade correta do medicamento veterinário deve ser misturada com a ração num balde ou 
+em recipiente similar. Para obter uma boa mistura e homogeneidade, pode ser realizada uma pré-
+mistura. 
+O medicamento veterinário só deve ser adicionado a rações secas não peletizadas. Não usar  numa 
+tremonha seca ou  num alimentador semilíquido.
+
+9. 
+INSTRUÇÕES COM VISTA A UMA UTILIZAÇÃO CORRECTA 
+Não se aplica.
+
+10. 
+INTERVALO DE SEGURANÇA 
+Suíno: 
+Carnes e vísceras: 1 dia.
+
+11. 
+CONDIÇÕES ESPECIAIS DE CONSERVAÇÃO 
+Manter fora da vista e do alcance das crianças. 
+Não administrar após a data de validade indicada nas saquetas e nas embalagens exteriores após 
+"VAL". A validade refere-se ao último dia do mês. 
+Fechar de forma segura os recipientes ou saquetas parcialmente usados, após a administração. 
+ 
+Prazo de validade após a primeira abertura do acondicionamento primário: 6 meses. 
+Prazo de validade após a adição à ração de acordo com as instruções: 15 horas.
+
+12. 
+ADVERTÊNCIA(S) ESPECIAL(AIS) 
+No tratamento combinado com tetraciclinas, é recomendado um intervalo de tratamento de pelo 
+menos uma hora entre as duas substâncias ativas. 
+Precauções especiais para utilização em animais 
+É necessário assegurar que os animais consumem água suficiente durante o tratamento. 
+Dado que o medicamento veterinário pode inibir a coagulação sanguínea, recomenda-se que a 
+cirurgia eletiva não seja realizada até 7 dias após o término do tratamento.  
+ 
+Precauções especiais a adoptar pela pessoa que administra o medicamento aos animais 
+Não comer, beber ou fumar durante a administração deste medicamento veterinário. O contacto 
+através da pele ou membranas mucosas do utilizador deve ser evitado devido ao risco de 
+sensibilização. Se sabe que é alérgico à aspirina, evitar o contacto com este medicamento veterinário. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 16 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Suínos
+  💉 Dose: 90 mg/kg
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 16 de 17 
+ 
+Usar vestuário de protecção adequado quando manipular este medicamento veterinário, como por 
+exemplo luvas e uma máscara facial. Lavar as mãos e toda a pele exposta após a administração. 
+Utilização durante a gestação, lactação e a postura de ovos 
+Não administrar durante toda a gestação e lactação. 
+Interações medicamentosas e outras formas de interação 
+Penicilinas, sulfonamidas  
+Como resultado de sua elevada ligação às proteínas plasmáticas, o ácido acetilsalicílico pode suprimir 
+substâncias fortemente ligantes, como as penicilinas e sulfonamidas, potencializando assim o efeito 
+destas. 
+Furosemida 
+O efeito diurético da furosemida é diminuído. Isto pode causar sintomas de toxicidade em animais 
+que receberam altas doses de aspirina. 
+Tetraciclinas 
+A administração combinada de ácido acetilsalicílico tamponado com tetraciclinas pode levar à 
+formação de quelatos. 
+Antibióticos aminoglicosídeos 
+A combinação do ácido acetilsalicílico e antibióticos aminoglicosídeos leva ao aumento do potencial 
+nefrotóxico. 
+Ácido ascórbico, metionina, cloreto de amónio 
+A acidificação urinária causada pelo ácido ascórbico, metionina ou cloreto de amónia leva à 
+diminuição da excreção renal do ácido salicílico, com aumento do risco de reações tóxicas. 
+Medicamentos que levam à alcalinização urinária (hidrogenocarbonato de sódio) 
+A excreção renal de ácido salicílico é acelerada pela alcalinização da urina (bicarbonato de sódio). 
+Anti-inflamatórios não-esteróides 
+A combinação com outros AINE leva ao aumento da ocorrência intensificada de efeitos colaterais, 
+particularmente no trato gastrointestinal. 
+Glucocorticóides 
+A administração simultânea de glucocorticóides aumenta o risco de hemorragia gastrointestinal. 
+Sobredosagem (sintomas, procedimentos de emergência, antídotos) 
+Os suínos toleram doses de até 90 mg/kg durante até seis dias, sem quaisquer efeitos adversos 
+significativos. 
+Tratamento em caso de sobredosagem: descontinuar o tratamento com ácido acetilsalicílico 
+imediatamente e iniciar tratamento sintomático. A alcalinização da urina com bicarbonato de sódio 
+pode levar à excreção acelerada de ácido acetilsalicílico ou ácido salicílico. 
+Incompatibilidades 
+Na ausência de estudo de compatibilidade, este medicamento veterinário não deve ser misturado com 
+outros medicamentos veterinários. 
+
+--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+ 
+ 
+Direcção Geral de Alimentação e Veterinária – DSMDS 
+Última revisão do texto em dezembro de 2016 
+Página 17 de 17
+
+13. 
+PRECAUÇÕES 
+ESPECIAIS 
+DE 
+ELIMINAÇÃO 
+DO 
+MEDICAMENTO 
+NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+Os medicamentos não devem ser eliminados na canalização nem no lixo doméstico. 
+Pergunte ao seu médico veterinário como deve eliminar os medicamentos que já não são necessários. 
+Estas medidas contribuem para a proteção do ambiente.
+
+14. 
+DATA DA ÚLTIMA APROVAÇÃO DO FOLHETO INFORMATIVO 
+ 
+Dezembro de 2016.
+
+15. 
+OUTRAS INFORMAÇÕES 
+1 x 100 g de pó e 10 x 100 g de pó em saquetas de papel / folha de polietileno / alumínio / polietileno. 
+São fornecidas com o medicamento veterinário colheres de poliestireno de 0,4 ml e 3 ml.  
+ 
+Poderão não ser comercializadas todas as apresentações. 
+ 
+Para uso veterinário.  
+Medicamento veterinário sujeito a receita médico-veterinária.

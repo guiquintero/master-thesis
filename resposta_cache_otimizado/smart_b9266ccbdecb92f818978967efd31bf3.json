@@ -1,0 +1,14 @@
+{
+  "resposta": "O medicamento Terramicina 500 mg está indicado para vacas. Segundo o documento fornecido, a espécie-alvo do medicamento é especificamente mencionada como \"Vacas\".",
+  "pergunta_original": "Em que espécies pode ser usado o medicamento Terramicina 500 mg?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Terramicina 500 mg",
+    "pergunta_ollama": "Para que espécies está indicado o medicamento Terramicina 500 mg?",
+    "substancia_ativa": "",
+    "especie_alvo": "",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1762293745.8430445,
+  "modelo_usado": "qwen2.5:14b"
+}

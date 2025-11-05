@@ -1,0 +1,14 @@
+{
+  "resposta": "**Composição do medicamento Genestran:**\n\nO folheto informativo não fornece detalhes específicos sobre a composição química ou os ingredientes do medicamento Genestran. No entanto, é mencionado que o medicamento contém R(+)-cloprostenol, uma prostaglandina do tipo F2α. Para obter informações mais detalhadas sobre a composição exata e os componentes do medicamento, consulte o folheto informativo completo ou entre em contato com o fabricante ou seu médico veterinário.\n\n**Informações adicionais:**\n\n- **Espécies tratadas:** O medicamento é utilizado para bovinos, equinos e suínos.\n- **Via de administração:** A injeção intramuscular (IM) é a forma recomendada de aplicação do medicamento.\n- **Efeitos colaterais conhecidos:**\n  - Em equinos: inflamação no local da injeção, infecção no local da injeção, aumento da sudorese e diarreia.\n  - Em suínos: inflamação no local da injeção e infecção no local da injeção.\n\nPara mais detalhes sobre a composição exata do medicamento Genestran, consulte o folheto informativo completo ou entre em contato com o fabricante.",
+  "pergunta_original": "Qual é a composição do medicamento Genestran?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Genestran",
+    "pergunta_ollama": "Qual é a composição do medicamento Genestran?",
+    "substancia_ativa": "",
+    "especie_alvo": "",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1762293706.396041,
+  "modelo_usado": "qwen2.5:14b"
+}

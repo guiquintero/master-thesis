@@ -1,0 +1,14 @@
+{
+  "resposta": "Os intervalos de segurança do medicamento Maxy são especificados para diferentes espécies conforme indicado na tabela:\n\n- **Frangos de carne:** 1 dia\n- **Patos:** 9 dias\n- **Perus:** 5 dias\n- **Suínos:** 2 dias\n\nAlém disso, há uma restrição adicional para aves poedeiras:\n- Não administrar a aves poedeiras cujos ovos se destinem ao consumo humano ou 3 semanas antes do início da postura.\n\nEssas informações são fornecidas na tabela de intervalo de segurança no documento.",
+  "pergunta_original": "Quais os intervalos de segurança do medicamento Maxy?",
+  "categoria": "medicamento",
+  "entidades": {
+    "termo_busca": "Maxy",
+    "pergunta_ollama": "Quais são os intervalos de segurança do medicamento Maxy?",
+    "substancia_ativa": "",
+    "especie_alvo": "",
+    "forma_farmaceutica": ""
+  },
+  "timestamp": 1762293605.7228518,
+  "modelo_usado": "qwen2.5:14b"
+}
