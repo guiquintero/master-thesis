@@ -3,6 +3,7 @@ from flask import Flask, request, jsonify, Response
 from flask_cors import CORS
 import json
 import sys
+import os
 import threading
 import queue
 import time
@@ -10,8 +11,11 @@ from contextlib import redirect_stdout, redirect_stderr
 import traceback
 import io
 
+# Adicionar diretório raiz ao path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../..'))
+
 # Importar o sistema principal
-from temporario_MV import SistemaConsultaVetOtimizado
+from src.core.sistema_consulta import SistemaConsultaVetOtimizado
 
 app = Flask(__name__)
 CORS(app)

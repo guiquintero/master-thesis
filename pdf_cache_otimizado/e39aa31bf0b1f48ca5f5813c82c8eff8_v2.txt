@@ -1,0 +1,1793 @@
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO I 
+ 
+RESUMO DAS CARACTERÍSTICAS DO MEDICAMENTO 
+
+================================================================================
+📊 PÁGINA 2 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 5:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 6:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 7:
+  🐾 Espécie: Cães
+
+Entrada 8:
+  🐾 Espécie: Cães
+
+Entrada 9:
+  🐾 Espécie: Cães
+
+Entrada 10:
+  🐾 Espécie: Cães
+
+Entrada 11:
+  🐾 Espécie: Cães
+
+Entrada 12:
+  🐾 Espécie: Cães
+
+Entrada 13:
+  🐾 Espécie: Cães
+
+Entrada 14:
+  🐾 Espécie: Cães
+  📍 Via: SC
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+2
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Simparica Trio comprimidos mastigáveis para cães 1,25-2,5 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 2,5-5 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 5-10 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 10-20 kg 
+Simparica Trio comprimidos mastigáveis para cães > 20-40 kg 
+Simparica Trio comprimidos mastigáveis para cães > 40-60 kg
+
+2. 
+COMPOSIÇÃO QUALITATIVA E QUANTITATIVA 
+ 
+Cada comprimido contém: 
+ 
+Substâncias ativas: 
+ 
+Simparica Trio comprimidos mastigáveis 
+sarolaner  
+(mg) 
+moxidectina  
+(mg) 
+pirantel (como embonato)  
+(mg) 
+ para cães 1,25-2,5 kg 
+3 
+0,06 
+ 
+12,5 
+ para cães > 2,5-5 kg 
+6 
+0,12 
+25 
+ para cães > 5-10 kg 
+12 
+0,24 
+50 
+ para cães > 10-20 kg 
+24 
+0,48 
+100 
+ para cães > 20-40 kg 
+48 
+0,96 
+200 
+ para cães > 40-60 kg 
+72 
+1,44 
+300 
+ 
+Excipientes: 
+ 
+Butilhidroxitolueno (E321, 0,018%). Corantes: Amarelo-sol FCF (E110), Vermelho Allura (E129), 
+Carmim de Indigo (E132). Para a lista completa de excipientes, ver secção 6.1.
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Comprimidos mastigáveis. 
+Comprimidos de cor castanha avermelhada, de formato pentagonal com arestas arredondadas.  
+Os comprimidos apresentam em relevo num dos lados a dosagem de sarolaner.
+
+4. 
+INFORMAÇÕES CLÍNICAS 
+ 
+4.1 
+Espécie(s)-alvo 
+ 
+Caninos (Cães). 
+ 
+4.2 
+Indicações de utilização, especificando as espécies-alvo 
+ 
+Para cães com, ou em risco de, infeções mistas de parasitas internos e externos. O medicamento 
+veterinário está indicado especificamente quando o tratamento contra pulgas ou carraças e nemátodes 
+gastrintestinais deve ser efetuado em simultâneo. Ao mesmo tempo, o medicamento veterinário 
+também proporciona eficácia na prevenção da dirofilariose e angioestrongilose. 
+ 
+Ectoparasitas 
+− 
+Para o tratamento de infestações por carraças. O medicamento veterinário tem atividade imediata e 
+persistente de eliminação das carraças durante 5 semanas contra Ixodes hexagonus, Ixodes ricinus e 
+Rhipicephalus sanguineus e durante 4 semanas contra Dermacentor reticulatus; 
+− 
+Para o tratamento das infestações por pulgas (Ctenocephalides felis e Ctenocephalides canis). O 
+medicamento veterinário tem atividade imediata e persistente de eliminação das pulgas, contra 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 3 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: SC
+
+Entrada 4:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+3 
+novas infestações durante 5 semanas; 
+− 
+O medicamento veterinário pode ser usado como parte da estratégia de tratamento da dermatite 
+alérgica à picada da pulga (DAPP). 
+ 
+Nemátodes gastrintestinais 
+Para o tratamento de infeção por ascarídeos e ancilostomídeos gastrintestinais. 
+− 
+Toxocara canis adultos imaturos (L5)e adultos; 
+− 
+Ancylostoma caninum larvas L4, adultos imaturos (L5) e adultos; 
+− 
+Toxocara leonina adultos; 
+− 
+Uncinaria stenocephala adultos. 
+ 
+Outros nemátodes 
+ 
+− 
+Para prevenção da dirofilariose (Dirofilaria immitis); 
+− 
+Para prevenção da angioestrongilose reduzindo o nível de infeção pelos estadios adultos 
+imaturos (L5) de Angiostrongylus vasorum. 
+ 
+4.3 
+Contraindicações  
+ 
+Não administrar em caso de hipersensibilidade à substância ativa ou a algum dos excipientes. 
+ 
+4.4 
+Advertências especiais  
+ 
+As carraças e as pulgas necessitam iniciar a alimentação no hospedeiro para ficarem expostos ao 
+sarolaner; como tal, o risco de transmissão de doenças infecciosas transmitidas por parasitas não pode 
+ser excluído. 
+ 
+Este medicamento veterinário não é eficaz contra D. immitis adulta. No entanto, a administração 
+acidental a animais infetados com dirofilárias adultas não causa problemas de segurança. Cães que 
+vivam em áreas endémicas de dirofilariose (ou que tenham viajado para áreas endémicas), podem ser 
+infetados por dirofilárias adultas. A manutenção da eficácia das lactonas macrocíclicas é 
+fundamental no controlo da Dirofilaria immitis. Para minimizar o risco de seleção de resistência é 
+recomendável que no início de cada época para a prevenção os cães sejam testados para a existência 
+de antigénio circulante e microfilárias no sangue. Apenas os animais negativos devem ser tratados. 
+ 
+A resistência dos parasitas a qualquer classe de parasiticidas pode desenvolver-se após o uso 
+frequente e repetido de um medicamento veterinário dessa classe. Assim, o uso deste medicamento 
+veterinário deve basear-se na avaliação de cada caso individual e na informação epidemiológica 
+local sobre a sensibilidade atual das espécies-alvo, a fim de limitar a possibilidade de uma futura 
+seleção de resistência. 
+ 
+4.5 
+Precauções especiais de utilização 
+ 
+Precauções especiais para a utilização em animais 
+ 
+Na ausência de dados disponíveis, o tratamento de cachorros com idade inferior a 8 semanas e/ou 
+cães com peso inferior a 1,25 kg, deve basear-se numa avaliação benefício/risco realizada pelo 
+médico veterinário responsável. 
+ 
+O medicamento veterinário foi bem tolerado em cães com deficiente proteína 1 multiresistente  (MDR1 
+-/-). No entanto, nessas raças sensíveis (que podem incluir, mas não se limitam necessariamente aos 
+Collies e raças relacionadas) a dose recomendada deve ser estritamente observada. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais: 
+ 
+Lavar as mãos após manusear o medicamento veterinário. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 4 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  💉 Dose: 4 mg/kg
+
+Entrada 2:
+  💉 Dose: 10 mg/kg
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+4 
+A ingestão acidental do medicamento veterinário pode potencialmente causar efeitos adversos, tais como 
+sinais neurológicos excitatórios transitórios. Para impedir que as crianças tenham acesso direto ao 
+medicamento veterinário, só deve ser retirado um comprimido mastigável do blister de cada vez e apenas 
+quando necessário. Após a administração, o blister deve ser imediatamente colocado na embalagem 
+original e esta deve ser conservada fora da vista e do alcance das crianças. Em caso de ingestão acidental, 
+consultar imediatamente um médico e mostrar-lhe o folheto informativo ou o rótulo do medicamento 
+veterinário. 
+ 
+4.6 
+Reações adversas (frequência e gravidade) 
+ 
+Em casos muito raros, com base na experiência de segurança após comercialização, podem ocorrer 
+sinais gastrointestinais como vómito e diarreia, e alterações sistémicas como letargia, 
+anorexia/inapetência. Na maior parte dos casos estes sinais são ligeiros e transitórios. 
+ 
+Em casos muito raros, com base na experiência de segurança após comercialização, podem ocorrer sinais 
+neurológicos como tremores, ataxia ou convulsões. Na maior parte dos casos estes sinais são transitórios. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- muito frequente (mais de 1 animal apresentando evento(s) adverso(s) em 10 animais tratados) 
+- frequente (mais de 1 mas menos de 10 animais em 100 animais tratados) 
+- pouco frequente (mais de 1 mas menos de 10 animais em 1 000 animais tratados) 
+- rara (mais de 1 mas menos de 10 animais em 10 000 animais tratados)  
+- muito rara (menos de 1 animal em 10 000 animais tratados, incluindo notificações isoladas) 
+ 
+4.7 
+Utilização durante a gestação, a lactação ou a postura de ovos 
+ 
+A segurança do medicamento veterinário não foi determinada durante a gestação e a lactação ou em 
+animais destinados a reprodutores. Não é recomendada a administração nesses animais. 
+ 
+4.8 
+Interações medicamentosas e outras formas de interação 
+ 
+Desconhecidas. 
+As lactonas macrocíclicas incluindo a moxidectina demonstram ser substratos para a p-glicoproteína. 
+Por conseguinte, durante o tratamento com este medicamento veterinário, outros medicamentos 
+veterinários que possam inibir a p-glicoproteína (por exemplo, ciclosporina, cetoconazol, spinosad, 
+verapamil) só devem ser administrados concomitantemente em conformidade com a avaliação 
+benefício/risco realizada pelo médico veterinário responsável. 
+ 
+4.9 
+Posologia e via de administração 
+ 
+Para administração oral.  
+ 
+Dose 
+O medicamento veterinário deve ser administrado na dose de 1,2–2,4 mg /kg de sarolaner, 0,024-0,048 
+mg/ kg de moxidectina e 5-10 mg/kg de pirantel, de acordo com a tabela seguinte:     
+ 
+Peso 
+corporal 
+(kg) 
+Dosagem do 
+comprimido  
+3 mg/0,06  
+mg /12,5 mg 
+Dosagem do 
+comprimido 
+6 mg/0,12  
+mg /25 mg 
+Dosagem do 
+comprimido 
+12 mg/0,24 m
+g /50 mg 
+Dosagem do 
+comprimido 
+24 mg/0,48 m
+g/100 mg 
+Dosagem do 
+comprimido 
+48 mg/0,96 m
+g/200 mg 
+Dosagem do 
+comprimido 
+72 mg/1,44  
+mg/300 mg 
+1,25–2,5 
+kg 
+1 
+ 
+ 
+ 
+ 
+ 
+>2,5–5 kg 
+ 
+1 
+ 
+ 
+ 
+ 
+>5–10 kg 
+ 
+ 
+1 
+ 
+ 
+ 
+>10–20 kg 
+ 
+ 
+ 
+1 
+ 
+ 
+>20–40 kg 
+ 
+ 
+ 
+ 
+1 
+ 
+>40–60 kg 
+ 
+ 
+ 
+ 
+ 
+1 
+>60 kg 
+Combinação adequada de comprimidos 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 5 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+
+Entrada 4:
+  🐾 Espécie: Cães
+
+Entrada 5:
+  🐾 Espécie: Cães
+  📍 Via: Oral
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+5 
+ 
+Método de administração 
+Os comprimidos podem ser administrados com ou sem alimentos. 
+Os comprimidos de Simparica Trio são palatáveis e quando dados pelos donos são prontamente 
+consumidos pela maioria dos cães. Se o comprimido não é tomado voluntariamente pelo cão, pode 
+também ser administrado com alimentos ou diretamente na boca. Os comprimidos não devem ser 
+divididos. 
+ 
+Esquema de tratamento: 
+O esquema de tratamento deve ser baseado no diagnóstico veterinário, na situação epidemiológica local 
+e/ou a situação epidemiológica de outras áreas onde o animal tenha estado ou vá estar.  
+ 
+Se, com base na opinião do médico veterinário, for necessária a readministração(ções) do medicamento 
+veterinário, as administrações subsequentes devem prosseguir com intervalo mínimo mensal. 
+ 
+O medicamento veterinário deve ser utilizado especificamente quando o tratamento contra pulgas/ 
+carraças e nemátodes gastrintestinais deve ser efetuado em simultâneo. Na ausência do risco de 
+coinfeções mistas, deve ser utilizado um antiparasitário de espectro mais restrito. 
+ 
+Tratamento de infestações por pulgas e carraças e nemátodes gastrintestinais: 
+O medicamento veterinário pode ser usado como parte do tratamento sazonal contra pulgas e carraças 
+(substituindo o tratamento com medicamento veterinário monovalente contra pulgas e contra carraças) 
+em cães com diagnóstico concomitante de infeções por nemátodes gastrintestinais. Um único 
+tratamento é eficaz para o tratamento de nemátodes gastrintestinais. Após o tratamento das infeções 
+por nematódes, a prevenção contra pulgas e carraças deve continuar com um medicamento veterinário 
+monovalente. 
+ 
+Prevenção da Dirofilariose e angiostrongilose: 
+Uma administração única previne tanto a doença pulmonar parasitária (reduzindo o nível de adultos 
+imaturos (L5) de Angiostrongylus vasorum  como a dirofilariose (D. immitis) durante um mês. Quando 
+administrado para substituir um outro medicamento veterinário preventivo de angioestrongilose e 
+dirofilariose num programa de prevenção, a primeira administração do medicamento veterinário deve 
+ser efetuada no período de um mês a partir da última dose da medicação anterior. Em zonas 
+endémicas, o tratamento dos cães para prevenção contra angioestrongilose e/ou dirofilariose deve ser 
+mensal. É recomendado que a prevenção contra a dirofilariose se mantenha até pelo menos um mês 
+após a última exposição aos mosquitos. 
+ 
+4.10 Sobredosagem (sintomas, procedimentos de emergência, antídotos), se necessário 
+ 
+Não foram observados eventos adversos em cachorros saudáveis de 8 semanas de idade após a 
+administração mensal até 5 vezes a dose máxima recomendada durante 7 meses consecutivos.  
+ 
+Num estudo laboratorial, o medicamento veterinário foi bem tolerado em cães com deficiente proteína 1 
+multiresistente  (MDR1 -/-)  após a administração oral única de 3 vezes a dose recomendada. Após a 
+administração oral única de 5 vezes a dose máxima recomendada nestas raças de cães sensíveis foi 
+observada ataxia transitória e/ou fasciculação. 
+ 
+4.11 Intervalo(s) de segurança 
+ 
+Não aplicável.
+
+5. 
+PROPRIEDADES  FARMACOLÓGICAS 
+ 
+Grupo farmacoterapêutico: Antiparasitários. Associações com moxidectina. 
+Código ATCvet: QP54AB52. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 6 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 3:
+  📍 Via: IM
+
+Entrada 4:
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+6 
+5.1 
+Propriedades farmacodinâmicas 
+ 
+O sarolaner é um acaricida e inseticida pertencente à família das isoxazolinas. O alvo primário da ação 
+do sarolaner nos insetos e acarídeos é o bloqueio funcional dos canais de cloro-ligantes (recetores 
+GABA e recetores glutamato). Sarolaner bloqueia os canais de cloro-ligantes recetores GABA e 
+glutamato no sistema nervoso central dos insetos e acarídeos. A ligação do sarolaner a estes canais 
+impede  a transferência dos iões cloro pelos canais de cloro-ligantes recetores GABA e glutamato, 
+resultando num aumento da estimulação nervosa e morte dos parasitas alvo. Sarolaner apresenta maior 
+potência funcional para bloquear os recetores dos insetos/acarídeos comparativamente aos recetores 
+dos mamíferos. Sarolaner não interage com outros conhecidos locais de ligação GABAérgicos ou 
+nicotínicos dos insecticidas como os neonicotinóides, fiproles, milbemicinas, avermectinas e 
+ciclodienos. Sarolaner é ativo contra pulgas adultas (Ctenocephalides felis e Ctenocephalides canis) 
+assim como contra diversas espécies de carraças tais como Dermacentor reticulatus, Ixodes 
+hexagonus, Ixodes ricinus e Rhipicephalus sanguineus.  
+ 
+As carraças que estejam no animal antes da administração ou novas infestações após a administração 
+do medicamento veterinário são eliminadas em 48 horas. 
+Para as pulgas, o início da eficácia ocorre entre 12 a 24 horas após fixação, e mantém-se por cinco 
+semanas após administração. As pulgas que estejam no animal antes da administração são eliminadas 
+em 8 horas. O medicamento veterinário elimina novas pulgas nos cães antes de conseguirem pôr ovos 
+e assim contribui para o controlo ambiental das populações de pulgas nas áreas a que os cães têm 
+acesso. 
+ 
+A moxidectina é uma lactona macrocíclica de segunda geração da família das milbemicinas. O seu 
+principal modo de ação é interferir na transmissão neuromuscular ao nível dos canais de cloro ligantes 
+pelo glutamato e, em menor escala, dos canais GABA (ácido gama-aminobutírico). Essa interferência 
+leva à abertura dos canais de cloro na junção pós-sináptica para permitir o influxo de iões cloro. Isso 
+resulta em paralisia flácida e eventual morte de parasitas expostos ao fármaco. A moxidectina é ativa 
+contra adultos de Toxocara canis, larvas L4 e estadios imaturos (L5) de Ancylostoma caninum, L4 de 
+Dirofilaria immitis e estadios imaturos (L5) de Angiostrongylus vasorum. 
+ 
+O pirantel é um agonista do receptor do canal acetilcolina (ACh) nicotínico (nAChR). O pirantel imita 
+os efeitos agonistas da ACh através de uma ligação de elevada afinidade aos nAChRs ionofóricos 
+específicos do subtipo em nemátodes, enquanto não se liga aos mAChRs muscarínicos. Após a ligação 
+ao receptor, o canal abre para permitir o influxo de catiões, resultando numa despolarização e efeitos 
+excitatórios no músculo nemátode, levando à paralisia espástica do parasita e morte. O pirantel é ativo 
+contra estadios imaturos (L5) e adultos de Toxocara canis, adultos de Ancylostoma caninum, 
+Toxascaris leonina e Uncinaria stenocephala. 
+ 
+Nesta associação, a moxidectina e o pirantel proporcionam eficácia anti-helmíntica complementar 
+através de diferentes mecanismos de ação. Em particular, ambas as substâncias ativas contribuem para 
+a eficácia global contra os nemátodes gastrintestinais Ancylostoma caninum and Toxocara canis.  
+ 
+5.2 
+Propriedades farmacocinéticas 
+ 
+O sarolaner é pronta e rapidamente absorvido sistemicamente após administração oral, atingindo a 
+concentração plasmática máxima em 3,5 horas (tmax) após administração com uma elevada 
+biodisponibilidade de 86,7%. O sarolaner é eliminado lentamente a partir do plasma (semivida de 
+eliminação de aproximadamente 12 dias) por excreção biliar e eliminação pelas fezes com 
+contribuições menores da clearance metabólica. 
+ 
+A moxidectina é pronta e rapidamente absorvida sistemicamente após administração oral, atingindo a 
+concentração plasmática máxima em 2,4 horas (tmax) após a administração e com 66,9% de 
+biodisponibilidade. A moxidectina é lentamente eliminada do plasma (semivida de eliminação de 
+aproximadamente 11 dias) por excreção biliar e eliminação pelas fezes com contribuições menores da 
+clearance metabólica. 
+ 
+
+--------------------------------------------------------------------------------
+
+7 
+O embonato de pirantel é fracamente absorvido e a porção absorvida tem um tmax de 1,5 horas e 
+semivida de eliminação de 7,7 horas. O pirantel é eliminado através das fezes e a pequena porção 
+absorvida é eliminada principalmente através da urina. 
+ 
+O estado prandial dos animais não afeta a extensão da absorção do sarolaner e da moxidectina.
+
+6. 
+INFORMAÇÕES FARMACÊUTICAS 
+ 
+6.1 
+Lista de excipientes 
+ 
+Hipromelose 
+Lactose monohidratada 
+Glicolato sódico de amido tipo A 
+Meglumina 
+Butilhidroxitolueno (E321) 
+Mistura 018 de corantes (E110, E129, E132) 
+Hidroxipropilcelulose 
+Silica coloidal anidra 
+Estearato de magnésio 
+Amido de milho 
+Açúcar de confeitaria 
+Glucose, líquida  
+Pó de fígado de porco  
+Proteína hidrolisada vegetal 
+Gelatina  
+Germe de trigo 
+Hidrogeno fosfato de cálcio anidro 
+ 
+6.2 
+Incompatibilidades principais 
+ 
+Não aplicável. 
+ 
+6.3 
+Prazo de validade  
+ 
+Prazo de validade do medicamento veterinário tal como embalado para venda: 30 meses. 
+ 
+6.4 
+Precauções especiais de conservação 
+ 
+Conservar a temperatura inferior a 30 ºC. 
+ 
+6.5 
+Natureza e composição do acondicionamento primário 
+ 
+Os comprimidos são embalados em blister  foil/ foil de alumínio, acondicionados numa caixa de 
+cartão.  
+Cada dosagem tem apresentações com 1, 3 ou 6 comprimidos. 
+ 
+É possível que não sejam comercializadas todas as apresentações. 
+ 
+6.6 
+Precauções especiais para a eliminação de medicamentos veterinários não utilizados ou de 
+desperdícios derivados da utilização desses medicamentos 
+ 
+O medicamento veterinário não utilizado ou os seus desperdícios devem ser eliminados de acordo com os 
+requisitos nacionais. 
+ 
+ 
+
+8
+
+7. 
+TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+Zoetis Belgium SA 
+Rue Laid Burniat 1 
+1348 Louvain-la-Neuve 
+BÉLGICA
+
+8. 
+NÚMERO(S) DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+EU/2/19/243/001-018
+
+9.  
+DATA DA PRIMEIRA AUTORIZAÇÃO/RENOVAÇÃO DA AUTORIZAÇÃO 
+ 
+Data da primeira autorização: 17/09/2019.
+
+10. 
+DATA DA REVISÃO DO TEXTO 
+ 
+Encontram-se disponíveis informações detalhadas sobre este medicamento veterinário no website da 
+Agência Europeia do Medicamento http://www.ema.europa.eu/. 
+ 
+ 
+PROIBIÇÃO DE VENDA, FORNECIMENTO E/OU UTILIZAÇÃO 
+ 
+Não aplicável. 
+
+9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO II 
+ 
+A. 
+FABRICANTE RESPONSÁVEL PELA LIBERTAÇÃO DO LOTE 
+ 
+B. 
+CONDIÇÕES OU RESTRIÇÕES DA AUTORIZAÇÃO DE INTRODUÇÃO NO  
+MERCADO RELATIVAMENTE AO FORNECIMENTO OU  UTILIZAÇÃO 
+ 
+C. 
+INDICAÇÃO DOS LIMITES MÁXIMOS DE RESÍDUOS 
+
+10 
+A. 
+FABRICANTE RESPONSÁVEL PELA LIBERTAÇÃO DO LOTE 
+ 
+Nome e endereço do fabricante responsável pela libertação do lote 
+ 
+Corden Pharma GmbH 
+Otto-Hahn-Str., Plankstadt 
+Baden-Wuerttemberg 
+68723 
+ALEMANHA 
+ 
+ou 
+ 
+Zoetis Manufacturing & Research Spain, S.L.  
+Ctra. de Camprodón, s/n° 
+Finca La Riba 
+Vall de Bianya 
+Gerona 17813  
+ESPANHA 
+ 
+O folheto informativo impresso que acompanha o medicamento veterinário deve mencionar o nome e 
+o endereço do fabricante responsável pela libertação do lote em causa. 
+ 
+ 
+B. 
+CONDIÇÕES OU RESTRIÇÕES DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO RELATIVAMENTE AO FORNECIMENTO OU UTILIZAÇÃO 
+ 
+Medicamento veterinário sujeito a receita médico-veterinária. 
+ 
+ 
+C. 
+INDICAÇÃO DOS LIMITES MÁXIMOS DE RESÍDUOS 
+ 
+Não aplicável. 
+
+11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANEXO III 
+ 
+ROTULAGEM E FOLHETO INFORMATIVO 
+
+12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A. ROTULAGEM 
+
+================================================================================
+📊 PÁGINA 13 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 5:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 6:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 7:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+13 
+INDICAÇÕES A INCLUIR NO ACONDICIONAMENTO SECUNDÁRIO 
+ 
+CARTONAGEM
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Simparica Trio comprimidos mastigáveis para cães 1,25-2,5 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 2,5-5 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 5-10 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 10-20 kg 
+Simparica Trio comprimidos mastigáveis para cães > 20-40 kg 
+Simparica Trio comprimidos mastigáveis para cães > 40-60 kg 
+ 
+sarolaner / moxidectina / pirantel
+
+2. 
+DESCRIÇÃO DAS SUBSTÂNCIAS ATIVAS  
+ 
+sarolaner 3 mg/moxidectina 0,06 mg/pirantel (como embonato) 12,5 mg 
+sarolaner 6 mg/moxidectina 0,12 mg/ pirantel (como embonato) 25 mg 
+sarolaner 12 mg/moxidectina 0,24 mg/ pirantel (como embonato) 50 mg 
+sarolaner 24 mg/moxidectina 0,48 mg/ pirantel (como embonato) 100 mg 
+sarolaner 48 mg/moxidectina 0,96 mg/ pirantel (como embonato) 200 mg 
+sarolaner 72 mg/moxidectina 1,44 mg/ pirantel (como embonato) 300 mg
+
+3. 
+FORMA FARMACÊUTICA 
+ 
+Comprimidos mastigáveis
+
+4. 
+DIMENSÃO DA EMBALAGEM 
+ 
+1 comprimido 
+3 comprimidos 
+6 comprimidos
+
+5. 
+ESPÉCIES ALVO 
+ 
+Caninos (Cães).
+
+6. 
+INDICAÇÃO (INDICAÇÕES)
+
+7. 
+MODO E VIA(S) DE ADMINISTRAÇÃO 
+ 
+Antes de administrar, ler o folheto informativo. 
+Via oral.
+
+8. 
+INTERVALO(S) DE SEGURANÇA 
+ 
+ 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 14 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 2:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 3:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 4:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 5:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 6:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 7:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 8:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 9:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 10:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 11:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 12:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 13:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+14
+
+9. 
+ADVERTÊNCIA(S) ESPECIAL (ESPECIAIS), SE NECESSÁRIO 
+ 
+Antes de administrar, ler o folheto informativo.
+
+10. 
+PRAZO DE VALIDADE 
+ 
+EXP {mês/ano}
+
+11. 
+CONDIÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Conservar a temperatura inferior a 30 ºC.
+
+12. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTONÃO UTILIZADO 
+OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+Eliminação: ler o folheto informativo.
+
+13. 
+MENÇÃO “USO VETERINÁRIO” E CONDIÇÕES OU RESTRIÇÕES RELATIVAS AO 
+FORNECIMENTO E À UTILIZAÇÃO, SE FOR CASO DISSO 
+ 
+USO VETERINÁRIO. Medicamento veterinário sujeito a receita médico-veterinária.
+
+14. 
+MENÇÃO “MANTER FORA DA VISTA E DO ALCANCE DAS CRIANÇAS” 
+ 
+Manter fora da vista e do alcance das crianças.
+
+15. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO     
+MERCADO 
+ 
+Zoetis Belgium SA 
+Rue Laid Burniat 1 
+1348 Louvain-la-Neuve 
+BÉLGICA
+
+16. 
+NÚMERO DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+EU/2/19/243/001 (3 mg / 0,06 mg / 12,5 mg, 1 comprimido) 
+EU/2/19/243/002 (3 mg / 0,06 mg / 12,5 mg, 3 comprimidos) 
+EU/2/19/243/003 (3 mg / 0,06 mg / 12,5 mg, 6 comprimidos) 
+EU/2/19/243/004 (6 mg / 0,12 mg / 25 mg, 1 comprimido) 
+EU/2/19/243/005 (6 mg / 0,12 mg / 25 mg, 3 comprimidos) 
+EU/2/19/243/006 (6 mg / 0,12 mg / 25 mg, 6 comprimidos) 
+EU/2/19/243/007 (12 mg / 0,24 mg / 50 mg, 1 comprimido) 
+EU/2/19/243/008 (12 mg / 0,24 mg / 50 mg, 3 comprimidos) 
+EU/2/19/243/009 (12 mg / 0,24 mg / 50 mg, 6 comprimidos) 
+EU/2/19/243/010 (24 mg / 0,48 mg / 100 mg, 1 comprimido) 
+EU/2/19/243/011 (24 mg / 0,48 mg / 100 mg, 3 comprimidos) 
+EU/2/19/243/012 (24 mg / 0,48 mg / 100 mg, 6 comprimidos) 
+EU/2/19/243/013 (48 mg / 0,96 mg / 200 mg, 1 comprimido) 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 15 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 2:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+Entrada 3:
+  📍 Via: IM
+  🌡️ Temperatura: 1°C
+
+Entrada 4:
+  📍 Via: IM
+  🌡️ Temperatura: 3°C
+
+Entrada 5:
+  📍 Via: IM
+  🌡️ Temperatura: 6°C
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+15 
+EU/2/19/243/014 (48 mg / 0,96 mg / 200 mg, 3 comprimidos) 
+EU/2/19/243/015 (48 mg / 0,96 mg / 200 mg, 6 comprimidos) 
+EU/2/19/243/016 (72 mg / 1,44 mg / 300 mg, 1 comprimido) 
+EU/2/19/243/017 (72 mg / 1,44 mg / 300 mg, 3 comprimidos) 
+EU/2/19/243/018 (72 mg / 1,44 mg / 300 mg, 6 comprimidos)
+
+17. 
+NÚMERO DO LOTE DE FABRICO 
+ 
+Lot: {número} 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 16 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  📍 Via: IM
+
+Entrada 2:
+  📍 Via: IM
+
+Entrada 3:
+  📍 Via: IM
+
+Entrada 4:
+  📍 Via: IM
+
+Entrada 5:
+  📍 Via: IM
+
+Entrada 6:
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+16 
+INDICAÇÕES MÍNIMAS A INCLUIR NAS EMBALAGENS “BLISTER” OU FITAS    
+CONTENTORAS 
+ 
+BLISTER
+
+1. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Simparica Trio 1,25–2,5 kg 
+Simparica Trio >2,5–5 kg 
+Simparica Trio >5–10 kg 
+Simparica Trio >10–20 kg 
+Simparica Trio >20–40 kg 
+Simparica Trio >40–60 kg 
+ 
+3 mg/0,06 mg/12,5 mg 
+6 mg/0,12 mg/25 mg 
+12 mg/0,24 mg/50 mg  
+24 mg/0,48 mg/100 mg  
+48 mg/0,96 mg/200 mg  
+72 mg/1,44 mg/300 mg 
+ 
+sarolaner /moxidectin/pyrantel (Em Inglês ou Latim).
+
+2. 
+NOME DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO MERCADO 
+ 
+Zoetis
+
+3. 
+PRAZO DE VALIDADE 
+ 
+EXP {mês/ano}
+
+4. 
+NÚMERO DO LOTE 
+ 
+Lot {número}
+
+5. 
+MENÇÃO “USO VETERINÁRIO” 
+ 
+USO VETERINÁRIO. 
+
+--------------------------------------------------------------------------------
+
+17 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. FOLHETO INFORMATIVO 
+
+================================================================================
+📊 PÁGINA 18 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 5:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 6:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 7:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 8:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 9:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 10:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 11:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 12:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 13:
+  🐾 Espécie: Cães
+
+Entrada 14:
+  🐾 Espécie: Cães
+
+Entrada 15:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+18 
+FOLHETO INFORMATIVO  
+Simparica Trio comprimidos mastigáveis para cães 1,25-2,5 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 2,5-5 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 5-10 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 10-20 kg 
+Simparica Trio comprimidos mastigáveis para cães > 20-40 kg 
+Simparica Trio comprimidos mastigáveis para cães > 40-60 kg
+
+1. 
+NOME E ENDEREÇO DO TITULAR DA AUTORIZAÇÃO DE INTRODUÇÃO NO 
+MERCADO E DO TITULAR DA AUTORIZAÇÃO DE FABRICO RESPONSÁVEL 
+PELA LIBERTAÇÃO DO LOTE, SE FOREM DIFERENTES 
+ 
+Titular da autorização de introdução no mercado:  
+Zoetis Belgium SA 
+Rue Laid Burniat 1 
+1348 Louvain-la-Neuve 
+BÉLGICA 
+ 
+Fabricante responsável pela libertação dos lotes: 
+Corden Pharma GmbH 
+Otto-Hahn-Str., Plankstadt 
+68723 Baden-Wuerttemberg 
+ALEMANHA 
+ 
+ou 
+ 
+Zoetis Manufacturing & Research Spain, S.L.  
+Ctra. de Camprodón, s/n° 
+Finca La Riba 
+Vall de Bianya 
+Gerona 17813  
+ESPANHA
+
+2. 
+NOME DO MEDICAMENTO VETERINÁRIO 
+ 
+Simparica Trio comprimidos mastigáveis para cães 1,25-2,5 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 2,5-5 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 5-10 kg 
+Simparica Trio comprimidos mastigáveis para cães  > 10-20 kg 
+Simparica Trio comprimidos mastigáveis para cães > 20-40 kg 
+Simparica Trio comprimidos mastigáveis para cães > 40-60 kg 
+ 
+Sarolaner, moxidectina, pirantel (como embonato)
+
+3. 
+DESCRIÇÃO DA SUBSTÂNCIA ATIVA E OUTRAS SUBSTÂNCIAS 
+ 
+Cada comprimido contém: 
+ 
+Substâncias ativas: 
+ 
+Simparica Trio comprimidos mastigáveis 
+sarolaner  
+(mg) 
+moxidectina  
+(mg) 
+pirantel (como embonato)  
+(mg) 
+ para cães 1,25-2,5 kg 
+3 
+0,06 
+ 
+12,5 
+ para cães > 2,5-5 kg 
+6 
+0,12 
+25 
+ para cães > 5-10 kg 
+12 
+0,24 
+50 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 19 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: SC
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+19 
+ para cães > 10-20 kg 
+24 
+0,48 
+100 
+ para cães > 20-40 kg 
+48 
+0,96 
+200 
+ para cães > 40-60 kg 
+72 
+1,44 
+300 
+ 
+Excipientes: 
+Butilhidroxitolueno (E321, 0,018%). Corantes: Amarelo-sol FCF (E110), Vermelho Allura (E129), 
+Carmim de Indigo (E132). 
+Comprimidos de cor castanha avermelhada, de formato pentagonal com arestas arredondadas.  
+Os comprimidos apresentam em relevo num dos lados a dosagem de sarolaner.
+
+4. 
+INDICAÇÕES 
+ 
+Para cães com, ou em risco de, infeções mistas de parasitas internos e externos. O medicamento 
+veterinário está indicado especificamente quando o tratamento contra pulgas ou carraças e nemátodes 
+gastrintestinais deve ser efetuado em simultâneo. Ao mesmo tempo, o medicamento veterinário 
+também proporciona eficácia na prevenção da dirofilariose e angioestrongilose. 
+ 
+Ectoparasitas 
+− 
+Para o tratamento de infestações por carraças. O medicamento veterinário tem atividade imediata e 
+persistente de eliminação das carraças durante 5 semanas contra Ixodes hexagonus, Ixodes ricinus e 
+Rhipicephalus sanguineus e durante 4 semanas contra Dermacentor reticulatus; 
+ 
+− 
+Para o tratamento das infestações por pulgas (Ctenocephalides felis e Ctenocephalides canis). O 
+medicamento veterinário tem atividade imediata e persistente de eliminação das pulgas, contra 
+novas infestações durante 5 semanas; 
+ 
+− 
+O medicamento veterinário pode ser usado como parte da estratégia de tratamento da dermatite 
+alérgica à picada da pulga (DAPP). 
+ 
+Nemátodes gastrintestinais 
+Para o tratamento de infeção por ascarídeos e ancilostomídeos gastrintestinais. 
+− 
+Toxocara canis adultos imaturos (L5)e adultos; 
+− 
+Ancylostoma caninum larvas L4, adultos imaturos (L5) e adultos; 
+− 
+Toxocara leonina adultos; 
+− 
+Uncinaria stenocephala adultos. 
+ 
+Outros nemátodes 
+ 
+− 
+Para prevenção da dirofilariose (Dirofilaria immitis); 
+− 
+Para prevenção da angioestrongilose reduzindo o nível de infeção pelos estadios adultos 
+imaturos (L5) de Angiostrongylus vasorum.
+
+5. 
+CONTRAINDICAÇÕES 
+ 
+Não administrar em caso de hipersensibilidade à substância ativa ou a algum dos excipientes.
+
+6. 
+REAÇÕES ADVERSAS 
+ 
+Em casos muito raros, com base na experiência de segurança após comercialização, podem ocorrer 
+sinais gastrointestinais como vómito e diarreia, e alterações sistémicas como letargia, 
+anorexia/inapetência. Na maior parte dos casos estes sinais são ligeiros e transitórios. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 20 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  💉 Dose: 4 mg/kg
+
+Entrada 3:
+  💉 Dose: 10 mg/kg
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+20 
+Em casos muito raros, com base na experiência de segurança após comercialização, podem ocorrer 
+sinais neurológicos como tremores, ataxia ou convulsões. Na maior parte dos casos estes sinais são 
+transitórios. 
+ 
+A frequência dos eventos adversos é definida utilizando a seguinte convenção: 
+- muito frequente (mais de 1 animal apresentando evento(s) adverso(s) em 10 animais tratados) 
+- frequente (mais de 1 mas menos de 10 animais em 100 animais tratados) 
+- pouco frequente (mais de 1 mas menos de 10 animais em 1 000 animais tratados) 
+- rara (mais de 1 mas menos de 10 animais em 10 000 animais tratados)  
+- muito rara (menos de 1 animal em 10 000 animais tratados, incluindo notificações isoladas) 
+ 
+Caso detete quaisquer efeitos mencionados neste folheto informativo, ou outros efeitos mesmo que 
+não mencionados, ou pense que o medicamento veterinário não foi eficaz, informe o seu médico 
+veterinário.
+
+7. 
+ESPÉCIES- ALVO 
+ 
+Caninos (Cães).
+
+8. 
+DOSAGEM EM FUNÇÃO DA ESPÉCIE, VIA(S) E MODO DE ADMINISTRAÇÃO 
+ 
+Para administração oral.  
+ 
+Dose 
+O medicamento veterinário deve ser administrado na dose de 1,2–2,4 mg /kg de sarolaner, 0,024-0,048 
+mg/ kg de moxidectina e 5-10 mg/kg de pirantel, de acordo com a tabela seguinte: 
+ 
+Peso 
+corporal 
+(kg) 
+Dosagem do 
+comprimido  
+3 mg/0,06  
+mg /12,5 mg 
+Dosagem do 
+comprimido 
+6 mg/0,12  
+mg /25 mg 
+Dosagem do 
+comprimido 
+12 mg/0,24 m
+g /50 mg 
+Dosagem do 
+comprimido 
+24 mg/0,48 m
+g/100 mg 
+Dosagem do 
+comprimido 
+48 mg/0,96 m
+g/200 mg 
+Dosagem do 
+comprimido 
+72 mg/1,44  
+mg/300 mg 
+1,25–2,5 
+kg 
+1 
+ 
+ 
+ 
+ 
+ 
+>2,5–5 kg 
+ 
+1 
+ 
+ 
+ 
+ 
+>5–10 kg 
+ 
+ 
+1 
+ 
+ 
+ 
+>10–20 kg 
+ 
+ 
+ 
+1 
+ 
+ 
+>20–40 kg 
+ 
+ 
+ 
+ 
+1 
+ 
+>40–60 kg 
+ 
+ 
+ 
+ 
+ 
+1 
+>60 kg 
+Combinação adequada de comprimidos 
+ 
+Método de administração 
+Os comprimidos podem ser administrados com ou sem alimentos. 
+ 
+Esquema de tratamento: 
+O esquema de tratamento deve ser baseado no diagnóstico veterinário, na situação epidemiológica 
+local e/ou a situação epidemiológica de outras áreas onde o animal tenha estado ou vá estar. Se, com 
+base na opinião do médico veterinário, for necessária a readministração(ções) do medicamento 
+veterinário, as administrações subsequentes devem prosseguir com intervalo mínimo mensal. 
+ 
+O medicamento veterinário deve ser utilizado especificamente quando o tratamento contra pulgas/ 
+carraças e nemátodes gastrintestinais deve ser efetuado em simultâneo. Na ausência do risco de 
+coinfeções mistas, deve ser utilizado um antiparasitário de espectro mais restrito. 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 21 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 5:
+  🐾 Espécie: Cães
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+21 
+ 
+Tratamento de infestações por pulgas e carraças e nemátodes gastrintestinais: 
+O medicamento veterinário pode ser usado como parte do tratamento sazonal contra pulgas e 
+carraças (substituindo o tratamento com medicamento veterinário monovalente contra pulgas e contra 
+carraças) em cães com diagnóstico concomitante de infeções por nemátodes gastrintestinais. Um 
+único tratamento é eficaz para o tratamento de nemátodes gastrintestinais. Após o tratamento das 
+infeções por nematódes, a prevenção contra pulgas e carraças deve continuar com um medicamento 
+veterinário monovalente. 
+ 
+Prevenção da Dirofilariose e angiostrongilose: 
+Uma administração única previne tanto a doença pulmonar parasitária (reduzindo o nível de adultos 
+imaturos (L5) de Angiostrongylus vasorum como a dirofilariose (D. immitis) durante um mês. Quando 
+administrado para substituir um outro medicamento veterinário preventivo de angioestrongilose e 
+dirofilariose num programa de prevenção, a primeira administração do medicamento veterinário deve 
+ser efetuada no período de um mês a partir da última dose da medicação anterior. Em zonas 
+endémicas, o tratamento dos cães para prevenção contra angioestrongilose e/ou dirofilariose deve ser 
+mensal. É recomendado que a prevenção contra a dirofilariose se mantenha até pelo menos um mês 
+após a última exposição aos mosquitos.
+
+9. 
+INSTRUÇÕES COM VISTA A UMA UTILIZAÇÃO CORRETA 
+ 
+Os comprimidos de Simparica Trio são palatáveis e quando dados pelos donos são prontamente 
+consumidos pela maioria dos cães. Se o comprimido não é tomado voluntariamente pelo cão, pode 
+também ser administrado com alimentos ou diretamente na boca. Os comprimidos não devem ser 
+divididos.
+
+10. 
+INTERVALO(S) DE SEGURANÇA 
+ 
+Não aplicável.
+
+11. 
+PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO 
+ 
+Manter fora da vista e do alcance das crianças. 
+Conservar a temperatura inferior a 30 ºC.  
+Não administrar este medicamento veterinário depois de expirado o prazo de validade indicado no 
+blister após EXP.
+
+12. 
+ADVERTÊNCIA(S) ESPECIAL(AIS) 
+ 
+Advertências especiais para cada espécie alvo: 
+As carraças e as pulgas necessitam iniciar a alimentação no hospedeiro para ficarem expostos ao 
+sarolaner; como tal, o risco de transmissão de doenças infecciosas transmitidas por parasitas não pode 
+ser excluído. 
+ 
+Este medicamento veterinário não é eficaz contra D. immitis adulta. No entanto, a administração 
+acidental a animais infetados com dirofilárias adultas não causa problemas de segurança. Cães que 
+vivam em áreas endémicas de dirofilariose (ou que tenham viajado para áreas endémicas), podem ser 
+infetados por dirofilárias adultas. A manutenção da eficácia das lactonas macrocíclicas é 
+fundamental no controlo da Dirofilaria immitis. Para minimizar o risco de seleção de resistência é 
+recomendável que no início de cada época para a prevenção os cães sejam testados para a existência 
+de antigénio circulante e microfilárias no sangue. Apenas os animais negativos devem ser tratados. 
+ 
+A resistência dos parasitas a qualquer classe de parasiticidas pode desenvolver-se após o uso 
+frequente e repetido de um medicamento veterinário dessa classe. Assim, o uso deste medicamento 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 22 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: SC
+
+Entrada 2:
+  🐾 Espécie: Cães
+
+Entrada 3:
+  🐾 Espécie: Cães
+
+Entrada 4:
+  🐾 Espécie: Cães
+  📍 Via: Oral
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+22 
+veterinário deve basear-se na avaliação de cada caso individual e na informação epidemiológica 
+local sobre a sensibilidade atual das espécies-alvo, a fim de limitar a possibilidade de uma futura 
+seleção de resistência. 
+ 
+Precauções especiais para a utilização em animais: 
+Na ausência de dados disponíveis, o tratamento de cachorros com idade inferior a 8 semanas e/ou 
+cães com peso inferior a 1,25 kg, deve basear-se numa avaliação benefício/risco realizada pelo 
+médico veterinário responsável. 
+ 
+O medicamento veterinário foi bem tolerado em cães com deficiente proteína 1 multiresistente  (MDR 
+1 -/-). No entanto, nessas raças sensíveis (que podem incluir, mas não se limitam necessariamente aos 
+Collies e raças relacionadas) a dose recomendada deve ser estritamente observada. 
+ 
+Precauções especiais a adotar pela pessoa que administra o medicamento veterinário aos animais: 
+ 
+Lavar as mãos após manusear o medicamento veterinário. 
+ 
+A ingestão acidental do medicamento veterinário pode potencialmente causar efeitos adversos, tais 
+como sinais neurológicos excitatórios transitórios. Para impedir que as crianças tenham acesso direto 
+ao medicamento veterinário, só deve ser retirado um comprimido mastigável do blister de cada vez e 
+apenas quando necessário. Após a administração, o blister deve ser imediatamente colocado na 
+embalagem original e esta deve ser conservada fora da vista e do alcance das crianças. Em caso de 
+ingestão acidental, consultar imediatamente um médico e mostrar-lhe o folheto informativo ou o rótulo 
+do medicamento veterinário. 
+ 
+Gestação e lactação: 
+ 
+A segurança do medicamento veterinário não foi determinada durante a gestação e a lactação ou em 
+animais destinados a reprodutores. Não é recomendada a administração nesses animais. 
+ 
+Interações medicamentosas e outras formas de interação:  
+ 
+Desconhecidas. 
+ 
+As lactonas macrocíclicas incluindo a moxidectina demonstram ser substratos para a p-glicoproteína. 
+Por conseguinte, durante o tratamento com este medicamento veterinário, outros medicamentos 
+veterinários que possam inibir a p-glicoproteína (por exemplo, ciclosporina, cetoconazol, spinosad, 
+verapamil) só devem ser administrados concomitantemente em conformidade com a avaliação 
+benefício/risco realizada pelo médico veterinário responsável. 
+ 
+Sobredosagem (sintomas, procedimentos de emergência, antídotos): 
+ 
+Não foram observados eventos adversos em cachorros saudáveis de 8 semanas de idade após a 
+administração mensal até 5 vezes a dose máxima recomendada durante 7 meses consecutivos.  
+ 
+Num estudo laboratorial, o medicamento veterinário foi bem tolerado em cães com deficiente proteína 1 
+multiresistente  (MDR1 -/-)  após a administração oral única de 3 vezes a dose recomendada. Após a 
+administração oral única de 5 vezes a dose máxima recomendada nestas raças de cães sensíveis foi 
+observada ataxia transitória e/ou fasciculação.
+
+13. 
+PRECAUÇÕES ESPECIAIS DE ELIMINAÇÃO DO MEDICAMENTO NÃO 
+UTILIZADO OU DOS SEUS DESPERDÍCIOS, SE FOR CASO DISSO 
+ 
+Os medicamentos não devem ser eliminados no lixo ou nos esgotos domésticos. 
+Pergunte ao seu médico veterinário como deve eliminar os medicamentos veterinários que já não são 
+necessários. Estas medidas contribuem para a proteção do ambiente. 
+ 
+
+--------------------------------------------------------------------------------
+
+================================================================================
+📊 PÁGINA 23 - CONTÉM DADOS TABULARES
+================================================================================
+
+⚠️ ATENÇÃO: Os dados abaixo estão organizados em TABELA.
+Leia LINHA POR LINHA, associando cada valor ao seu cabeçalho.
+
+📋 INTERPRETAÇÃO DA TABELA (leia com atenção):
+
+Entrada 1:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+Entrada 2:
+  🐾 Espécie: Cães
+  📍 Via: IM
+
+📄 TEXTO ORIGINAL DA TABELA:
+--------------------------------------------------------------------------------
+23
+
+14. 
+DATA DA ÚLTIMA APROVAÇÃO DO FOLHETO INFORMATIVO 
+ 
+Encontram-se disponíveis informações detalhadas sobre este medicamento veterinário no website da 
+Agência Europeia do Medicamento http://www.ema.europa.eu/.
+
+15. 
+OUTRAS INFORMAÇÕES 
+ 
+As carraças que estejam no animal antes da administração ou novas infestações após a administração 
+do medicamento veterinário são eliminadas em 48 horas. 
+ 
+Para as pulgas, o início da eficácia ocorre entre 12 a 24 horas após fixação, e mantém-se por cinco 
+semanas após administração. As pulgas que estejam no animal antes da administração são eliminadas 
+em 8 horas. O medicamento veterinário elimina novas pulgas nos cães antes de conseguirem pôr ovos 
+e assim contribui para o controlo ambiental das populações de pulgas nas áreas a que os cães têm 
+acesso. 
+Os comprimidos são embalados em blister  foil/ foil de alumínio, acondicionados numa caixa de 
+cartão.  
+Cada dosagem tem apresentações com 1, 3 ou 6 comprimidos. 
+É possível que não sejam comercializadas todas as apresentações. 
+
+--------------------------------------------------------------------------------

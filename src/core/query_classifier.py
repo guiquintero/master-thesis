@@ -3,7 +3,7 @@ import json
 import re
 import ollama
 from termcolor import colored
-from ollama_wrapper import OllamaWrapperSeguro
+from src.utils.ollama_wrapper import OllamaWrapperSeguro
 
 class QueryClassifier:
     def __init__(self, model="gemma3:latest"):

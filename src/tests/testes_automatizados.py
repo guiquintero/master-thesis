@@ -7,7 +7,7 @@ import json
 from datetime import datetime
 from termcolor import colored
 from pathlib import Path
-from temporario_MV import SistemaConsultaVetOtimizado
+from temporario import SistemaConsultaVetOtimizado
 
 class TestadorAutomatico:
     def __init__(self):
