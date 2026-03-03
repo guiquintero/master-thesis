@@ -1,0 +1,911 @@
+qwen3:8b
+====================================================================================================
+RESULTADOS DO PROCESSAMENTO AUTOMATIZADO DE PERGUNTAS
+Data/Hora: 2026-02-02 18:35:10
+Total de Perguntas: 35
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #1
+Timestamp: 2026-02-02 18:10:11
+----------------------------------------------------------------------------------------------------
+Pergunta: Para que espécies está indicado o medicamento Simparica?
+
+Resposta:
+A informação extraída do documento indica que o medicamento **Simparica** (sarolaner) é indicado para **cães**. 
+
+- **Espécie**: Cães (Cynus lupus familiaris).  
+- **Via de administração**: Intramuscular (IM).  
+- **Indicações**: Tratamento de infestações por pulgas (Ctenocephalides felis e Ctenocephalides canis), carrapatos (Dermacentor reticulatus, Ixodes hexagonus, Ixodes ricinus, Rhipicephalus sanguineus) e ácaros (Demodex canis, Otodectes cynotis, Sarcoptes scabiei).  
+
+**Informação não encontrada no documento**: Não há menção a outras espécies (como gatos ou animais selvagens).
+
+⏱️  Tempo Total: 41.64 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #2
+Timestamp: 2026-02-02 18:10:55
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?
+
+Resposta:
+A dose recomendada para gatos é de **1 mg/kg** administrada **uma vez por dia**. Esta informação está explicitamente mencionada no documento fornecido.
+
+⏱️  Tempo Total: 26.43 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #3
+Timestamp: 2026-02-02 18:11:23
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?
+
+Resposta:
+A forma de administração do **Pathozone 250 mg** em bovinos é **via intramamária**, conforme indicado no documento. Especificamente, o conteúdo da seringa deve ser introduzido **pelo canal do peito** (teat canal) da glândula mamária afetada, imediatamente após a ordenha. 
+
+**Detalhes adicionais:**  
+- A aplicação deve ser realizada **após a ordenha**.  
+- É necessário **limpar e desinfetar o peito** antes da aplicação.  
+- Após a administração, deve-se **massajar a glândula mamária**.  
+
+**Informação não encontrada no documento:**  
+- Doses específicas ou intervalos de administração.  
+- Efeitos colaterais ou contraindicações.  
+
+Fonte: Seção "Via(s) de administração" (item 4) e "Instruções com vista a uma utilização correta" (item 9) do folheto informativo.
+
+⏱️  Tempo Total: 33.26 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #4
+Timestamp: 2026-02-02 18:11:59
+----------------------------------------------------------------------------------------------------
+Pergunta: Como deve ser armazenado, depois de aberto o medicamento Flevox?
+
+Resposta:
+A informação sobre a conservação do medicamento Flevox após abertura não está especificada no documento fornecido. O texto menciona que "Este medicamento veterinário não necessita de condições especiais de conservação" (Página 12), mas não há detalhes sobre armazenamento após a abertura da embalagem. 
+
+**Resposta:**  
+Informação não encontrada no documento.
+
+⏱️  Tempo Total: 27.29 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #5
+Timestamp: 2026-02-02 18:12:28
+----------------------------------------------------------------------------------------------------
+Pergunta: Quais os intervalos de segurança do medicamento Felpreva?
+
+Resposta:
+⚠️ Não foi possível gerar resposta adequada em português.
+
+    📋 Informações disponíveis sobre Felpreva solução para unção punctiforme para gatos pequenos (1,0 – 2,5 kg):
+    - Consulte a bula completa do medicamento
+    - URL: https://medvet.dgav.pt/products/1491-01-04-cfvpt-felpreva-solucao-para-uncao-punctiforme-para-gatos-pequenos-1-0-2-5-kg-11812
+
+    💡 Sugestão: Reformule a pergunta ou consulte diretamente o documento oficial.
+
+⏱️  Tempo Total: 32.14 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #6
+Timestamp: 2026-02-02 18:13:02
+----------------------------------------------------------------------------------------------------
+Pergunta: O medicamentos Maxy é usado para que?
+
+Resposta:
+A informação solicitada sobre o uso do medicamento **Maxy** (supondo que se trate de um antibiótico, como a amoxicilina/clavulanato) pode ser extraída do documento fornecido. Abaixo, as informações relevantes:
+
+### **Indicações e Uso:**
+- **Espécies animais:** O medicamento é indicado para uso em **aves** (galinhas, patos, frangos de corte) e **suínos**.  
+- **Contra-indicações:**  
+  - **Não autorizado para uso em galinhas que produzem ovos para consumo humano** ou **3 semanas antes do início da postura**.  
+  - **Não eficaz contra microrganismos produtores de beta-lactamase** (ex.: *E. coli* resistente à clavulanato).  
+
+### **Precauções e Dados de Segurança:**
+- **Período de desmame (withdrawal period):**  
+  - **Galinhas:** 1 dia.  
+  - **Patos:** 9 dias.  
+  - **Frangos de corte:** 5 dias.  
+  - **Suínos:** 2 dias.  
+- **Administração:**  
+  - Em **suínos**, a via oral pode ser ineficaz em casos de **insuficiente ingestão de água**. Nesse caso, **administração parenteral** é recomendada.  
+  - **Recomenda-se uso baseado em testes de sensibilidade antimicrobiana** para evitar resistência.  
+
+### **Condições de Armazenamento:**
+- **Temperatura:** Manter abaixo de **30°C**.  
+- **Proteção:** Evitar exposição a luz solar direta e umidade.  
+
+### **Observações:**
+- **Uso exclusivo veterinário:** O medicamento é **reservado para uso veterinário** e **exige prescrição veterinária**.  
+- **Riscos:** Em casos de **doença associada à ingestão de água insuficiente**, a via oral pode não ser adequada.  
+
+**Informação não encontrada no documento:**  
+- Doses específicas, frequência de administração, ou interações medicamentosas.  
+
+Se houver dúvidas sobre a aplicação em uma espécie específica ou sobre a dosagem, é necessário consultar o documento original ou um veterinário especializado.
+
+⏱️  Tempo Total: 39.36 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #7
+Timestamp: 2026-02-02 18:13:43
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para porcos?
+
+Resposta:
+Resultados para: 'Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para suínos?'
+
+Total: 3
+
+1. **Suifertil 4 mg/ml solução oral para suínos**
+   - Espécies: Suifertil 4 mg/ml solução oral para suínos Substância Ativa: Altrenogest 4.0 mg | Espécie(s): Suínos (porcas adultas nulíparas)
+   - Link: https://medvet.dgav.pt/products/975-01-16rfvpt-suifertil-4-mg-ml-solucao-oral-para-suinos-11409
+
+2. **Virbagest 4 mg/ml solução oral para suínos**
+   - Espécies: Virbagest 4 mg/ml solução oral para suínos Substância Ativa: Altrenogest 4.0 mg | Espécie(s): Porcas nulípara
+   - Link: https://medvet.dgav.pt/products/177-01-09rfvpt-virbagest-4-mg-ml-solucao-oral-para-suinos-8242
+
+3. **Altresyn 4 mg/ml solução oral para suínos**
+   - Espécies: Altresyn 4 mg/ml solução oral para suínos Substância Ativa: Altrenogest 4.0 mg/ml | Espécie(s): Suínos (marrãs sexualmente maduras), Suínos (porcas e primíparas)
+   - Link: https://medvet.dgav.pt/products/117-01-08rfvpt-altresyn-4-mg-ml-solucao-oral-para-suinos-3769
+
+
+Nota: Informações extraídas da página de busca.
+
+⏱️  Tempo Total: 29.91 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #8
+Timestamp: 2026-02-02 18:14:15
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Terramicina 55 mg/g?
+
+Resposta:
+**Medicamentos com mesmo princípio ativo que Terramicina:**
+
+🔬 **Princípio ativo:** Cloridrato De Tetraciclina
+
+📋 **Medicamentos encontrados (12):**
+
+1. **Utertab 2000 mg comprimido intrauterino para bovinos**
+   - Espécies: Utertab 2000 mg comprimido intrauterino para bovinos Substância Ativa: Cloridrato De Tetraciclina 2000.0 mg | Espécie(s): Bovinos (vacas em lactação)
+   - Link: https://medvet.dgav.pt/products/1198-01-18dfvpt-utertab-2000-mg-comprimido-intrauterino-para-bovinos-7807
+
+2. **Animedazon spray, 2,45 %  w/w suspensão para pulverização cutânea para  bovinos, ovinos e suínos**
+   - Espécies: Animedazon spray, 2,45 %  w/w suspensão para pulverização cutânea para  bovinos, ovinos e suínos Substância Ativa: Cloridrato De Clorotetraciclina 3.21 g | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/106-01-08dfvpt-animedazon-spray-2-45-w-w-suspensao-para-pulverizacao-cutanea-para-bovinos-ovinos-e-suinos-3693
+
+3. **Sulfaprime pó oral para administração na água de bebida para aves canoras, pombos-correio, coelhos anões, chinchilas e outros pequenos roedores (chinchilas, porquinhos-da-índia, hamsters (cricetos), gerbilos, murganhos**
+   - Espécies: Sulfaprime pó oral para administração na água de bebida para aves canoras, pombos-correio, coelhos anões, chinchilas e outros pequenos roedores (chinchilas, porquinhos-da-índia, hamsters (cricetos), gerbilos, murganhos Substâncias Ativas: Cloridrato De Oxitetraciclina 150.0 g | Sulfadimetoxina sódica 100.0 g | Trimetoprim 20.0 g | | Espécie(s): Aves canoras, Pombo-correio          , Coelho anão         , Outros pequenos roedores (chinchilas, porquinhos-da-índia, ratos, murganhos e gerbilos), Hamster
+   - Link: https://medvet.dgav.pt/products/504-01-12nfvpt-sulfaprime-po-oral-para-administracao-na-agua-de-bebida-para-aves-canoras-pombos-correio-coelhos-anoes-chinchilas-e-outros-pequenos-roedores-chinchilas-porquinhos-da-india-hamsters-cricetos-gerbilos-murganhos-7992
+
+4. **Oxygan 500 mg/g pó para administração na água de bebida**
+   - Espécies: Oxygan 500 mg/g pó para administração na água de bebida Substância Ativa: Cloridrato De Oxitetraciclina 500.0 mg | Espécie(s): Bovinos (vitelos), Ovinos (borregos), Caprinos (cabritos), Suínos, Coelhos          , Perus, Pato          , Galinhas (frangos de carne), Galinhas (poedeiras)
+   - Link: https://medvet.dgav.pt/products/1373-01-20dfvpt-oxygan-500-mg-g-po-para-administracao-na-agua-de-bebida-11541
+
+5. **Aurofac granular 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas**
+   - Espécies: Aurofac granular 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas Substância Ativa: Cloridrato De Clorotetraciclina 250.0 mg | Espécie(s): Suínos, Galinhas
+   - Link: https://medvet.dgav.pt/products/275-01-10dfvpt-aurofac-granular-250-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-galinhas-3667
+
+6. **Oxymycin aerossol 32,1 mg/ml solução para pulverização cutânea para bovinos e ovinos**
+   - Espécies: Oxymycin aerossol 32,1 mg/ml solução para pulverização cutânea para bovinos e ovinos Substância Ativa: Cloridrato De Oxitetraciclina 32.1 mg | Espécie(s): Bovinos, Ovinos
+   - Link: https://medvet.dgav.pt/products/51567-oxymycin-aerossol-32-1-mg-ml-solucao-para-pulverizacao-cutanea-para-bovinos-e-ovinos-5084
+
+7. **Engemicina spray, 25mg/ml, spray cutâneo, suspensão para bovinos, ovinos e suínos**
+   - Espécies: Engemicina spray, 25mg/ml, spray cutâneo, suspensão para bovinos, ovinos e suínos Substância Ativa: Cloridrato De Oxitetraciclina 25.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/191-01-09dfvpt-engemicina-spray-25mg-ml-spray-cutaneo-suspensao-para-bovinos-ovinos-e-suinos-7411
+
+8. **Ophtocycline 10 mg/g pomada oftálmica para cães, gatos e cavalos**
+   - Espécies: Ophtocycline 10 mg/g pomada oftálmica para cães, gatos e cavalos Substância Ativa: Cloridrato De Clortetraciclina 10.0 mg | Espécie(s): Caninos (cães), Felinos (gatos), Equinos (cavalos)
+   - Link: https://medvet.dgav.pt/products/1204-01-18dfvpt-ophtocycline-10-mg-g-pomada-oftalmica-para-caes-gatos-e-cavalos-5488
+
+9. **Oxtra dd 100 mg/ml solução injetável para bovinos, ovinos, suínos, equinos, cães e gatos**
+   - Espécies: Oxtra dd 100 mg/ml solução injetável para bovinos, ovinos, suínos, equinos, cães e gatos Substância Ativa: Cloridrato De Oxitetraciclina 100.0 mg | Espécie(s): Bovinos, Equinos, Ovinos, Suínos, Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/1356-01-20dfvpt-oxtra-dd-100-mg-ml-solucao-injetavel-para-bovinos-ovinos-suinos-equinos-caes-e-gatos-8295
+
+10. **Cyclospray, 78,6 mg/g, pulverizador cutâneo, suspensão para suínos, ovinos e bovinos**
+   - Espécies: Cyclospray, 78,6 mg/g, pulverizador cutâneo, suspensão para suínos, ovinos e bovinos Substância Ativa: Cloridrato De Clorotetraciclina 78.6 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/950-01-15dfvpt-cyclospray-78-6-mg-g-pulverizador-cutaneo-suspensao-para-suinos-ovinos-e-bovinos-7545
+
+11. **Oxitetraciclina 50% dopharma, pó oral para suínos**
+   - Espécies: Oxitetraciclina 50% dopharma, pó oral para suínos Substância Ativa: Cloridrato De Oxitetraciclina 500.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/51438-oxitetraciclina-50-dopharma-po-oral-para-suinos-7688
+
+12. **Aquacen cloridrato oxitetraciclina 1000 mg/g pré-mistura medicamentosa para alimento medicamentoso**
+   - Espécies: Aquacen cloridrato oxitetraciclina 1000 mg/g pré-mistura medicamentosa para alimento medicamentoso Substância Ativa: Cloridrato De Oxitetraciclina 1000.0 mg | Espécie(s): Salmonídeos (Salmo sp, Oncorhynchus sp), Robalo (Dicentrarchus labrax), Dourada (Sparus aurata), Pregado (Psetta máxima), Enguia europeia (Anguilla anguilla), Carpa europeia (Cyprinus carpio)
+   - Link: https://medvet.dgav.pt/products/890-01-15rfvpt-aquacen-cloridrato-oxitetraciclina-1000-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-3711
+
+
+💡 **Total:** 12 medicamentos alternativos encontrados.
+
+⏱️  Tempo Total: 29.5 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #9
+Timestamp: 2026-02-02 18:14:47
+----------------------------------------------------------------------------------------------------
+Pergunta: Para que espécies está indicado o medicamento Animeloxan?
+
+Resposta:
+O Animeloxan é indicado para as seguintes espécies:  
+- **Bovinos** (cavalos, vacas, touros, etc.)  
+- **Suínos** (porcos)  
+- **Equinos** (cavalos)  
+
+**Informação extraída do documento:**  
+- Na seção "Indicações", o medicamento é descrito como indicado para **cattle, pigs e horses** (traduzido para português: bovinos, suínos e equinos).  
+- Na tabela de "Dosagem em função da espécie, via e modo de administração", são listadas as espécies **Bovinos, Suínos e Equinos** com doses específicas.  
+
+Não há menção a outras espécies no documento.
+
+⏱️  Tempo Total: 33.19 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #10
+Timestamp: 2026-02-02 18:15:22
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamento contendo o princípio activo Meloxicam pode ser administrado a suínos?
+
+Resposta:
+A informação encontrada no documento indica que a medicação com **meloxicam** para suínos é administrada **via intramuscular (i.m.)** em dose de **0,4 mg/kg de peso corporal**, equivalente a **2,0 ml por 100 kg de peso corporal**. A administração deve ser combinada com terapia antibiótica ou reidratação oral, conforme adequado. 
+
+**Informação não encontrada no documento**:  
+- Nome comercial exato da medicação (apenas "meloxicam" é mencionado).  
+- Duração do tratamento ou frequência de administração.  
+
+Se houver dúvidas sobre a formulação específica (ex.: nome do produto), é necessário consultar o documento original ou informações adicionais.
+
+⏱️  Tempo Total: 48.67 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #11
+Timestamp: 2026-02-02 18:16:13
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos?
+
+Resposta:
+A dosagem indicada para suínos com Dexinjet 2 mg/ml é de **0,06 mg de dexametasona por kg de peso corporal**, correspondendo a **1,5 ml por 50 kg de peso corporal**. Esta informação está explicita no documento sob a seção "9. Instruções com vista a uma utilização correta". 
+
+**Observação:** A dosagem é aplicada via intramuscular, conforme mencionado na seção "8. Dosagem em função da espécie, via e modo de administração". Não há menção a doses específicas para suínos em outras partes do documento.
+
+⏱️  Tempo Total: 36.73 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #12
+Timestamp: 2026-02-02 18:16:51
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a forma de administração do medicamento Hidrocol em suínos?
+
+Resposta:
+Erro: Não foi possível extrair resposta do modelo
+
+⏱️  Tempo Total: 42.72 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #13
+Timestamp: 2026-02-02 18:17:36
+----------------------------------------------------------------------------------------------------
+Pergunta: E perus?
+
+Resposta:
+Erro: Não foi possível extrair resposta do modelo
+
+⏱️  Tempo Total: 26.26 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #14
+Timestamp: 2026-02-02 18:18:04
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a dose que deve ser administrada do medicamento Domtor em gatos?
+
+Resposta:
+A dose de Domtor para gatos é especificada conforme o seguinte:  
+- **Via intravenosa**: 40 µg/kg de medetomidina.  
+- **Via intramuscular**: 80 µg/kg de medetomidina.  
+
+Essas doses são encontradas nas tabelas do documento, relacionadas à administração de Domtor. Não há menção a outras doses ou combinações específicas para gatos além dessas.
+
+⏱️  Tempo Total: 119.16 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #15
+Timestamp: 2026-02-02 18:20:05
+----------------------------------------------------------------------------------------------------
+Pergunta: Como deve ser armazenado o medicamento Acuimix?
+
+Resposta:
+A informação sobre o armazenamento do medicamento Acuimix está disponível no documento. De acordo com o texto:  
+
+**"Conservar a temperaturas abaixo dos 25 º C."**  
+
+Não há menção a outros requisitos de armazenamento, como umidade ou condições específicas de luz. A informação está relacionada à seção **"Precauções especiais de conservação"** do documento.  
+
+Se houver outras perguntas sobre o medicamento, é possível que o documento contenha mais detalhes.
+
+⏱️  Tempo Total: 92.3 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #16
+Timestamp: 2026-02-02 18:21:40
+----------------------------------------------------------------------------------------------------
+Pergunta: Como deve ser armazenado, depois de aberto o medicamento Calcibel?
+
+Resposta:
+A informação fornecida indica que, após a primeira abertura do acondicionamento primário do Calcibel, **deve ser administrado imediatamente**. Não há menção a condições específicas de armazenamento (como refrigeração ou temperatura ambiente) após a abertura, apenas a orientação de **não refrigerar nem congelar** e **não utilizar após a data de validade indicada no rótulo**. 
+
+**Resumo das instruções de conservação após abertura:**
+- Administre imediatamente após a primeira abertura.
+- Não refrigere nem congele.
+- Não utilize após a data de validade (indica "Exp" no rótulo).
+
+⏱️  Tempo Total: 29.51 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #17
+Timestamp: 2026-02-02 18:22:11
+----------------------------------------------------------------------------------------------------
+Pergunta: Quais os intervalos de segurança do medicamento Maxy?
+
+Resposta:
+**Informação sobre intervalos de segurança do medicamento Maxy:**
+
+1. **Para aves poedeiras:**  
+   - **Intervalo de segurança:** Não administrar a aves poedeiras cujos ovos se destinem ao consumo humano ou **3 semanas antes do início da postura**.  
+   - **Justificativa:** Para garantir a segurança dos ovos para consumo humano, o medicamento deve ser interrompido 3 semanas antes do início da postura das aves.
+
+2. **Outras informações:**  
+   - **Armazenamento:** Após abertura da embalagem, o medicamento tem validade de **3 meses**. Após diluição, a validade é de **12 horas**.  
+   - **Precauções:** Não há menção a intervalos de segurança específicos para outros animais ou situações além da mencionada acima.
+
+**Observação:** Não foram encontradas informações adicionais sobre intervalos de segurança em outras seções do documento.
+
+⏱️  Tempo Total: 38.87 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #18
+Timestamp: 2026-02-02 18:22:52
+----------------------------------------------------------------------------------------------------
+Pergunta: Para que é usado o medicamentos Apilife?
+
+Resposta:
+Erro: Não foi possível extrair resposta do modelo
+
+⏱️  Tempo Total: 42.09 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #19
+Timestamp: 2026-02-02 18:23:36
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual é a composição do medicamento Genestran?
+
+Resposta:
+**Composição do medicamento Genestran:**  
+- **Ingrediente ativo:** Prostaglandina F2α.  
+- **Forma farmacêutica:** Solução injetável.  
+
+**Dosagem por espécie (extraída da tabela):**  
+- **Equinos:** 10 mg/mL.  
+- **Suínos:** 2.5 mg/mL.  
+- **Bovinos:** 2.5 mg/mL.  
+
+**Observação:** Não há menção a excipientes ou outros componentes no documento. A informação está limitada ao ingrediente ativo e às formas de apresentação.
+
+⏱️  Tempo Total: 36.28 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #20
+Timestamp: 2026-02-02 18:24:15
+----------------------------------------------------------------------------------------------------
+Pergunta: Em que espécies pode ser usado o medicamento Terramicina 500 mg?
+
+Resposta:
+O documento menciona que a Terramicina 500 mg é indicada para **vacas**. As informações são encontradas nas seções:  
+- **ESPÉCIES-ALVO**: "Vacas" (seção 5).  
+- **Dosagem em função da espécie**: Tabela que especifica a dose para "Vacas" (seção 8).  
+
+**Informação não encontrada no documento**: Nenhuma menção a outras espécies além das vacas.
+
+⏱️  Tempo Total: 29.74 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #21
+Timestamp: 2026-02-02 18:24:46
+----------------------------------------------------------------------------------------------------
+Pergunta: Que reações adversas pode apresentar o medicamento Suispirin?
+
+Resposta:
+**Adversas Reações do Medicamento Suispirin:**  
+De acordo com o documento fornecido, as reações adversas associadas ao uso do Suispirin incluem:  
+
+1. **Sangramento gastrointestinal**: Pode causar hemorragias no sistema digestivo, especialmente em animais com úlceras gástricas ou em combinação com anticoagulantes.  
+2. **Reações de hipersensibilidade**: Inclui anafilaxia (reação alérgica grave) e outros sintomas de alergia.  
+3. **Afectação renal**: Pode levar a redução da produção de urina (oligúria) e, em casos graves, insuficiência renal.  
+4. **Interações medicamentosas**:  
+   - Aumento do risco de sangramento quando usado com anticoagulantes.  
+   - Potencialização de efeitos gastrointestinais quando combinado com outros anti-inflamatórios não esteroides (AINEs).  
+
+**Nota:** Não foram encontradas tabelas que listem reações adversas adicionais. As informações acima são extraídas diretamente do texto do documento.
+
+⏱️  Tempo Total: 57.34 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #22
+Timestamp: 2026-02-02 18:25:46
+----------------------------------------------------------------------------------------------------
+Pergunta: O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?
+
+Resposta:
+⚠️ Não foi possível gerar resposta adequada em português.
+
+    📋 Informações disponíveis sobre Colombovac PMV/POX:
+    - Consulte a bula completa do medicamento
+    - URL: https://medvet.dgav.pt/products/597-98-dgv-colombovac-pmv-pox-7608
+
+    💡 Sugestão: Reformule a pergunta ou consulte diretamente o documento oficial.
+
+⏱️  Tempo Total: 35.21 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #23
+Timestamp: 2026-02-02 18:26:23
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?
+
+Resposta:
+Resultados para: 'Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?'
+
+Total: 7
+
+1. **Torphasol 4 mg/ml solução injetável para cães e gatos**
+   - Espécies: Torphasol 4 mg/ml solução injetável para cães e gatos Substância Ativa: Butorfanol 4.0 mg | Espécie(s): Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/416-01-12rfvpt-torphasol-4-mg-ml-solucao-injetavel-para-caes-e-gatos-11447
+
+2. **Torbugesic vet 10 mg/ml solução injetável para cavalos, cães e gatos**
+   - Espécies: Torbugesic vet 10 mg/ml solução injetável para cavalos, cães e gatos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/677-01-13dfvpt-torbugesic-vet-10-mg-ml-solucao-injetavel-para-cavalos-caes-e-gatos-11445
+
+3. **Butomidor 10mg/ml solução injetável para cavalos, cães e gatos**
+   - Espécies: Butomidor 10mg/ml solução injetável para cavalos, cães e gatos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/316-01-11dfvpt-butomidor-10mg-ml-solucao-injetavel-para-cavalos-caes-e-gatos-3783
+
+4. **Alvegesic vet. 10 mg/ml  solução injetável para cavalos, cães e gatos**
+   - Espécies: Alvegesic vet. 10 mg/ml  solução injetável para cavalos, cães e gatos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/342-01-11dfvpt-alvegesic-vet-10-mg-ml-solucao-injetavel-para-cavalos-caes-e-gatos-3699
+
+5. **Dolorex 10 mg/ml, solução injetável para equinos, caninos e felinos**
+   - Espécies: Dolorex 10 mg/ml, solução injetável para equinos, caninos e felinos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/006-01-07rfvpt-dolorex-10-mg-ml-solucao-injetavel-para-equinos-caninos-e-felinos-10151
+
+6. **Torphadine 10 mg/ml solução injetável para cães, gatos e cavalos**
+   - Espécies: Torphadine 10 mg/ml solução injetável para cães, gatos e cavalos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Caninos (cães), Felinos (gatos), Equinos (cavalos)
+   - Link: https://medvet.dgav.pt/products/1040-01-16dfvpt-torphadine-10-mg-ml-solucao-injetavel-para-caes-gatos-e-cavalos-11446
+
+7. **ButorVet 10 mg/ml solução injetável**
+   - Espécies: ButorVet 10 mg/ml solução injetável Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos, Gatos, Cães
+   - Link: https://medvet.dgav.pt/products/1702-01-25rfvpt-butorvet-10-mg-ml-solucao-injetavel-12147
+
+
+Nota: Informações extraídas da página de busca.
+
+⏱️  Tempo Total: 42.61 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #24
+Timestamp: 2026-02-02 18:27:07
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem com o princípio ativo doramectina?
+
+Resposta:
+Resultados para: 'Que medicamentos/marcas existem com o princípio ativo doramectina?'
+
+Total: 5
+
+1. **Dectomax 5 mg/ml solução para unção contínua para bovinos**
+   - Espécies: Dectomax 5 mg/ml solução para unção contínua para bovinos Substância Ativa: Doramectina 5.0 mg | Espécie(s): Bovinos
+   - Link: https://medvet.dgav.pt/products/622-02-12dfvpt-dectomax-5-mg-ml-solucao-para-uncao-continua-para-bovinos-10125
+
+2. **Dectomax 10 mg/ml solução injetável para bovinos, ovinos e suínos**
+   - Espécies: Dectomax 10 mg/ml solução injetável para bovinos, ovinos e suínos Substância Ativa: Doramectina 10.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/622-01-12dfvpt-dectomax-10-mg-ml-solucao-injetavel-para-bovinos-ovinos-e-suinos-7903
+
+3. **Taurador 5 mg/ml solução para unção contínua para bovinos**
+   - Espécies: Taurador 5 mg/ml solução para unção contínua para bovinos Substância Ativa: Doramectina 5.0 mg | Espécie(s): Bovinos
+   - Link: https://medvet.dgav.pt/products/731-01-13dfvpt-taurador-5-mg-ml-solucao-para-uncao-continua-para-bovinos-11425
+
+4. **Taurador 10 mg/ml solução injetável para bovinos, ovinos e suínos**
+   - Espécies: Taurador 10 mg/ml solução injetável para bovinos, ovinos e suínos Substância Ativa: Doramectina 10.0 mg/ml | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1672-01-24-dfvpt-taurador-10-mg-ml-solucao-injetavel-para-bovinos-ovinos-e-suinos-12121
+
+5. **Dorimec 10 mg/ml Solução injetável para bovinos, ovinos e suínos**
+   - Espécies: Dorimec 10 mg/ml Solução injetável para bovinos, ovinos e suínos Substância Ativa: Doramectina 10.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1724-01-25dfvpt-dorimec-10-mg-ml-solucao-injetavel-para-bovinos-ovinos-e-suinos-12174
+
+
+Nota: Informações extraídas da página de busca.
+
+⏱️  Tempo Total: 87.91 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #25
+Timestamp: 2026-02-02 18:28:37
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem em comprimidos  com o princípio ativo ácido tolfenâmico?
+
+Resposta:
+Resultados para: 'Que medicamentos/marcas existem em comprimidos  com o princípio ativo ácido tolfenâmico?'
+
+Total: 2
+
+1. **Tolfedine 60 mg comprimidos**
+   - Espécies: Tolfedine 60 mg comprimidos Substância Ativa: Ácido Tolfenâmico 60.0 mg | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/51166-tolfedine-60-mg-comprimidos-11773
+
+2. **Tolfedine 6 mg comprimidos**
+   - Espécies: Tolfedine 6 mg comprimidos Substância Ativa: Ácido Tolfenâmico 6.0 mg | Espécie(s): Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/51167-tolfedine-6-mg-comprimidos-11772
+
+
+Nota: Informações extraídas da página de busca.
+
+⏱️  Tempo Total: 15.92 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #26
+Timestamp: 2026-02-02 18:28:55
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Animeloxan?
+
+Resposta:
+Para comparação, forneça substância ativa, espécie ou forma farmacêutica.
+
+⏱️  Tempo Total: 8.87 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #27
+Timestamp: 2026-02-02 18:29:06
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual o medicamento alternativo para Trocoxil 75 para cães?
+
+Resposta:
+**Medicamentos alternativos ao Trocoxil 75:**
+
+🔬 **Princípio ativo:** Mavacoxib
+🐾 **Espécie:** Cães
+
+📋 **Medicamentos encontrados (4):**
+
+1. **Trocoxil 20 mg comprimidos mastigáveis para cães**
+   - Espécies: Trocoxil 20 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 20.0 mg | Espécie(s): Caninos (Cães) com idade igual ou superior a 12 meses
+   - Link: https://medvet.dgav.pt/products/109-02-08cfvpt-trocoxil-20-mg-comprimidos-mastigaveis-para-caes-2059
+
+2. **Trocoxil 30 mg comprimidos mastigáveis para cães**
+   - Espécies: Trocoxil 30 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 30.0 mg | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/109-03-08cfvpt-trocoxil-30-mg-comprimidos-mastigaveis-para-caes-2060
+
+3. **Trocoxil 6 mg comprimidos mastigáveis para cães**
+   - Espécies: Trocoxil 6 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 6.0 mg | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/109-01-08cfvpt-trocoxil-6-mg-comprimidos-mastigaveis-para-caes-2061
+
+4. **Trocoxil 95 mg comprimidos mastigáveis para cães**
+   - Espécies: Trocoxil 95 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 95.0 mg | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/109-05-08cfvpt-trocoxil-95-mg-comprimidos-mastigaveis-para-caes-2063
+
+
+💡 **Total:** 4 medicamentos alternativos encontrados.
+
+⏱️  Tempo Total: 14.57 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #28
+Timestamp: 2026-02-02 18:29:23
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a dose do medicamento VEYLACTIN 50 para gatos?
+
+Resposta:
+Erro: Não foi possível extrair resposta do modelo
+
+⏱️  Tempo Total: 41.55 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #29
+Timestamp: 2026-02-02 18:30:06
+----------------------------------------------------------------------------------------------------
+Pergunta: Para qual espécie é indicado o medicamento Tylucyl 200 mg/ml?
+
+Resposta:
+O medicamento Tylucyl 200 mg/ml é indicado para **Bovinos** e **Suínos (mais de 25 kg)**.  
+
+- **Bovinos**: Dose de 1 ml/100 kg de peso corporal, administrada por via intramuscular.  
+- **Suínos (mais de 25 kg)**: Dose de 1 ml/50 kg de peso corporal, administrada por via intramuscular.  
+
+Informação extraída diretamente do documento.
+
+⏱️  Tempo Total: 32.14 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #30
+Timestamp: 2026-02-02 18:30:40
+----------------------------------------------------------------------------------------------------
+Pergunta: Para que serve o medicamento Dolpac?
+
+Resposta:
+O medicamento **Dolpac** é utilizado para o **tratamento curativo de infecções mistas** causadas pelos seguintes parasitas em cães:  
+
+### **Nemátodes (vermes redondos):**  
+- *Toxocara canis*  
+- *Toxascaris leonina*  
+- *Ancylostoma caninum*  
+- *Uncinaria stenocephala*  
+- *Trichuris vulpis*  
+
+### **Céstodes (vermes planos):**  
+- *Dipylidium caninum*  
+- *Taenia spp.*  
+- *Echinococcus multilocularis*  
+- *Echinococcus granulosus*  
+
+A indicação é específica para **cães** e visa eliminar os parasitas em estágio adulto.  
+
+**Fonte:** Seção 4.2 do documento.
+
+⏱️  Tempo Total: 29.99 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #31
+Timestamp: 2026-02-02 18:31:12
+----------------------------------------------------------------------------------------------------
+Pergunta: Como devo administrar o medicamento Felpreva?
+
+Resposta:
+ прогн
+
+Okay, the user is asking how to administer the Felpreva medication. Let me check the provided document carefully.
+
+First, I remember that Felpreva is a veterinary medication for cats, as mentioned in the leaflet. The instructions for administration are likely in the sections discussing how to apply the product. 
+
+Looking through the text, there's a section under "Como devo administrar o medicamento Felpreva?" which translates to "How should I administer the Felpreva medication?" The answer is in the part where it says "Aplicar o medicamento diretamente na pele do gato, preferencialmente na região da nuca, com as mãos limpas, evitando contato com os olhos e mucosas." This means applying it directly to the cat's skin, preferably on the neck, with clean hands, avoiding contact with the eyes and mucous membranes.
+
+Additionally, there's a mention of the dosage based on the cat's weight. The table under "Espécie" and "Via" specifies that for cats (Espécie: Gatos) via IM (Intramuscular), the dosage is 0.5 mg/kg. However, the user's question is about administration method, not dosage. 
+
+Wait, the user's question is specifically about the administration method, so the key part is the application instructions. The dosage information is important but not directly answering the administration method. 
+
+I need to make sure I'm not mixing up the dosage with the administration steps. The answer should focus on how to apply the medication, not the dosage amount. The user might be asking about the method, like whether it's topical, oral, or injectable. 
+
+In the text, it's stated that the medication is applied directly to the skin, so the method is topical. The dosage is 0.5 mg/kg via IM, but the administration method is applying it to the skin. 
+
+So the correct answer is to apply it directly to the skin, preferably on the neck, with clean hands, avoiding contact with eyes and mucous membranes. The dosage is 0.5 mg/kg, but the user's question is about the administration method, so the main point is the application instructions.
+</think>
+
+Segundo a tabela e as instruções fornecidas no documento:  
+
+**Como administrar o medicamento Felpreva:**  
+- **Via de administração:** A aplicação deve ser feita **diretamente na pele do gato**, preferencialmente na **região da nuca**, utilizando **mãos limpas**.  
+- **Evite contato:** É necessário **evitar o contato com os olhos e mucosas** do animal durante a aplicação.  
+
+**Dose recomendada (para gatos):**  
+- A dose é de **0,5 mg/kg** de peso corporal, administrada **via intramuscular (IM)**.  
+
+**Observação adicional:**  
+- O medicamento é eficaz contra pulgas, carraças e ácaros em gatos, e sua aplicação deve ser feita conforme as instruções do folheto.  
+
+A informação está explicita no texto:  
+> *"Aplicar o medicamento diretamente na pele do gato, preferencialmente na região da nuca, com as mãos limpas, evitando contato com os olhos e mucosas."*
+
+⏱️  Tempo Total: 105.69 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #32
+Timestamp: 2026-02-02 18:33:00
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem com o princípio ativo Amoxicilina indicado para espécie bovino?
+
+Resposta:
+Resultados para: 'Que medicamentos/marcas existem com o princípio ativo Amoxicilina indicado para espécie bovinos?'
+
+Total: 22
+
+1. **Synulox injectável (rtu)**
+   - Espécies: Synulox injectável (rtu) Substâncias Ativas: Amoxicilina (sob a forma de trihidratado) 140.0 mg | Ácido clavulânico (sob a forma de clavulanato de potássio) 35.0 mg | | Espécie(s): Bovinos, Caninos, Felinos, Suínos
+   - Link: https://medvet.dgav.pt/products/51178-synulox-injectavel-rtu-11422
+
+2. **Synulox lc suspensão intramamária para bovinos em lactação.**
+   - Espécies: Synulox lc suspensão intramamária para bovinos em lactação. Substâncias Ativas: Amoxicilina 200.0 mg | Ácido clavulânico 50.0 mg | Prednisolona 10.0 mg | | Espécie(s): Bovinos (vacas em lactação)
+   - Link: https://medvet.dgav.pt/products/51179-synulox-lc-suspensao-intramamaria-para-bovinos-em-lactacao-8041
+
+3. **Clamoxyl la 150 mg/ ml suspensão injetável para bovinos, ovinos, caprinos, suínos, cães e gatos**
+   - Espécies: Clamoxyl la 150 mg/ ml suspensão injetável para bovinos, ovinos, caprinos, suínos, cães e gatos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Caprinos, Ovinos, Suínos, Cães          , Gatos
+   - Link: https://medvet.dgav.pt/products/50906-clamoxyl-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-caprinos-suinos-caes-e-gatos-3739
+
+4. **Clamoxyl suspensão injetável**
+   - Espécies: Clamoxyl suspensão injetável Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Caninos, Felinos, Suínos, Caprinos
+   - Link: https://medvet.dgav.pt/products/50117-clamoxyl-suspensao-injetavel-11944
+
+5. **Veyxamox LA 20 %, 200 mg/ml suspensão injetável para bovinos e suínos**
+   - Espécies: Veyxamox LA 20 %, 200 mg/ml suspensão injetável para bovinos e suínos Substância Ativa: Amoxicilina 200.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/331-01-11nfvpt-veyxamox-la-20-200-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-8177
+
+6. **Longamox 150 mg/ml suspensão injetável para bovinos, ovinos e suínos**
+   - Espécies: Longamox 150 mg/ml suspensão injetável para bovinos, ovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/51378-longamox-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-e-suinos-7656
+
+7. **Vetamoxil la 150 mg/ml suspensão injetável para bovinos, ovinos e suínos**
+   - Espécies: Vetamoxil la 150 mg/ml suspensão injetável para bovinos, ovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/147-01-09nfvpt-vetamoxil-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-e-suinos-5185
+
+8. **Trymox la 150 mg/ml suspensão injetável para bovinos, ovinos, suínos, cães e gatos**
+   - Espécies: Trymox la 150 mg/ml suspensão injetável para bovinos, ovinos, suínos, cães e gatos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos, Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/1246-01-19dfvpt-trymox-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-suinos-caes-e-gatos-4164
+
+9. **Amoxisol retard 150 mg/ml suspensão injectável**
+   - Espécies: Amoxisol retard 150 mg/ml suspensão injectável Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Caninos, Felinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/51235-amoxisol-retard-150-mg-ml-suspensao-injectavel-3600
+
+10. **Noroclav suspensão injetável**
+   - Espécies: Noroclav suspensão injetável Substâncias Ativas: Amoxicilina 140.0 mg | Ácido clavulânico 35.0 mg | | Espécie(s): Bovinos, Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/51530-noroclav-suspensao-injetavel-11158
+
+11. **Nisinject 175 mg suspensão injetável**
+   - Espécies: Nisinject 175 mg suspensão injetável Substâncias Ativas: Amoxicilina 140.0 mg | Ácido clavulânico 35.0 mg | | Espécie(s): Bovinos, Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/51531-nisinject-175-mg-suspensao-injetavel-11132
+
+12. **Noroclav suspensão intramamária para bovinos em lactação**
+   - Espécies: Noroclav suspensão intramamária para bovinos em lactação Substâncias Ativas: Amoxicilina Tri-Hidratado 200.0 mg | Ácido clavulânico 50.0 mg | Prednisolona 10.0 mg | | Espécie(s): Bovinos (vacas em lactação)
+   - Link: https://medvet.dgav.pt/products/1212-01-18dfvpt-noroclav-suspensao-intramamaria-para-bovinos-em-lactacao-4157
+
+13. **Syvamox l.a. 150 mg/ml suspensão injectável para bovinos, ovinos, suínos e cães**
+   - Espécies: Syvamox l.a. 150 mg/ml suspensão injectável para bovinos, ovinos, suínos e cães Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos, Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/51534-syvamox-l-a-150-mg-ml-suspensao-injectavel-para-bovinos-ovinos-suinos-e-caes-5180
+
+14. **Bimoxyvet la (ex maymoxi la)150 mg/ml, suspensão injetável para bovinos, ovinos e suínos**
+   - Espécies: Bimoxyvet la (ex maymoxi la)150 mg/ml, suspensão injetável para bovinos, ovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1078-01-17dfvpt-bimoxyvet-la-ex-maymoxi-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-e-suinos-7506
+
+15. **Citramox l.a.150 mg/ml suspensão injetável para bovinos e suínos**
+   - Espécies: Citramox l.a.150 mg/ml suspensão injetável para bovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1365-01-20dfvpt-citramox-l-a-150-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-8306
+
+16. **Citramox 100 mg/g pó para administração na água de bebida para bovinos pré-ruminantes, frangos de carne e suínos**
+   - Espécies: Citramox 100 mg/g pó para administração na água de bebida para bovinos pré-ruminantes, frangos de carne e suínos Substância Ativa: Amoxicilina 100.0 mg | Espécie(s): Suínos, Bovinos (vitelos pré-ruminantes), Frango para Produção de carne
+   - Link: https://medvet.dgav.pt/products/1492-01-22rfvpt-citramox-100-mg-g-po-para-administracao-na-agua-de-bebida-para-bovinos-pre-ruminantes-frangos-de-carne-e-suinos-11764
+
+17. **Kelamoxil LA 150 mg/ml suspensão injetável para bovinos e suínos**
+   - Espécies: Kelamoxil LA 150 mg/ml suspensão injetável para bovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1588-01-23dfvpt-kelamoxil-la-150-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-11930
+
+18. **Vetrimoxin l.a.150 mg/ml suspensão injetável para bovinos e suínos.**
+   - Espécies: Vetrimoxin l.a.150 mg/ml suspensão injetável para bovinos e suínos. Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/51116-vetrimoxin-l-a-150-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-7448
+
+19. **Zoobiotic 150 mg/ml suspensão injetável para suínos, bovinos, ovinos, cães e gatos**
+   - Espécies: Zoobiotic 150 mg/ml suspensão injetável para suínos, bovinos, ovinos, cães e gatos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos, Cães          , Gatos
+   - Link: https://medvet.dgav.pt/products/51399-zoobiotic-150-mg-ml-suspensao-injetavel-para-suinos-bovinos-ovinos-caes-e-gatos-8249
+
+20. **INTRAMAR Lacto 200 mg + 50 mg + 10 mg suspensão intramamária para bovinos**
+   - Espécies: INTRAMAR Lacto 200 mg + 50 mg + 10 mg suspensão intramamária para bovinos Substâncias Ativas: Amoxicilina (como trihidrato de amoxicilina) 200.0 mg | Ácido clavulânico (como clavulanato de potássio) 50.0 mg | Prednisolona 10.0 | | Espécie(s): Bovinos (vacas em lactação)
+   - Link: https://medvet.dgav.pt/products/1691-01-25dfvpt-intramar-lacto-200-mg-50-mg-10-mg-suspensao-intramamaria-para-bovinos-12135
+
+21. **Bimoxyl la 150 mg/ml suspensão injectável para bovinos**
+   - Espécies: Bimoxyl la 150 mg/ml suspensão injectável para bovinos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos
+   - Link: https://medvet.dgav.pt/products/51250-bimoxyl-la-150-mg-ml-suspensao-injectavel-para-bovinos-3806
+
+22. **Lamoxsan 150 mg/ml suspensão injetável para bovinos e suínos**
+   - Espécies: Lamoxsan 150 mg/ml suspensão injetável para bovinos e suínos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1580-01-23dfvpt-lamoxsan-150-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-11915
+
+
+Nota: Informações extraídas da página de busca.
+
+⏱️  Tempo Total: 46.05 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #33
+Timestamp: 2026-02-02 18:33:48
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual o intervalo de segurança o medicamento Lamoxsan 150 mg/ml?
+
+Resposta:
+**Intervalos de segurança para o medicamento Lamoxsan 150 mg/ml:**  
+
+- **Bovinos (Cattle):**  
+  - **Carne e vísceras:** 18 dias.  
+  - **Leite:** 72 horas (3 dias).  
+
+- **Suínos (Pigs):**  
+  - **Carne e vísceras:** 20 dias.  
+
+*Informação extraída diretamente do documento fornecido.*
+
+⏱️  Tempo Total: 30.64 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #34
+Timestamp: 2026-02-02 18:34:21
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual o medicamento alternativo para Ancesol 10 mg/ml para espécie Bovinos?
+
+Resposta:
+**Medicamentos alternativos ao Ancesol 10 mg:**
+
+🔬 **Princípio ativo:** Maleato De Clorfeniramina
+🐾 **Espécie:** Bovinos
+
+📋 **Medicamentos encontrados (1):**
+
+1. **Histodine 10 mg/ml solução injetável para bovinos**
+   - Espécies: Histodine 10 mg/ml solução injetável para bovinos Substância Ativa: Maleato De Clorfeniramina 10.0 mg | Espécie(s): Bovinos
+   - Link: https://medvet.dgav.pt/products/1234-01-18dfvpt-histodine-10-mg-ml-solucao-injetavel-para-bovinos-10308
+
+
+💡 **Total:** 1 medicamentos alternativos encontrados.
+
+⏱️  Tempo Total: 13.39 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #35
+Timestamp: 2026-02-02 18:34:36
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual é a composição do medicamento Acalma?
+
+Resposta:
+**Composição do Medicamento Acalma (Acalma 200 mg):**  
+
+- **Substância ativa por comprimido de 200 mg:**  
+  - **Cloridrato de hidroxizina:** 25 mg  
+  - **Maleato de clorfeniramina:** 1 mg  
+
+- **Excipientes:**  
+  - Lactose  
+  - Talc  
+  - Estearato de magnésio  
+  - Shellac  
+  - Celulose microcristalina  
+  - Dióxido de titânio  
+
+**Observação:** As informações estão descritas em seções como "3. DESCRICAO DA(S) SUBSTANCIA(S) ACTIVA(S) E OUTRA(S) SUBSTANCIA(S)" e "2. NOME DO MEDICAMENTO VETERINARIO" do documento. Não há menção a doses ou valores adicionais além dos listados acima.
+
+⏱️  Tempo Total: 33.77 segundos
+✓ Status: SUCESSO
+
+====================================================================================================
+RESUMO ESTATÍSTICO
+====================================================================================================
+Total de perguntas: 35
+Sucessos: 35 (100.0%)
+Erros: 0 (0.0%)
+Tempo total: 1430.70 segundos (23.85 minutos)
+Tempo médio por pergunta: 40.88 segundos
+====================================================================================================

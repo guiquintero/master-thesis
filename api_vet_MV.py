@@ -1,45 +1,25 @@
-# api_vet.py - CORRIGIDO
-from flask import Flask, request, jsonify, Response
+# api_vet_cors.py - Configuração para acesso público
+from flask import Flask, request, jsonify, Response, send_from_directory
 from flask_cors import CORS
 import json
 import sys
 import threading
 import queue
 import time
-from contextlib import redirect_stdout, redirect_stderr
 import traceback
-import io
+import os
 
-# Importar o sistema principal
-from temporario_MV import SistemaConsultaVetOtimizado
+from temporario import SistemaConsultaVetOtimizado
 
 app = Flask(__name__)
-CORS(app)
 
-class LogCapture:
-    """Captura TODOS os prints e outputs do sistema"""
-    def __init__(self, log_queue):
-        self.log_queue = log_queue
-        self.terminal = sys.stdout
-        self.buffer = []
-        
-    def write(self, text):
-        if text and text.strip():  # Ignorar linhas vazias
-            # Enviar para a fila IMEDIATAMENTE
-            try:
-                self.log_queue.put({
-                    'type': 'log',
-                    'message': text.strip(),
-                    'timestamp': time.time()
-                }, block=False)
-            except queue.Full:
-                pass  # Se a fila estiver cheia, ignora
-        
-        # Também imprimir no terminal
-        self.terminal.write(text)
-        
-    def flush(self):
-        self.terminal.flush()
+# CORS configurado para permitir acesso de qualquer origem
+CORS(app, 
+     origins="*",  # Permite qualquer origem
+     allow_headers=["Content-Type"],
+     methods=["GET", "POST", "OPTIONS"],
+     supports_credentials=False)
+
 
 class APIVeterinaria:
     def __init__(self):
@@ -47,9 +27,6 @@ class APIVeterinaria:
         
     def processar_com_logs(self, pergunta, log_queue):
         """Processa a pergunta capturando todos os logs"""
-        old_stdout = sys.stdout
-        old_stderr = sys.stderr
-        
         try:
             # Enviar log inicial
             log_queue.put({
@@ -58,32 +35,15 @@ class APIVeterinaria:
                 'timestamp': time.time()
             })
             
-            # Capturar stdout E stderr
-            sys.stdout = LogCapture(log_queue)
-            sys.stderr = LogCapture(log_queue)
-            
-            # Adicionar callback para monitorar progresso
-            def progress_callback(message):
-                log_queue.put({
-                    'type': 'log',
-                    'message': message,
-                    'timestamp': time.time()
-                })
-            
-            # Processar a pergunta
             log_queue.put({
                 'type': 'log',
-                'message': f'📝 Pergunta recebida: {pergunta}',
+                'message': f'🔍 Pergunta recebida: {pergunta}',
                 'timestamp': time.time()
             })
             
+            # Processar a pergunta
             resposta = self.sistema.processar_pergunta_unica(pergunta)
             
-            # Restaurar stdout/stderr
-            sys.stdout = old_stdout
-            sys.stderr = old_stderr
-            
-            # Enviar resposta final
             log_queue.put({
                 'type': 'log',
                 'message': '✅ Processamento concluído com sucesso!',
@@ -100,10 +60,6 @@ class APIVeterinaria:
             log_queue.put({'type': 'end'})
             
         except Exception as e:
-            # Restaurar stdout/stderr em caso de erro
-            sys.stdout = old_stdout
-            sys.stderr = old_stderr
-            
             error_msg = f"❌ Erro ao processar pergunta: {str(e)}\n{traceback.format_exc()}"
             
             log_queue.put({
@@ -116,11 +72,15 @@ class APIVeterinaria:
 # Instância global da API
 api_vet = APIVeterinaria()
 
-@app.route('/api/consulta/stream', methods=['POST'])
+@app.route('/api/consulta/stream', methods=['POST', 'OPTIONS'])
 def consulta_stream():
     """
     Endpoint com streaming de logs via Server-Sent Events
     """
+    # Handle preflight
+    if request.method == 'OPTIONS':
+        return '', 204
+        
     try:
         data = request.json
         pergunta = data.get('pergunta')
@@ -132,7 +92,7 @@ def consulta_stream():
             }), 400
         
         def generate():
-            log_queue = queue.Queue(maxsize=1000)  # Fila maior
+            log_queue = queue.Queue(maxsize=1000)
             
             # Enviar confirmação de início
             yield f"data: {json.dumps({'type': 'start', 'message': 'Iniciando processamento...', 'timestamp': time.time()})}\n\n"
@@ -147,37 +107,30 @@ def consulta_stream():
             
             # Enviar logs conforme vão chegando
             timeout_count = 0
-            max_timeout_count = 60  # 60 * 3 = 180 segundos
+            max_timeout_count = 60
             
             while True:
                 try:
-                    # Timeout menor para verificações mais frequentes
                     item = log_queue.get(timeout=3)
-                    
-                    # Reset timeout counter quando recebe dados
                     timeout_count = 0
                     
                     if item['type'] == 'end':
                         yield f"data: {json.dumps(item)}\n\n"
                         break
                     
-                    # Enviar log imediatamente
                     yield f"data: {json.dumps(item)}\n\n"
                     
                 except queue.Empty:
                     timeout_count += 1
                     
-                    # Enviar heartbeat para manter conexão viva
-                    if timeout_count % 10 == 0:  # A cada 30 segundos
+                    if timeout_count % 10 == 0:
                         yield f"data: {json.dumps({'type': 'heartbeat', 'message': f'Processando... ({timeout_count * 3}s)', 'timestamp': time.time()})}\n\n"
                     
-                    # Timeout final após 180 segundos
                     if timeout_count >= max_timeout_count:
                         yield f"data: {json.dumps({'type': 'timeout', 'message': 'Timeout na operação (3 minutos)', 'timestamp': time.time()})}\n\n"
                         yield f"data: {json.dumps({'type': 'end'})}\n\n"
                         break
                     
-                    # Verificar se a thread ainda está viva
                     if not thread.is_alive() and log_queue.empty():
                         yield f"data: {json.dumps({'type': 'error', 'message': 'Thread de processamento encerrou inesperadamente', 'timestamp': time.time()})}\n\n"
                         yield f"data: {json.dumps({'type': 'end'})}\n\n"
@@ -192,7 +145,8 @@ def consulta_stream():
                 'Cache-Control': 'no-cache',
                 'Connection': 'keep-alive',
                 'X-Accel-Buffering': 'no',
-                'Content-Type': 'text/event-stream'
+                'Content-Type': 'text/event-stream',
+                'Access-Control-Allow-Origin': '*'
             }
         )
         
@@ -202,9 +156,12 @@ def consulta_stream():
             'error': str(e)
         }), 500
 
-@app.route('/api/limpar_contexto', methods=['POST'])
+@app.route('/api/limpar_contexto', methods=['POST', 'OPTIONS'])
 def limpar_contexto():
     """Endpoint para limpar o contexto da conversa"""
+    if request.method == 'OPTIONS':
+        return '', 204
+        
     try:
         api_vet.sistema.limpar_contexto_manual()
         return jsonify({
@@ -217,9 +174,12 @@ def limpar_contexto():
             'error': str(e)
         }), 500
 
-@app.route('/api/status', methods=['GET'])
+@app.route('/api/status', methods=['GET', 'OPTIONS'])
 def status():
     """Endpoint para verificar status da API"""
+    if request.method == 'OPTIONS':
+        return '', 204
+        
     return jsonify({
         'status': 'online',
         'modelo': api_vet.sistema.modelo_ollama,
@@ -228,44 +188,55 @@ def status():
 
 @app.route('/', methods=['GET'])
 def home():
-    """Página inicial com documentação básica"""
-    return """
-    <html>
-        <head>
-            <title>API Sistema Veterinário</title>
-            <style>
-                body { font-family: Arial; margin: 40px; }
-                h1 { color: #333; }
-                .endpoint { background: #f5f5f5; padding: 15px; margin: 20px 0; border-radius: 5px; }
-                code { background: #e0e0e0; padding: 2px 5px; border-radius: 3px; }
-                pre { background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; }
-            </style>
-        </head>
-        <body>
-            <h1>🏥 API Sistema de Consulta Veterinária</h1>
-            
-            <div class="endpoint">
-                <h2>POST /api/consulta/stream</h2>
-                <p>Retorna stream de eventos (SSE) com logs em tempo real</p>
-                <pre>{
-    "pergunta": "Qual a dose do Animeloxan para suínos?"
-}</pre>
-            </div>
-            
-            <div class="endpoint">
-                <h2>POST /api/limpar_contexto</h2>
-                <p>Limpa o contexto da conversa</p>
-            </div>
-            
-            <div class="endpoint">
-                <h2>GET /api/status</h2>
-                <p>Verifica o status da API</p>
-            </div>
-        </body>
-    </html>
-    """
+    """Servir a página do chat diretamente"""
+    if os.path.exists('/opt/veterinaria-api/chat-novavet.html'):
+        return send_from_directory('/opt/veterinaria-api', 'chat-novavet.html')
+    else:
+        return """
+        <html>
+            <head>
+                <title>API Sistema Veterinário</title>
+                <style>
+                    body { font-family: Arial; margin: 40px; }
+                    h1 { color: #333; }
+                    .endpoint { background: #f5f5f5; padding: 15px; margin: 20px 0; border-radius: 5px; }
+                    code { background: #e0e0e0; padding: 2px 5px; border-radius: 3px; }
+                </style>
+            </head>
+            <body>
+                <h1>🏥 API Sistema de Consulta Veterinária</h1>
+                
+                <div class="endpoint">
+                    <h2>Chat Interface</h2>
+                    <p>Acesse: <a href="/chat-novavet.html">/chat-novavet.html</a></p>
+                </div>
+                
+                <div class="endpoint">
+                    <h2>POST /api/consulta/stream</h2>
+                    <p>Retorna stream de eventos (SSE) com logs em tempo real</p>
+                    <code>{"pergunta": "Qual a dose do Animeloxan para suínos?"}</code>
+                </div>
+                
+                <div class="endpoint">
+                    <h2>POST /api/limpar_contexto</h2>
+                    <p>Limpa o contexto da conversa</p>
+                </div>
+                
+                <div class="endpoint">
+                    <h2>GET /api/status</h2>
+                    <p>Verifica o status da API</p>
+                </div>
+            </body>
+        </html>
+        """
+
+@app.route('/chat-novavet.html')
+def chat_page():
+    """Servir a página do chat"""
+    return send_from_directory('/opt/veterinaria-api', 'chat-novavet.html')
 
 if __name__ == '__main__':
     print("🚀 Iniciando API Sistema Veterinário...")
-    print("📍 Acesse: http://localhost:5000")
-    app.run(debug=False, port=5000, threaded=True)  # debug=False para produção
+    print("📍 Acesse: http://193.136.195.43:8000")
+    print("💬 Chat: http://193.136.195.43:8000/chat-novavet.html")
+    app.run(debug=False, host='0.0.0.0', port=8000, threaded=True)

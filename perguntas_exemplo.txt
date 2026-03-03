@@ -1,0 +1,59 @@
+Para que espécies está indicado o medicamento Simparica?
+Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?
+Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?
+Como deve ser armazenado, depois de aberto o medicamento Flevox?
+Quais os intervalos de segurança do medicamento Felpreva?
+O medicamentos Maxy é usado para que?
+Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para porcos?
+Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Terramicina 55 mg/g?
+Para que espécies está indicado o medicamento Animeloxan?
+Que medicamento contendo o princípio activo Meloxicam pode ser administrado a suínos?
+Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos?
+Qual a forma de administração do medicamento Hidrocol em suínos?
+E perus?
+Qual a dose que deve ser administrada do medicamento Domtor em gatos?
+Como deve ser armazenado o medicamento Acuimix?
+Como deve ser armazenado, depois de aberto o medicamento Calcibel?
+Quais os intervalos de segurança do medicamento Maxy?
+Para que é usado o medicamentos Apilife?
+Qual é a composição do medicamento Genestran?
+Em que espécies pode ser usado o medicamento Terramicina 500 mg?
+Que reações adversas pode apresentar o medicamento Suispirin?
+O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?
+Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?
+Que medicamentos/marcas existem com o princípio ativo doramectina?
+Que medicamentos/marcas existem em comprimidos  com o princípio ativo ácido tolfenâmico?
+Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Animeloxan?
+Qual o medicamento alternativo para Trocoxil 75 para cães?
+Qual a dose do medicamento VEYLACTIN 50 para gatos?
+Para qual espécie é indicado o medicamento Tylucyl 200 mg/ml?
+Para que serve o medicamento Dolpac?
+Como devo administrar o medicamento Felpreva?
+Que medicamentos/marcas existem com o princípio ativo Amoxicilina indicado para espécie bovino?
+Qual o intervalo de segurança o medicamento Lamoxsan 150 mg/ml?
+Qual o medicamento alternativo para Ancesol 10 mg/ml para espécie Bovinos?
+Qual é a composição do medicamento Acalma?
+
+1-
+
+|Modelo|	Assertividade (%)|	Tempo Médio (s)|
+
+|DeepSeek-R1:8b|	62.9|	42.35|
+
+|Gemma2:9b|	77.1|	22.71|
+
+|LLaMA3.1:8b|	74.3|	17.92|
+
+|Qwen3:8b|	48.6|	40.88|
+
+|DeepSeek-R1:14b|	80.0|	104.60|
+
+|Gemma3:12b|	57.1|	20.97|
+
+|GPT-OSS|	42.9|	79.86|
+
+|Qwen3:14b	65.7	106.42|
+
+
+
+2- Testes executados em Linux x86_64 utilizando CPU Intel Core i9-13900HX (24 cores, 32 threads), com 15 GB de RAM total (6.7 GB disponíveis no momento da execução),

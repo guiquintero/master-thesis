@@ -2807,7 +2807,49 @@ class SistemaConsultaVetOtimizado:
         
         resposta += "\nNota: Informações extraídas da página de busca."
         return resposta
-
+    
+    def _limpar_principio_ativo(self, texto):
+        """
+        Remove lixo da resposta do Ollama para extração de princípio ativo
+        """
+        # Remover quebras de linha
+        texto = texto.replace('\n', ' ').strip()
+        
+        # Se tem múltiplas linhas ou frases, pegar só a primeira
+        if '.' in texto:
+            texto = texto.split('.')[0]
+        
+        # Remover prefixos comuns
+        prefixos_remover = [
+            'o princípio ativo é', 'princípio ativo:', 
+            'substância ativa:', 'o correto é',
+            'aguardando', 'correção'
+        ]
+        
+        texto_lower = texto.lower()
+        for prefixo in prefixos_remover:
+            if prefixo in texto_lower:
+                # Se tem prefixo, tentar extrair o que vem depois
+                idx = texto_lower.find(prefixo)
+                resto = texto[idx + len(prefixo):].strip()
+                if resto:
+                    texto = resto
+        
+        # Remover pontuação no final
+        texto = texto.rstrip('.,;:')
+        
+        # Pegar apenas primeira palavra (se tem múltiplas)
+        # Exceto se for nome composto tipo "Ácido Tolfenâmico"
+        palavras = texto.split()
+        if len(palavras) > 3:
+            # Se tem muitas palavras, provavelmente tem lixo
+            texto = palavras[0]
+        elif len(palavras) == 2:
+            # Pode ser nome composto, manter ambos
+            texto = ' '.join(palavras)
+        
+        return texto.strip()
+    
     def _realizar_consulta_dupla(self, classificacao, pergunta_normalizada):
         """
         Realiza consulta dupla: primeiro extrai o princípio ativo, depois busca medicamentos
@@ -2845,32 +2887,49 @@ class SistemaConsultaVetOtimizado:
             return f"❌ Não foi possível encontrar informações sobre '{medicamento_referencia}'."
         
         # FASE 1.5: Extrair princípio ativo
-        print(colored(f"🔬 Extraindo princípio ativo de {medicamento_referencia}...", "yellow"))
-        
         prompt_principio = f"""
-        Com base nas informações sobre {medicamento_referencia}:
+        DOCUMENTO:
         {json.dumps(dados_medicamento, ensure_ascii=False, indent=2)}
         
-        Extraia APENAS o princípio ativo (substância ativa).
-        Responda apenas com o nome da substância ativa, sem explicações.
-        Se não encontrar, responda "NÃO ENCONTRADO".
+        TAREFA: Extraia APENAS o princípio ativo (substância ativa) do medicamento {medicamento_referencia}.
+        
+        REGRAS OBRIGATÓRIAS:
+        1. Responda APENAS com o NOME da substância ativa
+        2. NÃO adicione explicações, comentários ou observações
+        3. NÃO corrija ou sugira alternativas
+        4. Se não encontrar, responda apenas: NÃO ENCONTRADO
+        
+        EXEMPLOS CORRETOS:
+        - Meloxicam
+        - Oxitetraciclina
+        - Fipronil
+        
+        EXEMPLOS ERRADOS (NÃO FAÇA):
+        ❌ "O princípio ativo é Meloxicam"
+        ❌ "Aguardando correção, o correto é..."
+        ❌ Qualquer texto além do nome
+        
+        RESPOSTA (apenas o nome):
         """
         
         try:
-            response = ollama.chat(
-                model=self.modelo_ollama,
+            response = self.ollama_seguro.chat(
                 messages=[{
                     'role': 'system',
-                    'content': 'Extraia apenas a substância ativa solicitada. Seja conciso.'
+                    'content': 'Você extrai substâncias ativas. Responda APENAS com o nome da substância, SEM explicações.'
                 }, {
                     'role': 'user',
                     'content': prompt_principio,
                 }],
-                options={'temperature': 0.0}
+                options={'temperature': 0.0, 'num_predict': 10}  # ← LIMITAR tokens
             )
+            
             principio_ativo = response['message']['content'].strip()
             
-            if principio_ativo.upper() == "NÃO ENCONTRADO":
+            # VALIDAÇÃO RIGOROSA - remover lixo se houver
+            principio_ativo = self._limpar_principio_ativo(principio_ativo)
+            
+            if not principio_ativo or principio_ativo.upper() == "NÃO ENCONTRADO":
                 return f"❌ Não foi possível identificar o princípio ativo de '{medicamento_referencia}'."
             
             print(colored(f"✅ Princípio ativo identificado: {principio_ativo}", "green"))

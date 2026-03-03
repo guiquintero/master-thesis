@@ -1,0 +1,1684 @@
+deepseek-r1:8b
+====================================================================================================
+RESULTADOS DO PROCESSAMENTO AUTOMATIZADO DE PERGUNTAS
+Data/Hora: 2026-02-02 17:08:20
+Total de Perguntas: 35
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #1
+Timestamp: 2026-02-02 16:42:30
+----------------------------------------------------------------------------------------------------
+Pergunta: Para que espécies está indicado o medicamento Simparica?
+
+Resposta:
+
+**Indicação do Simparica (Sarolaner):**
+
+De acordo com o documento fornecido, o Simparica (sarolaner) é um parasiticida indicado para o tratamento e prevenção de:
+
+1. **Pulgas:** Adultas e larvas de pulgas (Ctenocephalides canis e Cteno (félis)).
+2. **Carrapatos:** Adultos de várias espécies de carrapatos (como Dermacentor reticulatus, Rhipicephalus sanguineus, Haemaphysalis flava, Ixodes ricinus, e outros).
+3. **Ácaros auriculares:** Adultos de *Sarcoptes scabiei* caninum (causador de sarna).
+4. **Sarna sarcóptiforme:** Causada por *Sarcoptes scabiei* caninum.
+5. **Demodicose:** Causada por *Demodex canis*.
+
+**Especificações importantes:**
+
+* **Espécie:** O medicamento é indicado para **cães**.
+* **Apresentação:** Disponível em solução oral líquida para administração sublingual ou intralipêmica, com concentração de 1 mg/mL de sarolaner.
+* **Dose:** A dose recomendada é de **1 mg/kg** de sarolaner, administrada por via sublingual ou intralipêmica, independentemente do peso do animal.
+* **Indicação:** Para o tratamento e prevenção das infestações por parasitas mencionados, incluindo a proteção contra carrapatos e ácaros auriculares por até 30 dias após a administração do medicamento.
+
+**Resposta à sua pergunta:**
+
+O Simparica (sarolaner) é um parasiticida indicado para **cães**. O documento fornecido não menciona nenhuma indicação específica para outras espécies, como gatos, pequenos ruminantes ou aves. Portanto, não há informações disponíveis sobre a sua aplicação em outras espécies além das cães.
+
+⏱️  Tempo Total: 49.27 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #2
+Timestamp: 2026-02-02 16:43:21
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?
+
+Resposta:
+
+A dose recomendada do medicamento Senvelgo 15 mg/ml para gatos é de **1 mg/kg** administrada uma vez ao dia.
+
+⏱️  Tempo Total: 37.47 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #3
+Timestamp: 2026-02-02 16:44:00
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?
+
+Resposta:
+
+Informação encontrada no documento:
+
+**4. Como devo administrar Pathozone 250 mg em bovins?**
+
+A administração de Pathozone 250 mg deve ser **intramuscular**.
+
+**Instruções específicas:**
+
+*   Deve ser administrado por via intramuscular no **quarto coxão**.
+*   A área de injeção deve ser **limpa**.
+*   Após a administração, deve ser realizada uma **massagem** na área de injeção.
+
+**Advertências:**
+
+*   Não use Pathozone 250 mg se o animal apresentar **hipersensibilidade** ao princípio ativo ou a qualquer outro componente da formulação.
+*   O medicamento é **exclusivo para uso veterinário**.
+
+⏱️  Tempo Total: 35.67 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #4
+Timestamp: 2026-02-02 16:44:38
+----------------------------------------------------------------------------------------------------
+Pergunta: Como deve ser armazenado, depois de aberto o medicamento Flevox?
+
+Resposta:
+
+**Informação encontrada no documento**
+
+De acordo com o documento fornecido, o medicamento **Flevox** não necessita de condições especiais de conservação após a abertura da embalagem. A informação específica está disponível na tabela de "PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO" (página 12) e também na seção de "PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO" (página 13):
+
+> **PRECAUÇÕES ESPECIAIS DE CONSERVAÇÃO**
+> *   Este medicamento veterinário não necessita de condições especiais de conservação.
+
+Portanto, após a abertura da embalagem, o medicamento deve ser armazenado de forma padrão, seguindo as recomendações gerais de conservação para medicamentos, como manter em local fresco, seco e protegido da luz, e respeitar a data de validade.
+
+⏱️  Tempo Total: 36.98 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #5
+Timestamp: 2026-02-02 16:45:17
+----------------------------------------------------------------------------------------------------
+Pergunta: Quais os intervalos de segurança do medicamento Felpreva?
+
+Resposta:
+
+**Intervalos de segurança do medicamento Felpreva**
+
+*   **Cães:** O medicamento deve ser administrado com intervalos de segurança de **24 horas**.
+*   **Gatos:** O medicamento deve ser administrado com intervalos de segurança de **48 horas**.
+*   **Aves:** O medicamento deve ser administrado com intervalos de segurança de **72 horas**.
+
+⏱️  Tempo Total: 32.23 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #6
+Timestamp: 2026-02-02 16:45:51
+----------------------------------------------------------------------------------------------------
+Pergunta: O medicamentos Maxy é usado para que?
+
+Resposta:
+
+Com base no documento fornecido, o medicamento Maxy é um medicamento veterinário sujeito a receita médico-veterinária, indicado para o tratamento de infecções bacterianas em animais de produção. A sua utilização deve ser baseada em testes de sensibilidade bacteriana, e a administração indevida pode levar ao desenvolvimento de resistência bacteriana.
+
+**Especificações e Indicações:**
+- **Espécies-alvo:** Frangos de carne, patos, perus e suínos.
+- **Finalidade:** Tratamento de infecções bacterianas.
+
+**Contraindicações e Precauções:**
+- **Aves poedeiras:** Não deve ser administrado em aves poedeiras em produção de ovos para consumo humano, nem 3 semanas antes do início da postura.
+- **Antibióticos bacteriostáticos:** A administração conjunta com antibióticos bacteriostáticos (como tetraciclinas, macrólidos e sulfonamidas) pode reduzir a eficácia do medicamento.
+- **Gestação e Lactação:** A administração deve ser avaliada pelo médico veterinário, considerando a segurança para a mãe e a prole.
+
+**Efeitos na Gestação e Lactação:**
+- Não foram observados efeitos teratogénicos em estudos em ratos, mas a administração deve ser monitorizada.
+
+**Intervalos de Segurança:**
+- **Frangos de Carne:** 7 dias após a última dose.
+- **Patos e Perus:** 14 dias após a última dose.
+- **Suínos:** 28 dias após a última dose.
+
+**Advertências:**
+- O medicamento deve ser administrado apenas sob prescrição veterinária.
+- A utilização deve ser ajustada conforme os resultados dos testes de sensibilidade bacteriana.
+
+**Informações Adicionais:**
+- O medicamento é formulado para garantir eficácia e segurança em diferentes espécies animais.
+- Em caso de intoxicação ou efeitos adversos, deve ser contactada a autoridade competente.
+
+**Tabela Resumida:**
+
+| **Espécie** | **Intervalo de Segurança** | **Contraindicações** |
+|-------------|----------------------------|-----------------------|
+| Frangos de Carne | 7 dias após a última dose | Nenhuma específica |
+| Patos e Perus | 14 dias após a última dose | Nenhuma específica |
+| Suínos | 28 dias após a última dose | Nenhuma específica |
+| Aves Poedeiras | 3 semanas antes do início da postura | Proibido em ovos para consumo humano |
+
+**Conclusão:**
+O medicamento Maxy é um antibiótico veterinário destinado ao tratamento de infecções bacterianas em animais de produção, com restrições específicas de uso e intervalos de segurança variados conforme a espécie. A sua administração deve ser rigorosamente controlada pelo médico veterinário, baseando-se em testes de sensibilidade bacteriana e considerando as contraindicações e interações medicamentosas.
+
+⏱️  Tempo Total: 50.94 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #7
+Timestamp: 2026-02-02 16:46:44
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para porcos?
+
+Resposta:
+Resultados para: 'Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para suínos?'
+
+Total: 56
+
+1. **TRIMETO-TAT PÓ 48%, 80 g + 400 g, pré-mistura medicamentosa para alimento medicamentoso para vitelos e suínos**
+   - Espécies: TRIMETO-TAT PÓ 48%, 80 g + 400 g, pré-mistura medicamentosa para alimento medicamentoso para vitelos e suínos Substâncias Ativas: Trimetoprim 80.0 g | Sulfadiazina 435.2 g | | Espécie(s): Suínos, Vitelos*
+   - Link: https://medvet.dgav.pt/products/1519-01-22nfvpt-trimeto-tat-po-48-80-g-400-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-vitelos-e-suinos-11621
+
+2. **Tiamulol 100 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Tiamulol 100 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Hidrogeno fumarato de tiamulina 100.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1472-01-21nfvpt-tiamulol-100-g-kg-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11727
+
+3. **Oxitetraciclina 200 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos de crescimento e engorda e coelhos**
+   - Espécies: Oxitetraciclina 200 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos de crescimento e engorda e coelhos Substância Ativa: Oxitetraciclina Di-Hidrato 200.0 mg | Espécie(s): Coelhos          , Suínos (suínos de engorda), Suínos (de crescimento)
+   - Link: https://medvet.dgav.pt/products/1477-01-21nfvpt-oxitetraciclina-200-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-de-crescimento-e-engorda-e-coelhos-11739
+
+4. **Trimecoli pré-mistura medicamentosa para alimento medicamentoso para frangos de carne, suínos de crescimento e engorda e coelhos**
+   - Espécies: Trimecoli pré-mistura medicamentosa para alimento medicamentoso para frangos de carne, suínos de crescimento e engorda e coelhos Substâncias Ativas: Trimetoprim 20.0 mg | Sulfadimetoxina sódica 100.0 mg | | Espécie(s): Suínos, Frangos de carne*, Coelhos
+   - Link: https://medvet.dgav.pt/products/1498-01-22nfvpt-trimecoli-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-frangos-de-carne-suinos-de-crescimento-e-engorda-e-coelhos-11752
+
+5. **Coliscid 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e frangos de carne**
+   - Espécies: Coliscid 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e frangos de carne Substância Ativa: Colistina (sulfato) 40.0 mg | Espécie(s): Suínos, Frangos de carne*
+   - Link: https://medvet.dgav.pt/products/1489-01-22nfvpt-coliscid-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-frangos-de-carne-11755
+
+6. **Zoomisol 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Zoomisol 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Cloridrato De Levamisol 50.0 mg | Espécie(s): Suínos reprodutores (porcas e varrascos), Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/1481-01-21nfvpt-zoomisol-50-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11742
+
+7. **Stabox 5 % pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Stabox 5 % pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Amoxicilina Tri-Hidratado 5.0 g | Espécie(s): Suínos (leitões)
+   - Link: https://medvet.dgav.pt/products/51377-stabox-5-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11404
+
+8. **Pulmodox 5 % pré-mistura medicamentosa para alimento medicamentoso**
+   - Espécies: Pulmodox 5 % pré-mistura medicamentosa para alimento medicamentoso Substância Ativa: Doxiciclina 50.0 mg | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/51356-pulmodox-5-pre-mistura-medicamentosa-para-alimento-medicamentoso-11340
+
+9. **Biotilina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Biotilina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos Substância Ativa: Valnemulina 100.0 mg | Espécie(s): Suínos, Coelhos
+   - Link: https://medvet.dgav.pt/products/1342-01-20dfvpt-biotilina-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-coelhos-8263
+
+10. **VALMUVET 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos**
+   - Espécies: VALMUVET 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos Substância Ativa: Valnemulina 100.0 mg | Espécie(s): Suínos, Coelhos
+   - Link: https://medvet.dgav.pt/products/1538-01-22dfvpt-valmuvet-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-coelhos-11851
+
+11. **Curofen 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Curofen 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Fenbendazol 50.0 mg/g | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1105-01-17dfvpt-curofen-50-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7335
+
+12. **Pharmasin 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos**
+   - Espécies: Pharmasin 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos Substância Ativa: Tilosina 250.0 mg | Espécie(s): Suínos, Galinhas          , Frango
+   - Link: https://medvet.dgav.pt/products/969-01-15dfvpt-pharmasin-250-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-galinhas-e-frangos-7515
+
+13. **Doxi premix 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Doxi premix 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Doxiciclina 100.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/613-01-12nfvpt-doxi-premix-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7662
+
+14. **Aurofac granular 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas**
+   - Espécies: Aurofac granular 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas Substância Ativa: Cloridrato De Clorotetraciclina 250.0 mg | Espécie(s): Suínos, Galinhas
+   - Link: https://medvet.dgav.pt/products/275-01-10dfvpt-aurofac-granular-250-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-galinhas-3667
+
+15. **Nuflor 40 mg/g pré-mistura para alimento medicamentoso para suínos.**
+   - Espécies: Nuflor 40 mg/g pré-mistura para alimento medicamentoso para suínos. Substância Ativa: Florfenicol 40.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/003-01-07rfvpt-nuflor-40-mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-7412
+
+16. **Neudiavall 150 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Neudiavall 150 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Amoxicilina tri-hidrato 150.0 mg | Espécie(s): Suínos (leitões desmamados)
+   - Link: https://medvet.dgav.pt/products/010-02-11dfvpt-neudiavall-150-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11109
+
+17. **Linco feed 110mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos.**
+   - Espécies: Linco feed 110mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos. Substância Ativa: Lincomicina 110.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/309-01-11rfvpt-linco-feed-110mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7570
+
+18. **Ladoxyn 100mg/g pré-mistura para alimento medicamentoso para suínos**
+   - Espécies: Ladoxyn 100mg/g pré-mistura para alimento medicamentoso para suínos Substância Ativa: Doxiciclina (sob a forma de hiclato) 100.0 mg | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/180-01-09rfvpt-ladoxyn-100mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-10365
+
+19. **Maymoxi 10 pré-mistura medicamentosa para suínos**
+   - Espécies: Maymoxi 10 pré-mistura medicamentosa para suínos Substância Ativa: Amoxicilina Tri-Hidratado 100.0 g | Espécie(s): Suínos (leitões desmamados)
+   - Link: https://medvet.dgav.pt/products/092-01-08rfvpt-maymoxi-10-pre-mistura-medicamentosa-para-suinos-8024
+
+20. **Flortek 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Flortek 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Florfenicol 40.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/1396-01-21rfvpt-flortek-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11609
+
+21. **Karidox 125 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Karidox 125 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Doxiciclina 125.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/906-01-15dfvpt-karidox-125-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-10346
+
+22. **Fenflorol 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Fenflorol 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Florfenicol 40.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/621-01-12nfvpt-fenflorol-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7619
+
+23. **Floron 40mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Floron 40mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Florfenicol 40.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/258-01-10dfvpt-floron-40mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7549
+
+24. **Rhemox premix 100mg/g pré-mistura para alimento medicamentoso para suínos**
+   - Espécies: Rhemox premix 100mg/g pré-mistura para alimento medicamentoso para suínos Substância Ativa: Amoxicilina 100.0 mg | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/155-01-09dfvpt-rhemox-premix-100mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-11366
+
+25. **Doxyprex 100 mg/g pré-mistura para alimento medicamentoso para suínos**
+   - Espécies: Doxyprex 100 mg/g pré-mistura para alimento medicamentoso para suínos Substância Ativa: Hiclato De Doxiciclina 100.0 mg | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/021-01-07rfvpt-doxyprex-100-mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-7840
+
+26. **Tilmovet 200 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Tilmovet 200 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos Substância Ativa: Tilmicosina 200.0 g | Espécie(s): Suínos (leitões desmamados), Suínos (suínos de engorda), Coelhos
+   - Link: https://medvet.dgav.pt/products/100-01-08dfvpt-tilmovet-200-g-kg-pre-mistura-para-alimento-medicamentoso-para-suinos-e-coelhos-7668
+
+27. **Apravet 100 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Apravet 100 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Sulfato de Apramicina 100.0 g | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/682-01-13dfvpt-apravet-100-g-kg-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-9951
+
+28. **Tilmovet 40 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Tilmovet 40 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos Substância Ativa: Tilmicosina 40.0 g | Espécie(s): Suínos (leitões desmamados), Suínos (suínos de engorda), Coelhos
+   - Link: https://medvet.dgav.pt/products/098-01-08dfvpt-tilmovet-40-g-kg-pre-mistura-para-alimento-medicamentoso-para-suinos-e-coelhos-7767
+
+29. **Tilmovet 100 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Tilmovet 100 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos Substância Ativa: Tilmicosina 100.0 g | Espécie(s): Suínos (leitões desmamados), Suínos (suínos de engorda), Coelhos
+   - Link: https://medvet.dgav.pt/products/099-01-08dfvpt-tilmovet-100-g-kg-pre-mistura-para-alimento-medicamentoso-para-suinos-e-coelhos-7440
+
+30. **Apravet 100.000 ui/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Apravet 100.000 ui/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos Substância Ativa: Apramicina Sulfato 100000.0 UI | Espécie(s): Suínos, Coelhos
+   - Link: https://medvet.dgav.pt/products/1056-01-16dfvpt-apravet-100-000-ui-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-coelhos-3673
+
+31. **Pigfen 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos.**
+   - Espécies: Pigfen 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos. Substância Ativa: Fenbendazol 40.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1057-01-16dfvpt-pigfen-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7726
+
+32. **Vetmulin 100 g/kg pré-mistura para alimento medicamentoso para suínos, galinhas, perus e coelhos**
+   - Espécies: Vetmulin 100 g/kg pré-mistura para alimento medicamentoso para suínos, galinhas, perus e coelhos Substância Ativa: Hidrogeno fumarato de tiamulina 100.0 g | Espécie(s): Suínos, Galinhas (frangos de engorda, frangas de substituição, galinhas poedeiras/reprodutoras), Perus (perus do dia (para crescimento) e reprodutores), Coelhos
+   - Link: https://medvet.dgav.pt/products/242-01-10dfvpt-vetmulin-100-g-kg-pre-mistura-para-alimento-medicamentoso-para-suinos-galinhas-perus-e-coelhos-11485
+
+33. **Pharmasin 100.000 UI/g Pré-mistura para alimento medicamentoso para suínos, frangos de engorda e galinhas**
+   - Espécies: Pharmasin 100.000 UI/g Pré-mistura para alimento medicamentoso para suínos, frangos de engorda e galinhas Substância Ativa: Tilosina 100000.0 UI | Espécie(s): Suínos, Galinhas          , Frangos de engorda
+   - Link: https://medvet.dgav.pt/products/161-01-09dfvpt-pharmasin-100-000-ui-g-pre-mistura-para-alimento-medicamentoso-para-suinos-frangos-de-engorda-e-galinhas-11246
+
+34. **Iberzoon pm 01, 200 mg/g pré-mistura medicamentosa para alimento medicamentoso**
+   - Espécies: Iberzoon pm 01, 200 mg/g pré-mistura medicamentosa para alimento medicamentoso Substância Ativa: Oxitetraciclina Di-Hidrato 200.0 mg | Espécie(s): Suínos, Bovinos (vitelos), Ovinos (borregos), Caprinos (cabritos), Frango          , Galinhas
+   - Link: https://medvet.dgav.pt/products/1476-01-21nfvpt-iberzoon-pm-01-200-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-11743
+
+35. **Iberzoon pm 05- pré-mistura medicamentosa para alimento medicamentoso para frangos, suínos e vitelos**
+   - Espécies: Iberzoon pm 05- pré-mistura medicamentosa para alimento medicamentoso para frangos, suínos e vitelos Substância Ativa: Neomicina 100.0 UI | Espécie(s): Suínos, Vitelos*, Aves (frangos de carne)
+   - Link: https://medvet.dgav.pt/products/1493-01-22nfvpt-iberzoon-pm-05-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-frangos-suinos-e-vitelos-11757
+
+36. **Drymix 900 000 ui /g pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos de carne**
+   - Espécies: Drymix 900 000 ui /g pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos de carne Substância Ativa: Colistina (sulfato) 900000.0 UI | Espécie(s): Suínos, Frangos de carne*, Galinhas
+   - Link: https://medvet.dgav.pt/products/1490-01-22nfvpt-drymix-900-000-ui-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-galinhas-e-frangos-de-carne-11754
+
+37. **Mixacillina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos, frangos e perus**
+   - Espécies: Mixacillina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos, frangos e perus Substância Ativa: Amoxicilina Tri-Hidratado 100.0 mg | Espécie(s): Suínos, Frango          , Perus
+   - Link: https://medvet.dgav.pt/products/1314-01-19nfvpt-mixacillina-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-frangos-e-perus-4653
+
+38. **Sintage 80 mg/g + 20 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Sintage 80 mg/g + 20 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substâncias Ativas: Amoxicilina 80.0 mg | Gentamicina 20.0 mg | | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/1337-01-20nfvpt-sintage-80-mg-g-20-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-4196
+
+39. **Flubenol 60g/kg pré-mistura medicamentosa para suínos e aves**
+   - Espécies: Flubenol 60g/kg pré-mistura medicamentosa para suínos e aves Substância Ativa: Flubendazol 6.0 g | Espécie(s): Suínos, Aves (frango, galinha, peru, perdiz e faisão)
+   - Link: https://medvet.dgav.pt/products/51499-flubenol-60g-kg-pre-mistura-medicamentosa-para-suinos-e-aves-8170
+
+40. **Aivlosin 42,5 mg/g pré-mistura para alimento medicamentoso para suínos**
+   - Espécies: Aivlosin 42,5 mg/g pré-mistura para alimento medicamentoso para suínos Substância Ativa: Tilvalosina 42.5 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/51541-aivlosin-42-5-mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-9915
+
+41. **Vectimax 6 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Vectimax 6 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Ivermectina 6.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1326-01-19rfvpt-vectimax-6-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-8373
+
+42. **Ecomectin 6 mg/g pré-mistura medicamentosa para suínos**
+   - Espécies: Ecomectin 6 mg/g pré-mistura medicamentosa para suínos Substância Ativa: Ivermectina 6.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/060-01-08dfvpt-ecomectin-6-mg-g-pre-mistura-medicamentosa-para-suinos-7475
+
+43. **Caliermutin 100 mg/g pré mistura para alimento medicamentoso para suínos**
+   - Espécies: Caliermutin 100 mg/g pré mistura para alimento medicamentoso para suínos Substância Ativa: Hidrogeno fumarato de tiamulina 100.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/002-02-07rfvpt-caliermutin-100-mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-10037
+
+44. **Doxiciclina calier 125 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Doxiciclina calier 125 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Hiclato De Doxiciclina 125.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/1086-01-17dfvpt-doxiciclina-calier-125-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7808
+
+45. **Fluben 50 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos.**
+   - Espécies: Fluben 50 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos. Substância Ativa: Flubendazol 50.0 mg | Espécie(s): Suínos, Galinhas          , Frango
+   - Link: https://medvet.dgav.pt/products/961-01-15nfvpt-fluben-50-g-kg-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-galinhas-e-frangos-7505
+
+46. **Sulfaprex 250/50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e ovinos**
+   - Espécies: Sulfaprex 250/50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e ovinos Substâncias Ativas: Sulfadiazina 250.0 mg | Trimetoprim 50.0 mg | | Espécie(s): Suínos, Ovinos (pré-ruminantes)
+   - Link: https://medvet.dgav.pt/products/1027-01-16dfvpt-sulfaprex-250-50-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-ovinos-8020
+
+47. **Zoobiotic globulit 150 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Zoobiotic globulit 150 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Suínos (leitões desmamados)
+   - Link: https://medvet.dgav.pt/products/199-01-09rfvpt-zoobiotic-globulit-150-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11505
+
+48. **Caliermutin, 20mg/g, pré-mistura para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Caliermutin, 20mg/g, pré-mistura para alimento medicamentoso para suínos e coelhos Substância Ativa: Hidrogeno fumarato de tiamulina 20.0 mg | Espécie(s): Suínos, Coelhos
+   - Link: https://medvet.dgav.pt/products/002-01-07rfvpt-caliermutin-20mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-e-coelhos-11555
+
+49. **Ivomec premix pré-mistura para alimento medicamentosopara suínos**
+   - Espécies: Ivomec premix pré-mistura para alimento medicamentosopara suínos Substância Ativa: Ivermectina 0.68 kg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/51001-ivomec-premix-pre-mistura-para-alimento-medicamentosopara-suinos-10343
+
+50. **APSAMIX AMOXICILINA 200 mg/g Pré-mistura medicamentosa para suínos**
+   - Espécies: APSAMIX AMOXICILINA 200 mg/g Pré-mistura medicamentosa para suínos Substância Ativa: Amoxicilina Tri-Hidratado 200.0 mg | Espécie(s): Suínos (leitões desmamados)
+   - Link: https://medvet.dgav.pt/products/1699-01-25rfvpt-apsamix-amoxicilina-200-mg-g-pre-mistura-medicamentosa-para-suinos-12140
+
+51. **Apsamix tiamulina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos (suínos de engorda)**
+   - Espécies: Apsamix tiamulina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos (suínos de engorda) Substância Ativa: Hidrogeno fumarato de tiamulina 100.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/345-01-11rfvpt-apsamix-tiamulina-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-suinos-de-engorda-9954
+
+52. **Apsamix colistina 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Apsamix colistina 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Sulfato De Colistina 40.0 mg | Espécie(s): Suínos (leitões e porcos de engorda)
+   - Link: https://medvet.dgav.pt/products/51654-apsamix-colistina-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-9953
+
+53. **Vetalmex oxitetraciclina 200 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos (suínos de engorda)**
+   - Espécies: Vetalmex oxitetraciclina 200 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos (suínos de engorda) Substância Ativa: Oxitetraciclina 200.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/578-01-12nfvpt-vetalmex-oxitetraciclina-200-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-suinos-de-engorda-7980
+
+54. **Alphafluben 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas**
+   - Espécies: Alphafluben 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas Substância Ativa: Flubendazol 50.0 mg | Espécie(s): Galinhas (frangos de carne), Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/1324-01-19dfvpt-alphafluben-50-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-galinhas-3603
+
+55. **Alphadoxan 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Alphadoxan 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Doxiciclina 100.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1351-01-20dfvpt-alphadoxan-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-8303
+
+56. **Alphaflorovet 20 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Alphaflorovet 20 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Florfenicol 20.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1285-01-19dfvpt-alphaflorovet-20-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-3722
+
+
+Nota: Informações extraídas da página de busca.
+
+⏱️  Tempo Total: 75.88 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #8
+Timestamp: 2026-02-02 16:48:02
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Terramicina 55 mg/g?
+
+Resposta:
+**Medicamentos com mesmo princípio ativo que Terramicina:**
+
+🔬 **Princípio ativo:** Cloridrato De Tetraciclina
+
+📋 **Medicamentos encontrados (12):**
+
+1. **Utertab 2000 mg comprimido intrauterino para bovinos**
+   - Espécies: Utertab 2000 mg comprimido intrauterino para bovinos Substância Ativa: Cloridrato De Tetraciclina 2000.0 mg | Espécie(s): Bovinos (vacas em lactação)
+   - Link: https://medvet.dgav.pt/products/1198-01-18dfvpt-utertab-2000-mg-comprimido-intrauterino-para-bovinos-7807
+
+2. **Animedazon spray, 2,45 %  w/w suspensão para pulverização cutânea para  bovinos, ovinos e suínos**
+   - Espécies: Animedazon spray, 2,45 %  w/w suspensão para pulverização cutânea para  bovinos, ovinos e suínos Substância Ativa: Cloridrato De Clorotetraciclina 3.21 g | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/106-01-08dfvpt-animedazon-spray-2-45-w-w-suspensao-para-pulverizacao-cutanea-para-bovinos-ovinos-e-suinos-3693
+
+3. **Sulfaprime pó oral para administração na água de bebida para aves canoras, pombos-correio, coelhos anões, chinchilas e outros pequenos roedores (chinchilas, porquinhos-da-índia, hamsters (cricetos), gerbilos, murganhos**
+   - Espécies: Sulfaprime pó oral para administração na água de bebida para aves canoras, pombos-correio, coelhos anões, chinchilas e outros pequenos roedores (chinchilas, porquinhos-da-índia, hamsters (cricetos), gerbilos, murganhos Substâncias Ativas: Cloridrato De Oxitetraciclina 150.0 g | Sulfadimetoxina sódica 100.0 g | Trimetoprim 20.0 g | | Espécie(s): Aves canoras, Pombo-correio          , Coelho anão         , Outros pequenos roedores (chinchilas, porquinhos-da-índia, ratos, murganhos e gerbilos), Hamster
+   - Link: https://medvet.dgav.pt/products/504-01-12nfvpt-sulfaprime-po-oral-para-administracao-na-agua-de-bebida-para-aves-canoras-pombos-correio-coelhos-anoes-chinchilas-e-outros-pequenos-roedores-chinchilas-porquinhos-da-india-hamsters-cricetos-gerbilos-murganhos-7992
+
+4. **Oxygan 500 mg/g pó para administração na água de bebida**
+   - Espécies: Oxygan 500 mg/g pó para administração na água de bebida Substância Ativa: Cloridrato De Oxitetraciclina 500.0 mg | Espécie(s): Bovinos (vitelos), Ovinos (borregos), Caprinos (cabritos), Suínos, Coelhos          , Perus, Pato          , Galinhas (frangos de carne), Galinhas (poedeiras)
+   - Link: https://medvet.dgav.pt/products/1373-01-20dfvpt-oxygan-500-mg-g-po-para-administracao-na-agua-de-bebida-11541
+
+5. **Aurofac granular 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas**
+   - Espécies: Aurofac granular 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas Substância Ativa: Cloridrato De Clorotetraciclina 250.0 mg | Espécie(s): Suínos, Galinhas
+   - Link: https://medvet.dgav.pt/products/275-01-10dfvpt-aurofac-granular-250-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-galinhas-3667
+
+6. **Oxymycin aerossol 32,1 mg/ml solução para pulverização cutânea para bovinos e ovinos**
+   - Espécies: Oxymycin aerossol 32,1 mg/ml solução para pulverização cutânea para bovinos e ovinos Substância Ativa: Cloridrato De Oxitetraciclina 32.1 mg | Espécie(s): Bovinos, Ovinos
+   - Link: https://medvet.dgav.pt/products/51567-oxymycin-aerossol-32-1-mg-ml-solucao-para-pulverizacao-cutanea-para-bovinos-e-ovinos-5084
+
+7. **Engemicina spray, 25mg/ml, spray cutâneo, suspensão para bovinos, ovinos e suínos**
+   - Espécies: Engemicina spray, 25mg/ml, spray cutâneo, suspensão para bovinos, ovinos e suínos Substância Ativa: Cloridrato De Oxitetraciclina 25.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/191-01-09dfvpt-engemicina-spray-25mg-ml-spray-cutaneo-suspensao-para-bovinos-ovinos-e-suinos-7411
+
+8. **Ophtocycline 10 mg/g pomada oftálmica para cães, gatos e cavalos**
+   - Espécies: Ophtocycline 10 mg/g pomada oftálmica para cães, gatos e cavalos Substância Ativa: Cloridrato De Clortetraciclina 10.0 mg | Espécie(s): Caninos (cães), Felinos (gatos), Equinos (cavalos)
+   - Link: https://medvet.dgav.pt/products/1204-01-18dfvpt-ophtocycline-10-mg-g-pomada-oftalmica-para-caes-gatos-e-cavalos-5488
+
+9. **Oxtra dd 100 mg/ml solução injetável para bovinos, ovinos, suínos, equinos, cães e gatos**
+   - Espécies: Oxtra dd 100 mg/ml solução injetável para bovinos, ovinos, suínos, equinos, cães e gatos Substância Ativa: Cloridrato De Oxitetraciclina 100.0 mg | Espécie(s): Bovinos, Equinos, Ovinos, Suínos, Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/1356-01-20dfvpt-oxtra-dd-100-mg-ml-solucao-injetavel-para-bovinos-ovinos-suinos-equinos-caes-e-gatos-8295
+
+10. **Cyclospray, 78,6 mg/g, pulverizador cutâneo, suspensão para suínos, ovinos e bovinos**
+   - Espécies: Cyclospray, 78,6 mg/g, pulverizador cutâneo, suspensão para suínos, ovinos e bovinos Substância Ativa: Cloridrato De Clorotetraciclina 78.6 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/950-01-15dfvpt-cyclospray-78-6-mg-g-pulverizador-cutaneo-suspensao-para-suinos-ovinos-e-bovinos-7545
+
+11. **Oxitetraciclina 50% dopharma, pó oral para suínos**
+   - Espécies: Oxitetraciclina 50% dopharma, pó oral para suínos Substância Ativa: Cloridrato De Oxitetraciclina 500.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/51438-oxitetraciclina-50-dopharma-po-oral-para-suinos-7688
+
+12. **Aquacen cloridrato oxitetraciclina 1000 mg/g pré-mistura medicamentosa para alimento medicamentoso**
+   - Espécies: Aquacen cloridrato oxitetraciclina 1000 mg/g pré-mistura medicamentosa para alimento medicamentoso Substância Ativa: Cloridrato De Oxitetraciclina 1000.0 mg | Espécie(s): Salmonídeos (Salmo sp, Oncorhynchus sp), Robalo (Dicentrarchus labrax), Dourada (Sparus aurata), Pregado (Psetta máxima), Enguia europeia (Anguilla anguilla), Carpa europeia (Cyprinus carpio)
+   - Link: https://medvet.dgav.pt/products/890-01-15rfvpt-aquacen-cloridrato-oxitetraciclina-1000-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-3711
+
+
+💡 **Total:** 12 medicamentos alternativos encontrados.
+
+⏱️  Tempo Total: 59.51 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #9
+Timestamp: 2026-02-02 16:49:04
+----------------------------------------------------------------------------------------------------
+Pergunta: Para que espécies está indicado o medicamento Animeloxan?
+
+Resposta:
+⚠️ Não foi possível gerar resposta adequada em português.
+
+    📋 Informações disponíveis sobre Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos:
+    - Consulte a bula completa do medicamento
+    - URL: https://medvet.dgav.pt/products/1300-01-19rfvpt-animeloxan-20-mg-ml-solucao-injetavel-para-bovinos-suinos-e-equinos-3611
+
+    💡 Sugestão: Reformule a pergunta ou consulte diretamente o documento oficial.
+
+⏱️  Tempo Total: 39.0 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #10
+Timestamp: 2026-02-02 16:49:45
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamento contendo o princípio activo Meloxicam pode ser administrado a suínos?
+
+Resposta:
+
+**MEDICAMENTO CONTENDO MELOXICAM**
+
+**Nome do medicamento:** MEDICAMENTO CONTENDO MELOXICAM
+
+**Composição:**  
+- Meloxicam: 1 mg/ml
+
+**Apresentação:**  
+- Embalagens de 50 ml e 100 ml, com ou sem caixa de cartão.
+
+**Indicação:**  
+Para o tratamento de doenças inflamatórias e/ou dolorosas em suínos, como:  
+- Febre por toxoplasmose  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+- Doenças reumáticas  
+- Dor pós-cirúrgica  
+- Inflamação articular  
+- Dor de parto  
+- Febre pós-parto  
+-
+
+⏱️  Tempo Total: 102.62 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #11
+Timestamp: 2026-02-02 16:51:29
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos?
+
+Resposta:
+
+Informação encontrada no documento:
+
+**Dose recomendada para suínos:**
+
+*   **Espécie:** Suínos
+*   **Medicamento:** Dexinjet (contém Dexametasona)
+*   **Dose:** 0,06 mg de dexametasona por kg de peso corporal (equivalente a 1,5 ml de Dexinjet 2 mg/ml por 50 kg de peso corporal)
+
+**Nota:** A dose recomendada é a mesma para equinos, bovinos, caprinos e suínos, conforme especificado na tabela de doses na seção 8 do documento.
+
+⏱️  Tempo Total: 31.09 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #12
+Timestamp: 2026-02-02 16:52:02
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a forma de administração do medicamento Hidrocol em suínos?
+
+Resposta:
+Não foram encontrados resultados para 'Hidrocol em suínos'.
+
+⏱️  Tempo Total: 16.14 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #13
+Timestamp: 2026-02-02 16:52:21
+----------------------------------------------------------------------------------------------------
+Pergunta: E perus?
+
+Resposta:
+
+**Forma de Administração do Hidrocol em Perus (Bovinos):**
+
+De acordo com o documento fornecido, o medicamento Hidrocol pode ser administrado por **via intramuscular** em bovinos, suínos, cães e gatos.
+
+**Informações importantes:**
+- A administração deve ser realizada com rigorosa assépsia.
+- Recomenda-se o uso de seringas graduadas para medir pequenas doses, conforme necessário.
+
+**Doses específicas para bovinos (Perus):**
+- **Para vacas (Perus):** A dose recomendada é de **1 ml por kg de peso corporal**, administrada por via intramuscular.
+
+**Observações:**
+- A dose pode variar dependendo da indicação clínica e da resposta do animal.
+- Consulte sempre o fabricante ou um profissional veterinário para doses específicas.
+
+**Efeito colateral:**
+- Em casos raros, pode ocorrer reação alérgica, como anafilaxia, que requer tratamento veterinário de emergência.
+
+**Indicação:**
+- O medicamento é indicado para o tratamento de determinadas condições clínicas em bovinos, conforme especificação do fabricante.
+
+**Contraindicações:**
+- Não há informações específicas de contraindicações no documento fornecido.
+
+**Precauções:**
+- Mantenha o medicamento em local fresco e seco, protegido da luz solar.
+- Armazene fora do alcance de crianças e animais domésticos.
+
+**Registro:**
+- O medicamento está devidamente registrado e aprovado para uso veterinário.
+
+**Validade:**
+- Consulte o lacre da embalagem para verificar a data de validade.
+
+**Fabricante:**
+- [Nome do fabricante conforme mencionado no documento]
+
+**Distribuidor:**
+- [Nome do distribuidor conforme mencionado no documento]
+
+**Data da Análise:**
+- [Data conforme mencionada no documento]
+
+**Conclusão:**
+O medicamento Hidrocol pode ser administrado por via intramuscular em bovinos (Perus) com a dose de **1 ml por kg de peso corporal**. Recomenda-se rigorosa assépsia e o uso de seringas graduadas para garantir a segurança e eficácia da administração.
+
+⏱️  Tempo Total: 23.48 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #14
+Timestamp: 2026-02-02 16:52:46
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a dose que deve ser administrada do medicamento Domtor em gatos?
+
+Resposta:
+
+A dose específica de Domtor para gatos pode variar dependendo da indicação clínica, peso do animal, e do protocolo veterinário utilizado. No entanto, com base nas informações disponíveis, as doses mais comumente encontradas para gatos são:
+
+- **50 µg/kg** via intramuscular (IM)
+- **40 µg/kg** via intravenosa (IV)
+- **80 µg/kg** via intramuscular (IM), frequentemente em combinação com outros medicamentos como Butorphanol e Cetamina.
+
+É importante lembrar que a dose deve ser determinada pelo veterinário responsável, considerando o caso individual do animal.
+
+⏱️  Tempo Total: 42.71 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #15
+Timestamp: 2026-02-02 16:53:31
+----------------------------------------------------------------------------------------------------
+Pergunta: Como deve ser armazenado o medicamento Acuimix?
+
+Resposta:
+
+Conservar a temperaturas abaixo dos 25 º C.
+
+⏱️  Tempo Total: 60.13 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #16
+Timestamp: 2026-02-02 16:54:33
+----------------------------------------------------------------------------------------------------
+Pergunta: Como deve ser armazenado, depois de aberto o medicamento Calcibel?
+
+Resposta:
+
+**Resposta:**
+
+Informação encontrada no documento:
+
+*   **Não refrigerar nem congelar.**
+*   **Manter fora da vista e do alcance das crianças.**
+
+Esta informação está disponível na seção 11 do folheto informativo.
+
+⏱️  Tempo Total: 40.76 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #17
+Timestamp: 2026-02-02 16:55:16
+----------------------------------------------------------------------------------------------------
+Pergunta: Quais os intervalos de segurança do medicamento Maxy?
+
+Resposta:
+
+**Intervalos de Segurança para Aves Poedeiras**
+
+De acordo com o documento fornecido:
+
+1.  **Não autorizado para administração em aves poedeiras em produção de ovos para consumo humano.**
+2.  **Não autorizado para administração em aves poedeiras 3 semanas antes do início da postura.**
+
+Estas informações são extraídas da tabela de intervalos de segurança, página 15 do documento.
+
+⏱️  Tempo Total: 31.91 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #18
+Timestamp: 2026-02-02 16:55:50
+----------------------------------------------------------------------------------------------------
+Pergunta: Para que é usado o medicamentos Apilife?
+
+Resposta:
+
+**Apresentação do medicamento Apilife**
+
+**Nome do medicamento:** Apilife
+
+**Princípio ativo:** Timol (embora não explicitamente mencionado no documento, é o princípio ativo conhecido para o uso de controle de ácaros em abelhas)
+
+**Uso:** Apilife é um produto veterinário destinado ao combate a ácaros em colônias de abelhas.
+
+**Descrição do uso:** É recomendado como parte de um "Plano de luta integrada" para o controlo de ácaros. É particularmente útil quando a queda de ácaros após o tratamento com outros produtos é insuficiente. O Apilife é eficaz quando as condições ambientais (temperatura) são favoráveis (20-25°C) e deve ser aplicado preferencialmente após a colheita de mel para evitar efeitos indesejados na colónia.
+
+**Modo de aplicação:** Aplicar as tiras de Apilife nos cantos da colmeia, longe da criação. O tratamento deve ser repetido quatro vezes consecutivas, com intervalos de 7 dias entre as aplicações.
+
+**Efeito:** O Apilife tem um efeito letivo (provoca a morte) nos ácaros Varroa jacobsoni e Varroa destructor.
+
+**Condições de uso:** Deve ser usado como parte de um programa de controlo integrado de ácaros, com monitorização regular da infestação. A eficácia depende de condições ambientais específicas (temperatura).
+
+⏱️  Tempo Total: 36.16 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #19
+Timestamp: 2026-02-02 16:56:28
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual é a composição do medicamento Genestran?
+
+Resposta:
+⚠️ Não foi possível gerar resposta adequada em português.
+
+    📋 Informações disponíveis sobre Genestran 75 microgramas/ml solução injetável para bovinos, equinos e suínos:
+    - Consulte a bula completa do medicamento
+    - URL: https://medvet.dgav.pt/products/386-01-11rfvpt-genestran-75-microgramas-ml-solucao-injetavel-para-bovinos-equinos-e-suinos-10288
+
+    💡 Sugestão: Reformule a pergunta ou consulte diretamente o documento oficial.
+
+⏱️  Tempo Total: 32.2 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #20
+Timestamp: 2026-02-02 16:57:02
+----------------------------------------------------------------------------------------------------
+Pergunta: Em que espécies pode ser usado o medicamento Terramicina 500 mg?
+
+Resposta:
+
+**Espécies para as quais o Terramicina 500 mg comprimidos intrauterinos pode ser usado:**
+
+*   **Vacas:** O medicamento é especificamente indicado para vacas, conforme mencionado no cabeçalho do medicamento (seção 5) e em várias tabelas de dosagem (seções 8 e 12).
+
+*   **Aves:** Embora o medicamento seja listado na seção 8 e 12 como tendo como espécies-alvo vacas e aves, a dosagem e as instruções fornecidas para aves (seção 8 e 12) não são consistentes com a indicação principal para vacas. A seção 5 é mais direta ao afirmar que a espécie-alvo são as vacas. Portanto, embora o medicamento possa teoricamente ser considerado para aves, as instruções de uso específicas para aves no documento fornecido não são recomendadas como a indicação principal ou correta, baseando-se nas informações extraídas.
+
+⏱️  Tempo Total: 35.86 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #21
+Timestamp: 2026-02-02 16:57:40
+----------------------------------------------------------------------------------------------------
+Pergunta: Que reações adversas pode apresentar o medicamento Suispirin?
+
+Resposta:
+⚠️ Não foi possível gerar resposta adequada em português.
+
+    📋 Informações disponíveis sobre Suispirin, 1000 mg / g, pó oral para suínos:
+    - Consulte a bula completa do medicamento
+    - URL: https://medvet.dgav.pt/products/566-01-12dfvpt-suispirin-1000-mg-g-po-oral-para-suinos-11410
+
+    💡 Sugestão: Reformule a pergunta ou consulte diretamente o documento oficial.
+
+⏱️  Tempo Total: 68.04 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #22
+Timestamp: 2026-02-02 16:58:50
+----------------------------------------------------------------------------------------------------
+Pergunta: O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?
+
+Resposta:
+
+O medicamento Colombovac PMV/POX não é mencionado no documento como sendo sujeito a receita veterinária.
+
+⏱️  Tempo Total: 34.7 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #23
+Timestamp: 2026-02-02 16:59:27
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?
+
+Resposta:
+Resultados para: 'Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?'
+
+Total: 7
+
+1. **Torphasol 4 mg/ml solução injetável para cães e gatos**
+   - Espécies: Torphasol 4 mg/ml solução injetável para cães e gatos Substância Ativa: Butorfanol 4.0 mg | Espécie(s): Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/416-01-12rfvpt-torphasol-4-mg-ml-solucao-injetavel-para-caes-e-gatos-11447
+
+2. **Torbugesic vet 10 mg/ml solução injetável para cavalos, cães e gatos**
+   - Espécies: Torbugesic vet 10 mg/ml solução injetável para cavalos, cães e gatos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/677-01-13dfvpt-torbugesic-vet-10-mg-ml-solucao-injetavel-para-cavalos-caes-e-gatos-11445
+
+3. **Butomidor 10mg/ml solução injetável para cavalos, cães e gatos**
+   - Espécies: Butomidor 10mg/ml solução injetável para cavalos, cães e gatos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/316-01-11dfvpt-butomidor-10mg-ml-solucao-injetavel-para-cavalos-caes-e-gatos-3783
+
+4. **Alvegesic vet. 10 mg/ml  solução injetável para cavalos, cães e gatos**
+   - Espécies: Alvegesic vet. 10 mg/ml  solução injetável para cavalos, cães e gatos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/342-01-11dfvpt-alvegesic-vet-10-mg-ml-solucao-injetavel-para-cavalos-caes-e-gatos-3699
+
+5. **Dolorex 10 mg/ml, solução injetável para equinos, caninos e felinos**
+   - Espécies: Dolorex 10 mg/ml, solução injetável para equinos, caninos e felinos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos (cavalos), Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/006-01-07rfvpt-dolorex-10-mg-ml-solucao-injetavel-para-equinos-caninos-e-felinos-10151
+
+6. **Torphadine 10 mg/ml solução injetável para cães, gatos e cavalos**
+   - Espécies: Torphadine 10 mg/ml solução injetável para cães, gatos e cavalos Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Caninos (cães), Felinos (gatos), Equinos (cavalos)
+   - Link: https://medvet.dgav.pt/products/1040-01-16dfvpt-torphadine-10-mg-ml-solucao-injetavel-para-caes-gatos-e-cavalos-11446
+
+7. **ButorVet 10 mg/ml solução injetável**
+   - Espécies: ButorVet 10 mg/ml solução injetável Substância Ativa: Butorfanol 10.0 mg | Espécie(s): Equinos, Gatos, Cães
+   - Link: https://medvet.dgav.pt/products/1702-01-25rfvpt-butorvet-10-mg-ml-solucao-injetavel-12147
+
+
+Nota: Informações extraídas da página de busca.
+
+⏱️  Tempo Total: 61.62 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #24
+Timestamp: 2026-02-02 17:00:30
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem com o princípio ativo doramectina?
+
+Resposta:
+Resultados para: 'Que medicamentos/marcas existem com o princípio ativo doramectina?'
+
+Total: 98
+
+1. **TRIMETO-TAT PÓ 48%, 80 g + 400 g, pré-mistura medicamentosa para alimento medicamentoso para vitelos e suínos**
+   - Espécies: TRIMETO-TAT PÓ 48%, 80 g + 400 g, pré-mistura medicamentosa para alimento medicamentoso para vitelos e suínos Substâncias Ativas: Trimetoprim 80.0 g | Sulfadiazina 435.2 g | | Espécie(s): Suínos, Vitelos*
+   - Link: https://medvet.dgav.pt/products/1519-01-22nfvpt-trimeto-tat-po-48-80-g-400-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-vitelos-e-suinos-11621
+
+2. **Trimecoli pré-mistura medicamentosa para alimento medicamentoso para frangos de carne, suínos de crescimento e engorda e coelhos**
+   - Espécies: Trimecoli pré-mistura medicamentosa para alimento medicamentoso para frangos de carne, suínos de crescimento e engorda e coelhos Substâncias Ativas: Trimetoprim 20.0 mg | Sulfadimetoxina sódica 100.0 mg | | Espécie(s): Suínos, Frangos de carne*, Coelhos
+   - Link: https://medvet.dgav.pt/products/1498-01-22nfvpt-trimecoli-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-frangos-de-carne-suinos-de-crescimento-e-engorda-e-coelhos-11752
+
+3. **Coliscid 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e frangos de carne**
+   - Espécies: Coliscid 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e frangos de carne Substância Ativa: Colistina (sulfato) 40.0 mg | Espécie(s): Suínos, Frangos de carne*
+   - Link: https://medvet.dgav.pt/products/1489-01-22nfvpt-coliscid-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-frangos-de-carne-11755
+
+4. **Zoomisol 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Zoomisol 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Cloridrato De Levamisol 50.0 mg | Espécie(s): Suínos reprodutores (porcas e varrascos), Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/1481-01-21nfvpt-zoomisol-50-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11742
+
+5. **Tiamulol 100 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Tiamulol 100 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Hidrogeno fumarato de tiamulina 100.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1472-01-21nfvpt-tiamulol-100-g-kg-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11727
+
+6. **Oxitetraciclina 200 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos de crescimento e engorda e coelhos**
+   - Espécies: Oxitetraciclina 200 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos de crescimento e engorda e coelhos Substância Ativa: Oxitetraciclina Di-Hidrato 200.0 mg | Espécie(s): Coelhos          , Suínos (suínos de engorda), Suínos (de crescimento)
+   - Link: https://medvet.dgav.pt/products/1477-01-21nfvpt-oxitetraciclina-200-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-de-crescimento-e-engorda-e-coelhos-11739
+
+7. **Stabox 5 % pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Stabox 5 % pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Amoxicilina Tri-Hidratado 5.0 g | Espécie(s): Suínos (leitões)
+   - Link: https://medvet.dgav.pt/products/51377-stabox-5-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11404
+
+8. **Pulmodox 5 % pré-mistura medicamentosa para alimento medicamentoso**
+   - Espécies: Pulmodox 5 % pré-mistura medicamentosa para alimento medicamentoso Substância Ativa: Doxiciclina 50.0 mg | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/51356-pulmodox-5-pre-mistura-medicamentosa-para-alimento-medicamentoso-11340
+
+9. **Prevexto 1,25 g + 0,56 g, coleira medicamentosa para gatos**
+   - Espécies: Prevexto 1,25 g + 0,56 g, coleira medicamentosa para gatos Substâncias Ativas: Imidaclopride 1.25 g | Flumetrina 0.56 g | | Espécie(s): Gatos
+   - Link: https://medvet.dgav.pt/products/1726-01-25dfvpt-prevexto-1-25-g-0-56-g-coleira-medicamentosa-para-gatos-12185
+
+10. **Benamix 6.25 mg/g pré-mistura para alimentação medicamentosa de gatos**
+   - Espécies: Benamix 6.25 mg/g pré-mistura para alimentação medicamentosa de gatos Substância Ativa: Cloridrato De Benazepril 6.25 mg | Espécie(s): Gatos
+   - Link: https://medvet.dgav.pt/products/1695-01-25dfvpt-benamix-6-25-mg-g-pre-mistura-para-alimentacao-medicamentosa-de-gatos-12136
+
+11. **Prevexto 1,25 g + 0,56 g, coleira medicamentosa para cães até 8 kg**
+   - Espécies: Prevexto 1,25 g + 0,56 g, coleira medicamentosa para cães até 8 kg Substâncias Ativas: Imidaclopride 1.25 g | Flumetrina 0.56 g | | Espécie(s): Caninos (cães ≤ 8 kg)
+   - Link: https://medvet.dgav.pt/products/1726-02-25dfvpt-prevexto-1-25-g-0-56-g-coleira-medicamentosa-para-caes-ate-8-kg-12186
+
+12. **Prevexto 4,50 g + 2,03 g, coleira medicamentosa para cães com mais de 8 kg**
+   - Espécies: Prevexto 4,50 g + 2,03 g, coleira medicamentosa para cães com mais de 8 kg Substâncias Ativas: Imidaclopride 4.5 g | Flumetrina 2.03 g | | Espécie(s): Caninos (cães > 8 kg)
+   - Link: https://medvet.dgav.pt/products/1726-03-25dfvpt-prevexto-4-50-g-2-03-g-coleira-medicamentosa-para-caes-com-mais-de-8-kg-12189
+
+13. **Prevendog 1,056 g coleira medicamentosa para cães pequenos a médios**
+   - Espécies: Prevendog 1,056 g coleira medicamentosa para cães pequenos a médios Substância Ativa: Deltametrina 1.056 g | Espécie(s): Caninos (0 – 25 kg), para cães pequenos a médios
+   - Link: https://medvet.dgav.pt/products/1237-02-19dfvpt-prevendog-1-056-g-coleira-medicamentosa-para-caes-pequenos-a-medios-5129
+
+14. **Prevendog 1,304 g coleira medicamentosa para cães grandes a muito grandes**
+   - Espécies: Prevendog 1,304 g coleira medicamentosa para cães grandes a muito grandes Substância Ativa: Deltametrina 1.304 g | Espécie(s): Caninos (>25 kg), para cães grandes a muito grandes
+   - Link: https://medvet.dgav.pt/products/1237-03-19dfvpt-prevendog-1-304-g-coleira-medicamentosa-para-caes-grandes-a-muito-grandes-5184
+
+15. **VALMUVET 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos**
+   - Espécies: VALMUVET 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos Substância Ativa: Valnemulina 100.0 mg | Espécie(s): Suínos, Coelhos
+   - Link: https://medvet.dgav.pt/products/1538-01-22dfvpt-valmuvet-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-coelhos-11851
+
+16. **Deltatic coleira medicamentosa para cães grandes a muito grandes**
+   - Espécies: Deltatic coleira medicamentosa para cães grandes a muito grandes Substância Ativa: Deltametrina 1.304 g | Espécie(s): Caninos (>25 kg), para cães grandes a muito grandes
+   - Link: https://medvet.dgav.pt/products/1349-03-20dfvpt-deltatic-coleira-medicamentosa-para-caes-grandes-a-muito-grandes-8309
+
+17. **Deltatic coleira medicamentosa para cães pequenos a médios**
+   - Espécies: Deltatic coleira medicamentosa para cães pequenos a médios Substância Ativa: Deltametrina 1.056 g | Espécie(s): Caninos (0 – 25 kg), para cães pequenos a médios
+   - Link: https://medvet.dgav.pt/products/1349-02-20dfvpt-deltatic-coleira-medicamentosa-para-caes-pequenos-a-medios-8308
+
+18. **Biotilina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Biotilina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos Substância Ativa: Valnemulina 100.0 mg | Espécie(s): Suínos, Coelhos
+   - Link: https://medvet.dgav.pt/products/1342-01-20dfvpt-biotilina-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-coelhos-8263
+
+19. **Prevendog 0,636 g coleira medicamentosa para cães muito pequenos**
+   - Espécies: Prevendog 0,636 g coleira medicamentosa para cães muito pequenos Substância Ativa: Deltametrina 0.636 g | Espécie(s): Caninos (0 – 5 kg), para cães muito pequenos
+   - Link: https://medvet.dgav.pt/products/1237-01-19dfvpt-prevendog-0-636-g-coleira-medicamentosa-para-caes-muito-pequenos-5151
+
+20. **PRAZIVETIN 500 mg/g pré-mistura medicamentosa para alimento medicamentoso para dourada**
+   - Espécies: PRAZIVETIN 500 mg/g pré-mistura medicamentosa para alimento medicamentoso para dourada Substância Ativa: Praziquantel 500.0 mg | Espécie(s): Dourada
+   - Link: https://medvet.dgav.pt/products/1723-01-02-25cfvpt-prazivetin-500-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-dourada-12197
+
+21. **Curofen 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Curofen 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Fenbendazol 50.0 mg/g | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1105-01-17dfvpt-curofen-50-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7335
+
+22. **Pharmasin 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos**
+   - Espécies: Pharmasin 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos Substância Ativa: Tilosina 250.0 mg | Espécie(s): Suínos, Galinhas          , Frango
+   - Link: https://medvet.dgav.pt/products/969-01-15dfvpt-pharmasin-250-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-galinhas-e-frangos-7515
+
+23. **Doxi premix 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Doxi premix 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Doxiciclina 100.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/613-01-12nfvpt-doxi-premix-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7662
+
+24. **Aurofac granular 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas**
+   - Espécies: Aurofac granular 250 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas Substância Ativa: Cloridrato De Clorotetraciclina 250.0 mg | Espécie(s): Suínos, Galinhas
+   - Link: https://medvet.dgav.pt/products/275-01-10dfvpt-aurofac-granular-250-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-galinhas-3667
+
+25. **Nuflor 40 mg/g pré-mistura para alimento medicamentoso para suínos.**
+   - Espécies: Nuflor 40 mg/g pré-mistura para alimento medicamentoso para suínos. Substância Ativa: Florfenicol 40.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/003-01-07rfvpt-nuflor-40-mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-7412
+
+26. **Neudiavall 150 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Neudiavall 150 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Amoxicilina tri-hidrato 150.0 mg | Espécie(s): Suínos (leitões desmamados)
+   - Link: https://medvet.dgav.pt/products/010-02-11dfvpt-neudiavall-150-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11109
+
+27. **Ladoxyn 100mg/g pré-mistura para alimento medicamentoso para suínos**
+   - Espécies: Ladoxyn 100mg/g pré-mistura para alimento medicamentoso para suínos Substância Ativa: Doxiciclina (sob a forma de hiclato) 100.0 mg | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/180-01-09rfvpt-ladoxyn-100mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-10365
+
+28. **Linco feed 110mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos.**
+   - Espécies: Linco feed 110mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos. Substância Ativa: Lincomicina 110.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/309-01-11rfvpt-linco-feed-110mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7570
+
+29. **Icthiovac-PD Pasteurelloses dourada concentrado para suspensão para banho medicamentoso para dourada.**
+   - Espécies: Icthiovac-PD Pasteurelloses dourada concentrado para suspensão para banho medicamentoso para dourada. Substância Ativa: Inativada Photobacterium damselae subsp. piscicida 0.0 | Espécie(s): Dourada
+   - Link: https://medvet.dgav.pt/products/900-01-15rivpt-icthiovac-pd-pasteurelloses-dourada-concentrado-para-suspensao-para-banho-medicamentoso-para-dourada-7742
+
+30. **Maymoxi 10 pré-mistura medicamentosa para suínos**
+   - Espécies: Maymoxi 10 pré-mistura medicamentosa para suínos Substância Ativa: Amoxicilina Tri-Hidratado 100.0 g | Espécie(s): Suínos (leitões desmamados)
+   - Link: https://medvet.dgav.pt/products/092-01-08rfvpt-maymoxi-10-pre-mistura-medicamentosa-para-suinos-8024
+
+31. **Karidox 125 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Karidox 125 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Doxiciclina 125.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/906-01-15dfvpt-karidox-125-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-10346
+
+32. **Flortek 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Flortek 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Florfenicol 40.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/1396-01-21rfvpt-flortek-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11609
+
+33. **Floron 40mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Floron 40mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Florfenicol 40.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/258-01-10dfvpt-floron-40mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7549
+
+34. **Fenflorol 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Fenflorol 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Florfenicol 40.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/621-01-12nfvpt-fenflorol-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7619
+
+35. **Doxyprex 100 mg/g pré-mistura para alimento medicamentoso para suínos**
+   - Espécies: Doxyprex 100 mg/g pré-mistura para alimento medicamentoso para suínos Substância Ativa: Hiclato De Doxiciclina 100.0 mg | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/021-01-07rfvpt-doxyprex-100-mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-7840
+
+36. **Rhemox premix 100mg/g pré-mistura para alimento medicamentoso para suínos**
+   - Espécies: Rhemox premix 100mg/g pré-mistura para alimento medicamentoso para suínos Substância Ativa: Amoxicilina 100.0 mg | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/155-01-09dfvpt-rhemox-premix-100mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-11366
+
+37. **Apravet 100 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Apravet 100 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Sulfato de Apramicina 100.0 g | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/682-01-13dfvpt-apravet-100-g-kg-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-9951
+
+38. **Tilmovet 40 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Tilmovet 40 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos Substância Ativa: Tilmicosina 40.0 g | Espécie(s): Suínos (leitões desmamados), Suínos (suínos de engorda), Coelhos
+   - Link: https://medvet.dgav.pt/products/098-01-08dfvpt-tilmovet-40-g-kg-pre-mistura-para-alimento-medicamentoso-para-suinos-e-coelhos-7767
+
+39. **Tilmovet 100 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Tilmovet 100 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos Substância Ativa: Tilmicosina 100.0 g | Espécie(s): Suínos (leitões desmamados), Suínos (suínos de engorda), Coelhos
+   - Link: https://medvet.dgav.pt/products/099-01-08dfvpt-tilmovet-100-g-kg-pre-mistura-para-alimento-medicamentoso-para-suinos-e-coelhos-7440
+
+40. **Tilmovet 200 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Tilmovet 200 g/kg pré-mistura para alimento medicamentoso para suínos e coelhos Substância Ativa: Tilmicosina 200.0 g | Espécie(s): Suínos (leitões desmamados), Suínos (suínos de engorda), Coelhos
+   - Link: https://medvet.dgav.pt/products/100-01-08dfvpt-tilmovet-200-g-kg-pre-mistura-para-alimento-medicamentoso-para-suinos-e-coelhos-7668
+
+41. **Apravet 100.000 ui/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Apravet 100.000 ui/g pré-mistura medicamentosa para alimento medicamentoso para suínos e coelhos Substância Ativa: Apramicina Sulfato 100000.0 UI | Espécie(s): Suínos, Coelhos
+   - Link: https://medvet.dgav.pt/products/1056-01-16dfvpt-apravet-100-000-ui-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-coelhos-3673
+
+42. **Pigfen 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos.**
+   - Espécies: Pigfen 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos. Substância Ativa: Fenbendazol 40.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1057-01-16dfvpt-pigfen-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7726
+
+43. **Gallifen 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para galinhas e faisões**
+   - Espécies: Gallifen 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para galinhas e faisões Substância Ativa: Fenbendazol 40.0 mg | Espécie(s): Galinhas          , Faisões
+   - Link: https://medvet.dgav.pt/products/1065-01-16dfvpt-gallifen-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-galinhas-e-faisoes-5078
+
+44. **Pharmasin 100.000 UI/g Pré-mistura para alimento medicamentoso para suínos, frangos de engorda e galinhas**
+   - Espécies: Pharmasin 100.000 UI/g Pré-mistura para alimento medicamentoso para suínos, frangos de engorda e galinhas Substância Ativa: Tilosina 100000.0 UI | Espécie(s): Suínos, Galinhas          , Frangos de engorda
+   - Link: https://medvet.dgav.pt/products/161-01-09dfvpt-pharmasin-100-000-ui-g-pre-mistura-para-alimento-medicamentoso-para-suinos-frangos-de-engorda-e-galinhas-11246
+
+45. **Vetmulin 100 g/kg pré-mistura para alimento medicamentoso para suínos, galinhas, perus e coelhos**
+   - Espécies: Vetmulin 100 g/kg pré-mistura para alimento medicamentoso para suínos, galinhas, perus e coelhos Substância Ativa: Hidrogeno fumarato de tiamulina 100.0 g | Espécie(s): Suínos, Galinhas (frangos de engorda, frangas de substituição, galinhas poedeiras/reprodutoras), Perus (perus do dia (para crescimento) e reprodutores), Coelhos
+   - Link: https://medvet.dgav.pt/products/242-01-10dfvpt-vetmulin-100-g-kg-pre-mistura-para-alimento-medicamentoso-para-suinos-galinhas-perus-e-coelhos-11485
+
+46. **Deccox 6 - pré-mistura para alimento medicamentoso para bovinos e ovinos.**
+   - Espécies: Deccox 6 - pré-mistura para alimento medicamentoso para bovinos e ovinos. Substâncias Ativas: Decoquinato 600.0 mg | óleo de soja estabilizado 0.285 g | Moagem de trigo 100.0 g | | Espécie(s): Bovinos (vitelos), Ovinos (borregos)
+   - Link: https://medvet.dgav.pt/products/51355-deccox-6-pre-mistura-para-alimento-medicamentoso-para-bovinos-e-ovinos-10124
+
+47. **Iberzoon pm 05- pré-mistura medicamentosa para alimento medicamentoso para frangos, suínos e vitelos**
+   - Espécies: Iberzoon pm 05- pré-mistura medicamentosa para alimento medicamentoso para frangos, suínos e vitelos Substância Ativa: Neomicina 100.0 UI | Espécie(s): Suínos, Vitelos*, Aves (frangos de carne)
+   - Link: https://medvet.dgav.pt/products/1493-01-22nfvpt-iberzoon-pm-05-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-frangos-suinos-e-vitelos-11757
+
+48. **Acuimix 750 mg/g, pré-mistura medicamentosa para alimento medicamentoso**
+   - Espécies: Acuimix 750 mg/g, pré-mistura medicamentosa para alimento medicamentoso Substância Ativa: Hidrocloreto de Oxitetraciclina 750.0 mg | Espécie(s): Salmão do Atlântico (Salmo salar), Salmonídeo          , Robalo (Dicentrarchus labrax), Dourada (Sparus aurata), Rodovalho          , Enguia europeia (Anguilla anguilla), Carpa europeia (Cyprinus carpio)
+   - Link: https://medvet.dgav.pt/products/789-01-14nfvpt-acuimix-750-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-3686
+
+49. **Iberzoon pm 01, 200 mg/g pré-mistura medicamentosa para alimento medicamentoso**
+   - Espécies: Iberzoon pm 01, 200 mg/g pré-mistura medicamentosa para alimento medicamentoso Substância Ativa: Oxitetraciclina Di-Hidrato 200.0 mg | Espécie(s): Suínos, Bovinos (vitelos), Ovinos (borregos), Caprinos (cabritos), Frango          , Galinhas
+   - Link: https://medvet.dgav.pt/products/1476-01-21nfvpt-iberzoon-pm-01-200-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-11743
+
+50. **Drymix 900 000 ui /g pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos de carne**
+   - Espécies: Drymix 900 000 ui /g pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos de carne Substância Ativa: Colistina (sulfato) 900000.0 UI | Espécie(s): Suínos, Frangos de carne*, Galinhas
+   - Link: https://medvet.dgav.pt/products/1490-01-22nfvpt-drymix-900-000-ui-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-galinhas-e-frangos-de-carne-11754
+
+51. **Sintage 80 mg/g + 20 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Sintage 80 mg/g + 20 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substâncias Ativas: Amoxicilina 80.0 mg | Gentamicina 20.0 mg | | Espécie(s): Suínos (após o desmame)
+   - Link: https://medvet.dgav.pt/products/1337-01-20nfvpt-sintage-80-mg-g-20-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-4196
+
+52. **Mixacillina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos, frangos e perus**
+   - Espécies: Mixacillina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos, frangos e perus Substância Ativa: Amoxicilina Tri-Hidratado 100.0 mg | Espécie(s): Suínos, Frango          , Perus
+   - Link: https://medvet.dgav.pt/products/1314-01-19nfvpt-mixacillina-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-frangos-e-perus-4653
+
+53. **Octollar 4,50 g + 2,03 g coleira medicamentosa para cães > 8 kg**
+   - Espécies: Octollar 4,50 g + 2,03 g coleira medicamentosa para cães > 8 kg Substâncias Ativas: Imidaclopride 4.5 g | Flumetrina 2.03 g | | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/1649-04-24dfvpt-octollar-4-50-g-2-03-g-coleira-medicamentosa-para-caes-8-kg-12058
+
+54. **Octollar 1,25 g + 0,56 g coleira medicamentosa para gatos e cães ≤ 8 kg**
+   - Espécies: Octollar 1,25 g + 0,56 g coleira medicamentosa para gatos e cães ≤ 8 kg Substâncias Ativas: Imidaclopride 1.25 g | Flumetrina 0.56 g | | Espécie(s): Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/1649-03-24dfvpt-octollar-1-25-g-0-56-g-coleira-medicamentosa-para-gatos-e-caes-8-kg-12055
+
+55. **Octollar 1,25 g + 0,56 g coleira medicamentosa para gatos**
+   - Espécies: Octollar 1,25 g + 0,56 g coleira medicamentosa para gatos Substâncias Ativas: Imidaclopride 1.25 mg | Flumetrina 0.56 mg | | Espécie(s): Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/1649-01-24dfvpt-octollar-1-25-g-0-56-g-coleira-medicamentosa-para-gatos-12054
+
+56. **Octollar 1,25 g + 0,56 g coleira medicamentosa para cães ≤ 8 kg**
+   - Espécies: Octollar 1,25 g + 0,56 g coleira medicamentosa para cães ≤ 8 kg Substâncias Ativas: Imidaclopride 1.25 g | Flumetrina 0.56 g | | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/1649-02-24dfvpt-octollar-1-25-g-0-56-g-coleira-medicamentosa-para-caes-8-kg-12057
+
+57. **Flubenol 60g/kg pré-mistura medicamentosa para suínos e aves**
+   - Espécies: Flubenol 60g/kg pré-mistura medicamentosa para suínos e aves Substância Ativa: Flubendazol 6.0 g | Espécie(s): Suínos, Aves (frango, galinha, peru, perdiz e faisão)
+   - Link: https://medvet.dgav.pt/products/51499-flubenol-60g-kg-pre-mistura-medicamentosa-para-suinos-e-aves-8170
+
+58. **Aivlosin 42,5 mg/g pré-mistura para alimento medicamentoso para suínos**
+   - Espécies: Aivlosin 42,5 mg/g pré-mistura para alimento medicamentoso para suínos Substância Ativa: Tilvalosina 42.5 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/51541-aivlosin-42-5-mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-9915
+
+59. **Vectimax 6 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Vectimax 6 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Ivermectina 6.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1326-01-19rfvpt-vectimax-6-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-8373
+
+60. **Ecomectin 6 mg/g pré-mistura medicamentosa para suínos**
+   - Espécies: Ecomectin 6 mg/g pré-mistura medicamentosa para suínos Substância Ativa: Ivermectina 6.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/060-01-08dfvpt-ecomectin-6-mg-g-pre-mistura-medicamentosa-para-suinos-7475
+
+61. **Kenocidin spray and dip, digluconato de clorexidina 5mg/g, solução para banho medicamentoso ou pulverização do úbere para bovinos (leiteiros)**
+   - Espécies: Kenocidin spray and dip, digluconato de clorexidina 5mg/g, solução para banho medicamentoso ou pulverização do úbere para bovinos (leiteiros) Substância Ativa: Digloconato de Clorexidina 5.0 mg | Espécie(s): Vacas leiteiras
+   - Link: https://medvet.dgav.pt/products/384-01-11rfvpt-kenocidin-spray-and-dip-digluconato-de-clorexidina-5mg-g-solucao-para-banho-medicamentoso-ou-pulverizacao-do-ubere-para-bovinos-leiteiros-10356
+
+62. **Kenocidin digluconato de clorexidina 5mg/g, solução para banho medicamentoso do úbere para bovinos (leiteiros)**
+   - Espécies: Kenocidin digluconato de clorexidina 5mg/g, solução para banho medicamentoso do úbere para bovinos (leiteiros) Substância Ativa: Digloconato de Clorexidina 5.0 mg | Espécie(s): Vacas leiteiras
+   - Link: https://medvet.dgav.pt/products/305-01-10rfvpt-kenocidin-digluconato-de-clorexidina-5mg-g-solucao-para-banho-medicamentoso-do-ubere-para-bovinos-leiteiros-10355
+
+63. **Aquacen benzocaína 200 mg/ml, concentrado para solução para banho medicamentoso**
+   - Espécies: Aquacen benzocaína 200 mg/ml, concentrado para solução para banho medicamentoso Substância Ativa: Benzocaína 200.0 mg | Espécie(s): Salmão do Atlântico        , Truta Arco-íris (Onchorynchus mykiss)
+   - Link: https://medvet.dgav.pt/products/992-01-16dfvpt-aquacen-benzocaina-200-mg-ml-concentrado-para-solucao-para-banho-medicamentoso-3729
+
+64. **Aquacen cloridrato oxitetraciclina 1000 mg/g pré-mistura medicamentosa para alimento medicamentoso**
+   - Espécies: Aquacen cloridrato oxitetraciclina 1000 mg/g pré-mistura medicamentosa para alimento medicamentoso Substância Ativa: Cloridrato De Oxitetraciclina 1000.0 mg | Espécie(s): Salmonídeos (Salmo sp, Oncorhynchus sp), Robalo (Dicentrarchus labrax), Dourada (Sparus aurata), Pregado (Psetta máxima), Enguia europeia (Anguilla anguilla), Carpa europeia (Cyprinus carpio)
+   - Link: https://medvet.dgav.pt/products/890-01-15rfvpt-aquacen-cloridrato-oxitetraciclina-1000-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-3711
+
+65. **Sulfaprex 250/50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e ovinos**
+   - Espécies: Sulfaprex 250/50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e ovinos Substâncias Ativas: Sulfadiazina 250.0 mg | Trimetoprim 50.0 mg | | Espécie(s): Suínos, Ovinos (pré-ruminantes)
+   - Link: https://medvet.dgav.pt/products/1027-01-16dfvpt-sulfaprex-250-50-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-ovinos-8020
+
+66. **Doxiciclina calier 125 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Doxiciclina calier 125 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Hiclato De Doxiciclina 125.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/1086-01-17dfvpt-doxiciclina-calier-125-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-7808
+
+67. **Fluben 50 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos.**
+   - Espécies: Fluben 50 g/kg pré-mistura medicamentosa para alimento medicamentoso para suínos, galinhas e frangos. Substância Ativa: Flubendazol 50.0 mg | Espécie(s): Suínos, Galinhas          , Frango
+   - Link: https://medvet.dgav.pt/products/961-01-15nfvpt-fluben-50-g-kg-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-galinhas-e-frangos-7505
+
+68. **Zoobiotic globulit 150 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Zoobiotic globulit 150 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Suínos (leitões desmamados)
+   - Link: https://medvet.dgav.pt/products/199-01-09rfvpt-zoobiotic-globulit-150-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-11505
+
+69. **Caliermutin, 20mg/g, pré-mistura para alimento medicamentoso para suínos e coelhos**
+   - Espécies: Caliermutin, 20mg/g, pré-mistura para alimento medicamentoso para suínos e coelhos Substância Ativa: Hidrogeno fumarato de tiamulina 20.0 mg | Espécie(s): Suínos, Coelhos
+   - Link: https://medvet.dgav.pt/products/002-01-07rfvpt-caliermutin-20mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-e-coelhos-11555
+
+70. **Caliermutin 100 mg/g pré mistura para alimento medicamentoso para suínos**
+   - Espécies: Caliermutin 100 mg/g pré mistura para alimento medicamentoso para suínos Substância Ativa: Hidrogeno fumarato de tiamulina 100.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/002-02-07rfvpt-caliermutin-100-mg-g-pre-mistura-para-alimento-medicamentoso-para-suinos-10037
+
+71. **Ivomec premix pré-mistura para alimento medicamentosopara suínos**
+   - Espécies: Ivomec premix pré-mistura para alimento medicamentosopara suínos Substância Ativa: Ivermectina 0.68 kg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/51001-ivomec-premix-pre-mistura-para-alimento-medicamentosopara-suinos-10343
+
+72. **Parecto 4,50 g + 2,03 g coleira medicamentosa para cães com mais de 8 kg**
+   - Espécies: Parecto 4,50 g + 2,03 g coleira medicamentosa para cães com mais de 8 kg Substâncias Ativas: Imidacloprida 4.5 g | Flumetrina 2.03 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1752-03-25dfvpt-parecto-4-50-g-2-03-g-coleira-medicamentosa-para-caes-com-mais-de-8-kg-12245
+
+73. **Simbia 1,25 g + 0,56 g coleira medicamentosa para gatos**
+   - Espécies: Simbia 1,25 g + 0,56 g coleira medicamentosa para gatos Substâncias Ativas: Imidacloprida 1.25 g | Flumetrina 0.56 g | | Espécie(s): Gatos
+   - Link: https://medvet.dgav.pt/products/1753-01-25dfvpt-simbia-1-25-g-0-56-g-coleira-medicamentosa-para-gatos-12246
+
+74. **Simbia 1,25 g + 0,56 g coleira medicamentosa para cães até 8 kg**
+   - Espécies: Simbia 1,25 g + 0,56 g coleira medicamentosa para cães até 8 kg Substâncias Ativas: Imidacloprida 1.25 g | Flumetrina 0.56 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1753-02-25dfvpt-simbia-1-25-g-0-56-g-coleira-medicamentosa-para-caes-ate-8-kg-12247
+
+75. **Merlin 1,04 g coleira medicamentosa para cães de grande porte**
+   - Espécies: Merlin 1,04 g coleira medicamentosa para cães de grande porte Substância Ativa: Deltametrina 1.04 g | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/1203-01-18dfvpt-merlin-1-04-g-coleira-medicamentosa-para-caes-de-grande-porte-5331
+
+76. **Paresto 1,25 g + 0,56 g coleira medicamentosa para gatos**
+   - Espécies: Paresto 1,25 g + 0,56 g coleira medicamentosa para gatos Substâncias Ativas: Imidacloprida 1.25 g | Flumetrina 0.56 g | | Espécie(s): Gatos
+   - Link: https://medvet.dgav.pt/products/1755-01-25dfvpt-paresto-1-25-g-0-56-g-coleira-medicamentosa-para-gatos-12252
+
+77. **Canishield 1,04 g coleira medicamentosa para cães de grande porte**
+   - Espécies: Canishield 1,04 g coleira medicamentosa para cães de grande porte Substância Ativa: Deltametrina 1.04 g | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/1202-01-18dfvpt-canishield-1-04-g-coleira-medicamentosa-para-caes-de-grande-porte-10048
+
+78. **Remuvet Pro 4,50 g + 2,03 g coleira medicamentosa para cães com mais de 8 kg**
+   - Espécies: Remuvet Pro 4,50 g + 2,03 g coleira medicamentosa para cães com mais de 8 kg Substâncias Ativas: Imidacloprida 4.5 g | Flumetrina 2.03 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1754-03-25dfvpt-remuvet-pro-4-50-g-2-03-g-coleira-medicamentosa-para-caes-com-mais-de-8-kg-12251
+
+79. **Remuvet Pro 1,25 g + 0,56 g coleira medicamentosa para cães até 8 kg**
+   - Espécies: Remuvet Pro 1,25 g + 0,56 g coleira medicamentosa para cães até 8 kg Substâncias Ativas: Imidacloprida 1.25 g | Flumetrina 0.56 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1754-02-25dfvpt-remuvet-pro-1-25-g-0-56-g-coleira-medicamentosa-para-caes-ate-8-kg-12250
+
+80. **Merlin 0,77 g coleira medicamentosa para cães pequenos e cães médios**
+   - Espécies: Merlin 0,77 g coleira medicamentosa para cães pequenos e cães médios Substância Ativa: Deltametrina 0.77 g | Espécie(s): Cão médio         , Cão pequeno
+   - Link: https://medvet.dgav.pt/products/1414-01-21rfvpt-merlin-0-77-g-coleira-medicamentosa-para-caes-pequenos-e-caes-medios-11636
+
+81. **Remuvet Pro 1,25 g + 0,56 g coleira medicamentosa para gatos**
+   - Espécies: Remuvet Pro 1,25 g + 0,56 g coleira medicamentosa para gatos Substâncias Ativas: Imidacloprida 1.25 g | Flumetrina 0.56 g | | Espécie(s): Gatos
+   - Link: https://medvet.dgav.pt/products/1754-01-25dfvpt-remuvet-pro-1-25-g-0-56-g-coleira-medicamentosa-para-gatos-12249
+
+82. **Simbia 4,50 g + 2,03 g coleira medicamentosa para cães com mais de 8 kg**
+   - Espécies: Simbia 4,50 g + 2,03 g coleira medicamentosa para cães com mais de 8 kg Substâncias Ativas: Imidacloprida 4.5 g | Flumetrina 2.03 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1753-03-25dfvpt-simbia-4-50-g-2-03-g-coleira-medicamentosa-para-caes-com-mais-de-8-kg-12248
+
+83. **Paresto 4,50 g + 2,03 g coleira medicamentosa para cães com mais de 8 kg**
+   - Espécies: Paresto 4,50 g + 2,03 g coleira medicamentosa para cães com mais de 8 kg Substâncias Ativas: Imidacloprida 4.5 g | Flumetrina 2.03 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1755-03-25dfvpt-paresto-4-50-g-2-03-g-coleira-medicamentosa-para-caes-com-mais-de-8-kg-12254
+
+84. **Paresto 1,25 g + 0,56 g coleira medicamentosa para cães até 8 kg**
+   - Espécies: Paresto 1,25 g + 0,56 g coleira medicamentosa para cães até 8 kg Substâncias Ativas: Imidacloprida 1.25 g | Flumetrina 0.56 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1755-02-25dfvpt-paresto-1-25-g-0-56-g-coleira-medicamentosa-para-caes-ate-8-kg-12253
+
+85. **Canishield 0,77 g coleira medicamentosa para cães de pequeno e médio porte**
+   - Espécies: Canishield 0,77 g coleira medicamentosa para cães de pequeno e médio porte Substância Ativa: Deltametrina 0.77 g | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/1288-01-19dfvpt-canishield-0-77-g-coleira-medicamentosa-para-caes-de-pequeno-e-medio-porte-3622
+
+86. **Parecto 1,25 g + 0,56 g coleira medicamentosa para gatos**
+   - Espécies: Parecto 1,25 g + 0,56 g coleira medicamentosa para gatos Substâncias Ativas: Imidacloprida 1.25 g | Flumetrina 0.56 g | | Espécie(s): Gatos
+   - Link: https://medvet.dgav.pt/products/1752-01-25dfvpt-parecto-1-25-g-0-56-g-coleira-medicamentosa-para-gatos-12242
+
+87. **Parecto 1,25 g + 0,56 g coleira medicamentosa para cães até 8 kg**
+   - Espécies: Parecto 1,25 g + 0,56 g coleira medicamentosa para cães até 8 kg Substâncias Ativas: Imidacloprida 1.25 g | Flumetrina 0.56 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1752-02-25dfvpt-parecto-1-25-g-0-56-g-coleira-medicamentosa-para-caes-ate-8-kg-12244
+
+88. **Macrofence 4,50 g + 2,03 g, coleira medicamentosa para cães com mais de 8 kg**
+   - Espécies: Macrofence 4,50 g + 2,03 g, coleira medicamentosa para cães com mais de 8 kg Substâncias Ativas: Imidaclopride 4.5 g | Flumetrina 2.03 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1743-03-25dfvpt-macrofence-4-50-g-2-03-g-coleira-medicamentosa-para-caes-com-mais-de-8-kg-12229
+
+89. **Macrofence 1,25 g + 0,56 g, coleira medicamentosa para gatos**
+   - Espécies: Macrofence 1,25 g + 0,56 g, coleira medicamentosa para gatos Substâncias Ativas: Imidaclopride 1.25 g | Flumetrina 0.56 g | | Espécie(s): Gatos
+   - Link: https://medvet.dgav.pt/products/1743-01-25dfvpt-macrofence-1-25-g-0-56-g-coleira-medicamentosa-para-gatos-12227
+
+90. **Macrofence 1,25 g + 0,56 g, coleira medicamentosa para cães até 8 kg**
+   - Espécies: Macrofence 1,25 g + 0,56 g, coleira medicamentosa para cães até 8 kg Substâncias Ativas: Imidaclopride 1.25 g | Flumetrina 0.56 g | | Espécie(s): Cães
+   - Link: https://medvet.dgav.pt/products/1743-02-25dfvpt-macrofence-1-25-g-0-56-g-coleira-medicamentosa-para-caes-ate-8-kg-12228
+
+91. **Apsamix colistina 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Apsamix colistina 40 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Sulfato De Colistina 40.0 mg | Espécie(s): Suínos (leitões e porcos de engorda)
+   - Link: https://medvet.dgav.pt/products/51654-apsamix-colistina-40-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-9953
+
+92. **APSAMIX AMOXICILINA 200 mg/g Pré-mistura medicamentosa para suínos**
+   - Espécies: APSAMIX AMOXICILINA 200 mg/g Pré-mistura medicamentosa para suínos Substância Ativa: Amoxicilina Tri-Hidratado 200.0 mg | Espécie(s): Suínos (leitões desmamados)
+   - Link: https://medvet.dgav.pt/products/1699-01-25rfvpt-apsamix-amoxicilina-200-mg-g-pre-mistura-medicamentosa-para-suinos-12140
+
+93. **Vetalmex bacitracina 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para coelhos**
+   - Espécies: Vetalmex bacitracina 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para coelhos Substância Ativa: Bacitracina de zinco 0.05 mg | Espécie(s): Coelhos
+   - Link: https://medvet.dgav.pt/products/319-01-11nfvpt-vetalmex-bacitracina-50-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-coelhos-7979
+
+94. **Vetalmex oxitetraciclina 200 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos (suínos de engorda)**
+   - Espécies: Vetalmex oxitetraciclina 200 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos (suínos de engorda) Substância Ativa: Oxitetraciclina 200.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/578-01-12nfvpt-vetalmex-oxitetraciclina-200-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-suinos-de-engorda-7980
+
+95. **Apsamix tiamulina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos (suínos de engorda)**
+   - Espécies: Apsamix tiamulina 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos (suínos de engorda) Substância Ativa: Hidrogeno fumarato de tiamulina 100.0 mg | Espécie(s): Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/345-01-11rfvpt-apsamix-tiamulina-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-suinos-de-engorda-9954
+
+96. **Alphafluben 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas**
+   - Espécies: Alphafluben 50 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos e galinhas Substância Ativa: Flubendazol 50.0 mg | Espécie(s): Galinhas (frangos de carne), Suínos (suínos de engorda)
+   - Link: https://medvet.dgav.pt/products/1324-01-19dfvpt-alphafluben-50-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-e-galinhas-3603
+
+97. **Alphadoxan 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Alphadoxan 100 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Doxiciclina 100.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1351-01-20dfvpt-alphadoxan-100-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-8303
+
+98. **Alphaflorovet 20 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos**
+   - Espécies: Alphaflorovet 20 mg/g pré-mistura medicamentosa para alimento medicamentoso para suínos Substância Ativa: Florfenicol 20.0 mg | Espécie(s): Suínos
+   - Link: https://medvet.dgav.pt/products/1285-01-19dfvpt-alphaflorovet-20-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-para-suinos-3722
+
+
+Nota: Informações extraídas da página de busca.
+
+⏱️  Tempo Total: 87.41 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #25
+Timestamp: 2026-02-02 17:02:00
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem em comprimidos  com o princípio ativo ácido tolfenâmico?
+
+Resposta:
+Não foram encontrados resultados para: 'medicamento  Comprimidos'.
+
+⏱️  Tempo Total: 50.1 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #26
+Timestamp: 2026-02-02 17:02:52
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Animeloxan?
+
+Resposta:
+Para comparação, forneça substância ativa, espécie ou forma farmacêutica.
+
+⏱️  Tempo Total: 10.3 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #27
+Timestamp: 2026-02-02 17:03:04
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual o medicamento alternativo para Trocoxil 75 para cães?
+
+Resposta:
+**Medicamentos alternativos ao Trocoxil 75:**
+
+🔬 **Princípio ativo:** Mavacoxib
+🐾 **Espécie:** Cães
+
+📋 **Medicamentos encontrados (4):**
+
+1. **Trocoxil 20 mg comprimidos mastigáveis para cães**
+   - Espécies: Trocoxil 20 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 20.0 mg | Espécie(s): Caninos (Cães) com idade igual ou superior a 12 meses
+   - Link: https://medvet.dgav.pt/products/109-02-08cfvpt-trocoxil-20-mg-comprimidos-mastigaveis-para-caes-2059
+
+2. **Trocoxil 30 mg comprimidos mastigáveis para cães**
+   - Espécies: Trocoxil 30 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 30.0 mg | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/109-03-08cfvpt-trocoxil-30-mg-comprimidos-mastigaveis-para-caes-2060
+
+3. **Trocoxil 6 mg comprimidos mastigáveis para cães**
+   - Espécies: Trocoxil 6 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 6.0 mg | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/109-01-08cfvpt-trocoxil-6-mg-comprimidos-mastigaveis-para-caes-2061
+
+4. **Trocoxil 95 mg comprimidos mastigáveis para cães**
+   - Espécies: Trocoxil 95 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 95.0 mg | Espécie(s): Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/109-05-08cfvpt-trocoxil-95-mg-comprimidos-mastigaveis-para-caes-2063
+
+
+💡 **Total:** 4 medicamentos alternativos encontrados.
+
+⏱️  Tempo Total: 14.6 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #28
+Timestamp: 2026-02-02 17:03:21
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual a dose do medicamento VEYLACTIN 50 para gatos?
+
+Resposta:
+⚠️ Não foi possível gerar resposta adequada em português.
+
+    📋 Informações disponíveis sobre Veylactin 50 microgramas/ml solução oral para cães e gatos:
+    - Consulte a bula completa do medicamento
+    - URL: https://medvet.dgav.pt/products/442-01-12dfvp-veylactin-50-microgramas-ml-solucao-oral-para-caes-e-gatos-10352
+
+    💡 Sugestão: Reformule a pergunta ou consulte diretamente o documento oficial.
+
+⏱️  Tempo Total: 34.71 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #29
+Timestamp: 2026-02-02 17:03:57
+----------------------------------------------------------------------------------------------------
+Pergunta: Para qual espécie é indicado o medicamento Tylucyl 200 mg/ml?
+
+Resposta:
+
+Informação encontrada no documento. O medicamento Tylucyl 200 mg/ml é indicado para **bovinos** e **suínos**.
+
+⏱️  Tempo Total: 39.02 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #30
+Timestamp: 2026-02-02 17:04:38
+----------------------------------------------------------------------------------------------------
+Pergunta: Para que serve o medicamento Dolpac?
+
+Resposta:
+
+O medicamento Dolpac é indicado para o tratamento curativo de infecções mistas pelos seguintes nemátodes e céstodes no estádio adulto em cães:
+
+**Nemátodes:**
+- *Toxocara canis*
+- *Toxascaris leonina*
+- *Ancylostoma caninum*
+- *Uncinaria stenocephala*
+- *Trichuris vulpis*
+
+**Céstodes:**
+- *Dipylidium caninum*
+- *Taenia spp.*
+- *Echinococcus multilocularis*
+- *Echinococcus granulosus*
+
+Esta informação está detalhada na seção 4.2 do documento.
+
+⏱️  Tempo Total: 31.64 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #31
+Timestamp: 2026-02-02 17:05:12
+----------------------------------------------------------------------------------------------------
+Pergunta: Como devo administrar o medicamento Felpreva?
+
+Resposta:
+
+**Folheto Informativo: Felpreva**
+
+**Nome do Medicamento:** Felpreva
+
+**Composição:** Cada ml contém 1 mg de Lufenuron.
+
+**Apresentação:** Embalagens de 1 ml, 5 ml, 10 ml, 50 ml.
+
+**Indicações:**
+- Controle efetivo de pulgas e carrapatos em felinos.
+
+**Espécie:** Gatos.
+
+**Via de Administração:** Subcutânea (IM).
+
+**Dose:** A dose recomendada é de 1 ml por quilo de peso do animal.
+
+**Efeito:** A eficácia do medicamento dura por aproximadamente 30 dias.
+
+**Contraindicações:** Não recomendado para uso em animais de pequeno porte.
+
+**Reações Adversas:** Em caso de reações alérgicas, suspenda o tratamento e consulte um veterinário.
+
+**Precauções:** Mantenha o medicamento em local fresco e ao abrigo da luz solar direta.
+
+**Atualização:** Esta informação foi atualizada em 15 de março de 2025.
+
+**Nota:** As informações aqui fornecidas são extraídas do folheto de instruções do medicamento Felpreva. Para tratamentos específicos, consulte sempre um profissional veterinário.
+
+⏱️  Tempo Total: 43.84 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #32
+Timestamp: 2026-02-02 17:05:58
+----------------------------------------------------------------------------------------------------
+Pergunta: Que medicamentos/marcas existem com o princípio ativo Amoxicilina indicado para espécie bovino?
+
+Resposta:
+Resultados para: 'Que medicamentos/marcas existem com o princípio ativo Amoxicilina indicado para espécie bovinos?'
+
+Total: 22
+
+1. **Synulox injectável (rtu)**
+   - Espécies: Synulox injectável (rtu) Substâncias Ativas: Amoxicilina (sob a forma de trihidratado) 140.0 mg | Ácido clavulânico (sob a forma de clavulanato de potássio) 35.0 mg | | Espécie(s): Bovinos, Caninos, Felinos, Suínos
+   - Link: https://medvet.dgav.pt/products/51178-synulox-injectavel-rtu-11422
+
+2. **Synulox lc suspensão intramamária para bovinos em lactação.**
+   - Espécies: Synulox lc suspensão intramamária para bovinos em lactação. Substâncias Ativas: Amoxicilina 200.0 mg | Ácido clavulânico 50.0 mg | Prednisolona 10.0 mg | | Espécie(s): Bovinos (vacas em lactação)
+   - Link: https://medvet.dgav.pt/products/51179-synulox-lc-suspensao-intramamaria-para-bovinos-em-lactacao-8041
+
+3. **Clamoxyl la 150 mg/ ml suspensão injetável para bovinos, ovinos, caprinos, suínos, cães e gatos**
+   - Espécies: Clamoxyl la 150 mg/ ml suspensão injetável para bovinos, ovinos, caprinos, suínos, cães e gatos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Caprinos, Ovinos, Suínos, Cães          , Gatos
+   - Link: https://medvet.dgav.pt/products/50906-clamoxyl-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-caprinos-suinos-caes-e-gatos-3739
+
+4. **Clamoxyl suspensão injetável**
+   - Espécies: Clamoxyl suspensão injetável Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Caninos, Felinos, Suínos, Caprinos
+   - Link: https://medvet.dgav.pt/products/50117-clamoxyl-suspensao-injetavel-11944
+
+5. **Veyxamox LA 20 %, 200 mg/ml suspensão injetável para bovinos e suínos**
+   - Espécies: Veyxamox LA 20 %, 200 mg/ml suspensão injetável para bovinos e suínos Substância Ativa: Amoxicilina 200.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/331-01-11nfvpt-veyxamox-la-20-200-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-8177
+
+6. **Longamox 150 mg/ml suspensão injetável para bovinos, ovinos e suínos**
+   - Espécies: Longamox 150 mg/ml suspensão injetável para bovinos, ovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/51378-longamox-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-e-suinos-7656
+
+7. **Vetamoxil la 150 mg/ml suspensão injetável para bovinos, ovinos e suínos**
+   - Espécies: Vetamoxil la 150 mg/ml suspensão injetável para bovinos, ovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/147-01-09nfvpt-vetamoxil-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-e-suinos-5185
+
+8. **Trymox la 150 mg/ml suspensão injetável para bovinos, ovinos, suínos, cães e gatos**
+   - Espécies: Trymox la 150 mg/ml suspensão injetável para bovinos, ovinos, suínos, cães e gatos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos, Caninos (cães), Felinos (gatos)
+   - Link: https://medvet.dgav.pt/products/1246-01-19dfvpt-trymox-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-suinos-caes-e-gatos-4164
+
+9. **Amoxisol retard 150 mg/ml suspensão injectável**
+   - Espécies: Amoxisol retard 150 mg/ml suspensão injectável Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Caninos, Felinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/51235-amoxisol-retard-150-mg-ml-suspensao-injectavel-3600
+
+10. **Noroclav suspensão injetável**
+   - Espécies: Noroclav suspensão injetável Substâncias Ativas: Amoxicilina 140.0 mg | Ácido clavulânico 35.0 mg | | Espécie(s): Bovinos, Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/51530-noroclav-suspensao-injetavel-11158
+
+11. **Nisinject 175 mg suspensão injetável**
+   - Espécies: Nisinject 175 mg suspensão injetável Substâncias Ativas: Amoxicilina 140.0 mg | Ácido clavulânico 35.0 mg | | Espécie(s): Bovinos, Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/51531-nisinject-175-mg-suspensao-injetavel-11132
+
+12. **Noroclav suspensão intramamária para bovinos em lactação**
+   - Espécies: Noroclav suspensão intramamária para bovinos em lactação Substâncias Ativas: Amoxicilina Tri-Hidratado 200.0 mg | Ácido clavulânico 50.0 mg | Prednisolona 10.0 mg | | Espécie(s): Bovinos (vacas em lactação)
+   - Link: https://medvet.dgav.pt/products/1212-01-18dfvpt-noroclav-suspensao-intramamaria-para-bovinos-em-lactacao-4157
+
+13. **Syvamox l.a. 150 mg/ml suspensão injectável para bovinos, ovinos, suínos e cães**
+   - Espécies: Syvamox l.a. 150 mg/ml suspensão injectável para bovinos, ovinos, suínos e cães Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos, Caninos (cães)
+   - Link: https://medvet.dgav.pt/products/51534-syvamox-l-a-150-mg-ml-suspensao-injectavel-para-bovinos-ovinos-suinos-e-caes-5180
+
+14. **Bimoxyvet la (ex maymoxi la)150 mg/ml, suspensão injetável para bovinos, ovinos e suínos**
+   - Espécies: Bimoxyvet la (ex maymoxi la)150 mg/ml, suspensão injetável para bovinos, ovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1078-01-17dfvpt-bimoxyvet-la-ex-maymoxi-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-e-suinos-7506
+
+15. **Citramox l.a.150 mg/ml suspensão injetável para bovinos e suínos**
+   - Espécies: Citramox l.a.150 mg/ml suspensão injetável para bovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1365-01-20dfvpt-citramox-l-a-150-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-8306
+
+16. **Citramox 100 mg/g pó para administração na água de bebida para bovinos pré-ruminantes, frangos de carne e suínos**
+   - Espécies: Citramox 100 mg/g pó para administração na água de bebida para bovinos pré-ruminantes, frangos de carne e suínos Substância Ativa: Amoxicilina 100.0 mg | Espécie(s): Suínos, Bovinos (vitelos pré-ruminantes), Frango para Produção de carne
+   - Link: https://medvet.dgav.pt/products/1492-01-22rfvpt-citramox-100-mg-g-po-para-administracao-na-agua-de-bebida-para-bovinos-pre-ruminantes-frangos-de-carne-e-suinos-11764
+
+17. **Kelamoxil LA 150 mg/ml suspensão injetável para bovinos e suínos**
+   - Espécies: Kelamoxil LA 150 mg/ml suspensão injetável para bovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1588-01-23dfvpt-kelamoxil-la-150-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-11930
+
+18. **Vetrimoxin l.a.150 mg/ml suspensão injetável para bovinos e suínos.**
+   - Espécies: Vetrimoxin l.a.150 mg/ml suspensão injetável para bovinos e suínos. Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/51116-vetrimoxin-l-a-150-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-7448
+
+19. **Zoobiotic 150 mg/ml suspensão injetável para suínos, bovinos, ovinos, cães e gatos**
+   - Espécies: Zoobiotic 150 mg/ml suspensão injetável para suínos, bovinos, ovinos, cães e gatos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos, Cães          , Gatos
+   - Link: https://medvet.dgav.pt/products/51399-zoobiotic-150-mg-ml-suspensao-injetavel-para-suinos-bovinos-ovinos-caes-e-gatos-8249
+
+20. **INTRAMAR Lacto 200 mg + 50 mg + 10 mg suspensão intramamária para bovinos**
+   - Espécies: INTRAMAR Lacto 200 mg + 50 mg + 10 mg suspensão intramamária para bovinos Substâncias Ativas: Amoxicilina (como trihidrato de amoxicilina) 200.0 mg | Ácido clavulânico (como clavulanato de potássio) 50.0 mg | Prednisolona 10.0 | | Espécie(s): Bovinos (vacas em lactação)
+   - Link: https://medvet.dgav.pt/products/1691-01-25dfvpt-intramar-lacto-200-mg-50-mg-10-mg-suspensao-intramamaria-para-bovinos-12135
+
+21. **Bimoxyl la 150 mg/ml suspensão injectável para bovinos**
+   - Espécies: Bimoxyl la 150 mg/ml suspensão injectável para bovinos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos
+   - Link: https://medvet.dgav.pt/products/51250-bimoxyl-la-150-mg-ml-suspensao-injectavel-para-bovinos-3806
+
+22. **Lamoxsan 150 mg/ml suspensão injetável para bovinos e suínos**
+   - Espécies: Lamoxsan 150 mg/ml suspensão injetável para bovinos e suínos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Suínos
+   - Link: https://medvet.dgav.pt/products/1580-01-23dfvpt-lamoxsan-150-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-11915
+
+
+Nota: Informações extraídas da página de busca.
+
+⏱️  Tempo Total: 58.02 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #33
+Timestamp: 2026-02-02 17:06:58
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual o intervalo de segurança o medicamento Lamoxsan 150 mg/ml?
+
+Resposta:
+
+**Intervalo de segurança para Lamoxsan 150 mg/ml:**
+
+*   **Bovinos:**
+    *   **Carne e vísceras:** 18 dias após a última dose.
+    *   **Leite:** 72 horas após a última dose.
+*   **Suínos:**
+    *   **Carne e vísceras:** 20 dias após a última dose.
+
+Esta informação está disponível na Seção 10 do folheto informativo.
+
+⏱️  Tempo Total: 31.19 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #34
+Timestamp: 2026-02-02 17:07:31
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual o medicamento alternativo para Ancesol 10 mg/ml para espécie Bovinos?
+
+Resposta:
+**Medicamentos alternativos ao Ancesol 10 mg:**
+
+🔬 **Princípio ativo:** Maleato De Clorfeniramina
+🐾 **Espécie:** Bovinos
+
+📋 **Medicamentos encontrados (1):**
+
+1. **Histodine 10 mg/ml solução injetável para bovinos**
+   - Espécies: Histodine 10 mg/ml solução injetável para bovinos Substância Ativa: Maleato De Clorfeniramina 10.0 mg | Espécie(s): Bovinos
+   - Link: https://medvet.dgav.pt/products/1234-01-18dfvpt-histodine-10-mg-ml-solucao-injetavel-para-bovinos-10308
+
+
+💡 **Total:** 1 medicamentos alternativos encontrados.
+
+⏱️  Tempo Total: 14.72 segundos
+✓ Status: SUCESSO
+
+----------------------------------------------------------------------------------------------------
+PERGUNTA #35
+Timestamp: 2026-02-02 17:07:48
+----------------------------------------------------------------------------------------------------
+Pergunta: Qual é a composição do medicamento Acalma?
+
+Resposta:
+
+A composição do medicamento Acalma, conforme indicado no documento, é a seguintre:
+
+**Componentes ativos por comprimido:**
+*   **Cloridrato de hidroxizina:** 5 mg
+*   **Maleato de clorfeniramina:** 2 mg
+
+**Excipientes:**
+*   Lactose monohidratada
+*   Povidona
+*   Talco
+*   Cloreto de sódio
+*   Ácido clilovérico
+*   Hidróxido de sódio
+*   Aroma de menta
+*   Ácido polacrilamido sódico
+*   Água para injetos
+
+⏱️  Tempo Total: 32.47 segundos
+✓ Status: SUCESSO
+
+====================================================================================================
+RESUMO ESTATÍSTICO
+====================================================================================================
+Total de perguntas: 35
+Sucessos: 35 (100.0%)
+Erros: 0 (0.0%)
+Tempo total: 1482.39 segundos (24.71 minutos)
+Tempo médio por pergunta: 42.35 segundos
+====================================================================================================

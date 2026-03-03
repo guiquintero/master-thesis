@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Veterinário - Novavet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .logo span {
+            color: #667eea;
+        }
+        
+        .header-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .status-indicator.online {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status-indicator.offline {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        .status-indicator.online .status-dot {
+            background: #28a745;
+        }
+        
+        .status-indicator.offline .status-dot {
+            background: #dc3545;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .container {
+            flex: 1;
+            display: flex;
+            max-width: 1400px;
+            width: 95%;
+            margin: 2rem auto;
+            gap: 1.5rem;
+            overflow: hidden;
+        }
+        
+        .chat-section {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .terminal-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: #1e1e1e;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f8f9fa;
+        }
+        
+        .section-header h3 {
+            font-size: 16px;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .terminal-section .section-header {
+            background: #2d2d2d;
+            border-bottom: 1px solid #3a3a3a;
+        }
+        
+        .terminal-section .section-header h3 {
+            color: #00ff00;
+        }
+        
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem;
+            background: #fafafa;
+        }
+        
+        .terminal-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            color: #00ff00;
+            background: #0a0a0a;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .message {
+            margin-bottom: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            animation: fadeIn 0.3s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .message.user {
+            align-items: flex-end;
+        }
+        
+        .message.bot {
+            align-items: flex-start;
+        }
+        
+        .message-bubble {
+            max-width: 75%;
+            padding: 1rem 1.25rem;
+            border-radius: 20px;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            line-height: 1.5;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .message.user .message-bubble {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .message.bot .message-bubble {
+            background: white;
+            color: #2c3e50;
+            border: 1px solid #e0e0e0;
+            border-bottom-left-radius: 5px;
+        }
+        
+        .message-time {
+            font-size: 0.7rem;
+            color: #999;
+            margin-top: 0.5rem;
+            padding: 0 0.5rem;
+        }
+        
+        .chat-input {
+            display: flex;
+            padding: 1.5rem;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+            gap: 1rem;
+        }
+        
+        .chat-input input {
+            flex: 1;
+            padding: 1rem 1.5rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            outline: none;
+            font-size: 15px;
+            transition: border-color 0.3s;
+        }
+        
+        .chat-input input:focus {
+            border-color: #667eea;
+        }
+        
+        .chat-input input:disabled {
+            background: #f5f5f5;
+            cursor: not-allowed;
+        }
+        
+        .btn {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-primary:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+            padding: 0.5rem 1rem;
+            font-size: 13px;
+        }
+        
+        .btn-danger:hover {
+            background: #c82333;
+        }
+        
+        .btn-warning {
+            background: #ff6b6b;
+            color: white;
+            padding: 0.5rem 1rem;
+            font-size: 13px;
+        }
+        
+        .btn-warning:hover {
+            background: #ee5a52;
+        }
+        
+        .loading {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #667eea;
+            font-style: italic;
+        }
+        
+        .loading-spinner {
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .log-line {
+            margin-bottom: 0.25rem;
+            font-family: 'Courier New', monospace;
+            padding: 0.25rem 0;
+        }
+        
+        .fonte-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            margin: 0 3px;
+            cursor: help;
+            transition: all 0.2s;
+            box-shadow: 0 2px 5px rgba(102, 126, 234, 0.3);
+        }
+        
+        .fonte-badge:hover {
+            transform: scale(1.05);
+            box-shadow: 0 3px 8px rgba(102, 126, 234, 0.5);
+        }
+        
+        .link-externo {
+            color: #667eea;
+            text-decoration: none;
+            padding: 3px 10px;
+            border-radius: 5px;
+            background: rgba(102, 126, 234, 0.1);
+            transition: all 0.2s;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin: 2px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+        }
+        
+        .link-externo:hover {
+            background: #667eea;
+            color: white;
+            transform: translateX(3px);
+        }
+        
+        .message-bubble a {
+            word-break: break-all;
+        }
+        
+        .message-bubble strong {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .message.bot .message-bubble strong {
+            color: #1a1a1a;
+        }
+        
+        .back-button {
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+        
+        .back-button:hover {
+            transform: translateX(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Scrollbar personalizada */
+        .chat-messages::-webkit-scrollbar,
+        .terminal-content::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        .chat-messages::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        .chat-messages::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+        
+        .chat-messages::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        
+        .terminal-content::-webkit-scrollbar-track {
+            background: #1a1a1a;
+        }
+        
+        .terminal-content::-webkit-scrollbar-thumb {
+            background: #00ff00;
+            border-radius: 4px;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 1024px) {
+            .container {
+                flex-direction: column;
+                width: 100%;
+                margin: 1rem auto;
+                padding: 0 1rem;
+            }
+            
+            .terminal-section {
+                max-height: 300px;
+            }
+            
+            .message-bubble {
+                max-width: 85%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+            }
+            
+            .header-left {
+                width: 100%;
+                justify-content: space-between;
+            }
+            
+            .status-indicator {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .chat-input {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Botão Voltar -->
+    <a href="site.html" class="back-button">
+        <span>←</span> Voltar
+    </a>
+
+    <!-- Cabeçalho -->
+    <div class="header">
+        <div class="header-left">
+            <div class="logo">NOVA<span>VET</span></div>
+            <div class="header-title">
+                <span>🐾</span>
+                <span>Assistente Veterinário</span>
+            </div>
+        </div>
+        <div id="api-status" class="status-indicator offline">
+            <div class="status-dot"></div>
+            <span>Verificando conexão...</span>
+        </div>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+        <!-- Seção do Chat -->
+        <div class="chat-section">
+            <div class="section-header">
+                <h3>
+                    <span>💬</span> Conversa
+                </h3>
+                <div style="display: flex; gap: 0.5rem;">
+                    <button class="btn btn-danger" onclick="limparChat()" title="Limpar apenas mensagens visíveis">
+                        🧹 Limpar
+                    </button>
+                    <button class="btn btn-warning" onclick="resetarContexto()" title="Resetar conversa completa">
+                        🗑️ Reset
+                    </button>
+                </div>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot">
+                    <div class="message-bubble">
+                        👋 Olá! Sou o assistente veterinário da Novavet. <br><br>
+                        Posso ajudá-lo com informações sobre medicamentos veterinários, tratamentos e cuidados com animais. <br><br>
+                        <strong>Como posso ajudar?</strong>
+                    </div>
+                    <div class="message-time" id="welcome-time"></div>
+                </div>
+            </div>
+            
+            <div class="chat-input">
+                <input 
+                    type="text" 
+                    id="message-input" 
+                    placeholder="Digite sua pergunta sobre medicamentos veterinários..." 
+                    disabled
+                >
+                <button class="btn btn-primary" id="send-button" onclick="enviarMensagem()" disabled>
+                    <span>Enviar</span>
+                    <span>→</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Seção do Terminal -->
+        <div class="terminal-section">
+            <div class="section-header">
+                <h3>
+                    <span>🖥️</span> Log do Sistema
+                </h3>
+                <button class="btn btn-danger" onclick="limparTerminal()">
+                    🧹 Limpar
+                </button>
+            </div>
+            
+            <div class="terminal-content" id="terminal-content">
+                <div class="log-line" style="color: #00ff00;">> Sistema inicializado...</div>
+                <div class="log-line" style="color: #ffff00;">> Aguardando conexão com API...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuração
+        const API_BASE_URL = 'http://localhost:5000';
+        let isProcessing = false;
+        let currentEventSource = null;
+        let apiStatusLogado = false; // Flag para evitar logs duplicados de status
+        
+        // Inicialização
+        window.onload = function() {
+            verificarStatus();
+            document.getElementById('welcome-time').textContent = new Date().toLocaleTimeString('pt-BR');
+            
+            // Enter para enviar
+            document.getElementById('message-input').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter' && !isProcessing) {
+                    enviarMensagem();
+                }
+            });
+            
+            // Verificar status periodicamente
+            setInterval(verificarStatus, 30000); // A cada 30 segundos
+        }
+        
+        // Verificar status da API
+        function verificarStatus() {
+            fetch(`${API_BASE_URL}/api/status`)
+                .then(response => response.json())
+                .then(data => {
+                    const statusEl = document.getElementById('api-status');
+                    const messageInput = document.getElementById('message-input');
+                    const sendButton = document.getElementById('send-button');
+                    
+                    if (data && data.status === 'online') {
+                        statusEl.innerHTML = '<div class="status-dot"></div><span>🟢 API Online - ' + data.modelo + '</span>';
+                        statusEl.className = 'status-indicator online';
+                        messageInput.disabled = false;
+                        sendButton.disabled = false;
+                        
+                        // Só loga a primeira vez que conecta
+                        if (!apiStatusLogado) {
+                            adicionarLogTerminal('✅ Conectado à API - Modelo: ' + data.modelo, '#00ff00');
+                            apiStatusLogado = true;
+                        }
+                    } else {
+                        throw new Error('API offline');
+                    }
+                })
+                .catch(error => {
+                    const statusEl = document.getElementById('api-status');
+                    statusEl.innerHTML = '<div class="status-dot"></div><span>🔴 API Offline</span>';
+                    statusEl.className = 'status-indicator offline';
+                    document.getElementById('message-input').disabled = true;
+                    document.getElementById('send-button').disabled = true;
+                    
+                    // Reset flag quando desconectar
+                    if (apiStatusLogado) {
+                        adicionarLogTerminal('❌ Erro ao conectar: ' + error.message, '#ff0000');
+                        apiStatusLogado = false;
+                    }
+                });
+        }
+        
+        // Enviar mensagem
+        function enviarMensagem() {
+            if (isProcessing) return;
+            
+            const input = document.getElementById('message-input');
+            const pergunta = input.value.trim();
+            
+            if (!pergunta) {
+                input.focus();
+                return;
+            }
+            
+            // Adicionar mensagem do usuário
+            adicionarMensagem('user', pergunta);
+            input.value = '';
+            isProcessing = true;
+            
+            // Desabilitar input
+            input.disabled = true;
+            document.getElementById('send-button').disabled = true;
+            
+            // Adicionar indicador de carregamento
+            const loadingMsg = adicionarMensagem('bot', '<div class="loading"><div class="loading-spinner"></div><span>Processando sua pergunta...</span></div>');
+            
+            // Log no terminal
+            adicionarLogTerminal('📤 Nova consulta: ' + pergunta, '#00ffff');
+            adicionarLogTerminal('🔄 Estabelecendo conexão...', '#ffff00');
+            
+            // Fazer requisição via fetch com streaming
+            fetch(`${API_BASE_URL}/api/consulta/stream`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ pergunta: pergunta })
+            })
+            .then(response => {
+                if (!response.ok) throw new Error('Erro na API');
+                
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let respostaFinal = '';
+                let logCount = 0;
+                let processamentoFinalizado = false; // Flag para evitar duplicação
+                
+                function processarStream() {
+                    reader.read().then(({ done, value }) => {
+                        if (done) {
+                            // Só finaliza se ainda não foi finalizado
+                            if (!processamentoFinalizado) {
+                                processamentoFinalizado = true;
+                                finalizarProcessamento(loadingMsg, input, respostaFinal, logCount);
+                            }
+                            return;
+                        }
+                        
+                        const chunk = decoder.decode(value, { stream: true });
+                        const lines = chunk.split('\n');
+                        
+                        lines.forEach(line => {
+                            if (line.startsWith('data: ')) {
+                                try {
+                                    const data = JSON.parse(line.substring(6));
+                                    
+                                    if (data.type === 'start') {
+                                        adicionarLogTerminal('🚀 ' + data.message, '#00ffff');
+                                    } else if (data.type === 'log') {
+                                        logCount++;
+                                        adicionarLogTerminal(`[${logCount}] ${data.message}`, '#00ff00');
+                                    } else if (data.type === 'response') {
+                                        respostaFinal = data.message;
+                                        adicionarLogTerminal('📄 Resposta recebida (' + respostaFinal.length + ' caracteres)', '#00ffff');
+                                    } else if (data.type === 'error') {
+                                        adicionarLogTerminal('❌ Erro: ' + data.message, '#ff0000');
+                                        loadingMsg.innerHTML = '<div style="color: #dc3545;">❌ Erro: ' + data.message + '</div>';
+                                    } else if (data.type === 'end') {
+                                        // Só finaliza se ainda não foi finalizado
+                                        if (!processamentoFinalizado) {
+                                            processamentoFinalizado = true;
+                                            finalizarProcessamento(loadingMsg, input, respostaFinal, logCount);
+                                        }
+                                        return;
+                                    }
+                                } catch (e) {
+                                    console.error('Erro ao parsear JSON:', e);
+                                }
+                            }
+                        });
+                        
+                        processarStream();
+                    }).catch(error => {
+                        adicionarLogTerminal('❌ Erro no stream: ' + error.message, '#ff0000');
+                        finalizarErro(loadingMsg, input, 'Erro de conexão com o servidor');
+                    });
+                }
+                
+                processarStream();
+            })
+            .catch(error => {
+                adicionarLogTerminal('❌ Erro na requisição: ' + error.message, '#ff0000');
+                finalizarErro(loadingMsg, input, 'Não foi possível conectar à API');
+            });
+        }
+        
+        // Finalizar processamento com sucesso
+        function finalizarProcessamento(loadingMsg, input, respostaFinal, logCount) {
+            if (loadingMsg && loadingMsg.parentNode) {
+                loadingMsg.remove();
+            }
+            
+            if (respostaFinal) {
+                adicionarMensagem('bot', respostaFinal);
+                adicionarLogTerminal(`✅ Processamento concluído (${logCount} eventos)`, '#00ff00');
+            } else {
+                adicionarMensagem('bot', '⚠️ Nenhuma resposta foi recebida.');
+                adicionarLogTerminal('⚠️ Resposta vazia', '#ffaa00');
+            }
+            
+            input.disabled = false;
+            document.getElementById('send-button').disabled = false;
+            input.focus();
+            isProcessing = false;
+        }
+        
+        // Finalizar com erro
+        function finalizarErro(loadingMsg, input, mensagemErro) {
+            if (loadingMsg && loadingMsg.parentNode) {
+                loadingMsg.innerHTML = '<div style="color: #dc3545;">❌ ' + mensagemErro + '</div>';
+            }
+            
+            input.disabled = false;
+            document.getElementById('send-button').disabled = false;
+            input.focus();
+            isProcessing = false;
+        }
+        
+        // Formatar conteúdo com links
+        function formatarConteudo(conteudo) {
+            try {
+                // [Fonte N] -> badge
+                conteudo = conteudo.replace(/\[Fonte (\d+)\]/g, 
+                    '<span class="fonte-badge" title="Fonte $1">📖 Fonte $1</span>');
+                
+                // URLs -> links clicáveis
+                conteudo = conteudo.replace(/(https?:\/\/[^\s]+)/g, function(url) {
+                    let nome = url.split('/').pop() || 'Link';
+                    if (nome.length > 40) nome = nome.substring(0, 40) + '...';
+                    return '<a href="' + url + '" target="_blank" class="link-externo" title="' + url + '">🔗 ' + nome + '</a>';
+                });
+                
+                // **texto** -> negrito
+                conteudo = conteudo.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+                
+                // Quebras de linha
+                conteudo = conteudo.replace(/\n/g, '<br>');
+                
+                return conteudo;
+            } catch (e) {
+                console.error('Erro ao formatar:', e);
+                return conteudo;
+            }
+        }
+        
+        // Adicionar mensagem ao chat
+        function adicionarMensagem(tipo, conteudo) {
+            const messagesDiv = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${tipo}`;
+            
+            let conteudoFormatado = conteudo;
+            if (tipo === 'bot' && !conteudo.includes('<div')) {
+                conteudoFormatado = formatarConteudo(conteudo);
+            }
+            
+            messageDiv.innerHTML = `
+                <div class="message-bubble">${conteudoFormatado}</div>
+                <div class="message-time">${new Date().toLocaleTimeString('pt-BR')}</div>
+            `;
+            
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            
+            return messageDiv.querySelector('.message-bubble');
+        }
+        
+        // Adicionar log ao terminal
+        function adicionarLogTerminal(texto, cor = '#00ff00') {
+            const terminal = document.getElementById('terminal-content');
+            const logDiv = document.createElement('div');
+            logDiv.className = 'log-line';
+            logDiv.style.color = cor;
+            logDiv.textContent = `[${new Date().toLocaleTimeString('pt-BR')}] ${texto}`;
+            
+            terminal.appendChild(logDiv);
+            terminal.scrollTop = terminal.scrollHeight;
+        }
+        
+        // Limpar chat (apenas visual)
+        function limparChat() {
+            isProcessing = false;
+            document.getElementById('message-input').disabled = false;
+            document.getElementById('send-button').disabled = false;
+            
+            const chatMessages = document.getElementById('chat-messages');
+            chatMessages.innerHTML = `
+                <div class="message bot">
+                    <div class="message-bubble">
+                        🧹 Chat limpo. Você pode continuar fazendo perguntas.
+                    </div>
+                    <div class="message-time">${new Date().toLocaleTimeString('pt-BR')}</div>
+                </div>
+            `;
+            
+            adicionarLogTerminal('🧹 Mensagens do chat limpas', '#ffff00');
+        }
+        
+        // Resetar contexto completo
+        function resetarContexto() {
+            fetch(`${API_BASE_URL}/api/limpar_contexto`, { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    if (data && data.success) {
+                        adicionarLogTerminal('🗑️ Contexto resetado completamente', '#ffaa00');
+                        
+                        const chatMessages = document.getElementById('chat-messages');
+                        chatMessages.innerHTML = `
+                            <div class="message bot">
+                                <div class="message-bubble">
+                                    🔄 Contexto resetado. Nova conversa iniciada!
+                                </div>
+                                <div class="message-time">${new Date().toLocaleTimeString('pt-BR')}</div>
+                            </div>
+                        `;
+                        
+                        isProcessing = false;
+                        document.getElementById('message-input').disabled = false;
+                        document.getElementById('send-button').disabled = false;
+                    } else {
+                        adicionarLogTerminal('❌ Erro ao resetar contexto', '#ff0000');
+                    }
+                })
+                .catch(error => {
+                    adicionarLogTerminal('❌ Erro: ' + error.message, '#ff0000');
+                });
+        }
+        
+        // Limpar terminal
+        function limparTerminal() {
+            document.getElementById('terminal-content').innerHTML = 
+                '<div class="log-line" style="color: #00ff00;">> Terminal limpo</div>';
+        }
+    </script>
+</body>
+</html>

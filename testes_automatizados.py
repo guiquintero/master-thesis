@@ -6,13 +6,19 @@ import time
 import json
 from datetime import datetime
 from termcolor import colored
-from temporario import SistemaConsultaVetOtimizado
+from pathlib import Path
+from temporario_MV import SistemaConsultaVetOtimizado
 
 class TestadorAutomatico:
     def __init__(self):
         self.sistema = SistemaConsultaVetOtimizado()
         self.resultados = []
         self.tempo_total = 0
+
+        # Criar pasta de resultados se não existir
+        self.pasta_resultados = Path("resultados")
+        self.pasta_resultados.mkdir(exist_ok=True)
+        print(colored(f"📁 Pasta de resultados: {self.pasta_resultados.absolute()}", "cyan"))
         
     def executar_testes(self, perguntas):
         """
@@ -154,12 +160,12 @@ class TestadorAutomatico:
     
     def _salvar_resultados_arquivo(self):
         """
-        Salva resultados em arquivo JSON e TXT
+        Salva resultados em arquivo JSON e TXT na pasta 'resultados'
         """
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         
         # Salvar JSON (dados completos)
-        arquivo_json = f"teste_resultados_{timestamp}.json"
+        arquivo_json = self.pasta_resultados / f"teste_resultados_{timestamp}.json"
         with open(arquivo_json, 'w', encoding='utf-8') as f:
             json.dump({
                 'timestamp': datetime.now().isoformat(),
@@ -172,7 +178,7 @@ class TestadorAutomatico:
         print(colored(f"\n💾 Resultados salvos em: {arquivo_json}", "cyan"))
         
         # Salvar TXT (relatório legível)
-        arquivo_txt = f"teste_relatorio_{timestamp}.txt"
+        arquivo_txt = self.pasta_resultados / f"teste_relatorio_{timestamp}.txt"
         with open(arquivo_txt, 'w', encoding='utf-8') as f:
             f.write("="*80 + "\n")
             f.write("RELATÓRIO DE TESTES - Sistema de Consulta Veterinária\n")
@@ -197,6 +203,7 @@ class TestadorAutomatico:
                     f.write(f"\nErro: {r['erro']}\n")
         
         print(colored(f"📄 Relatório legível salvo em: {arquivo_txt}", "cyan"))
+
 
 
 def main():
