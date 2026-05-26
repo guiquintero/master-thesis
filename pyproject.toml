@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "consulta-vet"
+version = "2.0.0"
+description = "Sistema de Consulta Veterinária com Ollama + MedVet"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Guilherme Quintero" }]
+
+dependencies = [
+    "flask>=3.0",
+    "flask-cors>=4.0",
+    "requests>=2.31",
+    "aiohttp>=3.9",
+    "beautifulsoup4>=4.12",
+    "urllib3>=2.0",
+    "selenium>=4.15",
+    "PyMuPDF>=1.23",
+    "ollama>=0.3",
+    "tqdm>=4.66",
+    # v2.1 (P2): vector store para RAG denso
+    "chromadb>=0.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-asyncio>=0.21",
+    "pytest-cov>=4.1",
+    "ruff>=0.1",
+    "mypy>=1.7",
+]
+server = [
+    "gunicorn>=21.0",
+]
+
+[project.scripts]
+consulta-vet-api = "backend.api.app:main"
+consulta-vet-cli = "backend.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["backend*"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests/unit", "backend/tests/integration"]
+addopts = "-ra -q"
+filterwarnings = ["ignore::PendingDeprecationWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

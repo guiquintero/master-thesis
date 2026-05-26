@@ -557,7 +557,22 @@
 
     <script>
         // Configuração
-        const API_BASE_URL = 'http://localhost:5000';
+        // 1) window.CONSULTAVET_API definido inline (ver index.html ou via env)
+        // 2) servido pelo mesmo host (nginx proxy) → usar origin atual
+        // 3) fallback dev local: http://localhost:5000
+        const API_BASE_URL = (
+            window.CONSULTAVET_API
+            || (window.location.protocol.startsWith('http') && window.location.port !== '8000'
+                ? window.location.origin
+                : 'http://localhost:5000')
+        );
+        // Session id persistente por aba
+        const SESSION_ID = sessionStorage.getItem('consultavet_session')
+            || (() => {
+                const id = crypto.randomUUID();
+                sessionStorage.setItem('consultavet_session', id);
+                return id;
+            })();
         let isProcessing = false;
         let currentEventSource = null;
         let apiStatusLogado = false; // Flag para evitar logs duplicados de status
@@ -650,8 +665,9 @@
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
+                    'X-Session-Id': SESSION_ID,
                 },
-                body: JSON.stringify({ pergunta: pergunta })
+                body: JSON.stringify({ pergunta: pergunta, session_id: SESSION_ID })
             })
             .then(response => {
                 if (!response.ok) throw new Error('Erro na API');
@@ -835,7 +851,11 @@
         
         // Resetar contexto completo
         function resetarContexto() {
-            fetch(`${API_BASE_URL}/api/limpar_contexto`, { method: 'POST' })
+            fetch(`${API_BASE_URL}/api/limpar_contexto`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'X-Session-Id': SESSION_ID },
+                body: JSON.stringify({ session_id: SESSION_ID })
+            })
                 .then(response => response.json())
                 .then(data => {
                     if (data && data.success) {

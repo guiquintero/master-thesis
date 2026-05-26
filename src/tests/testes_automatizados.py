@@ -1,5 +1,13 @@
-# test_automatizado.py
-# Script para executar lista de perguntas automaticamente
+# DEPRECATED — substituído por backend/tests/golden/run_golden.py
+# Mantido apenas para referência histórica.
+# Use: python -m backend.tests.golden.run_golden
+raise SystemExit(
+    "Este script foi substituído. Execute:\n"
+    "  python -m backend.tests.golden.run_golden\n"
+    "ou:\n"
+    "  make bench"
+)
+# ---- código legado abaixo (não executável) ----
 
 import sys
 import time
@@ -7,7 +15,7 @@ import json
 from datetime import datetime
 from termcolor import colored
 from pathlib import Path
-from temporario import SistemaConsultaVetOtimizado
+from src.core.sistema_consulta import SistemaConsultaVetOtimizado
 
 class TestadorAutomatico:
     def __init__(self):

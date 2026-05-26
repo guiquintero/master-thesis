@@ -36,7 +36,10 @@ env/
 
 # Cache do Sistema
 data/cache/
+data/index/
 *.cache
+resposta_cache_otimizado/
+pdf_cache_otimizado/*.json
 
 # Logs
 *.log
