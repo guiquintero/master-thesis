@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-05-26T20:49:39.281618+00:00",
+  "finished_at": "2026-05-26T23:47:12.971491+00:00",
+  "total_duration_s": 10653.69,
+  "config": {
+    "questions_count": 35,
+    "questions_file": "/home/a64378/master-thesis/data/perguntas_exemplo.txt",
+    "cache_scope": "clean_slate",
+    "models_planned": [
+      "qwen3:32b"
+    ],
+    "host": {
+      "hostname": "ubuntuserver",
+      "gpu": "NVIDIA RTX PRO 4000 Blackwell, 24467 MiB, 595.71.05",
+      "ollama_version": "ollama version is 0.24.0"
+    },
+    "settings_snapshot": {
+      "retriever_top_k": 8,
+      "retriever_use_embeddings": true,
+      "context_chars_limit": 30000,
+      "answer_min_confidence": 0.55,
+      "ollama_embed_model": "nomic-embed-text"
+    }
+  },
+  "runs": [
+    {
+      "modelo": "qwen3:32b",
+      "started_at": "2026-05-26T20:49:39.333017+00:00",
+      "finished_at": "2026-05-26T23:47:12.970280+00:00",
+      "duration_s": 10653.637,
+      "cleanup_stats": {
+        "cache_dir": 141,
+        "pdf_cache_dir": 47,
+        "index_dir": 1
+      },
+      "perguntas": [
+        {
+          "pergunta": "Para que espécies está indicado o medicamento Simparica?",
+          "resposta": "O medicamento Simparica está indicado para cães e é ativo contra pulgas (Ctenocephalides felis e Ctenocephalides canis), carraças (Dermacentor reticulatus, Ixodes hexagonus, Ixodes ricinus, Rhipicephalus sanguineus) e ácaros (Demodex canis, Otodectes cynotis, Sarcoptes scabiei).\n\nFontes (excertos):\n- **4.2 Propriedades farmacodinâmicas**: Sarolaner é ativo contra pulgas adultas (Ctenocephalides felis e Ctenocephalides canis) assim como contra diversas espécies de carraças tais como Dermacentor reticulatus, Ixodes hexagonus, Ixodes ricinus, Rhipicephalus sanguineus e ácaros Demodex can…\n\n---\nMedicamento consultado: **Simparica 5 mg comprimidos mastigáveis para cães 1,3-2,5 kg**\nhttps://medvet.dgav.pt/products/952-03-15cfvpt-simparica-5-mg-comprimidos-mastigaveis-para-caes-1-3-2-5-kg-2021\n\n_(também encontrados: Simparica 20 mg comprimidos mastigáveis para cães > 5-10 kg, Simparica trio comprimidos mastigáveis para cães  > 5-10 kg)_",
+          "tempo_total_s": 342.464
+        },
+        {
+          "pergunta": "Qual a dose indicada do medicamento Senvelgo 15 mg/ml em gatos?",
+          "resposta": "A dose indicada de Senvelgo 15 mg/ml em gatos é de 1 mg/kg, administrada uma vez ao dia.\n\nFontes (excertos):\n- **4.2 Propriedades farmacodinâmicas**: Num ensaio clínico de campo decorrido na Europa, a segurança e a eficácia de 1 mg/kg de velagliflozina oral uma vez ao dia em gatos diabéticos, foram avaliadas...\n- **4.2 Propriedades farmacodinâmicas**: Foi observada melhoria nos parâmetros laboratoriais glicémicos numa proporção maior de gatos tratados com velagliflozina em comparação com gatos tratados com insulina, no dia 7 (80% grupo velagliflozina, 42% grupo insulina)...\n\n---\nMedicamento consultado: **Senvelgo 15 mg/ml solução oral para gatos**\nhttps://medvet.dgav.pt/products/1604-01-23cfvpt-senvelgo-15-mg-ml-solucao-oral-para-gatos-12013",
+          "tempo_total_s": 461.353
+        },
+        {
+          "pergunta": "Qual a forma de administração do medicamento Pathozone 250 mg em bovinos?",
+          "resposta": "Administração intramamária, introduzindo o conteúdo de uma seringa no quarto infetado através do canal do teto, imediatamente após ordenhar a fundo.\n\nFontes (excertos):\n- **4.9**: O conteúdo de uma seringa deverá ser introduzido no quarto infetado, através do canal do teto, imediatamente depois de ordenhar a fundo.\n\n---\nMedicamento consultado: **Pathozone 250 mg suspensão intramamaria para bovinos**\nhttps://medvet.dgav.pt/products/1108-01-17nfvpt-pathozone-250-mg-suspensao-intramamaria-para-bovinos-7325",
+          "tempo_total_s": 199.93
+        },
+        {
+          "pergunta": "Como deve ser armazenado, depois de aberto o medicamento Flevox?",
+          "resposta": "Informação não encontrada no documento.\n\nFontes (excertos):\n- **6.3**: Prazo de validade do medicamento veterinário como embalado para venda: 3 anos\n- **6.4**: Este medicamento veterinário não necessita de condições especiais de conservação\n\n---\nMedicamento consultado: **Flevox 50 mg solução para unção punctiforme para gatos**\nhttps://medvet.dgav.pt/products/326-01-11dfvpt-flevox-50-mg-solucao-para-uncao-punctiforme-para-gatos-10252\n\n_(também encontrados: Flevox 134 mg solução para unção punctiforme para cães médios, Flevox 67 mg solução para unção punctiforme para cães pequenos)_",
+          "tempo_total_s": 635.208
+        },
+        {
+          "pergunta": "Quais os intervalos de segurança do medicamento Felpreva?",
+          "resposta": "O medicamento não deve ser administrado em intervalos inferiores a 8 semanas. A utilização não é indicada em intervalos inferiores a três meses (12 semanas) devido à atividade clínica de 3 meses.\n\nFontes (excertos):\n- **4**: O medicamento veterinário não deve ser administrado em intervalos inferiores a 8 semanas. Devido à atividade do medicamento veterinário contra pulgas e carraças durante um período de 3 meses do ponto de vista clínico, a utilização do medicamento vete…\n\n---\nMedicamento consultado: **Felpreva solução para unção punctiforme para gatos pequenos (1,0 – 2,5 kg)**\nhttps://medvet.dgav.pt/products/1491-01-04-cfvpt-felpreva-solucao-para-uncao-punctiforme-para-gatos-pequenos-1-0-2-5-kg-11812\n\n_(também encontrados: Felpreva solução para unção punctiforme para gatos médios (> 2,5 – 5,0 kg), Felpreva solução para unção punctiforme para gatos grandes (> 5,0 – 8,0 kg))_",
+          "tempo_total_s": 398.879
+        },
+        {
+          "pergunta": "O medicamentos Maxy é usado para que?",
+          "resposta": "Informação não encontrada no documento.\n\n---\nMedicamento consultado: **Maxyl 500 mg/g pó para administração na água de bebida para frangos de carne, perus, patos e suínos**\nhttps://medvet.dgav.pt/products/820-01-14dfvpt-maxyl-500-mg-g-po-para-administracao-na-agua-de-bebida-para-frangos-de-carne-perus-patos-e-suinos-11006",
+          "tempo_total_s": 381.093
+        },
+        {
+          "pergunta": "Que medicamentos/marcas existem com o princípio ativo altrenogest indicado para porcos?",
+          "resposta": "Resultados para 'suínos' (10):\n\n1. **Belaflor 200 mg/ml solução para administração na água de bebida para galinhas e suínos**\n   - Espécies: Belaflor 200 mg/ml solução para administração na água de bebida para galinhas e suínos Substância Ativa: Florfenicol 200.0 mg | Espécie(s): Suínos, Galinhas\n   - Link: https://medvet.dgav.pt/products/1563-01-23dfvpt-belaflor-200-mg-ml-solucao-para-administracao-na-agua-de-bebida-para-galinhas-e-suinos-11898\n2. **Suispirin, 1000 mg / g, pó oral para suínos**\n   - Espécies: Suispirin, 1000 mg / g, pó oral para suínos Substância Ativa: Ácido Acetilsalicílico 1000.0 mg | Espécie(s): Suínos\n   - Link: https://medvet.dgav.pt/products/566-01-12dfvpt-suispirin-1000-mg-g-po-oral-para-suinos-11410\n3. **Suifertil 4 mg/ml solução oral para suínos**\n   - Espécies: Suifertil 4 mg/ml solução oral para suínos Substância Ativa: Altrenogest 4.0 mg | Espécie(s): Suínos (porcas adultas nulíparas)\n   - Link: https://medvet.dgav.pt/products/975-01-16rfvpt-suifertil-4-mg-ml-solucao-oral-para-suinos-11409\n4. **Enrotron 50 mg/ml solução injetável para bovinos, suínos, cães e gatos**\n   - Espécies: Enrotron 50 mg/ml solução injetável para bovinos, suínos, cães e gatos Substância Ativa: Enrofloxacina 50.0 mg | Espécie(s): Bovinos (vitelos), Suínos, Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/431-02-12dfvpt-enrotron-50-mg-ml-solucao-injetavel-para-bovinos-suinos-caes-e-gatos-10194\n5. **Genestran 75 microgramas/ml solução injetável para bovinos, equinos e suínos**\n   - Espécies: Genestran 75 microgramas/ml solução injetável para bovinos, equinos e suínos Substância Ativa: R(+)-cloprostenol sódico 75.0 Microgramas/ml | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/386-01-11rfvpt-genestran-75-microgramas-ml-solucao-injetavel-para-bovinos-equinos-e-suinos-10288\n6. **Menbutil, 100 mg/ml solução injetável para bovinos, suínos, equinos, ovinos e caprinos**\n   - Espécies: Menbutil, 100 mg/ml solução injetável para bovinos, suínos, equinos, ovinos e caprinos Substância Ativa: Membutona 100.0 mg | Espécie(s): Bovinos, Caprinos, Equinos, Ovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/1215-01-18rfvpt-menbutil-100-mg-ml-solucao-injetavel-para-bovinos-suinos-equinos-ovinos-e-caprinos-4240\n7. **Procapen, 300 mg/ml, suspensão injetável para bovinos, suínos e equinos**\n   - Espécies: Procapen, 300 mg/ml, suspensão injetável para bovinos, suínos e equinos Substância Ativa: Procaína Benzilpenicilina 300.0 mg | Espécie(s): Bovinos, Equinos, Suínos (adultos)\n   - Link: https://medvet.dgav.pt/products/1254-01-19rfvpt-procapen-300-mg-ml-suspensao-injetavel-para-bovinos-suinos-e-equinos-4220\n8. **Animedazon spray, 2,45 %  w/w suspensão para pulverização cutânea para  bovinos, ovinos e suínos**\n   - Espécies: Animedazon spray, 2,45 %  w/w suspensão para pulverização cutânea para  bovinos, ovinos e suínos Substância Ativa: Cloridrato De Clorotetraciclina 3.21 g | Espécie(s): Bovinos, Ovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/106-01-08dfvpt-animedazon-spray-2-45-w-w-suspensao-para-pulverizacao-cutanea-para-bovinos-ovinos-e-suinos-3693\n9. **Enrotron 5 mg/ml solução oral para suínos**\n   - Espécies: Enrotron 5 mg/ml solução oral para suínos Substância Ativa: Enrofloxacina 5.0 mg | Espécie(s): Suínos (leitões)\n   - Link: https://medvet.dgav.pt/products/662-01-13dfvpt-enrotron-5-mg-ml-solucao-oral-para-suinos-7852\n10. **Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos**\n   - Espécies: Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos Substância Ativa: Meloxicam 20.0 mg | Espécie(s): Bovinos, Equinos, Suínos\n   - Link: https://medvet.dgav.pt/products/1300-01-19rfvpt-animeloxan-20-mg-ml-solucao-injetavel-para-bovinos-suinos-e-equinos-3611",
+          "tempo_total_s": 6.106
+        },
+        {
+          "pergunta": "Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Terramicina 55 mg/g?",
+          "resposta": "Não foi possível encontrar informações sobre 'o medicamento/marca Terramicina 55 mg/g'.",
+          "tempo_total_s": 6.284
+        },
+        {
+          "pergunta": "Para que espécies está indicado o medicamento Animeloxan?",
+          "resposta": "O medicamento Animeloxan está indicado para bovinos, suínos e equinos.\n\nFontes (excertos):\n- **Nome do medicamento**: Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos\n\n---\nMedicamento consultado: **Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos**\nhttps://medvet.dgav.pt/products/1300-01-19rfvpt-animeloxan-20-mg-ml-solucao-injetavel-para-bovinos-suinos-e-equinos-3611",
+          "tempo_total_s": 194.088
+        },
+        {
+          "pergunta": "Que medicamento contendo o princípio activo Meloxicam pode ser administrado a suínos?",
+          "resposta": "O medicamento Animeloxan 20 mg/ml pode ser administrado a suínos com uma dose única intramuscular de 0,4 mg de meloxicam/kg (2,0 ml/100 kg de peso corporal).\n\nFontes (excertos):\n- **3.9**: Suínos: Administração intramuscular única de uma dose de 0,4 mg de meloxicam/kg de peso corporal (isto é, 2,0 ml/100 kg de peso corporal)...\n- **8**: Suínos: Administração intramuscular (i.m.) única de uma dose de 0,4 mg de meloxicam/kg de peso corporal (isto é, 2,0 ml/100 kg de peso corporal)...\n\n---\nMedicamento consultado: **Animeloxan 20 mg/ml, solução injetável para bovinos, suínos e equinos**\nhttps://medvet.dgav.pt/products/1300-01-19rfvpt-animeloxan-20-mg-ml-solucao-injetavel-para-bovinos-suinos-e-equinos-3611\n\n_(também encontrados: Loxicom 20 mg/ml solução injectável para bovinos, suínos e equinos, Contacera 20 mg/ml solução injetável para bovinos, suínos e equinos)_",
+          "tempo_total_s": 607.025
+        },
+        {
+          "pergunta": "Qual a dose indicada do medicamento Dexinjet 2 mg/ml em suínos?",
+          "resposta": "A dose indicada para suínos é de 0,06 mg de dexametasona por kg de peso corporal, correspondendo a 1,5 ml por 50 kg. A via de administração é intramuscular.\n\nFontes (excertos):\n- **3.9**: Espécie Dose Equinos, bovinos, caprinos, suínos 0,06 mg dexametasona / kg de peso corporal correspondendo a 1,5 ml / 50 kg\n- **6**: Bovinos, suínos, cães e gatos: para administração intramuscular.\n\n---\nMedicamento consultado: **Dexinjet 2 mg/ml solução injetável**\nhttps://medvet.dgav.pt/products/1090-01-17rfvpt-dexinjet-2-mg-ml-solucao-injetavel-7783",
+          "tempo_total_s": 493.555
+        },
+        {
+          "pergunta": "Qual a forma de administração do medicamento Hidrocol em suínos?",
+          "resposta": "A forma de administração do Hidrocol em suínos é na água de bebida, com dose de 100 000 UI de sulfato de colistina por kg de peso corporal por dia, durante 3-5 dias consecutivos. Pode ser administrado sem bomba doseadora (adicionado ao tanque de água) ou com bomba doseadora (solução de stock pré-determinada na água).\n\nFontes (excertos):\n- **Administração**: O medicamento veterinário é adicionado a um volume de água de bebida... para atingir uma dose de 100 000 UI de sulfato de colistina por kg de peso corporal para suínos... Administração sem bomba doseadora: O tratamento é distribuído num tanque... Adm…\n\n---\nMedicamento consultado: **Hidrocol, 4000000 ui/ml solução para administração na água de bebida / leite**\nhttps://medvet.dgav.pt/products/1019-01-16dfvpt-hidrocol-4000000-ui-ml-solucao-para-administracao-na-agua-de-bebida-leite-7616",
+          "tempo_total_s": 429.687
+        },
+        {
+          "pergunta": "E perus?",
+          "resposta": "Não foram encontrados resultados para a tua pergunta no portal MedVet.",
+          "tempo_total_s": 264.471
+        },
+        {
+          "pergunta": "Qual a dose que deve ser administrada do medicamento Domtor em gatos?",
+          "resposta": "Para gatos, a dose recomendada de Domtor 1 mg/ml é de 0,05 a 0,1 ml/kg (equivalente a 50-100 mcg/kg).\n\n---\nMedicamento consultado: **Domtor 1 mg/ml solução injectável para cães e gatos**\nhttps://medvet.dgav.pt/products/404-01-11nfvpt-domtor-1-mg-ml-solucao-injectavel-para-caes-e-gatos-7327",
+          "tempo_total_s": 1128.657
+        },
+        {
+          "pergunta": "Como deve ser armazenado o medicamento Acuimix?",
+          "resposta": "Informação não encontrada no documento.\n\nFontes (excertos):\n- **6.3**: Prazo de validade do medicamento veterinário tal como embalado para venda: 2 anos. Prazo de validade após abertura do acondicionamento primário: 6 meses. Prazo de validade quando incorporado no alimento: 6 meses.\n\n---\nMedicamento consultado: **Acuimix 750 mg/g, pré-mistura medicamentosa para alimento medicamentoso**\nhttps://medvet.dgav.pt/products/789-01-14nfvpt-acuimix-750-mg-g-pre-mistura-medicamentosa-para-alimento-medicamentoso-3686",
+          "tempo_total_s": 703.864
+        },
+        {
+          "pergunta": "Como deve ser armazenado, depois de aberto o medicamento Calcibel?",
+          "resposta": "Após a primeira abertura do acondicionamento primário, o medicamento deve ser administrado imediatamente. Não existem instruções adicionais de armazenamento após abertura, apenas a indicação de uso imediato.\n\nFontes (excertos):\n- **5.2**: Prazo de validade após a primeira abertura do acondicionamento primário: administrar imediatamente.\n- **12**: Não refrigerar ou congelar.\n\n---\nMedicamento consultado: **Calcibel forte, 380/60/50 mg/ml em solução para infusão em equídeos, bovinos, ovinos, caprinos e suínos**\nhttps://medvet.dgav.pt/products/1444-01-21dfvpt-calcibel-forte-380-60-50-mg-ml-em-solucao-para-infusao-em-equideos-bovinos-ovinos-caprinos-e-suinos-11733",
+          "tempo_total_s": 282.07
+        },
+        {
+          "pergunta": "Quais os intervalos de segurança do medicamento Maxy?",
+          "resposta": "Os intervalos de segurança do Maxyl são: 1 dia para frangos de carne, 9 dias para patos, 5 dias para perus e 2 dias para suínos.\n\nFontes (excertos):\n- **4.11**: Frangos de carne | 1 dia\nPatos | 9 dias\nPerus | 5 dias\nSuínos | 2 dias\n\n---\nMedicamento consultado: **Maxyl 500 mg/g pó para administração na água de bebida para frangos de carne, perus, patos e suínos**\nhttps://medvet.dgav.pt/products/820-01-14dfvpt-maxyl-500-mg-g-po-para-administracao-na-agua-de-bebida-para-frangos-de-carne-perus-patos-e-suinos-11006",
+          "tempo_total_s": 209.05
+        },
+        {
+          "pergunta": "Para que é usado o medicamentos Apilife?",
+          "resposta": "Usado para o tratamento da varroose causada pela Varroa destructor em abelhas (Apis mellifera).\n\nFontes (excertos):\n- **4.5**: Tratamento da varroose causada pela | Varroa destructor | .\n\n---\nMedicamento consultado: **Apilife var tira para colmeias de abelhas**\nhttps://medvet.dgav.pt/products/569-01-12rfvpt-apilife-var-tira-para-colmeias-de-abelhas-3591",
+          "tempo_total_s": 264.324
+        },
+        {
+          "pergunta": "Qual é a composição do medicamento Genestran?",
+          "resposta": "O Genestran contém como substância ativa R(+)-cloprostenol (como R(+)-cloprostenol sódico) a 75 microgramas por ml. O conservante clorocresol está presente a 1,0 mg por ml.\n\nFontes (excertos):\n- **Secção 2 | Composição**: R(+)-cloprostenol (como R(+)-cloprostenol sódico) | 75 microgramas\n- **Secção 2 | COMPOSIÇÃO QUALITATIVA E QUANTITATIVA**: Clorocresol | 1,0 mg\n\n---\nMedicamento consultado: **Genestran 75 microgramas/ml solução injetável para bovinos, equinos e suínos**\nhttps://medvet.dgav.pt/products/386-01-11rfvpt-genestran-75-microgramas-ml-solucao-injetavel-para-bovinos-equinos-e-suinos-10288",
+          "tempo_total_s": 304.154
+        },
+        {
+          "pergunta": "Em que espécies pode ser usado o medicamento Terramicina 500 mg?",
+          "resposta": "O medicamento pode ser usado em vacas.\n\nFontes (excertos):\n- **5**: Espécies-alvo: Vacas.\n- **7**: Espécies-alvo: Vacas\n- **4.2**: Para o tratamento em vacas, depois de partos difíceis...\n\n---\nMedicamento consultado: **Terramicina 500 mg comprimidos intrauterinos**\nhttps://medvet.dgav.pt/products/1468-01-21nfvpt-terramicina-500-mg-comprimidos-intrauterinos-11711",
+          "tempo_total_s": 424.123
+        },
+        {
+          "pergunta": "Que reações adversas pode apresentar o medicamento Suispirin?",
+          "resposta": "O Suispirin pode causar irritação gastrointestinal (com fezes pretas devido a perda de sangue) e inibição ocasional da coagulação sanguínea normal (reversível em ~7 dias).\n\nFontes (excertos):\n- **4.6**: Pode ocorrer irritação gastrointestinal... produção de fezes pretas... Pode ocorrer ocasionalmente inibição da coagulação sanguínea normal... será reversível, e os efeitos irão diminuir dentro de aproximadamente 7 dias.\n\n---\nMedicamento consultado: **Suispirin, 1000 mg / g, pó oral para suínos**\nhttps://medvet.dgav.pt/products/566-01-12dfvpt-suispirin-1000-mg-g-po-oral-para-suinos-11410",
+          "tempo_total_s": 235.869
+        },
+        {
+          "pergunta": "O medicamento Colombovac PMV/POX é sujeito a receita médica veterinária?",
+          "resposta": "Sim, o Colombovac PMV é um medicamento veterinário sujeito a receita médico veterinária.\n\nFontes (excertos):\n- **13**: Medicamento veterinário sujeito a receita médico veterinária.\n\n---\nMedicamento consultado: **Colombovac PMV**\nhttps://medvet.dgav.pt/products/243-88-colombovac-pmv-7630\n\n_(também encontrados: Colombovac PMV/POX)_",
+          "tempo_total_s": 469.544
+        },
+        {
+          "pergunta": "Que medicamentos/marcas existem com o princípio ativo butorfanol indicado para gatos?",
+          "resposta": "Resultados para 'gatos' (10):\n\n1. **Torphasol 4 mg/ml solução injetável para cães e gatos**\n   - Espécies: Torphasol 4 mg/ml solução injetável para cães e gatos Substância Ativa: Butorfanol 4.0 mg | Espécie(s): Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/416-01-12rfvpt-torphasol-4-mg-ml-solucao-injetavel-para-caes-e-gatos-11447\n2. **Enrotron 50 mg/ml solução injetável para bovinos, suínos, cães e gatos**\n   - Espécies: Enrotron 50 mg/ml solução injetável para bovinos, suínos, cães e gatos Substância Ativa: Enrofloxacina 50.0 mg | Espécie(s): Bovinos (vitelos), Suínos, Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/431-02-12dfvpt-enrotron-50-mg-ml-solucao-injetavel-para-bovinos-suinos-caes-e-gatos-10194\n3. **Methadyne 10 mg/ml solução injetável para cães e gatos.**\n   - Espécies: Methadyne 10 mg/ml solução injetável para cães e gatos. Substância Ativa: Metadona 8.9 mg | Espécie(s): Gatos, Cães\n   - Link: https://medvet.dgav.pt/products/1618-01-24dfvpt-methadyne-10-mg-ml-solucao-injetavel-para-caes-e-gatos-11991\n4. **Versifel FeLV suspensão injetável para gatos**\n   - Espécies: Versifel FeLV suspensão injetável para gatos Substância Ativa: Vírus da Leucemia Felina inativado (FeLV), subtipos A, B e C (estirpe Kawakami-Theilen) incluindo a subunidade antigénio gp70, induzindo anticorpos anti-gp70 8.1 | Espécie(s): Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/868-01-13rivpt-versifel-felv-suspensao-injetavel-para-gatos-7571\n5. **Synulox comprimidos palatáveis 50 mg para cães e gatos**\n   - Espécies: Synulox comprimidos palatáveis 50 mg para cães e gatos Substâncias Ativas: Amoxicilina Tri-Hidratado 40.0 mg | Ácido clavulânico 10.0 mg | | Espécie(s): Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/1772-01-26rfvpt-synulox-comprimidos-palataveis-50-mg-para-caes-e-gatos-11775\n6. **Propovet multidose 10 mg/ml emulsão injetável para cães e gatos.**\n   - Espécies: Propovet multidose 10 mg/ml emulsão injetável para cães e gatos. Substância Ativa: Propofol 10.0 mg | Espécie(s): Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/490-01-12rfvpt-propovet-multidose-10-mg-ml-emulsao-injetavel-para-caes-e-gatos-7478\n7. **Versiguard Rabies, suspensão injetável**\n   - Espécies: Versiguard Rabies, suspensão injetável Substância Ativa: Vírus da raiva inativado, estirpe SAD Vnukovo-32 0.0 | Espécie(s): Suínos, Cães          , Gatos          , Ovelhas, Cabras          , Cavalos          , Furões, Bovinos\n   - Link: https://medvet.dgav.pt/products/830-10rivpt-versiguard-rabies-suspensao-injetavel-7887\n8. **Isoflo100% p/p, líquido para inalação por vaporização**\n   - Espécies: Isoflo100% p/p, líquido para inalação por vaporização Substância Ativa: Isoflurano 100.0 % | Espécie(s): Equinos, Caninos (cães), Felinos (gatos), Aves ornamentais, Répteis, Murganho       , Chinchila          , Roedores (ratos, hamsters e gerbilos), Cobaias, Furões\n   - Link: https://medvet.dgav.pt/products/51370-isoflo100-p-p-liquido-para-inalacao-por-vaporizacao-8186\n9. **Alfaxan multidose 10 mg/ml solução injetável para cães, gatos e coelhos de estimação**\n   - Espécies: Alfaxan multidose 10 mg/ml solução injetável para cães, gatos e coelhos de estimação Substância Ativa: Alfaxalona 10.0 mg | Espécie(s): Caninos (cães), Felinos (gatos), Coelhos de companhia\n   - Link: https://medvet.dgav.pt/products/1188-01-18dfvpt-alfaxan-multidose-10-mg-ml-solucao-injetavel-para-caes-gatos-e-coelhos-de-estimacao-3847\n10. **Versifel CVR suspensão injetável para gatos**\n   - Espécies: Versifel CVR suspensão injetável para gatos Substâncias Ativas: Vírus vivo atenuado da panleucopenia felina (FLV), estirpe Snow Leopard 0.0 DICC50 | Vírus vivo atenuado da rinotraquíte (FVR), estirpe FVRm 0.0 DICC50 | Calicivírus vivo atenuado (FCV), estirpe F9 0.0 DICC50 | | Espécie(s): Felinos (Gatos a partir das 9 semanas de idade)\n   - Link: https://medvet.dgav.pt/products/833-10-nivpt-versifel-cvr-suspensao-injetavel-para-gatos-7625",
+          "tempo_total_s": 6.411
+        },
+        {
+          "pergunta": "Que medicamentos/marcas existem com o princípio ativo doramectina?",
+          "resposta": "Não foram encontrados resultados para esta consulta no portal MedVet.",
+          "tempo_total_s": 6.212
+        },
+        {
+          "pergunta": "Que medicamentos/marcas existem em comprimidos  com o princípio ativo ácido tolfenâmico?",
+          "resposta": "Resultados para 'Comprimidos' (10):\n\n1. **Dolocarp flavour, 50 mg, comprimidos mastigáveis para cães**\n   - Espécies: Dolocarp flavour, 50 mg, comprimidos mastigáveis para cães Substância Ativa: Carprofeno 50.0 mg | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/495-02-12dfvpt-dolocarp-flavour-50-mg-comprimidos-mastigaveis-para-caes-10150\n2. **Dolocarp flavour, 100 mg, comprimidos mastigáveis para cães**\n   - Espécies: Dolocarp flavour, 100 mg, comprimidos mastigáveis para cães Substância Ativa: Carprofeno 100.0 mg | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/495-03-12dfvpt-dolocarp-flavour-100-mg-comprimidos-mastigaveis-para-caes-10148\n3. **Dolocarp flavour, 20 mg, comprimidos mastigáveis para cães**\n   - Espécies: Dolocarp flavour, 20 mg, comprimidos mastigáveis para cães Substância Ativa: Carprofeno 20.0 mg | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/495-01-12dfvpt-dolocarp-flavour-20-mg-comprimidos-mastigaveis-para-caes-10149\n4. **Terramicina 500 mg comprimidos intrauterinos**\n   - Espécies: Terramicina 500 mg comprimidos intrauterinos Substância Ativa: Cloridrato De Tetraciclina 500.0 mg | Espécie(s): Bovinos (vacas reprodutoras)\n   - Link: https://medvet.dgav.pt/products/1468-01-21nfvpt-terramicina-500-mg-comprimidos-intrauterinos-11711\n5. **Synulox comprimidos palatáveis 500 mg para cães**\n   - Espécies: Synulox comprimidos palatáveis 500 mg para cães Substâncias Ativas: Amoxicilina Tri-Hidratado 400.0 mg | Ácido clavulânico 100.0 mg | | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/1772-03-26rfvpt-synulox-comprimidos-palataveis-500-mg-para-caes-11777\n6. **Synulox comprimidos palatáveis 250 mg para cães e gatos**\n   - Espécies: Synulox comprimidos palatáveis 250 mg para cães e gatos Substâncias Ativas: Amoxicilina Tri-Hidratado 200.0 mg | Ácido clavulânico 50.0 mg | | Espécie(s): Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/1772-02-26rfvpt-synulox-comprimidos-palataveis-250-mg-para-caes-e-gatos-11776\n7. **Dosalid 1200 mg comprimidos para cães**\n   - Espécies: Dosalid 1200 mg comprimidos para cães Substâncias Ativas: EPSIPRANTEL 100.0 mg | Pamoato de pirantel 90.8 mg | | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/dosalid-1200-mg-comprimidos-para-caes-11778\n8. **Synulox comprimidos palatáveis 50 mg para cães e gatos**\n   - Espécies: Synulox comprimidos palatáveis 50 mg para cães e gatos Substâncias Ativas: Amoxicilina Tri-Hidratado 40.0 mg | Ácido clavulânico 10.0 mg | | Espécie(s): Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/1772-01-26rfvpt-synulox-comprimidos-palataveis-50-mg-para-caes-e-gatos-11775\n9. **Rimadyl 100 mg comprimidos mastigáveis para cães**\n   - Espécies: Rimadyl 100 mg comprimidos mastigáveis para cães Substância Ativa: Carprofeno 100.0 mg | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/104-03-08nfvpt-rimadyl-100-mg-comprimidos-mastigaveis-para-caes-11371\n10. **Rimadyl 50 mg comprimidos mastigáveis para cães**\n   - Espécies: Rimadyl 50 mg comprimidos mastigáveis para cães Substância Ativa: Carprofeno 50.0 mg | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/104-02-08nfvpt-rimadyl-50-mg-comprimidos-mastigaveis-para-caes-11372",
+          "tempo_total_s": 5.864
+        },
+        {
+          "pergunta": "Que medicamentos existem com o mesmo princípio ativo que o medicamento/marca Animeloxan?",
+          "resposta": "Não foi possível encontrar informações sobre 'o medicamento/marca Animeloxan'.",
+          "tempo_total_s": 6.252
+        },
+        {
+          "pergunta": "Qual o medicamento alternativo para Trocoxil 75 para cães?",
+          "resposta": "**Medicamentos alternativos ao Trocoxil 75:**\n\nPrincípio activo: Mavacoxib\nEspécie: cães\n\nMedicamentos encontrados (4):\n\n1. **Trocoxil 20 mg comprimidos mastigáveis para cães**\n   - Espécies: Trocoxil 20 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 20.0 mg | Espécie(s): Caninos (Cães) com idade igual ou superior a 12 meses\n   - Link: https://medvet.dgav.pt/products/109-02-08cfvpt-trocoxil-20-mg-comprimidos-mastigaveis-para-caes-2059\n2. **Trocoxil 30 mg comprimidos mastigáveis para cães**\n   - Espécies: Trocoxil 30 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 30.0 mg | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/109-03-08cfvpt-trocoxil-30-mg-comprimidos-mastigaveis-para-caes-2060\n3. **Trocoxil 6 mg comprimidos mastigáveis para cães**\n   - Espécies: Trocoxil 6 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 6.0 mg | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/109-01-08cfvpt-trocoxil-6-mg-comprimidos-mastigaveis-para-caes-2061\n4. **Trocoxil 95 mg comprimidos mastigáveis para cães**\n   - Espécies: Trocoxil 95 mg comprimidos mastigáveis para cães Substância Ativa: Mavacoxib 95.0 mg | Espécie(s): Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/109-05-08cfvpt-trocoxil-95-mg-comprimidos-mastigaveis-para-caes-2063\n\nTotal: 4 medicamentos alternativos.",
+          "tempo_total_s": 12.142
+        },
+        {
+          "pergunta": "Qual a dose do medicamento VEYLACTIN 50 para gatos?",
+          "resposta": "A dose de VEYLACTIN 50 para gatos é 0,1 ml/kg de peso corporal (equivalente a 5 microgramas/kg de cabergolina) uma vez por dia, durante 4 a 6 dias consecutivos.\n\nFontes (excertos):\n- **4.9**: A dose é 0,1 ml/kg de peso corporal (equivalente a 5 microgramas/kg de peso corporal de cabergolina) uma vez por dia, durante 4 a 6 dias consecutivos, dependendo da gravidade do estado clínico.\n\n---\nMedicamento consultado: **Veylactin 50 microgramas/ml solução oral para cães e gatos**\nhttps://medvet.dgav.pt/products/442-01-12dfvp-veylactin-50-microgramas-ml-solucao-oral-para-caes-e-gatos-10352",
+          "tempo_total_s": 314.797
+        },
+        {
+          "pergunta": "Para qual espécie é indicado o medicamento Tylucyl 200 mg/ml?",
+          "resposta": "O medicamento Tylucyl 200 mg/ml é indicado para bovinos e suínos.\n\nFontes (excertos):\n- **Nome do medicamento**: Tylucyl 200 mg/ml, solução injetável para bovinos e suínos\n\n---\nMedicamento consultado: **Tylucyl 200 mg/ml, solução injetável para bovinos e suínos**\nhttps://medvet.dgav.pt/products/984-01-16dfvpt-tylucyl-200-mg-ml-solucao-injetavel-para-bovinos-e-suinos-4173",
+          "tempo_total_s": 298.04
+        },
+        {
+          "pergunta": "Para que serve o medicamento Dolpac?",
+          "resposta": "O Dolpac é indicado para o tratamento de infecções por nemátodes gastrointestinais (Toxocara canis, Toxascaris leonina, Uncinaria stenocephala, Ancylostoma caninum) e céstodes (Echinococcus, Taenia, Dipylidium) em cães médios.\n\nFontes (excertos):\n- **4.2**: O espectro de atividade do medicamento veterinário é amplo, dirigido contra nemátodes gastrointestinais (ascarídeos, tricurídeos e ancilostomídeos) e céstodes... É ativo contra os estádios adultos e larvares dos céstodes do cão, Echinococcus, Taenia …\n\n---\nMedicamento consultado: **Dolpac comprimidos para cães médios**\nhttps://medvet.dgav.pt/products/034-02-07rfvpt-dolpac-comprimidos-para-caes-medios-10153\n\n_(também encontrados: Dolpac comprimidos para cães grandes, Dolpac comprimidos para cães pequenos)_",
+          "tempo_total_s": 281.706
+        },
+        {
+          "pergunta": "Como devo administrar o medicamento Felpreva?",
+          "resposta": "Antes de administrar, ler o folheto informativo.\n\nFontes (excertos):\n- **10**: Antes de administrar, ler o folheto informativo.\n\n---\nMedicamento consultado: **Felpreva solução para unção punctiforme para gatos pequenos (1,0 – 2,5 kg)**\nhttps://medvet.dgav.pt/products/1491-01-04-cfvpt-felpreva-solucao-para-uncao-punctiforme-para-gatos-pequenos-1-0-2-5-kg-11812\n\n_(também encontrados: Felpreva solução para unção punctiforme para gatos médios (> 2,5 – 5,0 kg), Felpreva solução para unção punctiforme para gatos grandes (> 5,0 – 8,0 kg))_",
+          "tempo_total_s": 321.682
+        },
+        {
+          "pergunta": "Que medicamentos/marcas existem com o princípio ativo Amoxicilina indicado para espécie bovino?",
+          "resposta": "Resultados para 'Amoxicilina bovinos' (10):\n\n1. **Synulox injectável (rtu)**\n   - Espécies: Synulox injectável (rtu) Substâncias Ativas: Amoxicilina (sob a forma de trihidratado) 140.0 mg | Ácido clavulânico (sob a forma de clavulanato de potássio) 35.0 mg | | Espécie(s): Bovinos, Caninos, Felinos, Suínos\n   - Link: https://medvet.dgav.pt/products/51178-synulox-injectavel-rtu-11422\n2. **Synulox lc suspensão intramamária para bovinos em lactação.**\n   - Espécies: Synulox lc suspensão intramamária para bovinos em lactação. Substâncias Ativas: Amoxicilina 200.0 mg | Ácido clavulânico 50.0 mg | Prednisolona 10.0 mg | | Espécie(s): Bovinos (vacas em lactação)\n   - Link: https://medvet.dgav.pt/products/51179-synulox-lc-suspensao-intramamaria-para-bovinos-em-lactacao-8041\n3. **Clamoxyl suspensão injetável**\n   - Espécies: Clamoxyl suspensão injetável Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Caninos, Felinos, Suínos, Caprinos\n   - Link: https://medvet.dgav.pt/products/50117-clamoxyl-suspensao-injetavel-11944\n4. **Clamoxyl la 150 mg/ ml suspensão injetável para bovinos, ovinos, caprinos, suínos, cães e gatos**\n   - Espécies: Clamoxyl la 150 mg/ ml suspensão injetável para bovinos, ovinos, caprinos, suínos, cães e gatos Substância Ativa: Amoxicilina Tri-Hidratado 150.0 mg | Espécie(s): Bovinos, Caprinos, Ovinos, Suínos, Cães          , Gatos\n   - Link: https://medvet.dgav.pt/products/50906-clamoxyl-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-caprinos-suinos-caes-e-gatos-3739\n5. **Veyxamox LA 20 %, 200 mg/ml suspensão injetável para bovinos e suínos**\n   - Espécies: Veyxamox LA 20 %, 200 mg/ml suspensão injetável para bovinos e suínos Substância Ativa: Amoxicilina 200.0 mg | Espécie(s): Bovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/331-01-11nfvpt-veyxamox-la-20-200-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-8177\n6. **Longamox 150 mg/ml suspensão injetável para bovinos, ovinos e suínos**\n   - Espécies: Longamox 150 mg/ml suspensão injetável para bovinos, ovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/51378-longamox-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-e-suinos-7656\n7. **Vetamoxil la 150 mg/ml suspensão injetável para bovinos, ovinos e suínos**\n   - Espécies: Vetamoxil la 150 mg/ml suspensão injetável para bovinos, ovinos e suínos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/147-01-09nfvpt-vetamoxil-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-e-suinos-5185\n8. **Trymox la 150 mg/ml suspensão injetável para bovinos, ovinos, suínos, cães e gatos**\n   - Espécies: Trymox la 150 mg/ml suspensão injetável para bovinos, ovinos, suínos, cães e gatos Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Ovinos, Suínos, Caninos (cães), Felinos (gatos)\n   - Link: https://medvet.dgav.pt/products/1246-01-19dfvpt-trymox-la-150-mg-ml-suspensao-injetavel-para-bovinos-ovinos-suinos-caes-e-gatos-4164\n9. **Noroclav 140 mg/ml + 35 mg/ml suspensão injetável**\n   - Espécies: Noroclav 140 mg/ml + 35 mg/ml suspensão injetável Substâncias Ativas: Amoxicilina 140.0 mg | Ácido clavulânico 35.0 mg | | Espécie(s): Bovinos, Caninos (cães)\n   - Link: https://medvet.dgav.pt/products/51530-noroclav-140-mg-ml-35-mg-ml-suspensao-injetavel-11158\n10. **Amoxisol retard 150 mg/ml suspensão injectável**\n   - Espécies: Amoxisol retard 150 mg/ml suspensão injectável Substância Ativa: Amoxicilina 150.0 mg | Espécie(s): Bovinos, Caninos, Felinos, Ovinos, Suínos\n   - Link: https://medvet.dgav.pt/products/51235-amoxisol-retard-150-mg-ml-suspensao-injectavel-3600",
+          "tempo_total_s": 6.412
+        },
+        {
+          "pergunta": "Qual o intervalo de segurança o medicamento Lamoxsan 150 mg/ml?",
+          "resposta": "O intervalo de segurança para Lamoxsan 150 mg/ml é de 18 dias para carne e vísceras em bovinos, 72 horas para leite em bovinos e 20 dias para carne e vísceras em suínos.\n\nFontes (excertos):\n- **Secção 7 INTERVALOS DE SEGURANÇA**: Bovinos: Carne e vísceras: 18 dias. Leite: 72 horas. Suínos: Carne e vísceras: 20 dias.\n- **Secção 5 INTERVALOS DE SEGURANÇA**: Bovinos: Carne e vísceras: 18 dias. Leite: 72 horas. Suínos: Carne e vísceras: 20 dias.\n- **Secção 3.12 Intervalos de segurança**: Bovinos: Carne e vísceras: 18 dias. Leite: 72 horas. Suínos: Carne e vísceras: 20 dias.\n\n---\nMedicamento consultado: **Lamoxsan 150 mg/ml suspensão injetável para bovinos e suínos**\nhttps://medvet.dgav.pt/products/1580-01-23dfvpt-lamoxsan-150-mg-ml-suspensao-injetavel-para-bovinos-e-suinos-11915",
+          "tempo_total_s": 511.952
+        },
+        {
+          "pergunta": "Qual o medicamento alternativo para Ancesol 10 mg/ml para espécie Bovinos?",
+          "resposta": "**Medicamentos alternativos ao Ancesol 10 mg/ml:**\n\nPrincípio activo: Maleato De Clorfeniramina\nEspécie: bovinos\n\nMedicamentos encontrados (1):\n\n1. **Histodine 10 mg/ml solução injetável para bovinos**\n   - Espécies: Histodine 10 mg/ml solução injetável para bovinos Substância Ativa: Maleato De Clorfeniramina 10.0 mg | Espécie(s): Bovinos\n   - Link: https://medvet.dgav.pt/products/1234-01-18dfvpt-histodine-10-mg-ml-solucao-injetavel-para-bovinos-10308\n\nTotal: 1 medicamentos alternativos.",
+          "tempo_total_s": 12.955
+        },
+        {
+          "pergunta": "Qual é a composição do medicamento Acalma?",
+          "resposta": "O medicamento Acalma contém 25 mg de cloridrato de hidroxizina e 1 mg de maleato de clorfeniramina por comprimido.\n\nFontes (excertos):\n- **2**: Substância(s) activa(s):\nCloridrato de hidroxizina …………………………… 25 mg \nMaleato de clorfeniramina ………………………...... 1 mg\n\n---\nMedicamento consultado: **Acalma comprimidos para cães e gatos**\nhttps://medvet.dgav.pt/products/756-01-14nfvpt-acalma-comprimidos-para-caes-e-gatos-3842",
+          "tempo_total_s": 427.382
+        }
+      ],
+      "summary": {
+        "n_questions": 35,
+        "n_ok": 35,
+        "n_falha": 0,
+        "tempo_medio_s": 304.389,
+        "tempo_total_s": 10653.637
+      }
+    }
+  ]
+}
